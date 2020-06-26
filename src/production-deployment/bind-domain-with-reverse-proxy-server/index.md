@@ -1,12 +1,12 @@
 ---
 title: Bind domain with reverse proxy server
 description: Bind domain with reverse proxy server
-keywords: 'abtnode,blocklet'
-robots: 'index,follow'
-category: docs
+keywords: "forge, forge-cli"
+author: wangshijun
+category: abtnode
 layout: documentation
 tags:
-  - abtnode
+  - forge
 ---
 
 因为 ABT Node 可能会包含多个 Blocklet, 而几乎每个 Blocklet 都需要至少一个端口（静态 Blocklet 不需要）， 所以 ABT Node 和 Blocklet 会需要多个端口，所以生产环境下往往需要和反向代理服务器一起部署。
@@ -15,7 +15,7 @@ tags:
 ## 准备条件
 
 - 运行在 8089 端口的 ABT Node daemon 服务
-- 运行在 8090 端口的Blocklet Manager blocklet
+- 运行在 8090 端口的 Blocklet Manager blocklet
 - 代理服务器: Nginx
 - 两个域名
   - ABT Node: abtnode.com
@@ -57,7 +57,7 @@ server {
 
 配置好代理后，需要修改 ABT Node 的配置文件, 将 ABT Node 的域名更新到配置文件中:
 
-``` yaml
+```yaml
 node:
   name: 'ABT Node [polunzh]'
   description: Container of useful blocklets from ArcBlock and its Developer Community
@@ -110,7 +110,7 @@ abtnode start -u
 
 ## 其它
 
-可以在 **Blocklets -> 详情 -> 环境变量** 页面找到 Blocklet 运行时所有的环境变量, 比如端口、当前的域名、IP等等.
+可以在 **Blocklets -> 详情 -> 环境变量** 页面找到 Blocklet 运行时所有的环境变量, 比如端口、当前的域名、IP 等等.
 
 ![blocklet domain setting](./images/blocklet-environments.png)
 
@@ -118,3 +118,4 @@ abtnode start -u
 
 - 当前只能通过手动修改节点的配置文件来修改节点的 IP, 域名
 - 如果启用了 HTTPS, 那么需要将 ABT Node Daemon 和所有的 Blocklet 都启用 HTTPS
+

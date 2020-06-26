@@ -1,17 +1,17 @@
 gitRepo: ArcBlock/abtnode-docs
 srcPath: src
 categories:
-  handbook:
-    basePath: /abtnode-docs
-    title: ABT Node Document
+  abtnode:
+    basePath: /abtnode
+    title: Abt Node
     link: /
     priority: 999
     sidebar:
       "null":
         - /
-      Introduction:
-        url: /deployment
+      Production Deployment:
+        url: /production-deployment
         links:
-          - /deployment/bind-domain-with-reverse-proxy-server
+          - /production-deployment/bind-domain-with-reverse-proxy-server
         locales:
-          zh: "部署"
+          zh: "在生产环境中部署 ABT Node"

@@ -51,7 +51,7 @@ title: '${title}'
 description: '${title}'
 keywords: 'abtnode, blocklet'
 author: 'wangshijun'
-category: 'handbook'
+category: 'abtnode'
 layout: 'documentation'
 tags:
   - 'forge'
@@ -90,6 +90,6 @@ Object.keys(groups).forEach(group => {
 // Update config.yml
 // const configPath = path.join(__dirname, '../src/config.yml');
 // const config = yaml.parse(fse.readFileSync(configPath).toString());
-// Object.assign(config.categories.handbook.sidebar, sidebar);
+// Object.assign(config.categories.abtnode.sidebar, sidebar);
 // fse.writeFileSync(configPath, yaml.stringify(config));
 // console.log('config file updated');
