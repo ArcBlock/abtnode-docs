@@ -3,8 +3,3 @@
 /  /zh/abtnode/   302  Country=cn,hk,tw
 /  /zh/abtnode/   302  Language=zh
 /  /en/abtnode/   302
-
-/en/book  /en/abtnode   200
-/zh/book  /zh/abtnode   200
-/en/book/*  /en/abtnode/:splat   200
-/zh/book/*  /zh/abtnode/:splat   200

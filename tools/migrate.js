@@ -54,7 +54,7 @@ const updateMarkdown = (baseDir, title) => {
     }
 
     const { content, data } = matter(fse.readFileSync(filePath).toString());
-    data.category = 'docs';
+    data.category = 'abtnode';
 
     fse.writeFileSync(filePath, matter.stringify(content, data));
   }

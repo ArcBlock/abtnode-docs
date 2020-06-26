@@ -18,7 +18,7 @@ module.exports = {
         siteMetadata: {
           title: 'ABT Node',
           description: 'ABT Node Documentation',
-          logoUrl: '/abtnode-docs/',
+          logoUrl: '/abtnode/',
           sidebarWidth: 360,
         },
         algoliaSearch: {

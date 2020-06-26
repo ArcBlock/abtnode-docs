@@ -3,7 +3,7 @@ title: ABT Node 文档
 description: ABT Node 文档
 keywords: "abtnode blocklet"
 author: wangshijun
-category: docs
+category: abtnode
 layout: documentation
 requireLogin: false
 tags:
