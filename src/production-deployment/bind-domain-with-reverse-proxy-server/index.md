@@ -1,8 +1,8 @@
 ---
 title: Bind domain with reverse proxy server
 description: Bind domain with reverse proxy server
-keywords: 'forge, forge-cli'
-author: wangshijun
+keywords: 'abtnode,deployment,proxy'
+author: zhenqiang
 category: abtnode
 layout: documentation
 tags:

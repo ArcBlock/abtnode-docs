@@ -1,7 +1,7 @@
 ---
 title: 初识 Forge CLI
 description: ''
-keywords: 'forge, forge-cli'
+keywords: 'abtnode,deployment'
 author: wangshijun
 category: abtnode
 layout: documentation

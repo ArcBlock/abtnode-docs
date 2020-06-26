@@ -1,7 +1,7 @@
 ---
 title: 使用反向代理服务器绑定节点和 Blocklet 域名
 description: 使用反向代理服务器绑定节点和 Blocklet 域名
-keywords: 'forge, forge-cli'
+keywords: 'abtnode,deployment,proxy'
 author: zhenqiang
 category: abtnode
 layout: documentation
