@@ -2,7 +2,7 @@
 title: 使用反向代理服务器绑定节点和 Blocklet 域名
 description: 使用反向代理服务器绑定节点和 Blocklet 域名
 keywords: 'forge, forge-cli'
-author: wangshijun
+author: zhenqiang
 category: abtnode
 layout: documentation
 tags:
@@ -11,6 +11,10 @@ tags:
 
 因为 ABT Node 可能会包含多个 Blocklet, 而几乎每个 Blocklet 都需要至少一个端口（静态 Blocklet 不需要）， 所以 ABT Node 和 Blocklet 会需要多个端口，所以生产环境下往往需要和反向代理服务器一起部署。
 该文档将以 Nginx 为例介绍如何和反向代理服务器一起部署 ABT Node, 同时给 ABT Node Daemon 和 一个 Blocklet 分别绑定了一个域名。
+
+::: warning
+确保安装了最新版的 ABT Node
+:::
 
 ## 准备条件
 
@@ -50,10 +54,10 @@ server {
 }
 ```
 
-该配置将域名 `abtnode.com` 并定在 8089 端口, 域名 `blocklet.abtnode.com` 版绑定在 8090 端口.
+该配置将域名 `abtnode.com` 并定在 8089 端口, 域名 `blocklet.abtnode.com` 版绑定在 8090 端口。
 同时需要注意，需要将 Host 头部通过代理服务器传递给上游的服务。
 
-## 修改 ABT Node 配置
+## 更新 ABT Node 配置
 
 配置好代理后，需要修改 ABT Node 的配置文件, 将 ABT Node 的域名更新到配置文件中:
 
@@ -96,10 +100,6 @@ abtnode start -u
 
 ## 配置 Blocklet 的域名
 
-::: warning
-确保安装了最新版的 ABT Node
-:::
-
 在 **Blocklets -> 详情 -> 配置** 页面可以配置该 Blocklet 的域名，填写域名后点击保存，然后**重启 Blocklet**
 
 ![blocklet domain setting](./images/blocklet-domain-setting.png)
@@ -118,4 +118,3 @@ abtnode start -u
 
 - 当前只能通过手动修改节点的配置文件来修改节点的 IP, 域名
 - 如果启用了 HTTPS, 那么需要将 ABT Node Daemon 和所有的 Blocklet 都启用 HTTPS
-
