@@ -1,7 +1,7 @@
 ---
 title: ABT Node Docs
-description: ABT Node Documentation
-keywords: "abtnode blocklet"
+description: Introduction
+keywords: "abtnode, blocklet"
 author: wangshijun
 category: abtnode
 layout: documentation

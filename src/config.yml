@@ -9,6 +9,12 @@ categories:
     sidebar:
       "null":
         - /
+      Blocklet:
+        url: /blocklet
+        links:
+          - /blocklet/specification
+        locales:
+          zh: Blocklet
       Production Deployment:
         url: /production-deployment
         links:

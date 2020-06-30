@@ -54,7 +54,7 @@ server {
 }
 ```
 
-This configuration binds the domain name `abtnode.com` to port 8089, and binds the domain name `blocklet.abtnode.com` version to port 8090.
+This configuration binds the domain name `abtnode.com` to port 8089, and binds the domain name `blocklet.abtnode.com` to port 8090.
 At the same time, it should be noted that the Host header needs to be passed to the upstream service through the proxy server.
 
 ## Update ABT Node Configuration
