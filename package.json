@@ -27,7 +27,7 @@
   "dependencies": {
     "@arcblock/gatsby-theme-docs": "^7.25.3",
     "fs-extra": "^8.1.0",
-    "gatsby": "2.23.17",
+    "gatsby": "2.23.5",
     "gatsby-plugin-netlify-cache": "^1.2.0",
     "gray-matter": "^4.0.2",
     "hast-util-select": "^3.0.1",
