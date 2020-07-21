@@ -26,6 +26,13 @@ deploy:
 run:
 	@yarn start
 
+redep:
+	@echo "Rebuilding dependencies..."
+	@rm -rf node_modules
+	@rm -f yarn.lock
+	@yarn
+	@git checkout yarn.lock
+
 serve: build
 	@yarn serve
 

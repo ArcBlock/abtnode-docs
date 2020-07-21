@@ -8,6 +8,8 @@ cd abtnode-docs
 make init
 ```
 
+> If you have trouble with make init, you can try `make redep` instead.
+
 Then create a config file `.env` in repo root directory with the following content:
 
 ```shell
