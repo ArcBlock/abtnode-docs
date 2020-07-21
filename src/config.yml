@@ -9,15 +9,62 @@ categories:
     sidebar:
       "null":
         - /
-      Blocklet:
+      Introduction:
+        url: /introduction
+        links:
+          - /introduction/what-is-abt-node
+          - /introduction/how-to-get-abtnode
+          - /introduction/setup-your-abt-node
+          - /introduction/abtnode-overview
+        locales:
+          zh: 节点入门
+      Marketplace:
+        url: /marketplace
+        links:
+          - /marketplace/find-and-install
+          - /marketplace/upgrade-downgrade
+        locales:
+          zh: 应用市场
+      Blocklets:
         url: /blocklet
         links:
-          - /blocklet/specification
+          - /blocklet/basic-operations
+          - /blocklet/environments
         locales:
-          zh: Blocklet
-      Production Deployment:
-        url: /production-deployment
+          zh: 应用管理
+      Router:
+        url: /router
         links:
-          - /production-deployment/bind-domain-with-reverse-proxy-server
+          - /router/what-is-router
+          - /router/basic-usage
         locales:
-          zh: "在生产环境中部署 ABT Node"
+          zh: 路由管理
+      Deployment:
+        url: /deployment
+        links:
+          - /deployment/best-practice
+          - /deployment/from-aws-ami
+          - /deployment/behind-reverse-proxy
+        locales:
+          zh: "生产环境指南"
+      Misc:
+        url: /misc
+        links:
+          - /misc/node-settings
+          - /misc/member-management
+          - /misc/graphql-console
+        locales:
+          zh: "其他功能"
+      Developer Guide:
+        url: /developer
+        links:
+          - /developer/configuration
+          - /developer/storage-structure
+          - /developer/blocklet-spec
+          - /developer/static-blocklets
+          - /developer/dapp-blocklets
+          - /developer/blocklet-hooks
+          - /developer/bundle-blocklets
+          - /developer/publish-blocklets
+        locales:
+          zh: 开发者指南
