@@ -59,3 +59,4 @@ make run
   - [Blocklet Hooks](./src/developer/blocklet-hooks)
   - [Bundle Blocklets](./src/developer/bundle-blocklets)
   - [Publish Blocklets](./src/developer/publish-blocklets)
+  - [Blocklet Registry](./src/developer/blocklet-registry)
