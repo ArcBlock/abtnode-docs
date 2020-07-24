@@ -58,6 +58,8 @@ Install [ABT Wallet](//abtwallet.io) for iOS or Android at https://abtwallet.io.
 
 If you are going to create blocklets, you are recommended to install an IDE. A popular IDE you can try is [VSCode](//code.visualstudio.com).
 
+---
+
 <p align="center" markdown="1">
   <a href="../what-is-abt-node/index.md">&lt;&nbsp;&nbsp;&nbsp;What is ABT Node?</a>
   &nbsp;|&nbsp;
