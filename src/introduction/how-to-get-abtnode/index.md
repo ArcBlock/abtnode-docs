@@ -36,7 +36,7 @@ nvm ls-remote | grep 'Latest LTS: Dubnium'
 
 At the writing this document, the Dubnium LTS version is v10.22.0.
 
-Then, install [Node.JS], which will automatically install [npm] (replace v10.22.0 with the latest version):
+Then, install [Node.JS], which will automatically install [npm] (replace v10.22.0 with the version number):
 
 ```bash
 nvm install v10.22.0
