@@ -26,9 +26,9 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ```
 Note: the first one works better with [Linux], and the second one works better with [macOS].
 
-### Step 2: Install [Node.JS] and [npm]
+### Step 2: Install [Node.js] and [npm]
 
-Get the latest Dubnium LTS version of [Node.JS] using this command (you can use the latest version if you like by using the last output of `nvm ls-remote`):
+Get the latest Dubnium LTS version of [Node.js] using this command (you can use the latest version if you like by using the last output of `nvm ls-remote`):
 
 ```bash
 nvm ls-remote | grep 'Latest LTS: Dubnium'
@@ -36,7 +36,7 @@ nvm ls-remote | grep 'Latest LTS: Dubnium'
 
 At the writing this document, the Dubnium LTS version is v10.22.0.
 
-Then, install [Node.JS], which will automatically install [npm] (replace v10.22.0 with the version number):
+Then, install [Node.js], which will automatically install [npm] (replace v10.22.0 with the version number):
 
 ```bash
 nvm install v10.22.0
@@ -61,5 +61,5 @@ If you are going to create blocklets, you are recommended to install an IDE. A p
 [Linux]:   //www.linux.org
 [macOS]:   //www.apple.com/macos
 [nvm]:     //github.com/nvm-sh/nvm
-[Node.JS]: //nodejs.org
+[Node.js]: //nodejs.org
 [npm]:     //www.npmjs.com
