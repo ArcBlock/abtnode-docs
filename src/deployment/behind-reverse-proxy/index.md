@@ -9,8 +9,10 @@ tags:
   - forge
 ---
 
-Because ABT Node may contain multiple Blocklets, and almost every Blocklet requires at least one port (not required for static Blocklets), ABT Node and Blocklet will require multiple ports, so in production environments, they often need to be with a reverse proxy server to deploy.
-This document will take Nginx as an example to introduce how to deploy ABT Node with a reverse proxy server, and bind a domain name to ABT Node Daemon and a Blocklet respectively.
+Because ABT Node may contain multiple Blocklets, and almost every Blocklet uses at least one port (not required for
+static Blocklets), ABT Node and Blocklet will use multiple ports, so in production environments, a reverse proxy may be
+needed. This document will use Nginx as an example reverse proxy to explain how to deploy ABT
+Node with a reverse proxy server and bind a domain name to ABT Node Daemon and a blocklet, respectively.
 
 ::: warning
 Make sure the latest version of ABT Node is installed
@@ -54,12 +56,13 @@ server {
 }
 ```
 
-This configuration binds the domain name `abtnode.com` to port 8089, and binds the domain name `blocklet.abtnode.com` to port 8090.
-At the same time, it should be noted that the Host header needs to be passed to the upstream service through the proxy server.
+This configuration binds the domain name `abtnode.com` to port 8089 and binds the domain name `blocklet.abtnode.com` to
+port 8090. Make sure that Host header is passed to the upstream service through the proxy server.
 
 ## Update ABT Node Configuration
 
-After configuring the proxy, you need to modify the configuration file of ABT Node and update the domain name of ABT Node to the configuration file:
+After configuring the proxy, you need to modify the configuration file of ABT Node and update the domain name of ABT
+Node to the configuration file:
 
 ```yaml
 node:
@@ -87,20 +90,23 @@ blocklet:
 ```
 
 ::: success
-If HTTPS is enabled, you need to set the `https` property in the configuration file to `true`. As in the configuration file above.
+If HTTPS is enabled, you need to set the `https` property in the configuration file to `true`, as in the configuration
+file above.
 :::
 
-After modifying the configuration file, you need to restart the ABT Node node and update the configuration. You can restart it through the ABT Node CLI command:
+After modifying the configuration file, you need to restart the ABT Node and update the configuration. You can restart
+it through the ABT Node CLI command:
 
 ```
 abtnode start -u
 ```
 
-After restarting the service, you can use the domain name to access the node normally.
+After restarting the service, you can use the domain name to access the node.
 
 ## Configure the domain name of the blocklet
 
-On the **Blocklets -> Detail -> Setting** page, you can configure the domain name of the Blocklet, fill in the domain name and click Save, then **Restart Blocklet**
+On the **Blocklets -> Detail -> Setting** page, you can configure the domain name of the Blocklet, fill in the domain
+name and click Save, then **Restart Blocklet**
 
 ![blocklet domain setting](./images/blocklet-domain-setting.png)
 
@@ -110,11 +116,12 @@ Restarting the blocklet will make the modified domain name take effect
 
 ## Others
 
-You can find all the environment variables when the Blocklet is running, such as the port, current domain name, IP, etc., on the **Blocklets -> Detail -> Environment** page.
+You can find all the environment variables when the blocklet is running, such as the port, current domain name, IP,
+etc., on the **Blocklets -> Detail -> Environment** page.
 
 ![blocklet domain setting](./images/blocklet-environments.png)
 
 ## 注意事项
 
-- Currently, you can only modify the node's IP and domain name by manually modifying the node's configuration file
-- If HTTPS is enabled, HTTPS needs to be enabled for ABT Node Daemon and all blocklets
+- Currently, you can only modify the node's IP and domain name by manually modifying the node's configuration file.
+- HTTPS needs to be enabled for ABT Node Daemon and all blocklets for HTTPS to work.

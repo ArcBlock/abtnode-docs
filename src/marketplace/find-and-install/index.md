@@ -10,3 +10,6 @@ tags:
 ---
 
 ## Find and install blocklet
+
+To find blocklets, go to the marketplace tab and click the install button on the blocklet you want to install to install
+it.
