@@ -60,7 +60,7 @@ If you are going to create blocklets, you are recommended to install an IDE. A p
 
 <p align="center" markdown="1">
   <a href="../what-is-abt-node/index.md">&lt;&nbsp;&nbsp;&nbsp;What is ABT Node?</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
+  &nbsp;|&nbsp;
   <a href="../setup-your-abt-node/index.md">Get your ABT Node Up and Running&nbsp;&nbsp;&nbsp;&gt;</a>
 </p>
 
