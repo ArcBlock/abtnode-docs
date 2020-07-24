@@ -11,7 +11,7 @@ tags:
 
 ## How to get ABT Node?
 
-Currently, we can only get ABT Node working for [Linux] and [macOS]. If you are using another OS like Windows, you can use a virtual machine and select a non-local IP address while setting up the node.
+Currently, we can only get ABT Node working for [Linux] and [macOS]. If you are using another OS like Windows, you can use a virtual machine and make sure your ABT Wallet can access your VM's IP address.
 
 ### Step 1: Install [nvm]
 
