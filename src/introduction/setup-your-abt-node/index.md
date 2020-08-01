@@ -29,22 +29,10 @@ where you select an IP address, use a local IP address if you are just testing y
 
 <details>
 <summary>Sample output</summary>
-<pre><b>ubuntu@ubuntu</b>:<b>~</b>$ abtnode init
-✔ Done!
-? <b>Please name your Node</b> ABT Node [ubuntu]
-? <b>Give a concise description of your node</b> Container of useful blocklets from Arc
-Block and its Developer Community
-? <b>Where do you want ABT Node to store data?</b> /home/ubuntu/.abtnode
-? <b>Which IP do you want your node to serve on?</b> 192.168.2.132
-? <b>Which port do you want your node to listen on?</b> 8089
-? <b>Where does your Node fetch blocklet from?</b> https://blocklet.arcblock.io
-? <b>Where do you want to save config file?</b> /home/ubuntu/.abtnode.yml
 
-✔ ABT Node configuration is successfully generated /home/ubuntu/.abtnode.yml
-ℹ Now you can start your ABT Node with the following command
-ℹ abtnode start
+![Initialize ABT Node](initialize%20abtnode.gif)
 
-</pre></details>
+</details>
 
 Now, you need to start your node in order to use it. To start your node, run this command:
 
@@ -54,12 +42,9 @@ abtnode start
 
 <details>
 <summary>Sample output</summary>
-<pre>
-<b>ubuntu@ubuntu</b>:<b>~</b>$ abtnode start
-ℹ Load config from /home/ubuntu/.abtnode.yml
-ℹ Node did from config zNKXeSFoNBq1UicRfQqJuWYHpdSgUJHboSim
-✔ ABT Node Daemon started successfully: http://192.168.2.132:8089
-</pre>
+
+![Start ABT Node](start%20abtnode.gif)
+
 </details>
 
 Then, open the outputted link in a browser. The browser can be on other devices as long as the device the browser is on
@@ -73,14 +58,9 @@ abtnode stop
 
 <details>
 <summary>Sample output</summary>
-<pre>
-<b>ubuntu@ubuntu</b>:<b>~</b>$ abtnode stop
-ℹ Load config from /home/ubuntu/.abtnode.yml
-ℹ Node did from config zNKXeSFoNBq1UicRfQqJuWYHpdSgUJHboSim
-✔ abt-node-daemon is stopped successfully
-✔ abt-node-db-hub is stopped successfully
-✔ Done!
-</pre>
+
+![Stop ABT Node](stop%20abtnode.gif)
+
 </details>
 
 ---
