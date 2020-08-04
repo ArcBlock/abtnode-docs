@@ -43,4 +43,4 @@ Blocklets are the key building blocks to create and run decentralized applicatio
 
 ## What's Next
 
-👉 Now, let's look at where you can find [ABT Node](/introduction/how-to-get-abtnode). 
+👉 Now, let's look at how to get [ABT Node](/introduction/how-to-get-abtnode). 
