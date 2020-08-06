@@ -46,7 +46,7 @@ tags:
 
 ![](./images/create-static-blocklet-2.png)
 
-### 2. Blocklet Logo 文件
+### 2. blocklet logo 文件
 
 这里准备了一个简单的 `logo.png` 文件，放到项目目录下
 
