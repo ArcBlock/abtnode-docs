@@ -1,6 +1,6 @@
 ---
-title: '创建静态Blocklets'
-description: '创建静态Blocklets'
+title: '创建静态 Blocklets'
+description: '创建静态 Blocklets'
 keywords: 'abtnode, blocklet'
 author: 'wangshijun'
 category: 'abtnode'
