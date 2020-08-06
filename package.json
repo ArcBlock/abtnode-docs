@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "abtnode-docs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ABT Node Documentation",
   "main": "index.js",
   "directories": {
