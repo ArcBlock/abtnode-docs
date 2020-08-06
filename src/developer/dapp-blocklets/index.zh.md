@@ -78,3 +78,5 @@ deploy 成功！我们看看 ABT Node `基石程序` 页面：
 成功启动之后，Blocklet 进入 `running` 状态，我们点击 `公开界面` 进行验证：
 
 ![](./images/create-dapp-blocklet-9.png)
+
+Blocklet 已经成功运行起来了，到这儿，我们就已经成功的在 ABT Node 里面部署了一个 Dapp Blocklet 啦，你也快来试试吧！
