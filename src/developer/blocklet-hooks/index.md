@@ -18,7 +18,7 @@ Currently AbtNode supports the following hooks:
 - `pre-start`: Do something before start, for example, check whether the dependent blocklet has been started. If the exit code is non-zero, then it is not allowed to start
 - `pre-uninstall`: Do something before uninstall, for example, check whether the dependent blocklet is running. If the exit code is non-zero, continue to uninstall, but print the error log
 
-### hookFiles
+### Hook Files
 
 If the hooks depend on the files in the project, define the relative paths of these files in the `hookFiles` field in `blocklet.json`(or `blocklet.hookFiles` in `package.json`).
 
