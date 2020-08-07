@@ -2,7 +2,7 @@
 title: '路由器的基本用法'
 description: '路由器的基本用法'
 keywords: 'abtnode, blocklet'
-author: 'wangshijun'
+author: 'nate'
 category: 'abtnode'
 layout: 'documentation'
 tags:
