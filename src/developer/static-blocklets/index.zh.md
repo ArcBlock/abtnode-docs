@@ -2,7 +2,7 @@
 title: '创建静态 Blocklets'
 description: '创建静态 Blocklets'
 keywords: 'abtnode, blocklet'
-author: 'wangshijun'
+author: 'nate'
 category: 'abtnode'
 layout: 'documentation'
 tags:
