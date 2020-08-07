@@ -14,7 +14,7 @@ tags:
 ### Step 1: Configure the Routing Engine
 
 If you chose `none` as the routing engine while initializing your node, blocklet sites are in the form of `IP` plus
-`port`. To use a routing engine, go to `Router > ROUTING ENGINE` and select a routing engine from the drop-down menu. At
+`port`. To use a routing engine, go to `Router -> ROUTING ENGINE` and select a routing engine from the drop-down menu. At
 the time of writing this document, the only available routing engine is Nginx.
 
 ![router-basic-use-1](./images/router-basic-use-1-en.png)
@@ -24,7 +24,7 @@ the time of writing this document, the only available routing engine is Nginx.
 ![router-basic-use-2](./images/router-basic-use-2-en.png)
 
 Before we can link subdirectories to blocklets, we need to add ABT Node's site to the routing rules. Simply go to
-`Router > ROUTING RULES` and click on `Add Site`. The default site would be the site of your ABT Node, so you won't need
+`Router -> ROUTING RULES` and click on `Add Site`. The default site would be the site of your ABT Node, so you won't need
 to change it. You can change the service the default subdirectory `/` routes to by choosing the service from the
 drop-down menu, which includes the dashboard and the list of installed blocklets. If somehow the default port number
 doesn't match that of the service, change the port number to match that of the service.
