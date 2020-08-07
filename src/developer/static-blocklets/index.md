@@ -84,19 +84,19 @@ Next, create `blocklet.json`.
 
 Parameter Description:
 
--`name`: blocklet name
--`title`: the name displayed by the blocklet
--`description`: blocklet description
--`version`: blocklet version number
--`main`: the entry point of the packed block or static folder
--`group`: Only allow and support `dapp|static`
--`provider`: `arcblock|community`
--`public_url`: public page URL, at least one should be specified
--`admin_url`: management page URL, default is empty
--`config_url`: configuration page URL, default is empty
--`doc_url`: public document URL, if not specified, the registration details page will be used
--`hooks`: blocklet hooks, empty by default
--`hookFiles`: string array, files used by hooks, array, default is empty
+- `name`: blocklet name
+- `title`: the name displayed by the blocklet
+- `description`: blocklet description
+- `version`: blocklet version number
+- `main`: the entry point of the packed block or static folder
+- `group`: Only allow and support `dapp|static`
+- `provider`: `arcblock|community`
+- `public_url`: public page URL, at least one should be specified
+- `admin_url`: management page URL, default is empty
+- `config_url`: configuration page URL, default is empty
+- `doc_url`: public document URL, if not specified, the registration details page will be used
+- `hooks`: blocklet hooks, empty by default
+- `hookFiles`: string array, files used by hooks, array, default is empty
 
 
 ## Step 5: Deploy Blocklet

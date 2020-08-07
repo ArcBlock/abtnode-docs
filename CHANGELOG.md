@@ -1,3 +1,8 @@
+## 0.0.9 (August 07, 2020)
+
+- add docs by tigeryu8900
+- image path fix
+
 ## 0.0.8 (August 07, 2020)
 
 - add misc docs
