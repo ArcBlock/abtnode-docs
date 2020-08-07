@@ -1,6 +1,6 @@
 ## 0.0.6 (August 07, 2020)
 
-
+- add node config docs
 
 ## 0.0.5 (August 07, 2020)
 
