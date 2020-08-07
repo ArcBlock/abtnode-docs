@@ -46,7 +46,7 @@ abtnode start
 <details>
 <summary>Sample output</summary>
 
-![Start ABT Node](start%20abtnode.gif)
+![Start ABT Node](./images/start%20abtnode.gif)
 
 </details>
 
@@ -63,7 +63,7 @@ abtnode stop
 <details>
 <summary>Sample output</summary>
 
-![Stop ABT Node](stop%20abtnode.gif)
+![Stop ABT Node](./images/stop%20abtnode.gif)
 
 </details>
 
