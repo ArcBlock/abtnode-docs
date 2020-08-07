@@ -2,7 +2,7 @@
 title: 'Deploy with AWS AMI'
 description: 'Deploy with AWS AMI'
 keywords: 'abtnode, blocklet'
-author: 'wangshijun'
+author: 'tigeryu8900'
 category: 'abtnode'
 layout: 'documentation'
 tags:

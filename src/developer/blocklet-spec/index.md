@@ -2,7 +2,7 @@
 title: Blocklet Specification
 description: 'Blocklet Specification'
 keywords: 'abtnode,blocklet,specification'
-author: zhenqiang
+author: 'zhenqiang, tigeryu8900'
 category: abtnode
 layout: documentation
 tags:

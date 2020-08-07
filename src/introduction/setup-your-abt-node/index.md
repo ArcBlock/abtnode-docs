@@ -2,7 +2,7 @@
 title: 'Get your ABT Node Up and Running'
 description: 'Get your ABT Node Up and Running'
 keywords: 'abtnode, blocklet'
-author: 'wangshijun'
+author: 'tigeryu8900'
 category: 'abtnode'
 layout: 'documentation'
 tags:
