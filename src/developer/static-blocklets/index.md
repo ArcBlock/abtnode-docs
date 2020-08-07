@@ -1,12 +1,12 @@
 ---
-title:'Create Static Blocklets'
-description:'Create Static Blocklets'
-keywords:'abtnode, blocklet'
-author:'wangshijun'
-category:'abtnode'
-layout:'documentation'
+title: 'Create Static Blocklets'
+description: 'Create Static Blocklets'
+keywords: 'abtnode, blocklet'
+author: 'wangshijun'
+category: 'abtnode'
+layout: 'documentation'
 tags:
-  -'abtnode'
+  - 'abtnode'
 ---
 
 ## Step 1: Preparing the Environment
