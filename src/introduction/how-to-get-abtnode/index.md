@@ -108,14 +108,6 @@ directions in the app to set up your wallet.
 If you are going to create blocklets, you are recommended to install an IDE. A popular IDE you can try is
 [VSCode](//code.visualstudio.com).
 
----
-
-<p align="center">
-  <a href="../what-is-abt-node">&lt;&nbsp;&nbsp;&nbsp;What is ABT Node?</a>
-  &nbsp;|&nbsp;
-  <a href="../setup-your-abt-node">Get your ABT Node Up and Running&nbsp;&nbsp;&nbsp;&gt;</a>
-</p>
-
 [Linux]:   //www.linux.org
 [macOS]:   //www.apple.com/macos
 [nvm]:     //github.com/nvm-sh/nvm

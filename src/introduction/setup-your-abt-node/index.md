@@ -66,11 +66,3 @@ abtnode stop
 ![Stop ABT Node](./images/stop%20abtnode.gif)
 
 </details>
-
----
-
-<p align="center" markdown="1">
-  <a href="../how-to-get-abtnode">&lt;&nbsp;&nbsp;&nbsp;How to get ABT Node?</a>
-  &nbsp;|&nbsp;
-  <a href="../abtnode-overview">ABT Node Overview&nbsp;&nbsp;&nbsp;&gt;</a>
-</p>
