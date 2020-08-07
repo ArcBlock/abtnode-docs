@@ -1,3 +1,7 @@
+## 0.0.7 (August 07, 2020)
+
+- add asw ami docs
+
 ## 0.0.6 (August 07, 2020)
 
 - add node config docs
