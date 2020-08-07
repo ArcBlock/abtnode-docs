@@ -1,3 +1,7 @@
+## 0.0.8 (August 07, 2020)
+
+- add misc docs
+
 ## 0.0.7 (August 07, 2020)
 
 - add asw ami docs
