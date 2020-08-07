@@ -24,6 +24,7 @@ scratch in ABT Node.
 ![](./images/create-dapp-blocklet-2.png)
 
 3. Next, initialize and run ABT Node.
+
 ![](./images/create-dapp-blocklet-3.png)
 
 4. Finally, install MongoDB and run it locally.

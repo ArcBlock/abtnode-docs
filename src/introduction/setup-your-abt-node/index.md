@@ -18,7 +18,7 @@ if port forwarding is enabled) or attach an external wireless card to the VM.
 
 Also, if you have already initialized ABT Node, you can start your node with `abtnode start`, or you can reinitialize
 your node by deleting the configuration files (use `rm /r /f ~/.abtnode*` if you used the default values for the data
-directory and the config file). 
+directory and the config file).
 
 To initialize the code, run this command:
 
@@ -33,7 +33,7 @@ public IP address if you want your node to be accessible over the Internet.
 <details>
 <summary>Sample output</summary>
 
-![Initialize ABT Node](./images/initialize%20abtnode.gif)
+![Initialize ABT Node](./images/initialize_abtnode.gif)
 
 </details>
 
@@ -46,7 +46,7 @@ abtnode start
 <details>
 <summary>Sample output</summary>
 
-![Start ABT Node](./images/start%20abtnode.gif)
+![Start ABT Node](./images/start_abtnode.gif)
 
 </details>
 
@@ -63,6 +63,6 @@ abtnode stop
 <details>
 <summary>Sample output</summary>
 
-![Stop ABT Node](./images/stop%20abtnode.gif)
+![Stop ABT Node](./images/stop_abtnode.gif)
 
 </details>

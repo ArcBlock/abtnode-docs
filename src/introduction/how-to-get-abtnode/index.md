@@ -25,7 +25,7 @@ To install [nvm], run this command:
 <details>
 <summary>Sample output</summary>
 
-![install nvm](./images/install%20nvm.gif)
+![install nvm](./images/install_nvm.gif)
 
 </details>
 
@@ -62,7 +62,7 @@ nvm ls-remote | grep 'Latest LTS'
 <details>
 <summary>Sample output</summary>
 
-![list Node.js versions](./images/list%20node%20versions.gif)
+![list Node.js versions](./images/list_node_versions.gif)
 
 </details>
 
@@ -77,7 +77,7 @@ nvm install v12.18.3
 <details>
 <summary>Sample output</summary>
 
-![install Node.js](./images/install%20node.gif)
+![install Node.js](./images/install_node.gif)
 
 </details>
 
@@ -94,7 +94,7 @@ npm install -g @abtnode/cli
 <details>
 <summary>Sample output</summary>
 
-![install ABT Node](./images/install%20abtnode.gif)
+![install ABT Node](./images/install_abtnode.gif)
 
 </details>
 
