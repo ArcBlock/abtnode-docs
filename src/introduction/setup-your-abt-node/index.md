@@ -33,7 +33,7 @@ public IP address if you want your node to be accessible over the Internet.
 <details>
 <summary>Sample output</summary>
 
-![Initialize ABT Node](initialize%20abtnode.gif)
+![Initialize ABT Node](./images/initialize%20abtnode.gif)
 
 </details>
 
