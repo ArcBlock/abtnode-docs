@@ -121,7 +121,7 @@ etc., on the **Blocklets -> Detail -> Environment** page.
 
 ![blocklet domain setting](./images/blocklet-environments.png)
 
-## 注意事项
+## Important
 
 - Currently, you can only modify the node's IP and domain name by manually modifying the node's configuration file.
 - HTTPS needs to be enabled for ABT Node Daemon and all blocklets for HTTPS to work.
