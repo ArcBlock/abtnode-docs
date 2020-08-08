@@ -16,4 +16,4 @@ blocklet, which will make your blocklets more manageable. When a routing engine 
 loaded based on the subdirectory. For example, if I bind http://192.168.1.10/static-demo to Static Demo, the public
 interface of Static Demo is accessible from http://192.168.1.10/static-demo instead of http://192.168.1.10:8091.
 
-!![router-settings-en](./images/router-settings-en.png)
+![router-settings-en](./images/router-settings-en.png)
