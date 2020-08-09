@@ -15,11 +15,11 @@ ABT Node 可以自由添加成员，并且节点的拥有者可以在 `配置-�
 
 然后，你只需将当前 ABT Node 的访问地址发送给他，让对方用钱包做一次扫码操作即可：
 
-![](./images/member-manager-1.png)
+![](./images/member-manager-1-zh.png)
 
 对方扫码之后，会得到这个结果，提示他没有权限登录该节点：
 
-![](./images/member-manager-2.png)
+![](./images/member-manager-2-zh.png)
 
 此时，当前节点的拥有者即可在 `配置-团队` 页面看到刚刚的新成员加入申请了：
 
