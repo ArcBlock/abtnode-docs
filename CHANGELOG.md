@@ -1,8 +1,12 @@
+## 0.0.10 (August 09, 2020)
+
+- add docs by tigeryu8900
+
 ## 0.0.9 (August 07, 2020)
 
 - add docs by tigeryu8900
 - revise EN docs (mostly grammar fixes) by tigeryu8900
-- [src/index.md](./src/index.md) and [src/index.zh.md](./src/index.zh.md) link fix by tigeryu8900 
+- [src/index.md](./src/index.md) and [src/index.zh.md](./src/index.zh.md) link fix by tigeryu8900
 - image path fix
 
 ## 0.0.8 (August 07, 2020)
