@@ -11,4 +11,4 @@ tags:
 
 This chapter will introduce Blocklet related content, including, what is Blocklet, how to develop a Blocklet and so on.
 
-- [Blocklet Specification](./specification)
+- [Blocklet Specification](/specification)
