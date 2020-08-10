@@ -14,10 +14,11 @@ indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 
+# commented out because of redundancy
 # Make sure package.json always uses 2 spaces to indent
-[{package.json}]
-indent_size = 2
-indent_style = space
+# [{package.json}]
+# indent_size = 2
+# indent_style = space
 
 [{makefile, Makefile}]
 indent_style = tab
