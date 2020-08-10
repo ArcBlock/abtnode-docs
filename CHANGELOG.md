@@ -1,3 +1,7 @@
+## 0.0.11 (August 10, 2020)
+
+- add blocklet manager docs
+
 ## 0.0.10 (August 09, 2020)
 
 - add docs by tigeryu8900

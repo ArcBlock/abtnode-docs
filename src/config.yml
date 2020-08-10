@@ -30,6 +30,7 @@ categories:
         links:
           - /blocklet/basic-operations
           - /blocklet/environments
+          - /blocklet/core-blocklets
         locales:
           zh: 应用管理
       Router:
