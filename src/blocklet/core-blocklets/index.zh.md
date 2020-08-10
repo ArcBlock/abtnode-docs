@@ -17,7 +17,7 @@ ABT Node Launcher 可以帮助你通过云提供商(如AWS、Azure)管理 ABT节
 
 ## BlockChain 相关
 
-### [BlockChian Manager](https://blocklet.arcblockio.cn/dapp/blockchain-manager/)
+### [BlockChain Manager](https://blocklet.arcblockio.cn/dapp/blockchain-manager/)
 
 BlockChian Manager 可以帮助你管理基于 ArcBlock 链框架的链节点，核心功能有：
 
