@@ -118,3 +118,5 @@ tags:
 ![router-basic-use-15](./images/router-basic-use-15-zh.png)
 
 点击使 `使用此快照` 按钮，我们可以快速切回到之前的某一次部署。
+
+[//]: # (TODO: Translate missing section from index.md)
