@@ -9,8 +9,6 @@ tags:
   - 'abtnode'
 ---
 
-## Node Settings
-
 This is an overview of ABT Node's settings.
 
 ![](./images/node-settings-1-en.png)

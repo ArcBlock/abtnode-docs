@@ -9,7 +9,6 @@ tags:
   - 'abtnode'
 ---
 
-## Upgrade/downgrade blocklet
-
 You can change versions or install an older version by clicking on the arrow next to the button and select the desired version.
 
+![](./images/upgrade-downgrade-1-en.png)
