@@ -2,7 +2,7 @@
 title: '配置并启动 ABT 节点'
 description: '配置并启动 ABT 节点'
 keywords: 'abtnode, blocklet'
-author: 'wangshijun'
+author: 'tigeryu8900, nate'
 category: 'abtnode'
 layout: 'documentation'
 tags:
