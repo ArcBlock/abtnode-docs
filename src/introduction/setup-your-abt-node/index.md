@@ -9,8 +9,6 @@ tags:
   - 'abtnode'
 ---
 
-## Get your ABT Node Up and Running
-
 To get your ABT node up and running, you will have to initialize it. Before you initialize your node, make sure you are
 connected to the network you want the node to be on. If you want your node to be accessible over the Internet, make sure
 you are connected to the Internet. If you are using a VM, use a bridged network adapter (NAT network adapter also works
