@@ -32,7 +32,7 @@ To install [nvm], run this command:
 <details>
 <summary>
 
-Note: You can also use one of the two commands from [nvm's repo][nvm] or from the hidden content of this line, but this
+Note: You can also use one of the two commands from nvm's repo [nvm] or from the hidden content of this line, but this
 one works with both [Linux] and [macOS].
 
 </summary>
@@ -100,16 +100,16 @@ npm install -g @abtnode/cli
 
 ### Step 4: Install and set up ABT Wallet
 
-Install [ABT Wallet](//abtwallet.io) for iOS or Android at https://abtwallet.io. Then, open up the app and follow the
+Install [ABT Wallet](https://abtwallet.io) for iOS or Android at [ABT Wallet](https://abtwallet.io). Then, open up the app and follow the
 directions in the app to set up your wallet.
 
 ### Step 5: Install an IDE
 
 If you are going to create blocklets, you are recommended to install an IDE. A popular IDE you can try is
-[VSCode](//code.visualstudio.com).
+[VSCode](http://code.visualstudio.com).
 
-[Linux]:   //www.linux.org
-[macOS]:   //www.apple.com/macos
-[nvm]:     //github.com/nvm-sh/nvm
-[Node.js]: //nodejs.org
-[npm]:     //www.npmjs.com
+[Linux]:   https://www.linux.org
+[macOS]:   https://www.apple.com/macos
+[nvm]:     https://github.com/nvm-sh/nvm
+[Node.js]: https://nodejs.org
+[npm]:     https://www.npmjs.com

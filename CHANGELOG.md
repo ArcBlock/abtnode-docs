@@ -1,3 +1,7 @@
+## 0.0.12 (August 12, 2020)
+
+- add intro zh docs
+
 ## 0.0.11 (August 10, 2020)
 
 - add blocklet manager docs
