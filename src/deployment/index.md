@@ -11,4 +11,6 @@ tags:
 
 This chapter will cover topics related to how to deploy ABT Node in a production environment.
 
-- [Bind domain with reverse proxy server](./bebind-reverse-proxy)
+- [Production Best Practice](./best-practice)
+- [Deploy with AWS AMI](./from-aws-ami)
+- [Bind domain with reverse proxy server](./behind-reverse-proxy)

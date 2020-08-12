@@ -119,4 +119,105 @@ tags:
 
 点击使 `使用此快照` 按钮，我们可以快速切回到之前的某一次部署。
 
-[//]: # (TODO: Translate missing section from index.md)
+## 其他三，Nginx 问题排除
+
+如果 Nginx 没有成功运行，试试下面的方法进行修复。
+
+在您成功修复之后，用下面的命令对 ABT Node 进行重启。
+
+```bash
+ubuntu@ubuntu:~$ abtnode stop && abtnode start
+ℹ Load config from /home/ubuntu/.abtnode.yml
+ℹ Node did from config zNKhAjw6ktz37Ysb3PqBbgaZqZ59Td9fXR7G
+✔ abt-node-daemon is stopped successfully
+✔ abt-node-db-hub is stopped successfully
+✔ Routing engine is stopped successfully
+✔ Done!
+ℹ Load config from /home/ubuntu/.abtnode.yml
+ℹ Node did from config zNKhAjw6ktz37Ysb3PqBbgaZqZ59Td9fXR7G
+✔ ABT Node DB Hub was started successfully
+✔ ABT Node Daemon started successfully: http://192.168.1.10:8089
+```
+
+### No access to port 80
+
+如果你遇到这个错误，说明 Nginx 没有访问 80 端口的权限（这个错误和 [这个错误](#port-already-in-use) 比较相似）
+
+```
+nginx: [emerg] bind() to 0.0.0.0:80 failed (13: Permission denied)
+```
+
+第一步，获取到 Nginx 的路径。
+
+```bash
+ubuntu@ubuntu:~$ which nginx
+/usr/sbin/nginx
+```
+
+给予 Nginx 0-1024 端口的访问权限（如果你的 Nginx 路径不是 `/usr/sbin/nginx`, 用你的 Nginx 路径替换即可）
+
+```bash
+ubuntu@ubuntu:~$ sudo setcap 'cap_net_bind_service=+ep' /usr/sbin/nginx
+[sudo] password for ubuntu:
+```
+
+如果执行完上面的操作，您还是得到一样的错误，那么可以先看看本地有所有的 Nginx 路径，然后对每一个都执行上面的解决步骤。
+
+```bash
+ubuntu@ubuntu:~$ which -a nginx
+/usr/sbin/nginx
+/sbin/nginx
+```
+
+### Can't access log files
+
+如果你遇到了下面其中一种错误，说明 Nginx 此时无法写日志文件。
+
+```
+nginx: [alert] could not open error log file: open() "/var/log/nginx/error.log" failed (13: Permission denied)
+```
+```
+nginx: [alert] could not open error log file: open() "/var/log/nginx/access.log" failed (13: Permission denied)
+```
+
+默认情况下，日志文件存储在 `/var/log/nginx` 目录下。如果你自定义了日志文件存储路径，可以在 `/etc/nginx/nginx.conf` 找到此路径。（请记得用你自己的 Nginx 日志路径替换 `/var/log/nginx`）
+
+```bash
+ubuntu@ubuntu:~$ sudo chmod -R g=rw /var/log/nginx
+[sudo] password for ubuntu:
+```
+
+### Port already in use
+
+如果遇到此错误，说明 80 端口此时正在使用中（这个错误和 [这个错误](#no-access-to-port-80) 类似）。
+
+```
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] still could not bind()
+```
+
+如果你确定当前的 80 端口是被另一个 Nginx 进程占用，可以执行下面的命令解决。
+
+```bash
+ubuntu@ubuntu:~$ sudo killall nginx
+[sudo] password for ubuntu:
+```
+
+如果当前的 80 端口是被别的进程占用，请使用下面的命令解决。
+
+```bash
+ubuntu@ubuntu:~$ sudo fuser 80/udp 80/tcp
+[sudo] password for ubuntu:
+80/tcp:              329828 329829
+```
+
+复制这些 PID 然后用在下面的命令里面（请用您获得的 PID 替换 `329828 329829`）
+
+```bash
+ubuntu@ubuntu:~$ sudo kill 329828 329829
+[sudo] password for ubuntu:
+```
