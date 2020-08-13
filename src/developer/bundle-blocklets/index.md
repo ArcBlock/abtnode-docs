@@ -9,8 +9,6 @@ tags:
   - 'abtnode'
 ---
 
-## Bundle Blocklets
-
 Blocklets needs to be bundled before they can deployed to a running ABT Node instance. Blocklet bundling is very similar to bundling a typical web application, here are the steps to bundle your javascript blocklets.
 
 ### Bundle the frontend
