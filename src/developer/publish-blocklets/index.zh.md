@@ -2,13 +2,26 @@
 title: '发布 Blocklet'
 description: '发布 Blocklet'
 keywords: 'abtnode, blocklet'
-author: 'wangshijun'
+author: 'wangshijun, nate'
 category: 'abtnode'
 layout: 'documentation'
 tags:
   - 'abtnode'
 ---
 
-## Publish Blocklets
+## 发布步骤
 
-[//]: # (TODO: Finish Document)
+1. 确保您的 blocklet 可以打包并部署到您的本地 ABT 节点
+2. 使用 `npm publish` 将您的 blocklet 发布到 npm 仓库
+3. Fork 我们的 [blocklets registry 仓库](https://github.com/arcblock/blocklets)
+4. 更新 `registry.yml`，列出您的 blocklet，然后为这个更改创建 Pull Request
+5. 您的 Pull Request 请求获得批准，然后 blocklet 被发布
+6. 在 blocklet 仓库中进行验证: [https://blocklet.arcblock.io/blocklets.json](https://blocklet.arcblock.io/blocklets.json)
+7. 在市场中验证:从市场安装您的 blocklet 到您的 ABT 节点
+
+## 发布配置
+
+![](./images/publish-blocklets-1.png)
+
+- `publishConfig`: 可以在里面定义那个文件夹会被发布
+- `files`: 定义哪些文件会被发布
