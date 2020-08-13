@@ -9,21 +9,21 @@ tags:
   - forge
 ---
 
-因为 ABT Node 可能会包含多个 Blocklet, 而几乎每个 Blocklet 都需要至少一个端口（静态 Blocklet 不需要）， 所以 ABT Node 和 Blocklet 会需要多个端口，所以生产环境下往往需要和反向代理服务器一起部署。
-该文档将以 Nginx 为例介绍如何和反向代理服务器一起部署 ABT Node, 同时给 ABT Node Daemon 和 一个 Blocklet 分别绑定了一个域名。
+因为 ABT 节点可能会包含多个 Blocklet, 而几乎每个 Blocklet 都需要至少一个端口（静态 Blocklet 不需要）， 所以 ABT 节点和 Blocklet 会需要多个端口，所以生产环境下往往需要和反向代理服务器一起部署。
+该文档将以 Nginx 为例介绍如何和反向代理服务器一起部署 ABT 节点, 同时给 ABT Node Daemon 和 一个 Blocklet 分别绑定了一个域名。
 
 ::: warning
-确保安装了最新版的 ABT Node
+确保安装了最新版的 ABT 节点
 :::
 
 ## 准备条件
 
-- 运行在 8089 端口的 ABT Node daemon 服务
-- 运行在 8090 端口的 Blocklet Manager blocklet
+- 运行在 8089 端口的 ABT Node Daemon 服务
+- 运行在 8090 端口的 Blocklet Manager Blocklet
 - 代理服务器: Nginx
 - 两个域名
   - ABT Node: abtnode.com
-  - Blocklet Manager blocklet: blocklet.abtnode.com
+  - Blocklet Manager Blocklet: blocklet.abtnode.com
 
 ## Nginx 配置
 
@@ -57,9 +57,9 @@ server {
 该配置将域名 `abtnode.com` 并定在 8089 端口, 域名 `blocklet.abtnode.com` 版绑定在 8090 端口。
 同时需要注意，需要将 Host 头部通过代理服务器传递给上游的服务。
 
-## 更新 ABT Node 配置
+## 更新 ABT 节点配置
 
-配置好代理后，需要修改 ABT Node 的配置文件, 将 ABT Node 的域名更新到配置文件中:
+配置好代理后，需要修改 ABT 节点的配置文件, 将 ABT 节点的域名更新到配置文件中:
 
 ```yaml
 node:
@@ -90,7 +90,7 @@ blocklet:
 如果启用了 HTTPS, 需要将配置文件中的 `https` 属性设置为 `true`. 如上面的配置文件。
 :::
 
-修改好后配置文件，需要重启 ABT Node 节点并更新配置，可以通过 ABT Node CLI 命令重启:
+修改好后配置文件，需要重启 ABT 节点节点并更新配置，可以通过 ABT 节点 CLI 命令重启:
 
 ```
 abtnode start -u

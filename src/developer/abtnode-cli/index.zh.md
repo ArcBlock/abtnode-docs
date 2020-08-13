@@ -9,7 +9,7 @@ tags:
   - 'abtnode'
 ---
 
-为了方便的用户使用 ABT 节点，我们为其量身定制了一个 cli 工具：`abtnode cli`, 我们先看看它长什么样：
+为了方便用户使用 ABT 节点，我们为其量身定制了一个 CLI 工具：`abtnode cli`, 我们先看看它长什么样：
 
 ```bash
 ➜  ~ abtnode -h
@@ -39,11 +39,11 @@ Commands:
   help [command]             display help for command
 ```
 
-可以看到他提供了丰富的命令供用户使用，主要的命令有：
+可以看到它提供了丰富的命令供用户使用，主要的命令有：
 
 ### 1. abtnode bundle [options]
 
-用来打包一个 blocklet
+用来打包一个 Blocklet
 
 ![](./images/abtnode-cli-2.png)
 

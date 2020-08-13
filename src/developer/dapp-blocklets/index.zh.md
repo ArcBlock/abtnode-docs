@@ -9,19 +9,19 @@ tags:
   - 'abtnode'
 ---
 
-上一个章节：[创建静态 Blocklets](/zh/abtnode/developer/static-blocklets) 详细介绍了如果从 0 到 1 创建一个可以部署运行在 ABT Node 里面的静态 Blocklet， 这个章节我们将继续带领大家，从 0 到 1 创建并部署一个更加复杂的 Dapp Blocklet 到 ABT Node 中。
+上一个章节：[创建静态 Blocklet](/zh/abtnode/developer/static-blocklets) 详细介绍了如果从 0 到 1 创建一个可以部署运行在 ABT 节点里面的静态 Blocklet， 这个章节我们将继续带领大家，从 0 到 1 创建并部署一个更加复杂的 Dapp Blocklet 到 ABT 节点中。
 
 ## 第一步，环境准备
 
-1. NodeJs 开发环境搭建完毕
+1. Node.js 开发环境搭建完毕
 
 ![](./images/create-dapp-blocklet-1.png)
 
-2. Forge Cli 已经安装完毕
+2. Forge CLI 已经安装完毕
 
 ![](./images/create-dapp-blocklet-2.png)
 
-3. ABT Node 已经初始化完毕, 并且已经处于运行状态
+3. ABT 节点已经初始化完毕, 并且已经处于运行状态
 
 ![](./images/create-dapp-blocklet-3.png)
 
@@ -50,14 +50,13 @@ cd dapp-blocklet-demo
 
 可以看到，生成的模板项目成功配置之后，可以正常本地运行。
 
-
 ## 第三步，部署 Dapp Blocklet
 
 首先让我们 `Ctrl+C` 停掉刚刚的本地测试进程，然后执行 `abtnode deploy .` 命令，看看会发生什么:
 
 ![](./images/create-dapp-blocklet-5.png)
 
-deploy 成功！我们看看 ABT Node `基石程序` 页面：
+deploy 成功！我们看看 ABT 节点`基石程序` 页面：
 
 ![](./images/create-dapp-blocklet-6-zh.png)
 
@@ -79,4 +78,4 @@ deploy 成功！我们看看 ABT Node `基石程序` 页面：
 
 ![](./images/create-dapp-blocklet-9.png)
 
-Blocklet 已经成功运行起来了，到这儿，我们就已经成功的在 ABT Node 里面部署了一个 Dapp Blocklet 啦，你也快来试试吧！
+Blocklet 已经成功运行起来了。到这儿，我们就已经成功的在 ABT 节点里面部署了一个 Dapp Blocklet，你也快来试试吧！

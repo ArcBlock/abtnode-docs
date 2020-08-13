@@ -19,7 +19,7 @@ tags:
 
 ## 3. 寻找并选择 ABT Node AMI
 
-在左侧选择 `My AMIs`, 然后通过关键字 `abtnode` 搜索，你会看到下面的结果。请牢记在您安装 ABT Node 实例的时候一定要选择最新的 ABT Node 版本。
+在左侧选择 `My AMIs`, 然后通过关键字 `abtnode` 搜索，你会看到下面的结果。请牢记在你安装 ABT 节点实例的时候一定要选择最新的 ABT 节点版本。
 
 ![](./images/2-select-ami.png)
 
@@ -31,13 +31,13 @@ tags:
 
 ## 5. 配置实例
 
-保持所有的配置都是用默认应该也是可以工作的，请记得为实例开启公共 IP 。
+保持所有的配置都是用默认应该也是可以工作的，请记得为实例开启公共 IP。
 
 ![](./images/5-configure.png)
 
 ## 6. 配置存储
 
-如果你想要体验 ABT Node，一个 10GB 左右的磁盘即可满足要求，但是如果你如果打算在 ABT Node 里面启动链，那么需要选择一个更大的磁盘。并且 ABT Node 默认是会把数据都存储在 root 磁盘上的，你可以自定义这个配置。
+如果你想要体验 ABT 节点，一个 10GB 左右的磁盘即可满足要求，但是如果你如果打算在 ABT 节点里面启动链，那么需要选择一个更大的磁盘。并且 ABT 节点默认是会把数据都存储在 root 磁盘上的，你可以自定义这个配置。
 
 ![](./images/6-storage.png)
 
@@ -53,13 +53,11 @@ tags:
 
 ![](./images/8-security-group.png)
 
-By default, ABT Node AMI requires the following ports to open:
-
-默认情况下，ABT 节点 AMI 需要下面的端口被开放：
+默认情况下，ABT Node AMI 需要下面的端口被开放：
 
 - 22: 给 ssh 访问，如果你没有手动更改节点配置的打算可以关闭它。
-- 8089~8099: 用来运行 ABT 节点控制台和 blocklets 服务，默认情况下这也会限制你安装 blocklets 的数量。
-- 8210~8219: 用来运行链的 graphql 接口，默认情况下最多支持 10 个链。
+- 8089~8099: 用来运行 ABT 节点控制台和 Blocklet 服务，默认情况下这也会限制你安装 blocklets 的数量。
+- 8210~8219: 用来运行链的 GraphQL 接口，默认情况下最多支持 10 个链。
 
 ## 9. 选择 KeyPair 并启动
 
@@ -69,9 +67,9 @@ By default, ABT Node AMI requires the following ports to open:
 
 到此，你就都配置好了，点击底部右侧的 `Launch` 按钮，等待实例准备好。
 
-## 10. Setup the ABT Node
+## 10. 设置 ABT 节点
 
-获取您的实例公共主机名，如下面的屏幕截图所示
+获取你的实例公共主机名，如下面的屏幕截图所示
 
 ![](./images/11-public-hostname.png)
 
@@ -79,7 +77,7 @@ By default, ABT Node AMI requires the following ports to open:
 
 ![](./images/12-setup-abtnode.png)
 
-## 11. 安装 blocklets 并体验！
+## 11. 安装 blocklet 并体验！
 
 目前我们已经发布了一系列 blocklets 到 ArcBlock 官方的 blocklet 仓库。你可以在 `市场` 页面下载安装并启动他们。
 

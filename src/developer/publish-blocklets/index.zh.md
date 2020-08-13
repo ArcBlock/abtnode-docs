@@ -11,13 +11,13 @@ tags:
 
 ## 发布步骤
 
-1. 确保您的 blocklet 可以打包并部署到您的本地 ABT 节点
-2. 使用 `npm publish` 将您的 blocklet 发布到 npm 仓库
-3. Fork 我们的 [blocklets registry 仓库](https://github.com/arcblock/blocklets)
-4. 更新 `registry.yml`，列出您的 blocklet，然后为这个更改创建 Pull Request
-5. 您的 Pull Request 请求获得批准，然后 blocklet 被发布
-6. 在 blocklet 仓库中进行验证: [https://blocklet.arcblock.io/blocklets.json](https://blocklet.arcblock.io/blocklets.json)
-7. 在市场中验证:从市场安装您的 blocklet 到您的 ABT 节点
+1. 确保你的 Blocklet 可以打包并部署到你的本地 ABT 节点
+2. 使用 `npm publish` 将你的 Blocklet 发布到 npm 仓库
+3. 分叉我们的 [blocklet registry 仓库](https://github.com/arcblock/blocklets)
+4. 更新 `registry.yml`，列出你的 Blocklet，然后为这个更改创建 Pull Request
+5. 你的 Pull Request 请求获得批准，然后 Blocklet 被发布
+6. 在 Blocklet 仓库中进行验证: [https://blocklet.arcblock.io/blocklets.json](https://blocklet.arcblock.io/blocklets.json)
+7. 在市场中验证：从市场安装你的 Blocklet 到你的 ABT 节点
 
 ## 发布配置
 

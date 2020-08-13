@@ -9,7 +9,7 @@ tags:
   - abtnode
 ---
 
-本章将介绍如果在生产环境中部署 ABT Node 相关话题。
+本章将介绍在生产环境中部署 ABT 节点相关话题。
 
 - [部署最佳实践](./best-practice)
 - [在 AWS 上部署](./from-aws-ami)

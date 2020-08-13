@@ -9,11 +9,11 @@ tags:
   - 'abtnode'
 ---
 
-## 如何创建一个 blocklet registry
+## 如何创建一个 Blocklet Registry
 
 // todo
 
-## 官方 blocklet registry
+## 官方 Blocklet Registry
 
 ### 1. [https://blocklet.arcblock.io](https://blocklet.arcblock.io)
 

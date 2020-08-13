@@ -21,13 +21,13 @@ ABT 节点状态属性的仪表盘。
 
 ![](./images/abtnode-overview-2-zh.png)
 
-ABT 节点 blocklet 市场，用户可以在这个页面寻找可安装的 blocklet。
+ABT 节点 Blocklet 市场，用户可以在这个页面寻找可安装的 Blocklet。
 
 ## 基石程序
 
 ![](./images/abtnode-overview-3-zh.png)
 
-ABT 节点已安装的 blocklet 列表。
+ABT 节点已安装的 Blocklet 列表。
 
 ## 路由
 
@@ -45,4 +45,4 @@ ABT 节点配置功能。详细功能请前往：[其他功能](/zh/abtnode/misc
 
 ![](./images/abtnode-overview-6-zh.png)
 
-ABT 节点提供的 graphql 试验台功能页面。详情请前往：[GraphQL 试验台](/zh/abtnode/misc/graphql-console)
+ABT 节点提供的 GraphQL 试验台功能页面。详情请前往：[GraphQL 试验台](/zh/abtnode/misc/graphql-console)
