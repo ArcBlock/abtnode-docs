@@ -59,6 +59,7 @@ categories:
       Developer Guide:
         url: /developer
         links:
+          - /developer/abtnode-cli
           - /developer/configuration
           - /developer/storage-structure
           - /developer/blocklet-spec
