@@ -91,7 +91,7 @@ tags:
 
 ![router-basic-use-12](./images/router-basic-use-12.png)
 
-可以看到访问 `http://192.168.31.189/bm/?__t=1596508019533` 已经可以正常打开对应的 Blocklet 服务了，说明我们的部署已经生效。
+可以看到访问 `http://[替换成你的 ip]/bm/?__t=1596508019533` 已经可以正常打开对应的 Blocklet 服务了，说明我们的部署已经生效。
 
 ## 其他一，更新或删除路由规则
 
@@ -101,7 +101,7 @@ tags:
 
 ![router-basic-use-13](./images/router-basic-use-13-zh.png)
 
-点击 `确认，更新吧` 按钮，并且执行一次 `部署规则` 操作，我们访问 `http://192.168.31.189/bm2/?__t=1596508019533` 进行尝试：
+点击 `确认，更新吧` 按钮，并且执行一次 `部署规则` 操作，我们访问 `http://[替换成你的 ip]/bm2/?__t=1596508019533` 进行尝试：
 
 ![router-basic-use-14](./images/router-basic-use-14.png)
 
