@@ -9,15 +9,15 @@ tags:
   - 'abtnode'
 ---
 
-Blocklets 在被部署到 ABT 节点实例上之前需要被打包处理。Blocklet 的打包流程和传统的 web 应用打包非常相似，下面是教你如何打包 JavaScript blocklets 的指引教程。
+Blocklets 在被部署到 ABT 节点实例上之前需要被打包处理。Blocklet 的打包流程和传统的 Web 应用打包非常相似，下面是教你如何打包 JavaScript Blocklet 的指引教程。
 
 ### 打包前端
 
-如果你的 blocklet 是使用前端框架比如 React.js，Vue.js 构建的， 你必须将他们打包成能被 web 服务器部署服务的静态资源文件。
+如果你的 Blocklet 是使用前端框架比如 React.js，Vue.js 构建的， 你必须将他们打包成能被 Web 服务器部署服务的静态资源文件。
 
 #### 1. 获取 Blocklet DID
 
-进入到你的 blocklet 目录下运行 `abtnode blocklet:meta | grep did` 命令获得 blocklet did：
+进入到你的 Blocklet 目录下运行 `abtnode blocklet:meta | grep did` 命令获得 blocklet did：
 
 ```shell
 abtnode blocklet:meta | grep did
@@ -37,7 +37,6 @@ did:         z8iZn18zGRm5veEdhmrS2FRrUyw5ZAQcewVMH
 #### 3. 使用 `%PUBLIC_URL%` 加载资源文件
 
 请将 `public/index.html` 加上 `%PUBLIC_URL%` 前缀以加载所有的资源，像下面这样：
-
 
 ```html
 <!DOCTYPE html>
@@ -83,9 +82,9 @@ did:         z8iZn18zGRm5veEdhmrS2FRrUyw5ZAQcewVMH
 </html>
 ```
 
-#### 4. 注入 blocklet 信息脚本
+#### 4. 注入 Blocklet 信息脚本
 
-然后在 head 标签中添加一个 script 标签来加载 blocklet 信息：
+然后在 head 标签中添加一个 script 标签来加载 Blocklet 信息：
 
 ```html
 <script src="__meta__.js"></script>
@@ -122,7 +121,7 @@ import axios from 'axios';
 axios.defaults.baseURL = '';
 axios.defaults.timeout = 200000;
 
-axios.interceptors.request.use(config => {
+axios.interceptors.request.use((config) => {
   const prefix = window.blocklet ? window.blocklet.prefix : window.env.apiPrefix;
   config.baseURL = prefix || '';
 
@@ -138,10 +137,10 @@ axios.interceptors.request.use(config => {
 "build:server": "DEBUG=@abtnode/* NODE_ENV=production abtnode bundle -w api/webpack.blocklet.js",
 ```
 
-因为我们内部使用 webpack 来打包 blocklet 后端，你可以自定义配置:
+因为我们内部使用 webpack 来打包 Blocklet 后端，你可以自定义配置:
 
 ```js
-module.exports = webpack => ({
+module.exports = (webpack) => ({
   optimization: {
     nodeEnv: false, // @link https://github.com/webpack/webpack/issues/7470#issuecomment-394259698
   },

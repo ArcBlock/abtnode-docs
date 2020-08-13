@@ -9,8 +9,7 @@ tags:
   - 'abtnode'
 ---
 
-路由可以帮助你更友好的管理 blocklets, 这个章节将会学到以下内容:
+路由可以帮助你更友好的管理 Blocklet, 这个章节将会学到以下内容:
 
 - [什么是路由](./what-is-router)
 - [路由器的基本用法](./basic-usage)
-

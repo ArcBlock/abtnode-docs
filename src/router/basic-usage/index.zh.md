@@ -11,7 +11,7 @@ tags:
 
 ## 第一步，配置路由引擎
 
-如果在初始化ABT节点时将 `none` 设置为路由引擎，Blocklet 的访问是以 `IP` 加 `端口` 的形式，当我们在路由引擎设置界面设置了路由引擎为 `Nginx` 之后，`路由规则` 栏目便会出现，我们需要点击 `路由规则` 切换到规则页面进行下面的步骤。
+如果在初始化 ABT 节点时将 `none` 设置为路由引擎，Blocklet 的访问是以 `IP` 加 `端口` 的形式，当我们在路由引擎设置界面设置了路由引擎为 `Nginx` 之后，`路由规则` 栏目便会出现，我们需要点击 `路由规则` 切换到规则页面进行下面的步骤。
 
 ![router-basic-use-1](./images/router-basic-use-1-zh.png)
 
@@ -19,7 +19,7 @@ tags:
 
 ![router-basic-use-2](./images/router-basic-use-2-zh.png)
 
-首次进来的页面如图所示，目前还没有任何站点，我们动手添加第一个站点吧，点击 `+添加站点` 按钮，你将会看到下面的页面：
+首次进来的页面如图所示，目前还没有任何站点，我们动手添加第一个站点吧，点击 `+添加站点` 按钮，将会看到下面的页面：
 
 ![router-basic-use-3](./images/router-basic-use-3-zh.png)
 
@@ -29,7 +29,7 @@ tags:
 
 #### 2. 该站点根目录默认请求转发到哪个服务
 
-默认的话，一个站点的根目录请求会转发给当前的 ABT Node 服务，你也可以在此做选择自定义
+默认的话，一个站点的根目录请求会转发给当前的 ABT 节点服务，你也可以在此做选择自定义
 
 #### 3. 转发的服务的端口配置
 
@@ -47,7 +47,7 @@ tags:
 
 ![router-basic-use-5](./images/router-basic-use-5-zh.png)
 
-这里我用 `books.arcblockio.cn` 这个域名用来做测试，并且提前准备好了此域名的 HTTPS 证书，可以看到如果配置的是域名，会出来 `+更新 HTTPS 证书` 的按钮，我们点击进行更新配置:
+这里我们用 `books.arcblockio.cn` 这个域名用来做测试，并且提前准备好了此域名的 HTTPS 证书，可以看到如果配置的是域名，会出来 `+更新 HTTPS 证书` 的按钮，点击进行更新配置:
 
 ![router-basic-use-6](./images/router-basic-use-6-zh.png)
 
@@ -57,11 +57,11 @@ tags:
 
 ## 第三步，添加路由规则
 
-站点添加完成之后，就可以在站点下面配置自己的路由规则了，通过自定义的路由规则可以将在运行的 Blocklet 服务都自定义到对应的路由下面：
+站点添加完成之后，就可以在站点下面配置自己的路由规则了。通过自定义的路由规则可以将在运行的 Blocklet 服务都自定义到对应的路由下面：
 
 ![router-basic-use-8](./images/router-basic-use-8-zh.png)
 
-上图中，我为本地已经在运行的 `BlockChain Manager` Blocklet 服务添加了一个路由规则为 `bm`, 端口号会默认填写好，一般无需额外的更改。点击 `添加` 之后即可完成一个路由规则的添加，添加完之后如下图：
+上图中，我们为本地已经在运行的 `BlockChain Manager` Blocklet 服务添加了一个路由规则为 `bm`, 端口号会默认填写好，一般无需额外的更改。点击 `添加` 之后即可完成一个路由规则的添加，添加完之后如下图：
 
 ![router-basic-use-9](./images/router-basic-use-9-zh.png)
 
@@ -97,7 +97,7 @@ tags:
 
 #### 更新路由规则
 
-我们尝试将上面的 `bm` 路由规则更改成 `bm2` 试试吧
+将上面的 `bm` 路由规则更改成 `bm2` 试试吧
 
 ![router-basic-use-13](./images/router-basic-use-13-zh.png)
 
@@ -113,7 +113,7 @@ tags:
 
 ## 其他二，快照历史
 
-上面的实践步骤中，我们每次执行 `部署规则` 操作都会被要求做一次日志维护，这正是给 `快照历史` 使用的，快照历史可以方便的将我们每一次部署操作记录下来，同样的我们也可以通过快照历史快速的将路由规则切回到之前的某一次更改，下面是使用快照历史的例子：
+上面的实践步骤中，我们每次执行 `部署规则` 操作都会被要求做一次日志维护，这正是给 `快照历史` 使用的，快照历史可以方便的将我们每一次部署操作记录下来，同样也可以通过快照历史快速的将路由规则切回到之前的某一次更改，下面是使用快照历史的例子：
 
 ![router-basic-use-15](./images/router-basic-use-15-zh.png)
 
@@ -123,7 +123,7 @@ tags:
 
 如果 Nginx 没有成功运行，试试下面的方法进行修复。
 
-在您成功修复之后，用下面的命令对 ABT Node 进行重启。
+在成功修复之后，用下面的命令对 ABT 节点进行重启。
 
 ```bash
 ubuntu@ubuntu:~$ abtnode stop && abtnode start
@@ -161,7 +161,7 @@ ubuntu@ubuntu:~$ sudo setcap 'cap_net_bind_service=+ep' /usr/sbin/nginx
 [sudo] password for ubuntu:
 ```
 
-如果执行完上面的操作，您还是得到一样的错误，那么可以先看看本地有所有的 Nginx 路径，然后对每一个都执行上面的解决步骤。
+如果执行完上面的操作，你还是得到一样的错误，那么可以先看看本地有所有的 Nginx 路径，然后对每一个都执行上面的解决步骤。
 
 ```bash
 ubuntu@ubuntu:~$ which -a nginx
@@ -176,6 +176,7 @@ ubuntu@ubuntu:~$ which -a nginx
 ```
 nginx: [alert] could not open error log file: open() "/var/log/nginx/error.log" failed (13: Permission denied)
 ```
+
 ```
 nginx: [alert] could not open error log file: open() "/var/log/nginx/access.log" failed (13: Permission denied)
 ```

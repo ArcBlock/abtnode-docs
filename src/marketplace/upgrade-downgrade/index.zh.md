@@ -9,6 +9,6 @@ tags:
   - 'abtnode'
 ---
 
-在 `市场` 页面，找到您已经安装的 blocklet 卡片，您可以在卡片上点击版本列表完成版本升级或者降级操作。
+在 `市场` 页面，找到您已经安装的 Blocklet 卡片，您可以在卡片上点击版本列表完成版本升级或者降级操作。
 
 ![](./images/upgrade-downgrade-1-zh.png)

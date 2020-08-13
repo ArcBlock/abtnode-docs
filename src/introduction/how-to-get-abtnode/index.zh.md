@@ -20,7 +20,7 @@ tags:
 ```
 
 <details>
-<summary>输出示例</summary>
+<summary>输出示例
 
 ![安装 nvm](./images/install_nvm.gif)
 
@@ -56,13 +56,13 @@ nvm ls-remote | grep 'Latest LTS'
 ```
 
 <details>
-<summary>输出示例</summary>
+<summary>输出示例
 
 ![list Node.js versions](./images/list_node_versions.gif)
 
 </details>
 
-在写本文的时候，最新的长期支持版本号是 v12.18.3。
+本文撰写时，最新的长期支持版本号是 v12.18.3。
 
 然后，只要安装完 [Node.js]，[npm] 也会被自动安装完成。
 
@@ -71,7 +71,7 @@ nvm install v12.18.3
 ```
 
 <details>
-<summary>输出示例</summary>
+<summary>输出示例
 
 ![install Node.js](./images/install_node.gif)
 
@@ -88,7 +88,7 @@ npm install -g @abtnode/cli
 ```
 
 <details>
-<summary>输出示例</summary>
+<summary>输出示例
 
 ![install ABT Node](./images/install_abtnode.gif)
 
@@ -102,8 +102,8 @@ npm install -g @abtnode/cli
 
 如果你准备创建自己的 Blocklet，我们推荐您先安装一个 IDE。我们推荐安装主流的 IDE 是：[VSCode](https://code.visualstudio.com)
 
-[Linux]:   https://www.linux.org
-[macOS]:   https://www.apple.com/macos
-[nvm]:     https://github.com/nvm-sh/nvm
-[Node.js]: https://nodejs.org
-[npm]:     https://www.npmjs.com
+[linux]: https://www.linux.org
+[macos]: https://www.apple.com/macos
+[nvm]: https://github.com/nvm-sh/nvm
+[node.js]: https://nodejs.org
+[npm]: https://www.npmjs.com

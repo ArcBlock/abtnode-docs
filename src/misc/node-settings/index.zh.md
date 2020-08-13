@@ -9,7 +9,7 @@ tags:
   - 'abtnode'
 ---
 
-首先看下节点配置页面的外观：
+首先看一下节点配置页面的外观：
 
 ![](./images/node-settings-1-zh.png)
 
@@ -21,9 +21,9 @@ tags:
 
 用于节点控制台页面顶部的展示。
 
-### 应用市场地址
+### Blocklet 市场地址
 
-一般默认配置即可，用于配置 `市场` 页面获取 Blocklet 列表的数据源。目前，ArcBlock 官方提供了两个 blocklet registry 地址：
+一般默认配置即可，用于配置 `市场` 页面获取 Blocklet 列表的数据源。目前，ArcBlock 官方提供了两个 Blocklet Registry 地址：
 
 1. [https://blocklet.arcblock.io](https://blocklet.arcblock.io)
 

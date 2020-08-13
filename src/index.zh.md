@@ -12,7 +12,7 @@ tags:
 
 欢迎访问 ABT 节点的文档
 
-- [Introduction](./introduction)
+- [介绍](./introduction)
   - [什么是 ABT 节点](./introduction/what-is-abt-node)
   - [如何获取 ABT 节点](./introduction/how-to-get-abtnode)
   - [配置并启动 ABT 节点](./introduction/setup-your-abt-node)
