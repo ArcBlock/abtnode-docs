@@ -36,6 +36,7 @@ Welcome to ABT Node documentation
   - [Member Management](./misc/member-management)
   - [GraphQL Console](./misc/graphql-console)
 - [Developer Guide](./developer)
+  - [ABT Node cli](./developer/abtnode-cli)
   - [Node Configuration](./developer/configuration)
   - [Storage Structure](./developer/storage-structure)
   - [Blocklet Specification](./developer/blocklet-spec)

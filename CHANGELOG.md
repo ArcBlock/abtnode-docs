@@ -1,3 +1,7 @@
+## 0.0.14 (August 13, 2020)
+
+- update docs
+
 ## 0.0.13 (August 12, 2020)
 
 - keep improve docs

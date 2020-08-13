@@ -36,6 +36,7 @@ tags:
   - [成员管理](./misc/member-management)
   - [GraphQL 控制台](./misc/graphql-console)
 - [开发者指南](./developer)
+  - [ABT 节点 cli 工具](./developer/abtnode-cli)
   - [节点配置文件详解](./developer/configuration)
   - [节点存储目录详解](./developer/storage-structure)
   - [Blocklet 规范](./developer/blocklet-spec)

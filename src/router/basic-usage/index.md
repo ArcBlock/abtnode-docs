@@ -112,7 +112,7 @@ After applying changes, you can verify that the changes are put into effect by c
 
 ![router-basic-use-12](./images/router-basic-use-12.png)
 
-You can see that by visiting `http://192.168.31.189/bm/?__t=1596508019533`, the corresponding Blocklet service can be
+You can see that by visiting `http://[replace with your ip]/bm/?__t=1596508019533`, the corresponding Blocklet service can be
 opened normally, indicating that our changes have taken effect.
 
 ## Update or Delete Routing Rules
@@ -128,7 +128,7 @@ Click the `Yes, Update` button, and click on `Save and Apply`.
 ![router-basic-use-14](./images/router-basic-use-14.png)
 
 To verify that the routing rule has taken effect, click on the new link and look at the URL. In my case, the new link is
-`http://192.168.31.189/bm2/?__t=1596508019533`.
+`http://[replace with your ip]/bm2/?__t=1596508019533`.
 
 ### Delete Routing Rulesdeployment is completed, you can see that the deleted route is in an inaccessible state.
 
@@ -185,7 +185,7 @@ your Nginx's path).
 
 ```bash
 ubuntu@ubuntu:~$ sudo setcap 'cap_net_bind_service=+ep' /usr/sbin/nginx
-[sudo] password for ubuntu: 
+[sudo] password for ubuntu:
 ```
 
 If you still get the same error, get a list of all Nginx installations and try again with each path.
@@ -213,7 +213,7 @@ By default, log files are stored in `/var/log/nginx`. If you customized the log 
 
 ```bash
 ubuntu@ubuntu:~$ sudo chmod -R g=rw /var/log/nginx
-[sudo] password for ubuntu: 
+[sudo] password for ubuntu:
 ```
 
 ### Port already in use
@@ -233,14 +233,14 @@ If you are sure that the only process using port 80 is another instance of Nginx
 
 ```bash
 ubuntu@ubuntu:~$ sudo killall nginx
-[sudo] password for ubuntu: 
+[sudo] password for ubuntu:
 ```
 
 Otherwise, find all tasks using port 80 with this command.
 
 ```bash
 ubuntu@ubuntu:~$ sudo fuser 80/udp 80/tcp
-[sudo] password for ubuntu: 
+[sudo] password for ubuntu:
 80/tcp:              329828 329829
 ```
 
@@ -249,5 +249,5 @@ command).
 
 ```bash
 ubuntu@ubuntu:~$ sudo kill 329828 329829
-[sudo] password for ubuntu: 
+[sudo] password for ubuntu:
 ```
