@@ -139,7 +139,7 @@ ubuntu@ubuntu:~$ abtnode stop && abtnode start
 ✔ ABT Node Daemon started successfully: http://192.168.1.10:8089
 ```
 
-### No access to port 80
+### 没有访问 80 端口的权限
 
 如果你遇到这个错误，说明 Nginx 没有访问 80 端口的权限（这个错误和 [这个错误](#port-already-in-use) 比较相似）
 
@@ -169,7 +169,7 @@ ubuntu@ubuntu:~$ which -a nginx
 /sbin/nginx
 ```
 
-### Can't access log files
+### 无法写日志文件
 
 如果你遇到了下面其中一种错误，说明 Nginx 此时无法写日志文件。
 
@@ -188,9 +188,9 @@ ubuntu@ubuntu:~$ sudo chmod -R g=rw /var/log/nginx
 [sudo] password for ubuntu:
 ```
 
-### Port already in use
+### 端口此时正在使用中
 
-如果遇到此错误，说明 80 端口此时正在使用中（这个错误和 [这个错误](#no-access-to-port-80) 类似）。
+如果遇到此错误，说明 80 端口此时正在使用中（你可能会把这个错误跟 [这个错误](#no-access-to-port-80) 混淆）。
 
 ```
 nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
