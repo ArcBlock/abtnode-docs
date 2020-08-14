@@ -9,7 +9,7 @@ tags:
   - 'abtnode'
 ---
 
-Following the steps above, we have completed the acquisition, installation, configuration, and operation of ABT Node. Now let's take a look at the functions of ABT Node in general.
+If you have followed along, have completed the acquisition, installation, configuration, and operation of ABT Node. Now let's take a look at the functions of ABT Node in general.
 
 ## Dashboard
 
