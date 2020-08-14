@@ -9,11 +9,13 @@ tags:
   - 'abtnode'
 ---
 
-Blocklets needs to be bundled before they can deployed to a running ABT Node instance. Blocklet bundling is very similar to bundling a typical web application, here are the steps to bundle your javascript blocklets.
+Blocklets needs to be bundled before they can deployed to a running ABT Node instance. Bundling a blocklet is very
+similar to bundling a typical web application. Here are the steps to bundle a javascript blocklet.
 
 ### Bundle the frontend
 
-If your blocklet is built with front-end framework such as React.js, Vue.js, you must bundle them to static files that can be served from a webserver.
+If your blocklet is built with front-end framework such as React.js or Vue.js, you must bundle them to static files that
+can be served from a webserver.
 
 #### 1. Get Blocklet DID
 
@@ -26,17 +28,17 @@ did:         z8iZn18zGRm5veEdhmrS2FRrUyw5ZAQcewVMH
 
 #### 2. Change asset path
 
-For apps bootstrapped with `create-react-app`, you can use the following build script to bundle the frontend:
+For blocklets bootstrapped with `create-react-app`, you can use the following build script to bundle the frontend:
 
 ```json
 "build:client": "PUBLIC_URL=\"/z8iZn18zGRm5veEdhmrS2FRrUyw5ZAQcewVMH\" react-scripts build",
 ```
 
-Please remember to replace the blocklet did with yours.
+Remember to replace the blocklet did with that of your blocklet.
 
 #### 3. Load assets with `%PUBLIC_URL%`
 
-Please change your `public/index.html` to load all assets with `%PUBLIC_URL%` prefix, just like this:
+Change your `public/index.html` to load all assets with `%PUBLIC_URL%` prefix:
 
 ```html
 <!DOCTYPE html>
@@ -84,13 +86,13 @@ Please change your `public/index.html` to load all assets with `%PUBLIC_URL%` pr
 
 #### 4. Inject the blocklet meta script
 
-Then add a script tag in the head to load blocklet meta:
+Add a script tag in the head to load blocklet meta:
 
 ```html
 <script src="__meta__.js"></script>
 ```
 
-This script will load from any path the blocklet is mounted, the content of the script will be similar to:
+This script cold be loaded from any path within the blocklet. The content of the script will look something like this:
 
 ```javascript
 window.blocklet = {
@@ -103,7 +105,7 @@ window.blocklet = {
 
 #### 5. Update client side router
 
-If you are using a client side router, set router base dynamically is required to make things work correctly:
+If you are using a client side router, set router base dynamically to make things work correctly:
 
 ```jsx
 <Router basename={window.blocklet ? window.blocklet.prefix : window.env.apiPrefix}>
@@ -113,7 +115,7 @@ If you are using a client side router, set router base dynamically is required t
 
 ### 6. Adapt Ajax requests
 
-If you are using some ajax request library such as axios, please make following changes:
+If you are using ajax request libraries such as axios, please make following changes:
 
 ```javascript
 import axios from 'axios';
