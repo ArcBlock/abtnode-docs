@@ -11,7 +11,6 @@ tags:
   - specification
 ---
 
-
 ## What is Blocklet?
 
 Blocklet is an application protocol and software architecture. As a protocol, it describes the way to build the ABT Node platform; as software architecture, an independent blocklet is a reusable software module, which may be an HTTP service or a function library, etc.; when multiple When blocklets run together, they need a platform to combine them to form an independent service, such as ABT Node.
@@ -52,6 +51,14 @@ In addition to the description of the basic information of the blocklet, the blo
 In addition to the `main` field, we also need to define the `requiredEnvironments` field to declare the environment variables that the blocklet needs to run. There are four attributes that describe an environment variable: name, description, required, default. If the variable is set to required, and no default value is provided, the user must set the variable before starting.
 
 `requiredEnvironments` is not necessary, but a blocklet can use this field to request blocklet users to provide corresponding information through this field. For example, a blocklet that depends on the MongoDB database can use requiredEnvironments to ask users to fill in the MongoDB connection string.
+
+`capabilities` is used to tell ABT Node what the blocklet is capable of, if your blocklet can not serve on dynamic path prefix, please set it as following:
+
+```json
+  "capabilities": {
+    "dynamicPathPrefix": false
+  }
+```
 
 ## Other configuration
 
@@ -131,6 +138,9 @@ The following is an example of blocklet.json.
     "description": "Enable test flag",
     "required": false,
     "default": "arcblock*"
+  },
+  "capabilities": {
+    "dynamicPathPrefix": true
   }
 }
 ```
@@ -148,7 +158,6 @@ The subsequent development work is a normal Web application development. Because
 - BLOCKLET_CACHE_DIR
 - BLOCKLET_APP_SK
 - BLOCKLET_APP_ID
-- BLOCKLET_BASE_URL
 
 ## Global environment variables
 

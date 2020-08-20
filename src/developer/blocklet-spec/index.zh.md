@@ -52,6 +52,14 @@ name, description, version, group 描述了 Blocklet 的基本信息。其中，
 
 `requiredEnvironments` 不是必须的，Blocklet 需要时可以通过这个字段要求 Blocklet 用户提供相应的信息。比如，Blocklet 依赖 MongoDB 数据库，那么就可以用 requiredEnvironments 来要求用户填写 MongoDB 的连接字符串。
 
+`capabilities` 用来告知 ABT Node 当前 Blocklet 的能力，比如如果你的 Blocklet 不能运行在任意动态的路由前缀下面，可以如下设置：
+
+```json
+  "capabilities": {
+    "dynamicPathPrefix": false
+  }
+```
+
 ## 其他配置
 
 ```json
@@ -130,6 +138,9 @@ Blocklet 所有的描述信息都放在 blocklet.json 文件中。
     "description": "Enable test flag",
     "required": false,
     "default": "arcblock*"
+  },
+  "capabilities": {
+    "dynamicPathPrefix": true
   }
 }
 ```
@@ -147,7 +158,6 @@ Blocklet 所有的描述信息都放在 blocklet.json 文件中。
 - BLOCKLET_CACHE_DIR
 - BLOCKLET_APP_SK
 - BLOCKLET_APP_ID
-- BLOCKLET_BASE_URL
 
 ## 全局环境变量
 
