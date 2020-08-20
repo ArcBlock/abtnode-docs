@@ -46,7 +46,7 @@
     "gh-pages": "^2.1.1"
   },
   "blocklet": {
-		"title": "ABT Node Docs",
+    "title": "ABT Node Docs",
     "main": "public",
     "group": "static",
     "color": "primary",
