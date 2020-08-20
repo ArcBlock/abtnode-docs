@@ -1,3 +1,7 @@
+## 0.0.15 (August 20, 2020)
+
+- make repo be a blocklet
+
 ## 0.0.14 (August 13, 2020)
 
 - update docs
