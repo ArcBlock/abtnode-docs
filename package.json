@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@arcblock/abtnode-docs",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "ABT Node Documentation",
   "main": "index.js",
   "publishConfig": {
