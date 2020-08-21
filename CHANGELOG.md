@@ -1,3 +1,7 @@
+## 0.0.16 (August 21, 2020)
+
+- update npm publish config
+
 ## 0.0.15 (August 20, 2020)
 
 - make repo be a blocklet
