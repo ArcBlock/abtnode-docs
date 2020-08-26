@@ -1,10 +1,10 @@
 ## 0.0.18 (August 26, 2020)
 
-
+- fix blocklet can not load in blocklets registry
 
 ## 0.0.17 (August 26, 2020)
 
-
+- release new blocklet version
 
 ## 0.0.16 (August 21, 2020)
 
