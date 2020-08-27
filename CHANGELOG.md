@@ -1,3 +1,7 @@
+## 0.0.19 (August 27, 2020)
+
+- update pics
+
 ## 0.0.18 (August 26, 2020)
 
 - fix blocklet can not load in blocklets registry
