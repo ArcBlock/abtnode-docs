@@ -1,6 +1,10 @@
-## 0.0.19 (August 27, 2020)
+## 0.0.20 (August 27, 2020)
 
 - update pics
+
+## 0.0.19 (August 27, 2020)
+
+- add generate wildcard https certificate
 
 ## 0.0.18 (August 26, 2020)
 
