@@ -63,11 +63,11 @@ Need to agree to some agreements:
 
 Certbot will ask to configure two TXT records on the DNS server:
 
-![dns txt record](./images/dns-txt.png)
+![verify dns](./images/verify-dns.png)
 
 You can use the `host` command to verify that the record is valid:
 
-![verify dns](./images/verify-dns.png)
+![dns txt record](./images/dns-txt.png)
 
 After the DNS record takes effect, press the `Confirm` button to confirm the generation of the certificate.
 
