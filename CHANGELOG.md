@@ -1,3 +1,7 @@
+## 0.0.21 (August 28, 2020)
+
+- fix images in generate-wildcard-https-certificate
+
 ## 0.0.20 (August 27, 2020)
 
 - update pics
