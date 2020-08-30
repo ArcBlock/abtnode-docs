@@ -1,7 +1,7 @@
 ---
 title: '安装 Nginx'
 description: '如何安装 Nginx'
-keywords: 'abtnode, router, nginx'
+keywords: 'abtnode, 路由, nginx'
 author: 'zhenqiang'
 category: 'abtnode'
 layout: 'documentation'
