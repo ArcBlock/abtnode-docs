@@ -41,7 +41,7 @@ brew install nginx
 
 当然，也可以从源码构建: https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-source/#sources
 
-从源码构建时记得 HTTPS, gzip/unzip 等模块：
+从源码构建时记得启用 HTTPS, gzip/unzip 等模块：
 
 ```nginx
 ./configure

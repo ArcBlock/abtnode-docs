@@ -41,7 +41,7 @@ brew install nginx
 
 Of course, you can also build from source code: https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-source/#sources
 
-Remember HTTPS, gzip/unzip and other modules when building from source code:
+Remember to enable HTTPS, gzip/unzip and other modules when building from source code:
 
 ```nginx
 ./configure
