@@ -13,3 +13,5 @@ Router can help you manager the blocklets friendly, in this chapter we will lear
 
 - [What is Router?](./what-is-router)
 - [Basic Router Usage](./basic-usage)
+- [Install Nginx](./install-nginx)
+- [Certificates for localhost](./certificates-for-localhost)

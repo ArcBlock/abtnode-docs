@@ -1,3 +1,8 @@
+## 0.0.22 (August 30, 2020)
+
+- add add install-nginx
+- add certificates-for-localhost
+
 ## 0.0.21 (August 28, 2020)
 
 - fix images in generate-wildcard-https-certificate
