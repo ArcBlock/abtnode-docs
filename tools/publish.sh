@@ -13,3 +13,5 @@ rm -rf public && rm -rf .cache
 yarn build
 rm -f www/*.map
 NODE_ENV=production abtnode bundle && npm publish _blocklet --access=public
+
+node tools/post-publish.js

@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/ArcBlock/abtnode-docs-power-user#readme",
   "dependencies": {
-    "@arcblock/gatsby-theme-docs": "^7.28.0",
+    "@arcblock/gatsby-theme-docs": "^7.28.3",
     "fs-extra": "^8.1.0",
     "gatsby": "2.24.8",
     "gatsby-plugin-netlify-cache": "^1.2.0",
