@@ -1,3 +1,9 @@
+## 0.0.23 (September 16, 2020)
+
+- fix image click link
+- add post publish to trigger the blocklets update
+- add screenshots
+
 ## 0.0.22 (August 30, 2020)
 
 - add add install-nginx
