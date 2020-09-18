@@ -1,3 +1,7 @@
+## 0.0.24 (September 18, 2020)
+
+- ci: auto deploy to ABT Node
+
 ## 0.0.23 (September 16, 2020)
 
 - fix image click link
