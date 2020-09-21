@@ -11,8 +11,11 @@ tags:
 
 ## How to get ABT Node?
 
-Currently, we can only get ABT Node working for [Linux] and [macOS]. If you are using another OS like Windows, you can
-use a virtual machine and make sure your ABT Wallet can access your VM's IP address.
+Today, there are multiple ways to get ABT Node up and running, Today, you can launch ABT Node on Amazon Web Services, Docker, as well as locally on your device.
+
+_*Note, if you are interested in running ABT Node locally on your device, we currently support [Linux] and [macOS]. If you are using another OS like Windows, we recommend using Windows Subsystem Linux (WSL) or you can use a virtual machine and make sure your ABT Wallet can access your VM's IP address._
+
+## Setup ABT Node Using Command Linue
 
 ### Step 1: Install [nvm]
 

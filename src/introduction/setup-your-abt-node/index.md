@@ -9,33 +9,22 @@ tags:
   - 'abtnode'
 ---
 
-To get your ABT node up and running, you will have to initialize it. Before you initialize your node, make sure you are
-connected to the network you want the node to be on. If you want your node to be accessible over the Internet, make sure
-you are connected to the Internet. If you are using a VM, use a bridged network adapter (NAT network adapter also works
-if port forwarding is enabled) or attach an external wireless card to the VM.
+With your ABT Node installed on your device you will need to initialize it to get started. 
 
-Also, if you have already initialized ABT Node, you can start your node with `abtnode start`, or you can reinitialize
-your node by deleting the configuration files (use `rm /r /f ~/.abtnode*` if you used the default values for the data
-directory and the config file).
+_Note, make sure you are connected to the network you want the node to be on and if you are using a VM, use a bridged network adapter (NAT network adapter also works
+if port forwarding is enabled) or attach an external wireless card to the VM._
 
-To initialize the code, run this command:
+1. To initialize your ABT Node, run this command:
 
 ```bash
 abtnode init
 ```
 
-Then, fill each field (or leave them blank, which will default to the parenthesized values). When you get to the part
-where you select an IP address, use a local IP address if you are just testing your node on your network or select a
-public IP address if you want your node to be accessible over the Internet.
+2. Once initialized, the system will confirm the directory where you want to initilize your ABT Node instance. 
 
-<details>
-<summary>Sample output</summary>
+3. After confirming, the system will automatically generate your ABT Node configuration.
 
-![Initialize ABT Node](./images/initialize_abtnode.gif)
-
-</details>
-
-Now, you need to start your node in order to use it. To start your node, run this command:
+4. With your configuration genreated, you need to start your ABT Node in order to use it. Run this command:
 
 ```bash
 abtnode start
@@ -48,11 +37,17 @@ abtnode start
 
 </details>
 
-Then, open the outputted link in a browser. The browser can be on other devices as long as the device the browser is on
-can connect to the node. Scan the QR code with your ABT Wallet to make yourself the owner of the node and confirm the
-action on your wallet.
+5. Then, open the generated link in your browser. The first screen confirms acceptance of ArcBlock's End-User Agreement.
 
-If you want to stop the node, run this command:
+![](./setup-abt-node.png)
+
+6. After accepting the License Agreement, you will scan the generated QRCode using your ArcBlock ABT Wallet. During this process, you will secure your ABT Node and connect this ABT Node to your wallet.  
+
+![](./scan-abt-node.png)
+
+7. Now, go to the dashboard. 
+
+8. If you want to stop the node, run this command:
 
 ```bash
 abtnode stop
