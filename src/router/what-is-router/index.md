@@ -1,6 +1,6 @@
 ---
-title: 'What is Router?'
-description: 'What is Router?'
+title: 'What is ABT Node Service Gateway?'
+description: 'Routing, URL Mapping, SSL and Load Balancing for ABT Node?'
 keywords: 'abtnode, blocklet'
 author: 'tigeryu8900'
 category: 'abtnode'
@@ -9,11 +9,41 @@ tags:
   - 'abtnode'
 ---
 
-## What is Router?
+## What is ABT Node's Service Gateway?
 
-Router allows you to manage the services running in ABT Node. You can set up a meaningful subdirectory for each
-blocklet, which will make your blocklets more manageable. When a routing engine is running, a certain blocklet will be
-loaded based on the subdirectory. For example, if I bind http://192.168.1.10/static-demo to Static Demo, the public
-interface of Static Demo is accessible from http://192.168.1.10/static-demo instead of http://192.168.1.10:8091.
+The ABT Node **Service Gateway** allows you to manage the communication services running for your ABT Node including
 
-![router-settings-en](./images/router-settings-en.png)
+## URL Mapping
+
+ABT Node allows you to map your URLs for your ABT Node system and Blocklets redirects (permanent and temporary).
+
+![](./images/url-mapping.png)
+
+#### URLs
+
+You can add new site and rules for specific IP addresses or domains that you own. Once a new site is added, you can create rules to assign a blocklet or service to your domain, or create custom temporary or permanent redirects.
+
+![](./images/urls.png)
+
+#### System URLs
+
+Each time you install a Blocklet from the marketplace, ABT Node will automatically generate a new subdireory that includes a system URL to ensure the node and the blocklet can communicate. System URLs also give you useful information about each blocklet including any available interfaces, the subdirectory, the current status of the blocklet and a link manage the blocklet. 
+
+![](./images/system-url.png)
+
+## SSL Certificates 
+
+Add SSL Certificate files to your ABT Node using your SSL Certificate File and Private Key Files to secure services on your node. Developers can also leverage Letsencrypt self-signed certificates for local development. 
+
+![](./images/ssl-certificate.png)
+
+## Load Balancing 
+
+ABT Node includes NGINX by default to give you a high performance routing layer that includes support for path prefixes and domains. _ABT Node will support additional application load balancers and elastic load balancers soon._
+
+![](./images/nginx.png)
+
+## Pub/Sub Gateway (coming soon)
+
+ABT Nodes highly scalable pub/sub gateway for asynchronous messsaging.
+
