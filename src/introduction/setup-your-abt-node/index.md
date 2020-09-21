@@ -39,11 +39,11 @@ abtnode start
 
 5. Then, open the generated link in your browser. The first screen confirms acceptance of ArcBlock's End-User Agreement.
 
-![](./setup-abt-node.png)
+![](./images/setup-abt-node.png)
 
 6. After accepting the License Agreement, you will scan the generated QRCode using your ArcBlock ABT Wallet. During this process, you will secure your ABT Node and connect this ABT Node to your wallet.  
 
-![](./scan-abt-node.png)
+![](./images/scan-abt-node.png)
 
 7. Now, go to the dashboard. 
 

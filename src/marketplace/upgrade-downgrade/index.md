@@ -9,6 +9,12 @@ tags:
   - 'abtnode'
 ---
 
-You can change versions or install an older version by clicking on the arrow next to the button and select the desired version.
+By default, ArcBlock Blocklets will always install the latest version, or notify you whenever a newer version is available. 
 
-![](./images/upgrade-downgrade-1-en.png)
+On the Blocklet page you will see a red arrow to notify of an upgrade.
+
+![](./images/upgrade.png)
+
+Or, in the Marketplace you node will request that you upgrade to the latest version.
+
+![](./images/upgrade-1,png)
