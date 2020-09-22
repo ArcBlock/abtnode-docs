@@ -33,7 +33,7 @@ Each time you install a Blocklet from the marketplace, ABT Node will automatical
 
 ## SSL Certificates 
 
-Add SSL Certificate files to your ABT Node using your SSL Certificate File and Private Key Files to secure services on your node. Developers can also leverage Letsencrypt self-signed certificates for local development. 
+Add SSL Certificate files to your ABT Node using your SSL Certificate File and Private Key Files to secure services on your node. Developers can also leverage Letsencrypt self-signed [Certificates for localhost](./certificates-for-localhost).
 
 ![](./images/ssl-certificate.png)
 

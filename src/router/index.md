@@ -1,7 +1,7 @@
 ---
-title: 'Router'
-description: 'Router'
-keywords: 'abtnode, blocklet'
+title: 'Service Gateway'
+description: 'ABT Node Service Gateway'
+keywords: 'abtnode, networking, service gateway, url, blocklet'
 author: 'nate'
 category: 'abtnode'
 layout: 'documentation'
@@ -9,9 +9,9 @@ tags:
   - 'abtnode'
 ---
 
-Router can help you manager the blocklets friendly, in this chapter we will learn:
+The Service Gateway enables you to control communications for your ABT Node and configure your networking services to support your apps, services and Blocklets.  In this section we will learn:
 
-- [What is Router?](./what-is-router)
-- [Basic Router Usage](./basic-usage)
+- [What is the Service Gateway?](./what-is-router)
+- [Basic Service Gateway Usage](./basic-usage)
 - [Install Nginx](./install-nginx)
 - [Certificates for localhost](./certificates-for-localhost)
