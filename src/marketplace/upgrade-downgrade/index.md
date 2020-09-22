@@ -9,7 +9,7 @@ tags:
   - 'abtnode'
 ---
 
-By default, ArcBlock Blocklets will always install the latest version, or notify you whenever a newer version is available. 
+By default, ArcBlock Blocklets will always install the latest version, or notify you whenever a newer version is available.
 
 On the Blocklet page you will see a red arrow to notify of an upgrade.
 
@@ -17,4 +17,4 @@ On the Blocklet page you will see a red arrow to notify of an upgrade.
 
 Or, in the Marketplace you node will request that you upgrade to the latest version.
 
-![](./images/upgrade-1,png)
+![](./images/upgrade-1.png)

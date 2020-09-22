@@ -35,7 +35,7 @@ The Blocklet management page shows you all of the Blocklets installed on your AB
 
 ![](./images/abtnode-overview-4-en.png)
 
-Service Gateway enables enables you to control a virtual connecctions and networking services for your ABT Node. For details on the Service Gateway functionality, visit: [Service Gateway](/en/abtnode/router)
+Service Gateway enables you to control a virtual connecctions and networking services for your ABT Node. For details on the Service Gateway functionality, visit: [Service Gateway](/en/abtnode/router)
 
 ## Settings
 
