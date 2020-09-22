@@ -26,15 +26,19 @@ always use the latest version of ABT Node when launching new ABT Node instances.
 
 ## 4. Select Instance Type
 
-`t4.small` should be ok.
+We recommend that your node size is at least a **t4.small** instance. _Note, free tier instances work for small, non-production workloads but the number of blocklets you can install will be limited. 
 
 ![](./images/3-instance-type.png)
 
 ## 5. Config Instance
 
-Keep everything as default should work, please remember to enable public IP for instance.
+Keep everything as default should work, please remember to enable public IP for instance.  
 
 ![](./images/5-configure.png)
+
+In this step, we also recommend enabling **Cloud Watch** monitoring for your instance. _Note, there may be added costs to enable this feature depending on your instance size._
+
+![](./images/cloudwatch.png)
 
 ## 6. Config Storage
 
@@ -58,9 +62,10 @@ You can add tags to your ABT Node instance to find it easier later.
 
 By default, ABT Node AMI requires the following ports to open:
 
-- 22: for SSH access, if you will never do the manual configuration for the node, disable it.
-- 8089~8099: to serve the ABT Node Dashboard and blocklets, by default this will limit the blocklets you can install
-- 8210~8219: to serve the blockchain GraphQL endpoint, by default ten chains is supported at most
+- 443: for https access
+- 80: for http access
+
+We do not recommend enabling port 22 for SSH unless required by your organization. 
 
 ## 9. Select KeyPair and Launch
 
@@ -83,7 +88,6 @@ https://abtwallet.io) installed.
 
 ## 11. Install blocklets and enjoy!
 
-Currently, we have several blocklets published in our official blocklet registry; you can download/install/start and
-play with them.
+After logging int to your ABT Node, we recommend getting started with some Blocklets. You can easily deploy a new blockchain with our **Blockchain Manager** Blocklet, or launch your very own **Decentralized Identity** service with DID:CONNECT.  We can't wait to see what you build. 
 
 Enjoy!

@@ -12,10 +12,9 @@ categories:
       Introduction:
         url: /introduction
         links:
-          - /introduction/what-is-abt-node
+          - /introduction/abtnode-overview
           - /introduction/how-to-get-abtnode
           - /introduction/setup-your-abt-node
-          - /introduction/abtnode-overview
         locales:
           zh: 节点入门
       Marketplace:
@@ -33,7 +32,7 @@ categories:
           - /blocklet/core-blocklets
         locales:
           zh: 应用管理
-      Router:
+      Service Gateway:
         url: /router
         links:
           - /router/what-is-router
