@@ -9,11 +9,11 @@ tags:
   - 'abtnode'
 ---
 
-In order to facilitate local development and testing, we can generate a local certificate only. Except for this machine, the certificate will not be trusted by anyone else, which is sufficient for development.
+To help you with your local development and testing, it is very easy to generate a local certificate. Outside of the machine you are currently developing on, the certificate will not be trusted by anyone else, which is sufficient for development.
 
-## Use openssl to generate localhost certificate
+## Use OpenSSL to generate localhost certificate
 
-We use `openssl` to generate the certificate, the command is as follows:
+To start we wil use `openssl` to generate the certificate. Use the following command:
 
 ```bash
 openssl req -x509 -out localhost.crt -keyout localhost.key \
@@ -24,7 +24,7 @@ openssl req -x509 -out localhost.crt -keyout localhost.key \
 
 ## Test Certificate
 
-After the certificate is generated, we can test the certificate in Nginx. The test configuration is as follows:
+After the certificate is generated, we can test it with ABT Node's NGINX using the configuration below:
 
 **Replace \<your directory\> with the real directory**
 
@@ -54,11 +54,11 @@ Then enter `https://localhost` in the browser:
 
 ![test failed](./images/test-failed.png)
 
-We can see that there is a problem with the certificate in Chrome (it will show 'Safari Can't Open the Page' in Safari), because the certificate is not yet trusted by the system at this time, and we need to set the system to trust it.
+In the image, we can see that there is a problem with the certificate (In Safari users you will see 'Safari Can't Open the Page'), because the certificate is not yet trusted by the system at this time.  So, then ext step is to tell the system to trust the certificate. 
 
 ## Trust Certificate (Mac OS)
 
-After the certificate is generated, it cannot be used directly; you need to **trust** the newly generated certificate in the system. Let's take Mac OS as an example to show how to **trust** the certificate in the system.
+After the certificate is generated, it cannot be used directly; you need to **trust** the newly generated certificate on your device. For this example Let's use Mac OS.
 
 The generated certificate is in the current directory, double-click the `localhost.crt` file in the file manager (Finder):
 
@@ -76,7 +76,7 @@ Then click the `Close` button in the upper left corner, before the window is clo
 
 ![password](./images/password.png)
 
-Then revisit `https://localhost` in the browser. At this time, we can see that the test website can be accessed normally:
+Now revisit `https://localhost` in the browser. We can now see that the test website can be accessed normally:
 
 ![test-success](./images/test-success.png)
 
