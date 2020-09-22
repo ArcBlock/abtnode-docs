@@ -1,5 +1,5 @@
 ---
-title: 'What is ABT Node Service Gateway?'
+title: 'What is Service Gateway?'
 description: 'Routing, URL Mapping, SSL and Load Balancing for ABT Node?'
 keywords: 'abtnode, blocklet'
 author: 'tigeryu8900'
