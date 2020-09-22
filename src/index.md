@@ -13,7 +13,6 @@ tags:
 Welcome to ABT Node documentation
 
 - [Introduction](./introduction)
-  - [What is ABT Node?](./introduction/what-is-abt-node)
   - [How to get ABT Node?](./introduction/how-to-get-abtnode)
   - [Get your ABT Node Up and Running](./introduction/setup-your-abt-node)
   - [ABT Node Overview](./introduction/abtnode-overview)
