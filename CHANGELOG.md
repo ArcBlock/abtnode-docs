@@ -1,3 +1,7 @@
+## 0.0.25 (September 22, 2020)
+
+- ci: auto trigger build of Arcblock/blocklets
+
 ## 0.0.24 (September 18, 2020)
 
 - ci: auto deploy to ABT Node
