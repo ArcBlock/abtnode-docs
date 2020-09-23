@@ -1,3 +1,7 @@
+## 0.0.26 (September 23, 2020)
+
+
+
 ## 0.0.25 (September 22, 2020)
 
 - ci: auto trigger build of Arcblock/blocklets
