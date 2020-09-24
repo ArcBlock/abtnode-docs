@@ -48,7 +48,7 @@ System URLs (Routing rules) are automatically generated for any Blocklet you ins
 
 ### Configure a certificate for custom domain
 
-Once you have added a domain to your Service Gateway you will see a configuration similar to the below image::
+Once you have added a domain to your Service Gateway you will see a configuration similar to the below image:
 
 ![router-basic-use-5](./images/router-basic-use-5-en.png)
 
@@ -61,6 +61,8 @@ certificate.
 After selecting the certificate file and certificate private key, click on **save**. You can verify that the certificate was configured correctly by viewing the status symbol next to the site domain name will also change from red to green similar to the image below.
 
 ![router-basic-use-7](./images/router-basic-use-7-en.png)
+
+_Note, ABT Node's Service Gateway supports single domain SSLs (ex. arcblock.io) and **wildcard SSLs** to support a single site and all related subdomains (ex. shop.arcblock.io, test.arcblock.io, etc). 
 
 ## Things to Know
 
