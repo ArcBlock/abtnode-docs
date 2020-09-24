@@ -82,6 +82,10 @@ Now revisit `https://localhost` in the browser. We can now see that the test web
 
 Complete the settings.
 
+## SSL Certificates 
+
+You can add SSL Certificate files to your ABT Node using your SSL Certificate File and Private Key Files to secure services on your node. Today, ABT Node supports single domain SSLs and Wilcard SSLs to protect a domain (arcblock.io) and all its related subdomains (test.arcblock.io, shop.arcblock.io, etc). Please confirm with your SSL provider on the best SSL type for your project and not all types of certificates are supported. Developers can also leverage Letsencrypt self-signed [Certificates for localhost](./certificates-for-localhost).
+
 ## Reference
 
 -[Let's Encrypt] localhost certificate: https://letsencrypt.org/docs/certificates-for-localhost/
