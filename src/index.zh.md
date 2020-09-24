@@ -26,7 +26,6 @@ tags:
 - [路由](./router)
   - [什么是节点路由](./router/what-is-router)
   - [路由基本用法](./router/basic-usage)
-  - [安装 Nginx](./router/install-nginx)
   - [localhost 证书](./router/certificates-for-localhost)
 - [部署指南](./deployment)
   - [部署最佳实践](./deployment/best-practice)

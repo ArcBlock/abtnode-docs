@@ -1,5 +1,5 @@
 ---
-title: 'What is ABT Node Service Gateway?'
+title: 'What is Service Gateway?'
 description: 'Routing, URL Mapping, SSL and Load Balancing for ABT Node?'
 keywords: 'abtnode, blocklet'
 author: 'tigeryu8900'
@@ -33,7 +33,7 @@ Each time you install a Blocklet from the marketplace, ABT Node will automatical
 
 ## SSL Certificates 
 
-Add SSL Certificate files to your ABT Node using your SSL Certificate File and Private Key Files to secure services on your node. Developers can also leverage Letsencrypt self-signed [Certificates for localhost](./certificates-for-localhost).
+Add SSL Certificate files to your ABT Node using your SSL Certificate File and Private Key Files to secure services on your node. Today, ABT Node supports single domain SSLs and Wilcard SSLs to protect a domain (arcblock.io) and all its related subdomains (test.arcblock.io, shop.arcblock.io, etc). ABT Node does not support partial or multi-wild card SSLs. Please confirm with your SSL provider on the best SSL type for your project. Developers can also leverage Letsencrypt self-signed [Certificates for localhost](./certificates-for-localhost).
 
 ![](./images/ssl-certificate.png)
 

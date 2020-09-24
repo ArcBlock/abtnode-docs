@@ -9,9 +9,8 @@ tags:
   - 'abtnode'
 ---
 
-The Service Gateway enables you to control communications for your ABT Node and configure your networking services to support your apps, services and Blocklets.  In this section we will learn:
+The Service Gateway enables you to control communications for your ABT Node and configure your networking services to support your apps, services and Blocklets. In this section we will learn:
 
 - [What is the Service Gateway?](./what-is-router)
 - [Basic Service Gateway Usage](./basic-usage)
-- [Install Nginx](./install-nginx)
 - [Certificates for localhost](./certificates-for-localhost)
