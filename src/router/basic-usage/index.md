@@ -62,7 +62,7 @@ After selecting the certificate file and certificate private key, click on **sav
 
 ![router-basic-use-7](./images/router-basic-use-7-en.png)
 
-_Note, ABT Node's Service Gateway supports single domain SSLs (ex. arcblock.io) and **wildcard SSLs** to support a single site and all related subdomains (ex. shop.arcblock.io, test.arcblock.io, etc). 
+_Note, ABT Node's Service Gateway supports single domain SSLs (ex. arcblock.io) and **wildcard SSLs** to support a single site and all related subdomains (ex. shop.arcblock.io, test.arcblock.io, etc). ABT Node does not support partial or multi-domain wildcard SSLs.
 
 ## Things to Know
 
