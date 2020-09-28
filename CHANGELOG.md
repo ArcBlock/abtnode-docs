@@ -1,6 +1,8 @@
+## 0.0.27 (September 29, 2020)
+
+ci: send notification to slack after deployed
+
 ## 0.0.26 (September 23, 2020)
-
-
 
 ## 0.0.25 (September 22, 2020)
 
