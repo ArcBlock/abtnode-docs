@@ -9,7 +9,9 @@ tags:
   - 'abtnode'
 ---
 
-ABT Node is a distributed computing operaing system built for the decentralized web and is the foundation of the ArcBlock platform.  ABT Node is the first platform to fully integrate decentralized identity, blockchain framework and reusable software components known as Blocklets to make it easy to add new capabilities for any project. Users can one-click install apps, blockchains, developer tools, and more to enable them to deploy blockchain nodes, smart contracts, application logic, and more with zero hassle.
+ABT Node is a distributed computing operating system built for the decentralized web. ABT Node is the first platform to fully integrate decentralized identity, blockchain framework and reusable software components known as Blocklets to make it easy to add new capabilities for any project. With ABT Node, users can one-click install apps and software components, creat and deploy blockchains, add or extend developer tools. With ABT Node developers can quickly create blockchain nodes, smart contracts, application logic, and more with zero hassle.
+
+Upon logging in to the ABT Node, the key capabilities and services to create, deploy and run your DApps are included on the left hand action bar.  
 
 ## Dashboard
 
@@ -35,7 +37,7 @@ The Blocklet management page shows you all of the Blocklets installed on your AB
 
 ![](./images/abtnode-overview-4-en.png)
 
-Service Gateway enables you to control a virtual connecctions and networking services for your ABT Node. For details on the Service Gateway functionality, visit: [Service Gateway](/en/abtnode/router)
+Service Gateway enables you to control a virtual connecctions and networking services for your ABT Node including URL mapping, domains, application routing, load balancing and more. For details on the Service Gateway functionality, visit: [Service Gateway](/en/abtnode/router)
 
 ## Settings
 
