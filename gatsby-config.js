@@ -4,7 +4,15 @@ const path = require('path');
 const { version } = require('./package.json');
 
 module.exports = {
+  pathPrefix: '__PATH_PREFIX__',
   plugins: [
+    {
+      resolve: `gatsby-plugin-swarm`,
+      options: {
+        prefix: `__PATH_PREFIX__`,
+        pattern: /^(\/docs:\/[^/]+)/
+      },
+    },
     {
       resolve: require.resolve('@arcblock/www'),
     },
