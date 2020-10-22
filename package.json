@@ -1,6 +1,6 @@
 {
   "name": "@arcblock/abtnode-docs",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "description": "ABT Node Documentation, a help documentation for quickly get started with ABT Node.",
   "main": "index.js",
   "publishConfig": {
@@ -14,6 +14,10 @@
   "directories": {
     "doc": "docs"
   },
+  "keywords": [
+    "Docs",
+    "ABTNode"
+  ],
   "scripts": {
     "start": "gatsby develop",
     "build": "NODE_ENV=production GATSBY_APP_DOMAIN=docs.arcblock.io gatsby build",
@@ -24,7 +28,6 @@
     "type": "git",
     "url": "git+https://github.com/ArcBlock/abtnode-docs.git"
   },
-  "keywords": [],
   "author": "wangshijun <wangshijun2010@gmail.com> (http://github.com/wangshijun)",
   "license": "MIT",
   "bugs": {
