@@ -1,6 +1,6 @@
 ---
-title: 'Deploy with AWS AMI'
-description: 'Deploy with AWS AMI'
+title: 'Deploy ABT Node Using AWS AMI'
+description: 'Deploy ABT Node with AWS AMI'
 keywords: 'abtnode, blocklet'
 author: 'tigeryu8900'
 category: 'abtnode'
@@ -19,8 +19,7 @@ Select "instance" on the left, then click the "Launch" button.
 
 ## 3. Find and Select ABT Node AMI
 
-Select "My AMIs" on the left, then search by keyword "abtnode," you should see the following results. Please remember to
-always use the latest version of ABT Node when launching new ABT Node instances.
+Select "My AMIs" on the left, then search by keyword "abtnode," you should see something similar to the following screenshot. We recommend that you use the latest version of ABT Node when launching new ABT Node instances.
 
 ![](./images/2-select-ami.png)
 
@@ -32,25 +31,25 @@ We recommend that your node size is at least a **t4.small** instance. _Note, fre
 
 ## 5. Config Instance
 
-Keep everything as default should work, please remember to enable public IP for instance.  
+You can use the default settings, or customize your instance to match your requirements. Note, please remember to enable public IP for the instance.  
 
 ![](./images/5-configure.png)
 
-In this step, we also recommend enabling **Cloud Watch** monitoring for your instance. _Note, there may be added costs to enable this feature depending on your instance size._
+During configuration, it is recommended that you enable **Cloud Watch** monitoring for your instance. _Note, there may be added costs to enable this feature depending on your instance size._
 
 ![](./images/cloudwatch.png)
 
 ## 6. Config Storage
 
-If you want to play with ABT Node, a small root disk (10GB) should be ok, but if you plan to start forge-powered chains,
-please use a larger drive. Also note that ABT Node stores all data on the root disk by default, but you can change this
-behavior.
+For non-production workloads, a small root disk (10GB) is okay, but if you plan run your node in production or to start ArcBlock-powered chains,
+we recommend that you use a larger drive. _Note, note that ABT Node stores all data on the root disk by default, but you can change this
+behavior._
 
 ![](./images/6-storage.png)
 
 ## 7. Add tags
 
-You can add tags to your ABT Node instance to find it easier later.
+You can add tags to your ABT Node instance if you want to include any customer attributes or searchable keywords.
 
 ![](./images/7-tags.png)
 
@@ -81,7 +80,7 @@ Grab your instance public hostname as illustrated in the following screenshot.
 
 ![](./images/11-public-hostname.png)
 
-Open `http://YOUR_PUBLIC_HOSTNAME:8089` to set up your node; this step requires you have [ABT Wallet](
+Once install, you have a few options to open your ABT Node. You can use `https://Your-Public-IP.ip.abtnet.io` if you want to login using https, or simply use your `http://You_Public_IP` or `EC2 Hostname as domain` to set up your node; this step requires you have [ABT Wallet](
 https://abtwallet.io) installed.
 
 ![](./images/12-setup-abtnode.png)
