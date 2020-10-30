@@ -1,6 +1,6 @@
 ---
-title: 'ABT Node cli'
-description: 'ABT Node cli'
+title: 'ABT Node CLI'
+description: 'ABT Node CLI'
 keywords: 'abtnode'
 author: 'nate'
 category: 'abtnode'
@@ -9,7 +9,7 @@ tags:
   - 'abtnode'
 ---
 
-For the convenience of ABT Node users, we have customized a cli tool: `abtnode cli`. Let's see what it looks like:
+For the convenience of ABT Node users, we have customized a CLI tool: `abtnode cli`. Let's see what it looks like:
 
 ```bash
 ➜  ~ abtnode -h
