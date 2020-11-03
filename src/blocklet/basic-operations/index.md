@@ -13,7 +13,7 @@ After installing a blocklet from the blocklet marketplace, go to the `Blocklets`
 
 ## Blocklets page
 
-![](./images/basic-operations-1-en.png)
+![](./images/blocklets-overview.png)
 
 The `Blocklets` page contains a list of installed blocklets and the following properties of each installed blocklet:
 
