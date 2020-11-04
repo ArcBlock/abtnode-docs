@@ -173,3 +173,5 @@ Self-Upgrade ABT Node
 ### 11. help [command]
 
 display help for command
+
+![](./images/docs-help.png_)
