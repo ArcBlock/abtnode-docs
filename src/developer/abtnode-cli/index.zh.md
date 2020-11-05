@@ -174,4 +174,4 @@ ABT Node Logs
 
 查看帮助命令
 
-![](./images/docs-help.png_)
+![](./images/docs-help.png)
