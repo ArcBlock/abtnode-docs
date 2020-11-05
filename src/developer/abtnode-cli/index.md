@@ -174,4 +174,4 @@ Self-Upgrade ABT Node
 
 display help for command
 
-![](./images/docs-help.png_)
+![](./images/docs-help.png)
