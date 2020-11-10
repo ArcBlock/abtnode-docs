@@ -20,7 +20,6 @@ clean:
 
 deploy:
 	@echo "Building and publishing the documenation..."
-	@gem install travis
 	@.makefiles/trigger_registry_build.sh
 	@.makefiles/trigger_main_build.sh
 
@@ -36,9 +35,6 @@ redep:
 
 serve: build
 	@yarn serve
-
-travis: init
-	@echo "Prepare travis build env"
 
 include .makefiles/release.mk
 

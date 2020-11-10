@@ -3,6 +3,10 @@ set -e
 VERSION=$(cat version | awk '{$1=$1;print}')
 echo "publish version ${VERSION}"
 
+sudo make init
+
+make build
+
 git config --local user.name "wangshijun"
 git config --local user.email "wangshijun2010@gmail.com"
 
@@ -42,3 +46,5 @@ if [ "${AWS_ENDPOINT}" != "" ]; then
     curl -X POST -H 'Content-type: application/json' --data "{\"text\":\":x: Faild to deploy ${NAME} v${VERSION} to ${AWS_ENDPOINT}\"}" ${SLACK_WEBHOOK}
   fi
 fi
+
+make deploy

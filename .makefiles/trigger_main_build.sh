@@ -1,14 +1,12 @@
 #!/usr/bin/env bash
 
-# trigger main repo release if we merged to master
-if [ "$TRAVIS_PULL_REQUEST" = false ]; then
-  MAIN_REPO_SLUG="ArcBlock/www-docs"
-
-  travis login --pro --github-token=$GITHUB_TOKEN
-
-  BUILD_ID=`travis branches --pro --repo $MAIN_REPO_SLUG | grep master | awk '{print $2}' | awk -F# '{print $2}'`
-  echo "Last build for main repo is: $BUILD_ID"
-
-  travis cancel --pro --repo $MAIN_REPO_SLUG $BUILD_ID
-  travis restart --pro --repo $MAIN_REPO_SLUG $BUILD_ID
-fi
+REPO="ArcBlock/www-docs"
+WORKFLOW="main.yml"
+REF=master
+echo "trigger ArcBlock/www-docs repo release: repo: $REPO, workflow: $WORKFLOW, ref: $REF"
+curl \
+  -X POST \
+  -H "Accept: application/vnd.github.v3+json" \
+  -H "Authorization: token $GIT_HUB_TOKEN" \
+  https://api.github.com/repos/$REPO/actions/workflows/$WORKFLOW/dispatches \
+  -d "{\"ref\":\"${REF}\"}"
