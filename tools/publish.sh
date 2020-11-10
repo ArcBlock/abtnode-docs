@@ -5,8 +5,6 @@ echo "publish version ${VERSION}"
 
 yarn
 
-make build
-
 git config --local user.name "wangshijun"
 git config --local user.email "wangshijun2010@gmail.com"
 
