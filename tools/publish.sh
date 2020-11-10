@@ -3,7 +3,7 @@ set -e
 VERSION=$(cat version | awk '{$1=$1;print}')
 echo "publish version ${VERSION}"
 
-sudo make init
+yarn
 
 make build
 
