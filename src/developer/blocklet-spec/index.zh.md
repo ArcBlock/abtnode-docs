@@ -179,7 +179,7 @@ Blocklet 开发完成后需要将代码打包才能进行部署，ABT CLI 提供
 
 ## 如何发布 Blocklet？
 
-首先，将开发好的 Blocklet 发布到 NPM。`abtnode bundle` 命令会将打包好的代码放到当前目录的 `_blocklet` 目录中，在发布或者测试时，需要将 `_blocklet` 中代码打包发布。
+首先，将开发好的 Blocklet 发布到 NPM。`abtnode bundle` 命令会将打包好的代码放到当前目录的 `.blocklet` 目录中，在发布或者测试时，需要将 `.blocklet/bundle` 中代码打包发布。
 
 然后分叉 https://github.com/arcblock/blocklets 仓库，（如果没有 Github 账号的话，需要先注册 Github 账号）。修改项目的 registry.yml 文件，将自己的 Blocklet NPM 包地址放到 registry.yml 列表中。然后给 ArcBlock 的仓库： https://github.com/arcblock/blocklets 提一个 Pull Request。
 

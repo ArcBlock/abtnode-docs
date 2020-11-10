@@ -179,7 +179,7 @@ In the blocklet declaration cycle section, we mentioned the Deploy phase. This p
 
 ## How to release Blocklet?
 
-First, publish the developed Blocklet to NPM. The `abtnode bundle` command will put the packaged code in the `_blocklet` directory of the current directory. When publishing or testing, you need to package and release the code in `_blocklet`.
+First, publish the developed Blocklet to NPM. The `abtnode bundle` command will put the packaged code in the `.blocklet` directory of the current directory. When publishing or testing, you need to package and release the code in `.blocklet/bundle`.
 
 Then fork the https://github.com/arcblock/blocklets repository (create Github account first if you don't have one).
 Modify the project's registry.yml file and put your blocklet NPM package address in the registry.yml list. Then give a pull request to ArcBlock’s repository: https://github.com/arcblock/blocklets.
