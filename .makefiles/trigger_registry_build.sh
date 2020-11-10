@@ -2,10 +2,15 @@
 
 # trigger ArcBlock/blocklets repo release if we merged to master
 if [ "$TRAVIS_PULL_REQUEST" = false ]; then
-  travis login --pro --github-token=$GITHUB_TOKEN
-  REPO_SLUG="ArcBlock/blocklets"
-  BUILD_ID=`travis branches --pro --repo $REPO_SLUG | grep master | awk '{print $2}' | awk -F# '{print $2}'`
-  echo "Last build for $REPO_SLUG repo is: $BUILD_ID"
-  travis cancel --pro --repo $REPO_SLUG $BUILD_ID
-  travis restart --pro --repo $REPO_SLUG $BUILD_ID
+  GIT_HUB_TOKEN=$GITHUB_TOKEN
+  REPO="ArcBlock/blocklets"
+  WORKFLOW="main.yml"
+  REF=master
+  echo "start github actions trigger: repo: $REPO, workflow: $WORKFLOW, ref: $REF"
+  curl \
+    -X POST \
+    -H "Accept: application/vnd.github.v3+json" \
+    -H "Authorization: token $GIT_HUB_TOKEN" \
+    https://api.github.com/repos/$REPO/actions/workflows/$WORKFLOW/dispatches \
+    -d "{\"ref\":\"${REF}\"}"
 fi
