@@ -48,21 +48,5 @@
   },
   "devDependencies": {
     "gh-pages": "^2.1.1"
-  },
-  "blocklet": {
-    "title": "ABT Node Docs",
-    "main": "public",
-    "group": "static",
-    "color": "primary",
-    "provider": "arcblock",
-    "documentation": "https://docs.arcblock.io",
-    "support": "support@arcblock.io",
-    "community": "https://gitter.im/ArcBlock/community",
-    "capabilities": {
-      "dynamicPathPrefix": false
-    },
-    "config_url": "",
-    "public_url": "/en/abtnode",
-    "admin_url": ""
   }
 }
