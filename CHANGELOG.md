@@ -1,3 +1,9 @@
+## 0.1.0 (November 13, 2020)
+
+- chore: support bump blocklet version
+- chore: update build scripts
+- chore: migrate to blocklet.yml
+
 ## 0.0.36 (November 11, 2020)
 
 
