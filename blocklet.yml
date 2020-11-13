@@ -1,0 +1,29 @@
+name: '@arcblock/abtnode-docs'
+description: >-
+  ABT Node Documentation, a help documentation for quickly get started with ABT
+  Node.
+group: static
+version: 0.1.0
+main: public
+title: ABT Node Docs
+publicUrl: /en/abtnode
+adminUrl: ''
+configUrl: ''
+author: 'wangshijun <wangshijun2010@gmail.com> (http://github.com/wangshijun)'
+charging:
+  price: 0
+color: primary
+community: 'https://gitter.im/ArcBlock/community'
+documentation: 'https://docs.arcblock.io'
+homepage: 'https://github.com/ArcBlock/abtnode-docs-power-user#readme'
+keywords:
+  - Docs
+  - ABTNode
+repository:
+  type: git
+  url: 'git+https://github.com/ArcBlock/abtnode-docs.git'
+support: support@arcblock.io
+capabilities:
+  dynamicPathPrefix: false
+specVersion: 1.0.0
+did: z8ia5NLSuFwhPimBJHRdPmp6yx9fG8rcFex4b
