@@ -3,7 +3,7 @@ srcPath: src
 categories:
   abtnode:
     basePath: /abtnode
-    title: Abt Node
+    title: ABT Node
     link: /
     priority: 999
     sidebar:
