@@ -1,3 +1,7 @@
+## 0.1.1 (November 18, 2020)
+
+- update docs title in config.xml
+
 ## 0.1.0 (November 13, 2020)
 
 - chore: support bump blocklet version

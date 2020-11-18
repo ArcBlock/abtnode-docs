@@ -3,7 +3,7 @@ description: >-
   ABT Node Documentation, a help documentation for quickly get started with ABT
   Node.
 group: static
-version: 0.1.0
+version: 0.1.1
 main: public
 title: ABT Node Docs
 publicUrl: /en/abtnode
