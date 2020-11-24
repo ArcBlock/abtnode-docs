@@ -32,6 +32,14 @@ module.exports = {
         extraPlugins: [],
       },
     },
+    {
+      resolve: require.resolve('@arcblock/gatsby-i18n-redirect'),
+      options: {
+        languages: ['en', 'zh'],
+        cookieName: 'nf_lang',
+        pathPrefix: '/'
+      },
+    },
     // Speed up netlify build
     {
       resolve: 'gatsby-plugin-netlify-cache',

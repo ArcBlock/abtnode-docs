@@ -1,29 +1,41 @@
 name: '@arcblock/abtnode-docs'
+version: 0.1.1
 description: >-
   ABT Node Documentation, a help documentation for quickly get started with ABT
   Node.
-group: static
-version: 0.1.1
 main: public
-title: ABT Node Docs
-publicUrl: /en/abtnode
-adminUrl: ''
-configUrl: ''
-author: 'wangshijun <wangshijun2010@gmail.com> (http://github.com/wangshijun)'
-charging:
-  price: 0
-color: primary
-community: 'https://gitter.im/ArcBlock/community'
-documentation: 'https://docs.arcblock.io'
-homepage: 'https://github.com/ArcBlock/abtnode-docs-power-user#readme'
+files:
+  - public/
+  - screenshots/
+  - blocklet.md
 keywords:
   - Docs
   - ABTNode
 repository:
   type: git
   url: 'git+https://github.com/ArcBlock/abtnode-docs.git'
+author:
+  name: wangshijun
+  email: wangshijun2010@gmail.com
+  url: 'http://github.com/wangshijun'
+license: MIT
+homepage: 'https://github.com/ArcBlock/abtnode-docs-power-user#readme'
+group: static
+title: ABT Node Docs
+community: 'https://gitter.im/ArcBlock/community'
+documentation: 'https://docs.arcblock.io'
 support: support@arcblock.io
-capabilities:
-  dynamicPathPrefix: false
-specVersion: 1.0.0
+specVersion: 1.0.1
 did: z8ia5NLSuFwhPimBJHRdPmp6yx9fG8rcFex4b
+timeout:
+  start: 10
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: /
+    port: BLOCKLET_PORT
+    protocol: tcp
+environments: []
+screenshots: []
+scripts: {}
