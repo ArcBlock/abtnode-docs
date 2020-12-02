@@ -3,7 +3,7 @@ title: Blocklet - 基石程序
 description: 'Blocklet'
 keywords: 'abtnode,blocklet'
 author: zhenqiang
-category: abtnode
+category: ''
 layout: documentation
 tags:
   - abtnode

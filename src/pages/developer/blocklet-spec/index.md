@@ -3,7 +3,7 @@ title: Blocklet Specification
 description: 'Blocklet Specification'
 keywords: 'abtnode,blocklet,specification'
 author: 'zhenqiang, tigeryu8900'
-category: abtnode
+category: ''
 layout: documentation
 tags:
   - abtnode

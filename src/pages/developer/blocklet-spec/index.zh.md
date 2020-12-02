@@ -3,7 +3,7 @@ title: Blocklet 规范
 description: 'Blocklet 规范'
 keywords: 'abtnode,blocklet,specification'
 author: zhenqiang
-category: abtnode
+category: ''
 layout: documentation
 tags:
   - abtnode

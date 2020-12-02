@@ -3,7 +3,7 @@ title: 在生产环境中部署 ABT Node
 description: ''
 keywords: 'abtnode,deployment'
 author: wangshijun
-category: abtnode
+category: ''
 layout: documentation
 tags:
   - abtnode

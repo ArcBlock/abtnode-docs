@@ -3,7 +3,7 @@ title: Deploy ABT Node in production
 description: ''
 keywords: 'abtnode,deployment'
 author: wangshijun
-category: abtnode
+category: ''
 layout: documentation
 tags:
   - abtnode
