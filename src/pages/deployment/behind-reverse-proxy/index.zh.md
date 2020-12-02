@@ -3,7 +3,7 @@ title: 运行在反向代理
 description: 运行在反向代理
 keywords: 'abtnode,deployment,proxy'
 author: zhenqiang
-category: abtnode
+category: ''
 layout: documentation
 tags:
   - forge

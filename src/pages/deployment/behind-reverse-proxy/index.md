@@ -3,7 +3,7 @@ title: Bind domain with reverse proxy server
 description: Bind domain with reverse proxy server
 keywords: 'abtnode, deployment, proxy'
 author: 'zhenqiang, tigeryu8900'
-category: abtnode
+category: ''
 layout: documentation
 tags:
   - forge
