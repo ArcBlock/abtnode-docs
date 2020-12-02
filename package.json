@@ -1,6 +1,6 @@
 {
   "name": "@arcblock/abtnode-docs",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "ABT Node Documentation, a help documentation for quickly get started with ABT Node.",
   "main": "index.js",
   "publishConfig": {
