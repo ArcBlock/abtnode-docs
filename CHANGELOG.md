@@ -1,3 +1,7 @@
+## 0.1.7 (December 02, 2020)
+
+- fix edit-on-github
+
 ## 0.1.6 (December 02, 2020)
 
 - fix blocklet page 404

@@ -18,7 +18,7 @@ module.exports = {
         disableI18n: false,
         showGetStarted: true,
         defaultBanner: pathPrefix + 'og-banner.png',
-        sourceDirs: [path.resolve(__dirname, 'src', 'pages')],
+        sourceDirs: [path.resolve(__dirname, 'src')],
         siteMetadata: {
           title: 'ABT Node',
           description: 'ABT Node Documentation',
