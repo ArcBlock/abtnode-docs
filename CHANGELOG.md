@@ -1,3 +1,8 @@
+## 0.1.2 (December 02, 2020)
+
+- remove trigger main build
+- update node doc path
+
 ## 0.1.1 (November 18, 2020)
 
 - update docs title in config.xml
