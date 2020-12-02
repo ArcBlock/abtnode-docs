@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const path = require('path');
 const { version } = require('./package.json');
-const pathPrefix = "/abtnode/";
+const pathPrefix = '/abtnode/';
 
 module.exports = {
   pathPrefix,
@@ -16,7 +16,9 @@ module.exports = {
         version: `v${version}`,
         official: true,
         disableI18n: false,
-        sourceDirs: [path.resolve(__dirname, 'src')],
+        showGetStarted: true,
+        defaultBanner: pathPrefix + 'og-banner.png',
+        sourceDirs: [path.resolve(__dirname, 'src', 'pages')],
         siteMetadata: {
           title: 'ABT Node',
           description: 'ABT Node Documentation',
@@ -35,12 +37,12 @@ module.exports = {
       },
     },
     {
-      resolve: require.resolve("@arcblock/gatsby-i18n-redirect"),
+      resolve: require.resolve('@arcblock/gatsby-i18n-redirect'),
       options: {
-        languages: ["en", "zh"],
-        cookieName: "nf_lang",
+        languages: ['en', 'zh'],
+        cookieName: 'nf_lang',
         pathPrefix,
-        pathSuffix: "/",
+        pathSuffix: '/',
       },
     },
     // Speed up netlify build

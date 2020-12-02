@@ -1,3 +1,7 @@
+## 0.1.3 (December 02, 2020)
+
+- add-html-js
+
 ## 0.1.2 (December 02, 2020)
 
 - remove trigger main build
