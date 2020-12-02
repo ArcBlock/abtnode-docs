@@ -13,10 +13,9 @@ npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
 sudo npm install -g @abtnode/cli
 
 echo "publishing abtnode docs blocklet..."
-rm -rf public && rm -rf .cache
-yarn build
-rm -f www/*.map
-NODE_ENV=production abtnode bundle && npm publish .blocklet/bundle --access=public
+npm run bundle
+
+npm publish .blocklet/bundle --access=public
 
 node tools/post-publish.js
 
