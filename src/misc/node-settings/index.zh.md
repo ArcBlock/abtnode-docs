@@ -3,7 +3,7 @@ title: '节点配置'
 description: '节点配置'
 keywords: 'abtnode, blocklet'
 author: 'wangshijun'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

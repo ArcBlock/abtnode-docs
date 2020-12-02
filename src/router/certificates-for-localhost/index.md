@@ -3,7 +3,7 @@ title: 'Certificates for localhost'
 description: 'Certificates for localhost'
 keywords: 'abtnode, router, certificates'
 author: 'zhenqiang'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'
@@ -54,7 +54,7 @@ Then enter `https://localhost` in the browser:
 
 ![test failed](./images/test-failed.png)
 
-In the image, we can see that there is a problem with the certificate (In Safari users you will see 'Safari Can't Open the Page'), because the certificate is not yet trusted by the system at this time.  So, then ext step is to tell the system to trust the certificate. 
+In the image, we can see that there is a problem with the certificate (In Safari users you will see 'Safari Can't Open the Page'), because the certificate is not yet trusted by the system at this time.  So, then ext step is to tell the system to trust the certificate.
 
 ## Trust Certificate (Mac OS)
 
@@ -82,7 +82,7 @@ Now revisit `https://localhost` in the browser. We can now see that the test web
 
 Complete the settings.
 
-## SSL Certificates 
+## SSL Certificates
 
 You can add SSL Certificate files to your ABT Node using your SSL Certificate File and Private Key Files to secure services on your node. Today, ABT Node supports single domain SSLs and Wilcard SSLs to protect a domain (arcblock.io) and all its related subdomains (test.arcblock.io, shop.arcblock.io, etc). ABT Node does not support partial or multi-domain wildcard SSLs at this time. Please confirm with your SSL provider on the best SSL type for your project and not all types of certificates are supported. Developers can also leverage Letsencrypt self-signed [Certificates for localhost](./certificates-for-localhost).
 

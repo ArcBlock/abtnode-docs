@@ -3,7 +3,7 @@ title: 'Service Gateway'
 description: 'ABT Node Service Gateway'
 keywords: 'abtnode, networking, service gateway, url, blocklet'
 author: 'nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

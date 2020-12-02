@@ -3,7 +3,7 @@ title: 'Introduction to ABT Node'
 description: 'Introduction to ABT Node'
 keywords: 'abtnode, blocklet'
 author: 'nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

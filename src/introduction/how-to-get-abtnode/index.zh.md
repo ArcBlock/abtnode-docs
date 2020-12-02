@@ -3,7 +3,7 @@ title: '如何获取 ABT 节点'
 description: '如何获取 ABT 节点?'
 keywords: 'abtnode, blocklet'
 author: 'tigeryu8900, nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

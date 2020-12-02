@@ -3,7 +3,7 @@ title: 'ABT 节点 cli 工具'
 description: 'ABT 节点 cli 工具'
 keywords: 'abtnode'
 author: 'nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

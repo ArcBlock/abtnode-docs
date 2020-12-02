@@ -3,7 +3,7 @@ title: 'GraphQL Console'
 description: 'GraphQL Console'
 keywords: 'abtnode, blocklet'
 author: 'wangshijun'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

@@ -3,7 +3,7 @@ title: '配置并启动 ABT 节点'
 description: '配置并启动 ABT 节点'
 keywords: 'abtnode, blocklet'
 author: 'tigeryu8900, nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

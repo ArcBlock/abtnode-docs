@@ -3,7 +3,7 @@ title: '节点入门'
 description: '节点入门'
 keywords: 'abtnode, blocklet'
 author: 'nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

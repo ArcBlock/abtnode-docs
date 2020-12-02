@@ -3,7 +3,7 @@ title: 'ABT Node CLI'
 description: 'ABT Node CLI'
 keywords: 'abtnode'
 author: 'nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

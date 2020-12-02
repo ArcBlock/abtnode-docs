@@ -3,7 +3,7 @@ title: '核心 Blocklets'
 description: '核心 Blocklets'
 keywords: 'abtnode, blocklet'
 author: 'nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

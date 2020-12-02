@@ -3,7 +3,7 @@ title: '升级或降级 Blocklet'
 description: '升级或降级 Blocklet'
 keywords: 'abtnode, blocklet'
 author: 'wangshijun'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

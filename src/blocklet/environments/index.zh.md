@@ -3,7 +3,7 @@ title: '环境变量管理'
 description: '环境变量管理'
 keywords: 'abtnode, blocklet'
 author: 'nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

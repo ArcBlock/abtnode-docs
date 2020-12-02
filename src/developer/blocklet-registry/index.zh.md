@@ -3,7 +3,7 @@ title: 'Blocklet 仓库'
 description: 'Blocklet 仓库'
 keywords: 'abtnode, blocklet'
 author: 'wangshijun'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

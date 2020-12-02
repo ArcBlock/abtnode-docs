@@ -3,7 +3,7 @@ title: '发布 Blocklet'
 description: '发布 Blocklet'
 keywords: 'abtnode, blocklet'
 author: 'wangshijun, nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

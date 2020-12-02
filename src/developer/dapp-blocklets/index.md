@@ -3,7 +3,7 @@ title: 'Create DApp Blocklets'
 description: 'Create DApp Blocklets'
 keywords: 'abtnode, blocklet'
 author: 'tigeryu8900'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

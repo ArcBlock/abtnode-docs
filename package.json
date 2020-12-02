@@ -19,9 +19,13 @@
     "ABTNode"
   ],
   "scripts": {
-    "start": "gatsby develop",
+    "clean": "rm -rf public .cache .blocklet",
+    "start": "gatsby develop --host 0.0.0.0",
     "build": "NODE_ENV=production GATSBY_APP_DOMAIN=docs.arcblock.io gatsby build",
-    "deploy": "gh-pages -d public",
+    "build:gatsby": "gatsby build --prefix-paths && rm public/*.map",
+    "build:dir": "mv public public_tmp && mkdir public && mv public_tmp public/abtnode",
+    "bundle": "npm run clean && npm run build:gatsby && npm run build:dir && abtnode bundle --create-release",
+    "deploy": "npm run bundle && abtnode deploy .blocklet/bundle --skip-hooks",
     "serve": "gatsby serve"
   },
   "repository": {
@@ -35,7 +39,8 @@
   },
   "homepage": "https://github.com/ArcBlock/abtnode-docs-power-user#readme",
   "dependencies": {
-    "@arcblock/gatsby-theme-docs": "^7.28.3",
+    "@arcblock/gatsby-i18n-redirect": "^7.31.1",
+    "@arcblock/gatsby-theme-docs": "^7.33.0",
     "axios": "^0.20.0",
     "fs-extra": "^8.1.0",
     "gatsby": "2.24.8",

@@ -3,7 +3,7 @@ title: '查找和安装 Blocklet'
 description: '查找和安装 Blocklet'
 keywords: 'abtnode, blocklet'
 author: 'tigeryu8900, nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

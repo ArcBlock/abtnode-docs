@@ -2,8 +2,10 @@ require('dotenv').config();
 
 const path = require('path');
 const { version } = require('./package.json');
+const pathPrefix = "/abtnode/";
 
 module.exports = {
+  pathPrefix,
   plugins: [
     {
       resolve: require.resolve('@arcblock/www'),
@@ -30,6 +32,15 @@ module.exports = {
         },
         navItems: [],
         extraPlugins: [],
+      },
+    },
+    {
+      resolve: require.resolve("@arcblock/gatsby-i18n-redirect"),
+      options: {
+        languages: ["en", "zh"],
+        cookieName: "nf_lang",
+        pathPrefix,
+        pathSuffix: "/",
       },
     },
     // Speed up netlify build

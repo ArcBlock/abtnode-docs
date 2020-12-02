@@ -3,7 +3,7 @@ title: 'GraphQL 试验台'
 description: 'GraphQL 试验台'
 keywords: 'abtnode, blocklet'
 author: 'nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

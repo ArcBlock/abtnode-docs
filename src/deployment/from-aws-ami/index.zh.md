@@ -3,7 +3,7 @@ title: '在 AWS 上部署'
 description: '在 AWS 上部署'
 keywords: 'abtnode, blocklet'
 author: 'wangshijun, nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

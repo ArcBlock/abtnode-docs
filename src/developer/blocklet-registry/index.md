@@ -3,7 +3,7 @@ title: 'Blocklet Registry'
 description: 'Blocklet Registry'
 keywords: 'abtnode, blocklet'
 author: 'wangshijun'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

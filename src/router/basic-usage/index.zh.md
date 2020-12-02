@@ -3,7 +3,7 @@ title: '路由器的基本用法'
 description: '路由器的基本用法'
 keywords: 'abtnode, blocklet'
 author: 'nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

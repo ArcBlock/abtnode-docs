@@ -3,7 +3,7 @@ title: '什么是路由'
 description: '什么是路由'
 keywords: 'abtnode, blocklet'
 author: 'nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

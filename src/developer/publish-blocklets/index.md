@@ -3,7 +3,7 @@ title: 'Publish Blocklets'
 description: 'Publish Blocklets'
 keywords: 'abtnode, blocklet'
 author: 'wangshijun'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'
