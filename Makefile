@@ -21,7 +21,6 @@ clean:
 deploy:
 	@echo "Building and publishing the documenation..."
 	@.makefiles/trigger_registry_build.sh
-	@.makefiles/trigger_main_build.sh
 
 run:
 	@yarn start

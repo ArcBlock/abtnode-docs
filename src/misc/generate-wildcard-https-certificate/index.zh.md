@@ -3,7 +3,7 @@ title: '生成通配符 HTTPS 证书'
 description: '生成通配符 HTTPS 证书'
 keywords: 'https'
 author: 'zhenqiang'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

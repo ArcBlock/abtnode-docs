@@ -3,7 +3,7 @@ title: 'What is Service Gateway?'
 description: 'Routing, URL Mapping, SSL and Load Balancing for ABT Node?'
 keywords: 'abtnode, blocklet'
 author: 'tigeryu8900'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'
@@ -27,17 +27,17 @@ You can add new site and rules for specific IP addresses or domains that you own
 
 #### System URLs
 
-Each time you install a Blocklet from the marketplace, ABT Node will automatically generate a new subdireory that includes a system URL to ensure the node and the blocklet can communicate. System URLs also give you useful information about each blocklet including any available interfaces, the subdirectory, the current status of the blocklet and a link manage the blocklet. 
+Each time you install a Blocklet from the marketplace, ABT Node will automatically generate a new subdireory that includes a system URL to ensure the node and the blocklet can communicate. System URLs also give you useful information about each blocklet including any available interfaces, the subdirectory, the current status of the blocklet and a link manage the blocklet.
 
 ![](./images/system-url.png)
 
-## SSL Certificates 
+## SSL Certificates
 
 Add SSL Certificate files to your ABT Node using your SSL Certificate File and Private Key Files to secure services on your node. Today, ABT Node supports single domain SSLs and Wilcard SSLs to protect a domain (arcblock.io) and all its related subdomains (test.arcblock.io, shop.arcblock.io, etc). ABT Node does not support partial or multi-wild card SSLs. Please confirm with your SSL provider on the best SSL type for your project. Developers can also leverage Letsencrypt self-signed [Certificates for localhost](./certificates-for-localhost).
 
 ![](./images/ssl-certificate.png)
 
-## Load Balancing 
+## Load Balancing
 
 ABT Node includes NGINX by default to give you a high performance routing layer that includes support for path prefixes and domains. _ABT Node will support additional application load balancers and elastic load balancers soon._
 

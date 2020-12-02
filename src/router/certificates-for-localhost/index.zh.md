@@ -3,7 +3,7 @@ title: 'localhost 证书'
 description: 'localhost 证书'
 keywords: 'abtnode, 路由, 证书'
 author: 'zhenqiang'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

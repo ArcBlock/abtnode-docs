@@ -3,7 +3,7 @@ title: 'Bundle Blocklets'
 description: 'Bundle Blocklets'
 keywords: 'abtnode, blocklet'
 author: 'wangshijun'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

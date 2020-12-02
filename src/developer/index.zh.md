@@ -3,7 +3,7 @@ title: '开发者指南'
 description: '开发者指南'
 keywords: 'abtnode, blocklet'
 author: 'wangshijun'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

@@ -3,7 +3,7 @@ title: 'How to get ABT Node'
 description: 'How to get ABT Node?'
 keywords: 'abtnode, blocklet'
 author: 'tigeryu8900'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

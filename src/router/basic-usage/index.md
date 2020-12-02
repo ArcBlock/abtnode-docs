@@ -3,7 +3,7 @@ title: 'Service Gateway Usage'
 description: 'How to setup Service Gateway'
 keywords: 'abtnode, blocklet'
 author: 'tigeryu8900'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'
@@ -21,11 +21,11 @@ The Service Gateway's default provider for the routing layer and load balancing 
 
 ![router-basic-use-2](./images/router-basic-use-2-en.png)
 
-By default, ABT Node will automatically add a default site for your ABT Node. 
+By default, ABT Node will automatically add a default site for your ABT Node.
 
 You can also add a domain or specific IP address by:
 
-1. Clicking on `Add Site` 
+1. Clicking on `Add Site`
 2. Adding your domain or IP address
 3. Assign the domain or IP address to a Blocklet or setup your redirect
 4. Save and click on **Save and Apply**
@@ -38,7 +38,7 @@ By default, the root directory of a site will be forwarded to the selected ABT N
 
 #### Automatic Port Configurations
 
-ABT Node will automatically assign the correct port number for any service. You can verify a Blocklet port number by visiting the Blocklet overview page -> select **Configuration** -> and review the **values**. 
+ABT Node will automatically assign the correct port number for any service. You can verify a Blocklet port number by visiting the Blocklet overview page -> select **Configuration** -> and review the **values**.
 
 #### System URLs
 

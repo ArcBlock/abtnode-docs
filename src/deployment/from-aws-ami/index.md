@@ -3,7 +3,7 @@ title: 'Deploy ABT Node Using AWS AMI'
 description: 'Deploy ABT Node with AWS AMI'
 keywords: 'abtnode, blocklet'
 author: 'tigeryu8900'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'
@@ -25,13 +25,13 @@ Select "My AMIs" on the left, then search by keyword "abtnode," you should see s
 
 ## 4. Select Instance Type
 
-We recommend that your node size is at least a **t4.small** instance. _Note, free tier instances work for small, non-production workloads but the number of blocklets you can install will be limited. 
+We recommend that your node size is at least a **t4.small** instance. _Note, free tier instances work for small, non-production workloads but the number of blocklets you can install will be limited.
 
 ![](./images/3-instance-type.png)
 
 ## 5. Config Instance
 
-You can use the default settings, or customize your instance to match your requirements. Note, please remember to enable public IP for the instance.  
+You can use the default settings, or customize your instance to match your requirements. Note, please remember to enable public IP for the instance.
 
 ![](./images/5-configure.png)
 
@@ -64,7 +64,7 @@ By default, ABT Node AMI requires the following ports to open:
 - 443: for https access
 - 80: for http access
 
-We do not recommend enabling port 22 for SSH unless required by your organization. 
+We do not recommend enabling port 22 for SSH unless required by your organization.
 
 ## 9. Select KeyPair and Launch
 
@@ -87,6 +87,6 @@ https://abtwallet.io) installed.
 
 ## 11. Install blocklets and enjoy!
 
-After logging int to your ABT Node, we recommend getting started with some Blocklets. You can easily deploy a new blockchain with our **Blockchain Manager** Blocklet, or launch your very own **Decentralized Identity** service with DID:CONNECT.  We can't wait to see what you build. 
+After logging int to your ABT Node, we recommend getting started with some Blocklets. You can easily deploy a new blockchain with our **Blockchain Manager** Blocklet, or launch your very own **Decentralized Identity** service with DID:CONNECT.  We can't wait to see what you build.
 
 Enjoy!

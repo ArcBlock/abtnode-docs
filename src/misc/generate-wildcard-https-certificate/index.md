@@ -3,7 +3,7 @@ title: 'Generate wildcard HTTPS certificate'
 description: 'Generate wildcard HTTPS certificate'
 keywords: 'https'
 author: 'zhenqiang'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

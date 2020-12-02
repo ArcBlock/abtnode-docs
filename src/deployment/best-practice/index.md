@@ -3,7 +3,7 @@ title: 'Production Best Practice'
 description: 'Production Best Practice'
 keywords: 'abtnode, blocklet'
 author: 'wangshijun'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

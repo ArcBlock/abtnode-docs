@@ -3,7 +3,7 @@ title: '节点功能概览'
 description: '节点功能概览'
 keywords: 'abtnode, blocklet'
 author: 'nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

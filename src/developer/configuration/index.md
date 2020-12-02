@@ -3,7 +3,7 @@ title: 'Node Configuration'
 description: 'Node Configuration'
 keywords: 'abtnode, blocklet'
 author: 'wangshijun'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

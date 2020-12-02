@@ -2,7 +2,7 @@ gitRepo: ArcBlock/abtnode-docs
 srcPath: src
 categories:
   abtnode:
-    basePath: /abtnode
+    basePath: /
     title: ABT Node
     link: /
     priority: 999

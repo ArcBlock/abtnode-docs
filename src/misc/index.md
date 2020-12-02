@@ -3,7 +3,7 @@ title: 'Misc'
 description: 'Misc'
 keywords: 'abtnode, blocklet'
 author: 'nate'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

@@ -3,7 +3,7 @@ title: 'Member Management'
 description: 'Member Management'
 keywords: 'abtnode, blocklet'
 author: 'wangshijun'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'

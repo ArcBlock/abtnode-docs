@@ -3,7 +3,7 @@ title: 'Blocklet Environments'
 description: 'Blocklet Environments'
 keywords: 'abtnode, blocklet'
 author: 'tigeryu8900'
-category: 'abtnode'
+category: ''
 layout: 'documentation'
 tags:
   - 'abtnode'
