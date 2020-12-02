@@ -1,3 +1,7 @@
+## 0.1.4 (December 02, 2020)
+
+- fix page can not load
+
 ## 0.1.3 (December 02, 2020)
 
 - add-html-js
