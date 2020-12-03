@@ -1,3 +1,7 @@
+## 0.1.8 (December 03, 2020)
+
+- update gatsby extension lib
+
 ## 0.1.7 (December 02, 2020)
 
 - fix edit-on-github
