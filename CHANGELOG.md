@@ -1,3 +1,7 @@
+## 0.1.9 (December 07, 2020)
+
+- add configuring the development environment chapter
+
 ## 0.1.8 (December 03, 2020)
 
 - update gatsby extension lib

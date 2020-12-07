@@ -60,6 +60,7 @@ categories:
       Developer Guide:
         url: /developer
         links:
+          - /developer/config-dev-env
           - /developer/abtnode-cli
           - /developer/configuration
           - /developer/storage-structure
