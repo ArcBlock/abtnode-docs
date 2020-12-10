@@ -1,3 +1,7 @@
+## 0.2.0 (December 10, 2020)
+
+- fix typeo
+
 ## 0.1.9 (December 07, 2020)
 
 - add configuring the development environment chapter

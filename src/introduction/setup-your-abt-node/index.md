@@ -20,11 +20,11 @@ if port forwarding is enabled) or attach an external wireless card to the VM._
 abtnode init
 ```
 
-2. Once initialized, the system will confirm the directory where you want to initilize your ABT Node instance.
+2. Once initialized, the system will confirm the directory where you want to initialize your ABT Node instance.
 
 3. After confirming, the system will automatically generate your ABT Node configuration.
 
-4. With your configuration genreated, you need to start your ABT Node in order to use it. Run this command:
+4. With your configuration generated, you need to start your ABT Node in order to use it. Run this command:
 
 ```bash
 abtnode start
@@ -39,11 +39,11 @@ abtnode start
 
 5. Then, open the generated link in your browser. The first screen confirms acceptance of ArcBlock's End-User Agreement.
 
-![](./images/setup-abt-node.png)
+![setup-abt-node](./images/setup-abt-node.png)
 
 6. After accepting the License Agreement, you will scan the generated QRCode using your ArcBlock ABT Wallet. During this process, you will secure your ABT Node and connect this ABT Node to your wallet.
 
-![](./images/scan-abt-node.png)
+![scan-abt-node](./images/scan-abt-node.png)
 
 7. Now, go to the dashboard.
 
