@@ -1,3 +1,7 @@
+## 0.2.1 (December 16, 2020)
+
+- docs: developing blocklets with codespaces
+
 ## 0.2.0 (December 10, 2020)
 
 - fix typeo
