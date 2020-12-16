@@ -71,5 +71,6 @@ categories:
           - /developer/bundle-blocklets
           - /developer/publish-blocklets
           - /developer/blocklet-registry
+          - /developer/blocklet-codespaces
         locales:
           zh: 开发者指南
