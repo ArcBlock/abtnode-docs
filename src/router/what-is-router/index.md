@@ -27,7 +27,7 @@ You can add new site and rules for specific IP addresses or domains that you own
 
 #### System URLs
 
-Each time you install a Blocklet from the marketplace, ABT Node will automatically generate a new subdireory that includes a system URL to ensure the node and the blocklet can communicate. System URLs also give you useful information about each blocklet including any available interfaces, the subdirectory, the current status of the blocklet and a link manage the blocklet.
+Each time you install a Blocklet from the marketplace, ABT Node will automatically generate a new subdirectory that includes a system URL to ensure the node and the blocklet can communicate. System URLs also give you useful information about each blocklet including any available interfaces, the subdirectory, the current status of the blocklet and a link manage the blocklet.
 
 ![](./images/system-url.png)
 
