@@ -1,3 +1,9 @@
+## 0.2.2 (January 08, 2021)
+
+- replace abtnode command with blocklet command
+- Merge pull request #78 from ezioruan/patch-2
+- fix typo
+
 ## 0.2.1 (December 16, 2020)
 
 - docs: developing blocklets with codespaces
