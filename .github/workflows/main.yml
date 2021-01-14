@@ -33,5 +33,6 @@ jobs:
         GATSBY_ALGOLIA_ADMIN_KEY: ${{ secrets.GATSBY_ALGOLIA_ADMIN_KEY }}
         GATSBY_ALGOLIA_SEARCH_KEY: ${{ secrets.GATSBY_ALGOLIA_SEARCH_KEY }}
         GATSBY_ALGOLIA_INDEX_NAME: ${{ secrets.GATSBY_ALGOLIA_INDEX_NAME }}
-
+        BLOCKLET_REGISTRY: ${{ secrets.BLOCKLET_REGISTRY }}
+        ABTNODE_DEV_SK: ${{ secrets.ABTNODE_DEV_SK }}
       run: bash ./tools/publish.sh
