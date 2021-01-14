@@ -1,3 +1,7 @@
+## 0.2.3 (January 14, 2021)
+
+- feat: support publish to blocklet registry
+
 ## 0.2.2 (January 08, 2021)
 
 - replace abtnode command with blocklet command
