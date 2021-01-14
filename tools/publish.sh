@@ -17,6 +17,10 @@ npm run bundle
 
 npm publish .blocklet/bundle --access=public
 
+echo "publishing to blocklet registry"
+blocklet config registry ${BLOCKLET_REGISTRY}
+blocklet publish --developer-sk ${ABTNODE_DEV_SK}
+
 node tools/post-publish.js
 
 # deploy to remote ABT Node
@@ -44,4 +48,4 @@ if [ "${AWS_NODE_ENDPOINT}" != "" ]; then
   fi
 fi
 
-make deploy
+curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"${NAME} v${VERSION} was successfully published\"}" ${SLACK_WEBHOOK}
