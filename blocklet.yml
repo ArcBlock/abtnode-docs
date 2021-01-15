@@ -1,5 +1,5 @@
 name: '@arcblock/abtnode-docs'
-version: 0.2.3
+version: 0.2.4
 description: >-
   ABT Node Documentation, a help documentation for quickly get started with ABT
   Node.
@@ -40,3 +40,7 @@ environments: []
 screenshots:
   - 0-home.png
 scripts: {}
+requirements:
+  abtnode: '>=1.1.0'
+  os: '*'
+  cpu: '*'

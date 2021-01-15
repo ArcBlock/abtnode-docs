@@ -1,3 +1,7 @@
+## 0.2.4 (January 15, 2021)
+
+
+
 ## 0.2.3 (January 14, 2021)
 
 - feat: support publish to blocklet registry
