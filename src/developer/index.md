@@ -23,3 +23,4 @@ If you are a developer and want to do something with ABT Node ,this chapter is f
 - [Publish Blocklets](./publish-blocklets)
 - [Blocklet Registry](./blocklet-registry)
 - [Developing Blocklets with Codespaces](./blocklet-codespaces)
+- [Configure Auth Service for Blocklet](./auth-service)

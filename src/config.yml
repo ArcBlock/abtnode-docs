@@ -72,5 +72,6 @@ categories:
           - /developer/publish-blocklets
           - /developer/blocklet-registry
           - /developer/blocklet-codespaces
+          - /developer/auth-service
         locales:
           zh: 开发者指南
