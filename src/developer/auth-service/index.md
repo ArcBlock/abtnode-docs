@@ -21,9 +21,65 @@ Auth Service includes the following main capabilities:
 - Set accessible after authorization
 - Set invitation login or open login
 
+## Getting Started
+[static-demo-blocklet](https://github.com/blocklet/html-2048-sample) is an html5 game that can be run on ABT Node. The following will introduce how to make a static-demo-blocklet with Auth capability (login protection)
+
+0. Prerequisites: Install and run ABT Node v1.2.0 or higher locally
+
+1. Download the project source code [html-2048-sample](https://github.com/blocklet/html-2048-sample)
+
+2. Open `blocklet.yml` in the project root directory, find the interface whose name is publicUrl, and add the Auth Service configuration
+
+``` yml
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: tcp
++   services:
++     - name: '@abtnode/auth-service'
+```
+
+3. Execute `blocklet bundle` in the project root directory. After successful execution, you will see the successfully created blocklet bundle in `.blocklet/bundle`.
+
+```
+linchen@LinkdeMacBook-Pro html-2048-sample % blocklet bundle
+
+ℹ Bundling in zip mode for blocklet static-demo-blocklet...
+
+✔ Creating blocklet bundle in .blocklet/bundle... Done in 0.018s
+✔ Blocklet static-demo-blocklet@1.1.7 is successfully bundled!
+```
+
+4. Execute `blocklet deploy .blocklet/bundle` in the project root directory to publish the blocklet bundle to the locally running ABT Node.
+
+```
+linchen@LinkdeMacBook-Pro html-2048-sample % blocklet deploy .blocklet/bundle
+ℹ Try to deploy blocklet from /Users/linchen/code/blocklet/html-2048-sample/.blocklet/bundle to Local ABT Node
+ℹ Node did from config zNKqGAvUzcCowxtNA5r5gKQYUm2hR4X2SE2o
+ℹ Load config from /Users/linchen/code/arcblock/andata/.abtnode/abtnode.yml
+✔ Blocklet static-demo-blocklet@1.1.7 was successfully deployed!
+```
+
+5. Start Static Demo in ABT Node dashboard
+
+![](./images/static-demo-1.png)
+
+6. When you visit Static Demo, you will see the login page, which means that Static Demo already has the Auth capability.
+
+![](./images/static-demo-2.png)
+
+7. After the login is successful, you will successfully see the game page. At this point, you will see the information of the logged-in user in the ABT Node dashboard.
+
+![](./images/static-demo-3.png)
+
+Congratulations!
+
 ## Demo
 
-[https://github.com/blocklet/auth-demo](https://github.com/blocklet/auth-demo)
+[https://github.com/blocklet/auth-demo](https://github.com/blocklet/auth-demo): Implement login, logout, display user information, authentication and authorization functions based on Auth Service
 
 ## Enable Auth Service
 Enable Auth Service by configuring in `blocklet.yml`, under the interface that needs to start Auth Service
@@ -88,7 +144,7 @@ interfaces:
     services:
       - name: '@abtnode/auth-service'
         config:
-          blockUnauthenticated: no
+          blockUnauthenticated: false
 ```
 
 ## Set accessible after authorization
@@ -105,12 +161,12 @@ interfaces:
     services:
       - name: '@abtnode/auth-service'
         config:
-          blockUnauthorized: yes
+          blockUnauthorized: true
 ```
 
 After setting the Auth Service automatic interception, you need to bind the corresponding interface permissions for the user in the ABT Node dashboard.（The permission control of ABT Node is based on [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control)）
 
-![](./permissions.png)
+![](./images/permissions.png)
 
 
 ## Set invitation login or open login
@@ -124,7 +180,7 @@ interfaces:
     services:
       - name: '@abtnode/auth-service'
         config:
-          blockUnauthorized: yes
+          invitedUserOnly: yes
 ```
 
 - invitedUserOnly
