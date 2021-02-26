@@ -73,5 +73,6 @@ categories:
           - /developer/blocklet-registry
           - /developer/blocklet-codespaces
           - /developer/auth-service
+          - /developer/docker-registry
         locales:
           zh: 开发者指南
