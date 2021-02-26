@@ -1,3 +1,7 @@
+## 0.2.9 (February 26, 2021)
+
+- add docker registry list
+
 ## 0.2.8 (February 10, 2021)
 
 
