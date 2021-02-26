@@ -47,6 +47,7 @@ categories:
           - /deployment/best-practice
           - /deployment/from-aws-ami
           - /deployment/behind-reverse-proxy
+          - /deployment/run-in-docker
         locales:
           zh: "生产环境指南"
       Misc:
