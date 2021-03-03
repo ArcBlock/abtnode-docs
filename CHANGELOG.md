@@ -1,3 +1,7 @@
+## 0.2.11 (March 03, 2021)
+
+- add search
+
 ## 0.2.10 (February 26, 2021)
 
 - add docker docs
