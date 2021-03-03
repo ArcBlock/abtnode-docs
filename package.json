@@ -40,7 +40,7 @@
   "homepage": "https://github.com/ArcBlock/abtnode-docs-power-user#readme",
   "dependencies": {
     "@arcblock/gatsby-i18n-redirect": "^7.33.1",
-    "@arcblock/gatsby-theme-docs": "^7.33.2",
+    "@arcblock/gatsby-theme-docs": "^7.33.9",
     "axios": "^0.21.1",
     "fs-extra": "^8.1.0",
     "gatsby": "2.24.8",
