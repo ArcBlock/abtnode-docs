@@ -1,3 +1,7 @@
+## 0.2.13 (April 07, 2021)
+
+- fix gatsby build fail
+
 ## 0.2.12 (April 07, 2021)
 
 - update gatsby extension lib
