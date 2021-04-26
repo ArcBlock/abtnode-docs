@@ -13,8 +13,8 @@ categories:
         url: /introduction
         links:
           - /introduction/abtnode-overview
-          - /introduction/how-to-get-abtnode
-          - /introduction/setup-your-abt-node
+          - /introduction/abtnode-setup
+          - /introduction/abtnode-access
         locales:
           zh: 节点入门
       Marketplace:

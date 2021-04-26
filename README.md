@@ -28,10 +28,9 @@ make run
 ## Table of Contents
 
 - [Introduction](./src/introduction)
-  - [What is ABT Node?](./src/introduction/what-is-abt-node)
-  - [How to get ABT Node?](./src/introduction/how-to-get-abtnode)
-  - [Get your ABT Node Up and Running](./src/introduction/setup-your-abt-node)
   - [ABT Node Overview](./src/introduction/abtnode-overview)
+  - [ABT Node Setup](./src/introduction/abtnode-setup)
+  - [ABT Node Access](./src/introduction/abtnode-access)
 - [Blocklet Marketplace](./src/marketplace)
   - [Find and install blocklet](./src/marketplace/find-and-install)
   - [Upgrade/downgrade blocklet](./src/marketplace/upgrade-downgrade)

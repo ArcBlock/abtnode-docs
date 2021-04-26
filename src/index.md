@@ -14,8 +14,8 @@ Welcome to ABT Node documentation
 
 - [Introduction](./introduction)
   - [ABT Node Overview](./introduction/abtnode-overview)
-  - [How to get ABT Node](./introduction/how-to-get-abtnode)
-  - [Get your ABT Node Up and Running](./introduction/setup-your-abt-node)
+  - [ABT Node Setup](./introduction/abtnode-setup)
+  - [ABT Node Access](./introduction/abtnode-access)
 - [Blocklet Marketplace](./marketplace)
   - [Find and install blocklet](./marketplace/find-and-install)
   - [Upgrade/downgrade blocklet](./marketplace/upgrade-downgrade)

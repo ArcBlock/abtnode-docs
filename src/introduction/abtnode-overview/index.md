@@ -9,42 +9,55 @@ tags:
   - 'abtnode'
 ---
 
-ABT Node is a distributed computing operaing system built for the decentralized web and is the foundation of the ArcBlock platform.  ABT Node is the first platform to fully integrate decentralized identity, blockchain framework and reusable software components known as Blocklets to make it easy to add new capabilities for any project. Users can one-click install apps, blockchains, developer tools, and more to enable them to deploy blockchain nodes, smart contracts, application logic, and more with zero hassle.
+An ArcBlock instance is composed of one or more ABT Nodes. Each ABT Node offers the ability to create decentralized applications (DApps). The ABT Nodes offer a fully integrated blockchain framework with decentralized identity while having a  small footprint. It can be deployed on diverse platforms like a public or private clouds, bare metal machines, or developer desktops. ABT  Nodes offers intuitive  UI to build blockchain nodes, smart contracts, application logic, and more with zero hassle. Users with ABT Wallet can access the DApps deployed on the ABT Nodes.
 
-## Dashboard
+![](./images/abtnode-arch-overview-en.png)
 
-In the dashboard view, you are presented with a "single pane of glass" view that shows you key details including an overview, storage, your node and owner decentralized identity (DID) addresses and environment variables. Every node also includes a left side action bar where that let you interact and control different aspects of your ABT Node. Let's take a look:
+In the following actions, we will go over all the capabilities offered by the ABT Node in detail.
 
-![](./images/abtnode-overview-1-en.png)
+## ABT Dashboard
 
-Dashboard of ABT node state properties.
+The dashboard offers a unified view of the underlying infrastructure available with the ABT Node. It lists down different tenets of ABT Node, not limited to the following :
+- Storage
+- CPU
+- Memory
+- Disk
+- UpTime
+- Environment
+
+![](./images/abtnode-dashboard-en.png)
 
 ## Marketplace
 
-![](./images/abtnode-overview-2-en.png)
+Blocklets are the foundation block for your application. They can deliver various behaviors like DApps, smart contracts, blockchain etc. The Marketplace is a digital catalog of Blocklets from ArcBlock, ecosystem partners, and software vendors that make it easy to find, install, manage and one-click deploy Blocklets on your ABT Node.
 
-Your ABT Node Marketplace is a digital catalog of Blocklets from ArcBlock, ecosystem partners and software vendors that make it easy to find, install, manage and one-click deploy Blocklets on your ABT Node.
+![](./images/abtnode-marketplace-en.png)
 
 ## Blocklets
 
-![](./images/abtnode-overview-3-en.png)
+The Blocklet management section shows you all of the Blocklets installed on your ABT Node. You can perform various actions like start, stop, reload and remove individual Blocklets. You can also access each Blocklet to review overview information and configuration details needed for development projects.
 
-The Blocklet management page shows you all of the Blocklets installed on your ABT Node, and gives you individual controls for each blocklet including the ability to start, stop, reload and remove the Blocklet. From the mangement page, you can access each Blocklet to review overview information and configuration details needed for development projects.
+![](./images/abtnode-blocklets-en.png)
 
 ## Service Gateway
+The Service Gateway is responsible for routing requests to the different applications, which can handle them. The section provides actions to upload SSL certificates and define URL Mapping.
 
-![](./images/abtnode-overview-4-en.png)
+![](./images/abtnode-servicegateway-en.png)
 
-Service Gateway enables you to control a virtual connecctions and networking services for your ABT Node. For details on the Service Gateway functionality, visit: [Service Gateway](/en/abtnode/router)
+For details on the Service Gateway functionality, visit: [Service Gateway](/en/abtnode/router)
 
 ## Settings
+The Settings section defines configuration properties for the ABT Node like Node Name, Description, Registry location. The section also allows to define API Access keys and create external API Integrations.
 
-![](./images/abtnode-overview-5-en.png)
+![](./images/abtnode-settings-en.png)
 
-ABT Node settings enable you to customize your ABT Node name, and avaialble Blocklet Registry location, as well as team management features. For more details, please visit: [Misc](/en/abtnode/misc)
+## View Logs
 
-## Console
+The view logs section provides console logs for the different ABT node components like ABT Node Service, Service gateway, Blocklets, etc.
 
-![](./images/abtnode-overview-6-en.png)
+![](./images/abtnode-viewlogs-en.png)
 
-ABT Node provides a graphQL testbed functionality page. For details about the ABT Node GraphQL Console, please visit: [GraphQL Console](/en/abtnode/misc/graphql-console)
+## Team
+The Teams section allows you to define role-based access control for the users of your platform.
+
+![](./images/abtnode-team-en.png)
