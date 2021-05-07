@@ -29,7 +29,7 @@ The dashboard offers a unified view of the underlying infrastructure available w
 
 ## Marketplace
 
-Blocklets are the foundation block for your application. They can deliver various behaviors like DApps, smart contracts, blockchain etc. The Marketplace is a digital catalog of Blocklets from ArcBlock, ecosystem partners, and software vendors that make it easy to find, install, manage and one-click deploy Blocklets on your ABT Node.
+Blocklets are the foundation block for your application. They can deliver various behaviours like DApps, smart contracts, blockchain etc. The Marketplace is a digital catalog of Blocklets from ArcBlock, ecosystem partners, and software vendors that make it easy to find, install, manage and one-click deploy Blocklets on your ABT Node.
 
 ![](./images/abtnode-marketplace-en.png)
 

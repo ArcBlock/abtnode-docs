@@ -125,6 +125,8 @@ records:
     content: "       v10.22.0  \e[1;32m (\e[01;31m\e[KLatest LTS\e[m\e[K: Dubnium)\e[0m\r\n"
   - delay: 131
     content: "       v12.18.3  \e[1;32m (\e[01;31m\e[KLatest LTS\e[m\e[K: Erbium)\e[0m\r\n"
+  - delay: 131   
+    content: "       v14.16.1  \e[1;32m (\e[01;31m\e[KLatest LTS\e[m\e[K: Fermium)\e[0m\r\n"
   - delay: 10
     content: "\e[01;32mubuntu@ubuntu\e[00m:\e[01;34m~\e[00m$ "
   - delay: 2000

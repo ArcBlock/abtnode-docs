@@ -14,7 +14,9 @@ Once ABT Node has started you need to access the node dashboard to work with it.
 
 ## Install ABT Wallet
 
-Access to ABT Node is authorized using ABT wallet. Thus install [ABT Wallet](https://abtwallet.io) for iOS or Android at [ABT Wallet](https://abtwallet.io). , Open up the app and follow the directions in the app to set up your wallet
+Access to ABT Node is authorized using ABT wallet, ArcBlock’s decentralized identity solution. You can access [ABT Wallet](https://abtwallet.io) in either of the following ways :
+- Install the iOS / Android mobile app from [ABT Wallet](https://abtwallet.io).
+- Create your ABT wallet on https://web.abtwallet.io/  
 
 ## Access ABT Node
 
@@ -26,4 +28,14 @@ Next, scan the generated QRCode using your ArcBlock ABT Wallet. It will authoriz
 
 ![scan-abt-node](./images/scan-abt-node.png)
 
-Once authorized, you should have access to the ABT Node dashboard.
+After authorization you will have ownership of the ABT Node. You will have full access to all components of the respective ABT Node. You can perform administration tasks not limiting to the following :
+- Monitor ABT Node KPIs (CPU, memory, storage)
+- use the Marketplace to install Blocklets
+- update / remove Blocklets
+- configure routing to the different apps
+- add / remove team member
+- troubleshoot using logs
+- provide SSH access to the ABT node
+- API Access keys
+
+![ready-to-use](./images/ready-to-use.png)

@@ -12,10 +12,11 @@ ABT Node can be installed in the following ways :
 
   - [Use the binary distribution](#use-the-binary-distribution)
   - [Use the official Docker image](#use-the-official-docker-image)
+  - [Use AWS Marketplace](#use-aws-marketplace)
 
 You can use either of the above ways to deploy it on any infrastructure like Cloud, Virtual machines, workstations, etc.
 
-> If you are interested in running ABT Node locally on your device, we currently support [Linux] and [macOS]. If you are using another OS like Windows, we recommend using Windows Subsystem Linux (WSL), or you can use a virtual machine and make sure your ABT Wallet can access your VM's IP address.
+*If you are interested in running ABT Node locally on your device, we currently support [Linux] and [macOS]. If you are using another OS like Windows, we recommend using Windows Subsystem Linux (WSL), or you can use a virtual machine and make sure your ABT Wallet can access your VM's IP address.*
 
 ## Use the binary distribution
 
@@ -50,16 +51,16 @@ nvm ls-remote | grep 'Latest LTS'
 <details>
 <summary>Sample output</summary>
 
-![list Node.js versions](./images/list_node_versions.gif)
+![list Node.js versions](./images/list_node_versions_2.gif)
 
 </details>
 
-At the time of writing this document, the latest LTS version was v12.18.3.
+At the time of writing this document, the latest LTS version was v14.16.1
 
 Then, install [Node.js], which will automatically install [npm] (replace v10.22.0 with the version number):
 
 ```bash
-nvm install v12.18.3
+nvm install v14.16.1  
 ```
 
 <details>
@@ -82,7 +83,7 @@ npm install -g @abtnode/cli
 <details>
 <summary>Sample output</summary>
 
-![install ABT Node](./images/install_abtnode.gif)
+![Install ABT Node](./images/install_abtnode.gif)
 
 </details>
 
@@ -125,6 +126,45 @@ docker run -d -p 80:80 -p 443:443  -v "$(pwd)":/data/abtnode arcblock/abtnode
 Docker images are based on the Debian Linux platform.
 
 
+## Use AWS Marketplace
+
+You can run ABT Node on AWS using [AWS Marketplace](https://aws.amazon.com/marketplace/pp/B089KM6SFR?qid=1620381487343&sr=0-1&ref_=srh_res_product_title)
+
+1. You must select **Continue to subscribe** from the overview tab,
+  ![MarketPlace](./images/aws_marketplace.png)
+
+2. You will be presented with *Terms and Conditions* which you must agree by clicking **Accept Terms**.
+  ![Accept Terms](./images/aws_terms.png)
+
+3. After the subscription authorization is complete **Continue to Configuration** will be enabled. Click it to proceed
+  ![Subscription](./images/aws_subscription_auth.png)
+
+4. Select ABT Node version and AWS region, then click **Continue to Launch**
+  ![Product Config](./images/aws_product_config.png)
+
+5. You are on the Launch page, where you must provide the following instance details :
+
+    - Select **Launch from Website** for the *Choose Acton* dropdown.
+    - Select *EC2 instance type*.
+    - Select appropriate *VPC Settings*, followed by *Subnet Settings*
+    - In *Security Group Settings* select an existing security Group or create one by clicking "Create new based on seller setting".
+    - select / create a key pair under *Key Pair Settings*
+    - Click **Launch** to deploy ABT Node using the provided configuration
+
+  ![Launch](./images/aws_launch.png)
+
+
+> ####  Security Group Ports
+>
+> ---
+>
+> Make note of the ports that are opened in the associated security group. The typical ports are: 8089 (ABT Node Port), 80 (HTTP) and 443 (SSL/HTTPS). We do not recommend opening port 22(SSH) unless required by your organisation practices.
+>
+> ---
+
+
+[Linux]:   https://www.linux.org
+[macOS]:   https://www.apple.com/macos
 [NVM]:     https://github.com/nvm-sh/nvm
 [Node.js]: https://nodejs.org
 [npm]:     https://www.npmjs.com
