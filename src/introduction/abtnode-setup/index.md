@@ -42,7 +42,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 #### Step 2: Install [Node.js] and [npm]
 
-Get the latest LTS version of [Node.js] using below command (you can list all versions with `nvm ls-remote`):
+Get the latest LTS version of [Node.js] using the below command (you can list all versions with `nvm ls-remote`):
 
 ```bash
 nvm ls-remote | grep 'Latest LTS'
@@ -89,7 +89,7 @@ npm install -g @abtnode/cli
 
 ### Configure ABT Node
 
-After installing ABT Node binary, you must initialize the node and provide a directory location for storing configuration.
+After installing the ABT Node binary, you must initialize the node and provide a directory location for storing configuration.
 
 1. Run the `abtnode init` command  to initialize the ABT Node
 
@@ -97,7 +97,7 @@ After installing ABT Node binary, you must initialize the node and provide a dir
 
 3. After confirming, the system will automatically generate your ABT Node configuration.
 
-4. Now start the ABT Node Service by executing the  `abtnode start` command.
+4. Now, start the ABT Node Service by executing the  `abtnode start` command.
 
 <details>
 <summary>Sample output</summary>
@@ -106,7 +106,7 @@ After installing ABT Node binary, you must initialize the node and provide a dir
 
 </details>
 
-5. You can stop ABT node service by executing `abtnode stop` command.
+5. You can stop ABT Node service by executing `abtnode stop` command.
 
 <details>
 <summary>Sample output</summary>
@@ -114,6 +114,14 @@ After installing ABT Node binary, you must initialize the node and provide a dir
 ![Stop ABT Node](./images/stop_abtnode.gif)
 
 </details>
+
+### Access ABT Node
+
+The above command will start the ABT Node server on 8089. You can access the ABT Node on `/admin` request path (`http://18.217.238.146:8089/`). After this, you must agree to License terms before accessing the ABT Node dashboard.
+
+![ABT Node Terms](./images/node_acceptterms.png)
+
+*Please do not access the ABT Node using localhost / 127.0.0.1 address. You will not be able to connect it using ABT wallet.*
 
 ## Use the official Docker image
 
@@ -125,6 +133,15 @@ docker run -d -p 80:80 -p 443:443  -v "$(pwd)":/data/abtnode arcblock/abtnode
 
 Docker images are based on the Debian Linux platform.
 
+### Access ABT Node
+
+The above command will start the ABT Node container and bind it to port 80 /  443 on the Host machine. You should access it using the IP address of the Host machine (`http://192.168.1.5/`). *Please do not access the ABT Node using localhost / 127.0.0.1 address. You will not be able to connect it using ABT wallet.*
+
+![ABT Node](./images/docker_abtnode.png)
+
+After this, you must agree to License terms before accessing the ABT Node dashboard.
+
+![ABT Node Terms](./images/docker_acceptterms.png)
 
 ## Use AWS Marketplace
 
@@ -133,7 +150,7 @@ You can run ABT Node on AWS using [AWS Marketplace](https://aws.amazon.com/marke
 1. You must select **Continue to subscribe** from the overview tab,
   ![MarketPlace](./images/aws_marketplace.png)
 
-2. You will be presented with *Terms and Conditions* which you must agree by clicking **Accept Terms**.
+2. You are presented with *Terms and Conditions*, to which you must agree by clicking **Accept Terms**.
   ![Accept Terms](./images/aws_terms.png)
 
 3. After the subscription authorization is complete **Continue to Configuration** will be enabled. Click it to proceed
@@ -158,10 +175,21 @@ You can run ABT Node on AWS using [AWS Marketplace](https://aws.amazon.com/marke
 >
 > ---
 >
-> Make note of the ports that are opened in the associated security group. The typical ports are: 8089 (ABT Node Port), 80 (HTTP) and 443 (SSL/HTTPS). We do not recommend opening port 22(SSH) unless required by your organisation practices.
+> Please make a note of the ports that are opened in the associated security group. The standard ports are: 80 (HTTP) and 443 (SSL/HTTPS). We do not recommend opening port 22(SSH) unless required by your organisation practices.
 >
 > ---
 
+### Access ABT Node
+
+AWS will take some time to create an application instance. After the confirmation message, you should open the EC2 Dashboard to get the Elastic IP of the ABT Node instance.
+
+![EC2 Instance](./images/aws_ec2_view.png)
+
+You can access the ABT Node on `/admin` request path (`http://52.14.110.173/admin/`). After this, you must agree to License terms before accessing the ABT Node dashboard.
+
+![AWS ABT Node Terms](./images/aws_acceptterms.png)
+
+*ABT Node also works on HTTPS (`https://52.14.110.173/admin/`) using a default certificate. The browser gives an error of invalid certificate as it is unable to validate certificate DNS record. You must accept the warning to continue forward.*
 
 [Linux]:   https://www.linux.org
 [macOS]:   https://www.apple.com/macos

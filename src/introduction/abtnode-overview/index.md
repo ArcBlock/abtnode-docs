@@ -35,7 +35,7 @@ Blocklets are the foundation block for your application. They can deliver variou
 
 ## Blocklets
 
-The Blocklet management section shows you all of the Blocklets installed on your ABT Node. You can perform various actions like start, stop, reload and remove individual Blocklets. You can also access each Blocklet to review overview information and configuration details needed for development projects.
+The Blocklet management section shows all Blocklets installed on your ABT Node. You can perform various actions like start, stop, reload and remove individual Blocklets. You can also access review and modify each Blocklet configuration to alter its behaviour at runtime.
 
 ![](./images/abtnode-blocklets-en.png)
 

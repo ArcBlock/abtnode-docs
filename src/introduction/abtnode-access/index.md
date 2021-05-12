@@ -30,12 +30,12 @@ Next, scan the generated QRCode using your ArcBlock ABT Wallet. It will authoriz
 
 After authorization you will have ownership of the ABT Node. You will have full access to all components of the respective ABT Node. You can perform administration tasks not limiting to the following :
 - Monitor ABT Node KPIs (CPU, memory, storage)
-- use the Marketplace to install Blocklets
-- update / remove Blocklets
-- configure routing to the different apps
-- add / remove team member
-- troubleshoot using logs
-- provide SSH access to the ABT node
+- Use the Marketplace to install Blocklets
+- Update and remove Blocklets
+- Configure routing to the different apps
+- Add and remove team member
+- Troubleshoot using logs
+- Provide SSH access to the ABT node
 - API Access keys
 
 ![ready-to-use](./images/ready-to-use.png)
