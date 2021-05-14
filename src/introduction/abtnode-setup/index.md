@@ -181,15 +181,20 @@ You can run ABT Node on AWS using [AWS Marketplace](https://aws.amazon.com/marke
 
 ### Access ABT Node
 
-AWS will take some time to create an application instance. After the confirmation message, you should open the EC2 Dashboard to get the Elastic IP of the ABT Node instance.
+AWS will take some time to create an application instance. After the confirmation message, you should open the EC2 Dashboard to get the Public IP, and AWS-provided sub-domain of the ABT Node instance.
 
 ![EC2 Instance](./images/aws_ec2_view.png)
 
-You can access the ABT Node on `/admin` request path (`http://52.14.110.173/admin/`). After this, you must agree to License terms before accessing the ABT Node dashboard.
+You can access the ABT Node on `/admin` request path using either of the following locations :
+- **Non secured Access** : You can access ABT Node on HTTP by using the IP address (`http://18.219.164.196/admin`) or the AWS-provided sub-domain (`http://ec2-18-219-164-196.us-east-2.compute.amazonaws.com/admin`).
+![HTTP Access](./images/aws_ec2_http_access.png)
 
-![AWS ABT Node Terms](./images/aws_acceptterms.png)
+- **Secured Access** : ArcBlock provides HTTPS access to AWS hosted ABT Nodes using a convention-based sub-domain(`ipv4convention.ip.abtnet.io`). You can determine the sub-domain by replacing the dot(`.`) separator in IPv4 address with the dash(`-`) separator. The above hosted ABT Node is available on `https://18-219-164-196.ip.abtnet.io/admin`.
+![HTTPS Access](./images/aws_ec2_https_access.png)
 
-*ABT Node also works on HTTPS (`https://52.14.110.173/admin/`) using a default certificate. The browser gives an error of invalid certificate as it is unable to validate certificate DNS record. You must accept the warning to continue forward.*
+ArcBlock recommends using the secured approach over the non-secured approach. The admin page presents License terms to which you must agree before accessing the ABT Node dashboard.
+
+*ABT Node works on HTTPS using a sub-domain certificate (`ip.abtnet.io`). Accessing it using AWS provided public IPv4 address(`http://18.219.164.196/admin`) or sub-domain(`https://ec2-18-219-164-196.us-east-2.compute.amazonaws.com/admin`) gives an error of invalid certificate.*
 
 [Linux]:   https://www.linux.org
 [macOS]:   https://www.apple.com/macos
