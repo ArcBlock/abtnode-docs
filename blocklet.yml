@@ -1,5 +1,5 @@
 name: '@arcblock/abtnode-docs'
-version: 0.2.13
+version: 0.2.14
 description: >-
   ABT Node Documentation, a help documentation for quickly get started with ABT
   Node.
@@ -25,7 +25,7 @@ title: ABT Node Docs
 community: 'https://gitter.im/ArcBlock/community'
 documentation: 'https://docs.arcblock.io'
 support: support@arcblock.io
-specVersion: 1.0.2
+specVersion: 1.1.1
 did: z8ia5NLSuFwhPimBJHRdPmp6yx9fG8rcFex4b
 timeout:
   start: 10
@@ -49,3 +49,4 @@ charging:
   tokens: []
   shares: []
 children: []
+capabilities: {}

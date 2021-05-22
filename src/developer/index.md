@@ -24,4 +24,5 @@ If you are a developer and want to do something with ABT Node ,this chapter is f
 - [Blocklet Registry](./blocklet-registry)
 - [Developing Blocklets with Codespaces](./blocklet-codespaces)
 - [Configure Auth Service for Blocklet](./auth-service)
+- [Composable blocklet](./composable-blocklet)
 - [Docker Registry](./docker-registry)

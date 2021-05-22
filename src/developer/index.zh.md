@@ -24,4 +24,5 @@ tags:
 - [Blocklet 仓库](./blocklet-registry)
 - [在 Codespaces 中开发 Blocklets](./blocklet-codespaces)
 - [为 Blocklet 配置 Auth Service](./auth-service)
+- [可组合的 Blocklet](./composable-blocklet)
 - [Docker Registry](./docker-registry)

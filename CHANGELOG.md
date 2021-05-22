@@ -1,3 +1,7 @@
+## 0.2.14 (May 22, 2021)
+
+- add doc for blocklet component
+
 ## 0.2.13 (April 07, 2021)
 
 - fix gatsby build fail
