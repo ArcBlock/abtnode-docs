@@ -66,9 +66,9 @@ nvm install --lts
 
 注意：你可以通过运行命令 `nvm install-latest-npm` 安装最新的 [Node.js]
 
-### 第三步：安装 Nginx (可选)
+### 第三步：安装 Nginx
 
-ABT Node 的网关依赖于 Nginx, 如果没有安装 Nginx, ABT Node 不会启用网关。但是如果没有网关, ABT Node 只适用于体验，并不适用于开发或者生产环境。所以我们**推荐**安装 Nginx.
+ABT Node 的网关依赖于 Nginx, 所以我们需要安装 Nginx.
 
 **版本 >= 1.18.0**
 

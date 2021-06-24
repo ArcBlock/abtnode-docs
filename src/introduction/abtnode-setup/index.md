@@ -42,31 +42,16 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 #### Step 2: Install [Node.js] and [npm]
 
-Get the latest LTS version of [Node.js] using the below command (you can list all versions with `nvm ls-remote`):
+ABT Node will adapt the LTS version of Node.js as soon as possible, so we recommend installing the LTS version of Node.js.
 
 ```bash
-nvm ls-remote | grep 'Latest LTS'
+nvm install --lts
 ```
 
 <details>
 <summary>Sample output</summary>
 
-![list Node.js versions](./images/list_node_versions_2.gif)
-
-</details>
-
-At the time of writing this document, the latest LTS version was v14.16.1
-
-Then, install [Node.js], which will automatically install [npm] (replace v10.22.0 with the version number):
-
-```bash
-nvm install v14.16.1
-```
-
-<details>
-<summary>Sample output</summary>
-
-![install Node.js](./images/install_node.gif)
+![install Node.js](./images/install_nodejs_lts.gif)
 
 </details>
 
