@@ -1,5 +1,5 @@
 name: '@arcblock/abtnode-docs'
-version: 0.2.14
+version: 0.2.15
 description: >-
   ABT Node Documentation, a help documentation for quickly get started with ABT
   Node.
@@ -49,4 +49,5 @@ charging:
   tokens: []
   shares: []
 children: []
-capabilities: {}
+capabilities:
+  clusterMode: false
