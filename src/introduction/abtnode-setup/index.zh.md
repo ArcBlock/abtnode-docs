@@ -49,37 +49,42 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 ### 第二步: 安装 [Node.js] 和 [npm]
 
-获取 [Node.js](https://nodejs.org) 最新长期支持版本，使用这个命令（你也可以使用这个命令列出所有的版本 `nvm ls-remote`）:
+ABT Node 会在第一时间适配 Node.js LTS 版本, 所以我们推荐安装 LTS 版本 Node.js.
+
+只要安装完 [Node.js]，[npm] 也会被自动安装完成。
 
 ```bash
-nvm ls-remote | grep 'Latest LTS'
+nvm install --lts
 ```
 
 <details>
 <summary>输出示例
 
-![list Node.js versions](./images/list_node_versions.gif)
-
-</details>
-
-本文撰写时，最新的长期支持版本号是 v12.18.3。
-
-然后，只要安装完 [Node.js]，[npm] 也会被自动安装完成。
-
-```bash
-nvm install v12.18.3
-```
-
-<details>
-<summary>输出示例
-
-![install Node.js](./images/install_node.gif)
+![install Node.js](./images/install_nodejs_lts.gif)
 
 </details>
 
 注意：你可以通过运行命令 `nvm install-latest-npm` 安装最新的 [Node.js]
 
-### 第三步: 安装 ABT 节点
+### 第三步：安装 Nginx
+
+ABT Node 的网关依赖于 Nginx, 所以我们需要安装 Nginx.
+
+**版本 >= 1.18.0**
+
+#### 在 Mac 上安装
+
+使用 Homebrew 安装:
+
+`brew install nginx`
+
+参考: https://formulae.brew.sh/formula/nginx
+
+#### 在 Linux 上安装
+
+参考: https://www.nginx.com/resources/wiki/start/topics/tutorials/install/
+
+### 第四步: 安装 ABT 节点
 
 现在，使用 [npm] 执行下面命令即可安装 ABT 节点：
 
@@ -94,11 +99,11 @@ npm install -g @abtnode/cli
 
 </details>
 
-### 第四步: 安装并初始化 ABT 钱包
+### 第五步: 安装并初始化 ABT 钱包
 
 从 [ABT 钱包官网](http://abtwallet.io) 找到下载入口完成 ABT 钱包的安装。然后打开钱包跟随钱包指引完成钱包的初始化。
 
-### 第五步: 安装一个 IDE
+### 第六步: 安装一个 IDE
 
 如果你准备创建自己的 Blocklet，我们推荐您先安装一个 IDE。我们推荐安装主流的 IDE 是：[VSCode](https://code.visualstudio.com)
 

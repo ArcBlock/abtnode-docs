@@ -1,3 +1,8 @@
+## 0.2.15 (June 24, 2021)
+
+- update abtnode setup
+- chore: update marketplace doc (#95)
+
 ## 0.2.14 (May 22, 2021)
 
 - add doc for blocklet component
