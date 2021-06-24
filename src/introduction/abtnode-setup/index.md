@@ -60,7 +60,7 @@ At the time of writing this document, the latest LTS version was v14.16.1
 Then, install [Node.js], which will automatically install [npm] (replace v10.22.0 with the version number):
 
 ```bash
-nvm install v14.16.1  
+nvm install v14.16.1
 ```
 
 <details>

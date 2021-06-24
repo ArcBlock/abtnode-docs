@@ -14,7 +14,7 @@ tags:
 
 - [介绍](./introduction)
   - [节点功能概览](./introduction/abtnode-overview)
-  - [如何获取 ABT 节点](./introduction/how-to-get-abtnode)
+  - [如何获取 ABT 节点](./introduction/abtnode-setup)
   - [配置并启动 ABT 节点](./introduction/setup-your-abt-node)
 - [Blocklet 市场](./marketplace)
   - [查找和安装 Blocklet](./marketplace/find-and-install)
