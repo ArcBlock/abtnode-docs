@@ -1,3 +1,7 @@
+## 0.2.16 (June 25, 2021)
+
+- fix some bad links in core blocklet chapter and remove deprecated blocklets
+
 ## 0.2.15 (June 24, 2021)
 
 - update abtnode setup

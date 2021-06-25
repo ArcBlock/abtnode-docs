@@ -11,38 +11,23 @@ tags:
 
 ## ABT 节点相关
 
-### [ABT Node Launcher](https://blocklet.arcblockio.cn/dapp/abt-node-launcher)
+### [ABT Node Launcher](https://registry.arcblock.io/blocklet/z8iZtEm3ozV3yhZ3gZ7EXppsseS3bPV8wyPft)
 
 ABT Node Launcher 可以帮助你通过云提供商(如 AWS、Azure)管理 ABT 节点实例的 Blocklet。
 
 ## 区块链相关
 
-### [BlockChain Manager](https://blocklet.arcblockio.cn/dapp/blockchain-manager/)
-
-BlockChian Manager 可以帮助你管理基于 ArcBlock 链框架的链节点，核心功能有：
-
-1. 创建新链
-2. 管理链节点
-
-### [Blockchain Explorer](https://blocklet.arcblockio.cn/static/@arcblock/block-explorer)
+### [Blockchain Explorer](https://registry.arcblock.io/blocklet/z8iZyVVn6XsvcuiYhtdw3GoasMbtqR9BjvJz3)
 
 Blockchain Explorer 是一款为基于 ArcBlock 链框架的链打造的区块浏览器 Blocklet。
 
-### [GraphQL Playground](https://blocklet.arcblockio.cn/static/@arcblock/graphql-playground)
+### [GraphQL Playground](https://registry.arcblock.io/blocklet/z8ia1uD3MKujPYs2m28otbCJuTK6Y494r1xnC)
 
 GraphQL Playground 是一款为基于 ArcBlock 链框架的链而打造的 GraphQL 试验台 Blocklet。
 
-### [Blockchain Boarding Gate](https://blocklet.arcblockio.cn/dapp/blockchain-boarding-gate)
-
-Blockchain Boarding Gate 是一款为基于 ArcBlock 链框架的链打造的快速创建链上账户的 Blocklet。
-
 ## DID 相关
 
-### [DID Connect](https://blocklet.arcblockio.cn/dapp/did-connect)
-
-DID Connect 是一个用来快速搭建 DID 身份应用平台的 Blocklet。
-
-### [Wallet Playground](https://blocklet.arcblockio.cn/dapp/wallet-playground)
+### [Wallet Playground](https://registry.arcblock.io/blocklet/z8iZjySpAu4jzbMochL9k1okuji1GcS7RRRDM)
 
 一个简单的 Blocklet，展示了使用以下 ArcBlock 技术构建出应用的全部潜力：
 
