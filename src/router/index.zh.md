@@ -13,5 +13,4 @@ tags:
 
 - [什么是路由](./what-is-router)
 - [路由的基本用法](./basic-usage)
-- [安装 Nginx](./install-nginx)
 - [localhost 证书](./certificates-for-localhost)

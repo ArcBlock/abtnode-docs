@@ -33,16 +33,16 @@ ABT 节点已安装的 Blocklet 列表。
 
 ![](./images/abtnode-overview-4-zh.png)
 
-ABT 节点的路由配置。详细功能请前往：[路由管理](/zh/abtnode/router)
+ABT 节点的路由配置。详细功能请前往：[路由管理](/zh/router)
 
 ## 配置
 
 ![](./images/abtnode-overview-5-zh.png)
 
-ABT 节点配置功能。详细功能请前往：[其他功能](/zh/abtnode/misc)
+ABT 节点配置功能。详细功能请前往：[其他功能](/zh/misc)
 
 ## 试验台
 
 ![](./images/abtnode-overview-6-zh.png)
 
-ABT 节点提供的 GraphQL 试验台功能页面。详情请前往：[GraphQL 试验台](/zh/abtnode/misc/graphql-console)
+ABT 节点提供的 GraphQL 试验台功能页面。详情请前往：[GraphQL 试验台](/zh/misc/graphql-console)
