@@ -1,3 +1,7 @@
+## 0.2.17 (June 27, 2021)
+
+- fix some bad links
+
 ## 0.2.16 (June 25, 2021)
 
 - fix some bad links in core blocklet chapter and remove deprecated blocklets

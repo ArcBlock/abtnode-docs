@@ -9,7 +9,7 @@ tags:
   - 'abtnode'
 ---
 
-上一个章节：[创建静态 Blocklet](/zh/abtnode/developer/static-blocklets) 详细介绍了如果从 0 到 1 创建一个可以部署运行在 ABT 节点里面的静态 Blocklet， 这个章节我们将继续带领大家，从 0 到 1 创建并部署一个更加复杂的 Dapp Blocklet 到 ABT 节点中。
+上一个章节：[创建静态 Blocklet](/zh/developer/static-blocklets) 详细介绍了如果从 0 到 1 创建一个可以部署运行在 ABT 节点里面的静态 Blocklet， 这个章节我们将继续带领大家，从 0 到 1 创建并部署一个更加复杂的 Dapp Blocklet 到 ABT 节点中。
 
 ## 第一步，环境准备
 
