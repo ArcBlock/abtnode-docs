@@ -1,3 +1,7 @@
+## 0.2.18 (July 08, 2021)
+
+- fix router-related Chinese documentation
+
 ## 0.2.17 (June 27, 2021)
 
 - fix some bad links
