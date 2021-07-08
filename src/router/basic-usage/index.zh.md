@@ -139,9 +139,9 @@ ubuntu@ubuntu:~$ abtnode stop && abtnode start
 ✔ ABT Node Daemon started successfully: http://192.168.1.10:8089
 ```
 
-### No access to port 80
+### 无法绑定 80 端口
 
-如果你遇到这个错误，说明 Nginx 没有访问 80 端口的权限（这个错误和 [这个错误](#port-already-in-use) 比较相似）
+如果你遇到这个错误，说明 Nginx 没有访问 80 端口的权限（这个错误和 [另外一个错误](#port-already-in-use) 比较相似）
 
 ```
 nginx: [emerg] bind() to 0.0.0.0:80 failed (13: Permission denied)
@@ -169,7 +169,7 @@ ubuntu@ubuntu:~$ which -a nginx
 /sbin/nginx
 ```
 
-### Can't access log files
+### 没有写日志文件的权限
 
 如果你遇到了下面其中一种错误，说明 Nginx 此时无法写日志文件。
 
@@ -184,11 +184,11 @@ nginx: [alert] could not open error log file: open() "/var/log/nginx/access.log"
 默认情况下，日志文件存储在 `/var/log/nginx` 目录下。如果你自定义了日志文件存储路径，可以在 `/etc/nginx/nginx.conf` 找到此路径。（请记得用你自己的 Nginx 日志路径替换 `/var/log/nginx`）
 
 ```bash
-ubuntu@ubuntu:~$ sudo chmod -R g=rw /var/log/nginx
+ubuntu@ubuntu:~$ sudo chmod -R a+rw /var/log/nginx
 [sudo] password for ubuntu:
 ```
 
-### Port already in use
+### 80 端口已经被占用
 
 如果遇到此错误，说明 80 端口此时正在使用中（这个错误和 [这个错误](#no-access-to-port-80) 类似）。
 
@@ -222,3 +222,9 @@ ubuntu@ubuntu:~$ sudo fuser 80/udp 80/tcp
 ubuntu@ubuntu:~$ sudo kill 329828 329829
 [sudo] password for ubuntu:
 ```
+
+### 启动成功，但是无法通过 80 和 443 端口访问
+
+这个可能和防火墙的设置有关，确保 80 和 443 端口可以通过防火墙。
+
+还存在其它的可能，比如：如果是开发的环境下，防火墙的设置也没有问题，但是机器上安装了杀毒软件，可以尝试关掉杀毒软件再试一下。
