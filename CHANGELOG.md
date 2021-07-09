@@ -1,3 +1,7 @@
+## 0.2.19 (July 10, 2021)
+
+- add nginx compilation configuration
+
 ## 0.2.18 (July 08, 2021)
 
 - fix router-related Chinese documentation

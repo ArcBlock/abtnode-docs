@@ -1,6 +1,6 @@
 ---
-title: '路由器的基本用法'
-description: '路由器的基本用法'
+title: '路由的基本用法'
+description: '路由的基本用法'
 keywords: 'abtnode, blocklet'
 author: 'nate'
 category: ''
@@ -119,7 +119,20 @@ tags:
 
 点击使 `使用此快照` 按钮，我们可以快速切回到之前的某一次部署。
 
-## 其他三，Nginx 问题排除
+## 其它三，必须的 Nginx 编译配置参数
+
+ABT Node 依赖的 Nginx 必须包含下列配置参数：
+
+- `--with-pcre`
+- `--with-openssl`
+- `--with-zlib`
+- `--with-stream`
+- `--with-http_ssl_module`
+- `--with-stream_ssl_module`
+- `--with-http_realip_module`
+- `--with-stream_realip_module`
+
+## 其他四，Nginx 问题排除
 
 如果 Nginx 没有成功运行，试试下面的方法进行修复。
 
