@@ -13,4 +13,5 @@ The Service Gateway enables you to control communications for your ABT Node and 
 
 - [What is the Service Gateway?](./what-is-router)
 - [Basic Service Gateway Usage](./basic-usage)
+- [Binding domain names to sites and enabling SSL](./bind-domain-and-ssl)
 - [Certificates for localhost](./certificates-for-localhost)

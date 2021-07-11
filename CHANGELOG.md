@@ -1,3 +1,7 @@
+## 0.2.20 (July 11, 2021)
+
+- add custom domains and bind ssl chapter
+
 ## 0.2.19 (July 10, 2021)
 
 - add nginx compilation configuration

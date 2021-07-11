@@ -37,7 +37,7 @@ categories:
         links:
           - /router/what-is-router
           - /router/basic-usage
-          - /router/install-nginx
+          - /router/bind-domain-and-ssl
           - /router/certificates-for-localhost
         locales:
           zh: 路由管理
