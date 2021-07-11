@@ -41,7 +41,7 @@ Fill in the information：
 
 ![fill in the information](./images/input-messages-en.jpg)
 
-#### 完成
+#### Done
 
 If everything is fine, the site will be accessible at this time.
 
