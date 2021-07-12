@@ -19,7 +19,21 @@ The *Blocklets Management* page shows all Blocklets installed on the ABT Node wi
 6. Status (`installed`/`running`/`stopped`)
 7. Actions
 
-![](./images/blocklets-overview-2.png)
+![](./images/blocklets-overview-3.png)
+
+## Blocklet Services
+
+The ABT Node provides authentication and interface configuration services to every Blockets. The Blocklet developer specifies these services. Blocklet interfaces are displayed under the Access URLs. There are the following types of supported interfaces :
+interfaces:
+1. Public Url : Specifies HTTP URL for the Blocklet
+2. Admin Url :  The URL is intended to provide Admin functions for the Blocklet.
+3. Config Url : The URL is intended to provide configuration  to a Blocklet.
+4. API : Specifies a web endpoint for the Blocket provided API.
+5. Service : Specifies a TCP based service.
+
+Developers can add authentication to any of the above URLs. The authentication is provided using the ABT Node Teams feature. Additionally, every blocket generates log for every served request. These logs are available as part of the Logs view.   
+
+## Blocklet Operations
 
 A list of operations can be viewed by clicking the three dots next to a Blocklet. Possible operations include the following:
 
@@ -31,7 +45,7 @@ A list of operations can be viewed by clicking the three dots next to a Blocklet
 4. `Reload Blocklet`
 5. `Remove Blocklet` (you will be prompted to choose whether to delete the Blocklet data as well)
 6. `Configure Blocklet`
-7. `Manage Team`
+7. `Manage Team` 
 8. `View Logs`
 
 The `name` attribute orders all blocklet data by default.  Data can be ordered in a different direction or by selecting an other attribute. The data is paginated in sizes of 10. There are control actions at the bottom of the page to find next and previous set of data.
