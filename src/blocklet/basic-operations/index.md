@@ -31,7 +31,7 @@ interfaces:
 4. API : Specifies a web endpoint for the Blocket provided API.
 5. Service : Specifies a TCP based service.
 
-Developers can add authentication to any of the above URLs. The authentication is provided using the ABT Node Teams feature. Additionally, every blocket generates log for every served request. These logs are available as part of the Logs view.   
+Developers can add authentication to any of the above URLs. The authentication is provided using the ABT Node Teams feature. Additionally, every blocket generates log for every served request. These logs are available as part of the [Logs view](/en/logs).   
 
 ## Blocklet Operations
 
@@ -45,7 +45,7 @@ A list of operations can be viewed by clicking the three dots next to a Blocklet
 4. `Reload Blocklet`
 5. `Remove Blocklet` (you will be prompted to choose whether to delete the Blocklet data as well)
 6. `Configure Blocklet`
-7. `Manage Team` 
+7. `Manage Team`
 8. `View Logs`
 
 The `name` attribute orders all blocklet data by default.  Data can be ordered in a different direction or by selecting an other attribute. The data is paginated in sizes of 10. There are control actions at the bottom of the page to find next and previous set of data.
