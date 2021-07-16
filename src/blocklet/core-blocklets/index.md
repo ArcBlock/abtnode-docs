@@ -47,4 +47,6 @@ Decentralized Blocklet marketplace to search and view Blocklets and use them wit
 
 ### [Wallet Playground](https://blocklet.arcblockio.cn/dapp/wallet-playground)
 
-Wallet Playground is a simple Blocklet that demonstrates the full potential of building applications using the following.
+Wallet Playground is a simple Blocklet that demonstrates the full potential of building applications using the following ArcBlock software:
+- ABT Wallet and ABT DID protocol
+- Forge, which allows dApps to use publicly verifiable decentralized ledgers
