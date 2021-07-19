@@ -1,7 +1,7 @@
 ---
-title: Blocklet
-description: 'Blocklet'
-keywords: 'abtnode,blocklet'
+title: Blocklets
+description: 'Blocklets'
+keywords: 'abtnode, blocklets'
 author: wangshijun
 category: ''
 layout: documentation
@@ -9,8 +9,10 @@ tags:
   - abtnode
 ---
 
-This chapter will introduce Blocklet related content,include:
+Previously, you have deployed the ABT Node and have installed Blocklets from the [Marketplace](../marketplace). In this section, you will work with Blocklet administration features available in ABT Node. You will also look at the various types of Blocklets available with ABT Node.
 
-- [Basic Operations](./basic-operations)
-- [Blocklet Environments](./environments)
+## Contents
+
+- [Blocklet Management](./basic-operations)
+- [Configure Blocklet](./environments)
 - [Core Blocklets](./core-blocklets)
