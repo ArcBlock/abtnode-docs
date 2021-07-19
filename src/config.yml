@@ -41,6 +41,11 @@ categories:
           - /router/certificates-for-localhost
         locales:
           zh: 路由管理
+      Logs:
+        url: /logs
+        links:
+          - /logs/blocklet-logs
+          - /logs/abtnode-logs
       Deployment:
         url: /deployment
         links:
