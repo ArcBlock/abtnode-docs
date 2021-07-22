@@ -46,6 +46,12 @@ categories:
         links:
           - /logs/blocklet-logs
           - /logs/abtnode-logs
+      Settings:
+        url: /node-settings
+        links :
+          - /node-settings/node-attributes
+          - /node-settings/access-keys
+          - /node-settings/integrations
       Deployment:
         url: /deployment
         links:
@@ -58,7 +64,6 @@ categories:
       Misc:
         url: /misc
         links:
-          - /misc/node-settings
           - /misc/member-management
           - /misc/graphql-console
         locales:
