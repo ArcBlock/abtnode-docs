@@ -22,3 +22,7 @@ Authenticating your requests requires you to use your access key ID and secret a
  ![](./images/node-settings-secret-en.png)
 
 > The secret access key can only be accessed at the time it is created. In the event that you lose your secret access key, you must delete it and create a new one.
+
+The Access keys can be used to support the following user cases :
+- To perform continuous deployment of a Blocklet by using `blocklet deploy` command in CI.
+- To programatically configure the ABT Node by using `@abtnode/client` package.

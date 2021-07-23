@@ -23,13 +23,9 @@ The node name is displayed at the top of the node console page to identify which
 
 It is displayed at the top of the node console page.
 
-### Register Your Node
-
-Allows users to reach your ABT Node.
-
 ### DID Wallet Location
 
-Provides the location of DID wallet.
+Provides the location of a deployed [DID wallet Blocklet](https://registry.arcblock.io/blocklet/z8iZpnScvjjeeyYZQoHSdXm4GQTqcfTTGkyPP).
 
 ### Alerts
 
@@ -37,7 +33,7 @@ ABT Node monitors the disk usage and can raise notifications when the usage goes
 
 ### Automatic Update Check
 
-ABT Node can periodically check for an available newer version. Optionally, there is a *check for updates* button to verify manually if a  newer version is available.
+ABT Node can perform a daily check for an available newer version. Optionally, there is a *check for updates* button to verify manually if a newer version is available.
 
 ABT Node does not perform auto-upgrade. An admin user must confirm the upgrade process.
 
