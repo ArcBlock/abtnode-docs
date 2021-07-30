@@ -1,3 +1,9 @@
+## 0.3.0 (July 30, 2021)
+
+- chore : updated settings doc (#107)
+- chore: updated blocklet management features (#98)
+- chore: document view logs feature (#106)
+
 ## 0.2.20 (July 11, 2021)
 
 - add custom domains and bind ssl chapter

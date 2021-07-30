@@ -15,8 +15,6 @@ sudo npm install -g @abtnode/cli
 echo "publishing abtnode docs blocklet..."
 npm run bundle
 
-npm publish .blocklet/bundle --access=public
-
 echo "publishing to blocklet registry"
 blocklet config registry ${BLOCKLET_REGISTRY}
 blocklet publish --developer-sk ${ABTNODE_DEV_SK}
