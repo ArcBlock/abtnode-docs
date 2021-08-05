@@ -73,6 +73,7 @@ categories:
         links:
           - /developer/config-dev-env
           - /developer/abtnode-cli
+          - /developer/blocklet-cli
           - /developer/configuration
           - /developer/storage-structure
           - /developer/blocklet-spec

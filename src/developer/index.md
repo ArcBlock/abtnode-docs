@@ -12,7 +12,8 @@ tags:
 If you are a developer and want to do something with ABT Node ,this chapter is for you:
 
 - [Configuring the development environment](./config-dev-env)
-- [ABT Node Cli](./abtnode-cli)
+- [ABT Node CLI](./abtnode-cli)
+- [Blocklet CLI](./blocklet-cli)
 - [Node Configuration](./configuration)
 - [Storage Structure](./storage-structure)
 - [Blocklet Specification](./blocklet-spec)
