@@ -37,6 +37,7 @@ categories:
         links:
           - /router/what-is-router
           - /router/basic-usage
+          - /router/bind-domain-to-node
           - /router/bind-domain-and-ssl
           - /router/certificates-for-localhost
         locales:
