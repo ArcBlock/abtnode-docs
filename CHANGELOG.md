@@ -1,3 +1,7 @@
+## 0.3.1 (August 07, 2021)
+
+- add custom domain to node
+
 ## 0.3.0 (July 30, 2021)
 
 - chore : updated settings doc (#107)
