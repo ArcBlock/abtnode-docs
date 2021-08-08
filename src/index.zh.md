@@ -26,6 +26,7 @@ tags:
 - [路由](./router)
   - [什么是节点路由](./router/what-is-router)
   - [路由基本用法](./router/basic-usage)
+  - [给节点绑定域名](./bind-domain-to-node)
   - [localhost 证书](./router/certificates-for-localhost)
 - [部署指南](./deployment)
   - [部署最佳实践](./deployment/best-practice)
