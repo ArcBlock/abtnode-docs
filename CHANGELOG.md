@@ -1,3 +1,8 @@
+## 0.3.2 (August 10, 2021)
+
+- chore: update abtnode cli docs (#109)
+- chore: add blocklet cli docs (#108)
+
 ## 0.3.1 (August 07, 2021)
 
 - add custom domain to node
