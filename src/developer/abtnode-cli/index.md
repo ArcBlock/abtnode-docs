@@ -9,169 +9,188 @@ tags:
   - 'abtnode'
 ---
 
-For the convenience of ABT Node users, we have customized a CLI tool: `abtnode cli`. Let's see what it looks like:
+
+ABT Node provides `abtnode` command-line tool for controlling and administering the node. Use the following syntax to run `abtnode` commands from your terminal:
+
+``` bash
+abtnode [options] [command]
+```
+You can use the `-h` or `--help` to determine the full list of supported commands.
+
+### Version
+Shows the current ABT node version.
 
 ```bash
-➜  ~ abtnode -h
-Usage: abtnode [options] [command]
-
-Options:
-  -V, --version              output the version number
-  -c --config [node-config]  ABT Node configuration file
-  -s --silent                Should we run in silent mode (default: false)
-                             (default: false)
-  -y --yes                   Automatic yes to prompts (default: false)
-                             (default: false)
-  -h, --help                 display help for command
-
-Commands:
-  bundle [options]           Bundle a blocklet that can run in ABT Node
-  start [options]            Start ABT Node Daemon
-  init                       Init ABT Node config
-  status                     Show ABT Node and blocklet status
-  logs                       Show ABT Node and blocklet logs
-  stop|kill [options]        Stop ABT Node and blocklets
-  info [options]             Get environment information for debugging and
-                             issue reporting
-  deploy [options] <folder>  Deploy blocklet from local directory to ABT Node
-  blocklet:init              Create an empty blocklet project
-  upgrade                    Self-Upgrade ABT Node
-  help [command]             display help for command
+$ abtnode -V
+1.4.1
 ```
 
-It provides a rich set of commands for users to use. The main commands are:
+### Initialize
 
-### 1. abtnode bundle [options]
-
-Bundle a blocklet that can run in ABT Node
-
-![](./images/abtnode-cli-2.png)
-
-### 2. start [options]
-
-Start ABT Node Daemon
+Bootstraps a configuration for the  ABT Node. The configuration contains Node level basic attributes like Ports.
 
 ```bash
-➜ abtnode start
-ℹ Load config from /Users/naterobinson/.abtnode.yml
-ℹ Node did from config zNKjPn1W28J6AVQdJjLhjYjmLtyvq7dSvE12
-✔ ABT Node Daemon started successfully: http://192.168.31.189/
-```
-
-### 3. init
-
-Init ABT Node config
-
-```bash
-➜ abtnode init
-✔ Done!
-? Please name your Node ABT Node [naterobinson]
-? Give a concise description of your node Container of useful blocklets from Arc
-Block and its Developer Community
-? Which IP do you want your node to serve on? 192.168.31.189
-? Which port do you want your node to listen on? 8089
-? Choose routing engine none
-? Where does your Node fetch blocklet from? https://blocklet.arcblock.io
-? Where do you want ABT Node to store data? /Users/naterobinson/.abtnode
-? Where do you want to save config file? /Users/naterobinson/.abtnode.yml
-✔ ABT Node configuration is successfully generated /Users/naterobinson/.abtnode.yml
-ℹ Now you can start your ABT Node with the following command
+$ abtnode init
+? Are you sure to initialize a ABT Node instance in the current directory(/home/arcblock) Yes
+✔ ABT Node configuration is successfully generated /home/arcblock/.abtnode/abtnode.yml
 ℹ abtnode start
 ```
 
-### 4. status
+### Start
 
-Show ABT Node and blocklet status
+Starts the ABT Node Daemon.
 
 ```bash
-➜ abtnode status
-ℹ Load config from /Users/naterobinson/.abtnode.yml
-ℹ Node did from config zNKmPHwdoymyz7p5AxeSR6qu7z4aRKEn5sih
-
-ABT Node is: Running
-
-Blocklets Status
-⚠ No blocklets installed yet.
+➜ abtnode start
+ℹ Node did from config zNKhyzGJfngmBvwQiwHtBinUNiwL2SE85yAE
+ℹ Load config from /data/abtnode/.abtnode/abtnode.yml
+✔ ABT Node DB Proxy ready on port 40404
+✔ ABT Node Event Hub ready on port 40407
+✔ ABT Node Updater ready on port 40405
+✔ ABT Node config updated with version 1.4.1
+✔ ABT Node state updated with version 1.4.1
+✔ Update blocklet environments success
+✔ Starting ABT Node Service... Done in 9.195s
+✔ Starting ABT Node Daemon... Done in 9.067s
 ```
 
-### 5. logs
+ABT Node must be initialised before starting else the startup will fail. Alternatively, you can pass the `--auto-init / -a` flag to perform auto initialization.
 
-Show ABT Node and blocklet logs
 
-```bash
-➜ abtnode logs
-ℹ Load config from /Users/naterobinson/.abtnode.yml
-ℹ Node did from config zNKmPHwdoymyz7p5AxeSR6qu7z4aRKEn5sih
+### Stop
 
-ABT Node Logs
-- Output: /Users/naterobinson/.abtnode/core/output.log
-- Error: /Users/naterobinson/.abtnode/core/error.log
-⚠ No blocklets installed yet.
-```
-
-### 6. stop|kill [options]
-
-Stop ABT Node and blocklets
+Stops the ABT Node. The command also supports a `-f` option to force stop the daemon.
 
 ```bash
-➜ abtnode stop
-ℹ Load config from /Users/naterobinson/.abtnode.yml
-ℹ Node did from config zNKmPHwdoymyz7p5AxeSR6qu7z4aRKEn5sih
-✔ abt-node-daemon is stopped successfully
-✔ abt-node-db-hub is stopped successfully
+$ abtnode stop
+ℹ Node did from config zNKp3NUU4BJG7Q2aQc93oN2CVHCdK2dNU5t5
+ℹ Load config from /data/abtnode/.abtnode/abtnode.yml
+✔ Sending shutdown notification to web dashboard users Done in 2.07s
 ✔ Routing engine is stopped successfully
+✔ abt-node-daemon is stopped successfully
+✔ abt-node-service is stopped successfully
+✔ abt-node-updater is stopped successfully
+✔ abt-node-db-hub is stopped successfully
+✔ abt-node-log-rotate is stopped successfully
+✔ abt-node-event-hub is stopped successfully
 ✔ Done!
 ```
 
-### 7. info [options]
+### Status
 
-Get environment information for debugging and issue reporting
+Show the status of ABT Node along with the Blocklets.
 
 ```bash
-➜ abtnode info
+$ abtnode status
+ℹ Node did from config zNKp3NUU4BJG7Q2aQc93oN2CVHCdK2dNU5t5
+ℹ Load config from /data/abtnode/.abtnode/abtnode.yml
 
-  System:
-    OS: macOS 10.15.5
-    CPU: (12) x64 Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz
-    Shell: 5.7.1 - /bin/zsh
-  Binaries:
-    Node: 12.7.0 - ~/.nvm/versions/node/v12.7.0/bin/node
-    Yarn: 1.22.4 - ~/.nvm/versions/node/v12.7.0/bin/yarn
-    npm: 6.10.0 - ~/.nvm/versions/node/v12.7.0/bin/npm
-  Servers:
-    Apache: 2.4.41 - /usr/sbin/apachectl
-    Nginx: 1.19.1 - /usr/local/bin/nginx
-  Virtualization:
-    Docker: 19.03.2 - /usr/local/bin/docker
-  Browsers:
-    Chrome: 84.0.4147.125
-    Safari: 13.1.1
-  npmGlobalPackages:
-    npm: 6.10.0
-    pm2: 4.4.0
-    yarn: 1.22.4
+ABT Node status: Running
+ABT Node Data Directory: /data/abtnode/.abtnode
+
+Blocklets Status
+┌──────────────────────────────┬──────────┬───────────────┐
+│ Name                         │ Version  │ Status        │
+├──────────────────────────────┼──────────┼───────────────┤
+│ static-demo-blocklet         │ 1.1.10   │ installed     │
+└──────────────────────────────┴──────────┴───────────────┘
 ```
 
-### 8. deploy [options] <folder>
+### Logs
 
-Deploy blocklet from local directory to ABT Node
+Show the location of the different ABT Node and Blocklet logs. You can tail the individual log files from the displayed locations.
 
-![](./images/abtnode-cli-3.png)
+```bash
+$ abtnode logs
+ℹ Node did from config zNKp3NUU4BJG7Q2aQc93oN2CVHCdK2dNU5t5
+ℹ Load config from /data/abtnode/.abtnode/abtnode.yml
 
-### 9. blocklet:init
+ABT Node Logs
+- Latest logs: /data/abtnode/.abtnode/logs/_abtnode/daemon-2021-08-03.log
+- Daemon Logs Directory: /data/abtnode/.abtnode/logs/_abtnode
 
-Create an empty blocklet project
+  Daemon Logs
+  - access-<date>.log: access logs rotated by day
+  - daemon-<date>.log: business logs rotated by day
+  - daemon-error-<date>.log: error logs rotated by day
+  - service.log: abtnode service logs
+  - stderr.log: stderr logs
+  - stdout.log: stdout logs
 
-![](./images/abtnode-cli-4.png)
+static-demo-blocklet@1.1.10
+- Output: /data/abtnode/.abtnode/logs/static-demo-blocklet/output.log
+- Error: /data/abtnode/.abtnode/logs/static-demo-blocklet/error.log
+```
 
-### 10. upgrade
+### Upgrade
 
-Self-Upgrade ABT Node
+Upgrades the ABT Node to the latest available version. It performs all the required steps like stopping the current version, installing the new version, and starting it.
 
-![](./images/abtnode-cli-5.png)
+```bash
+$ abtnode upgrade   
+ℹ Using abtnode from /home/arcblock/.local/bin/abtnode
+ℹ Checking permissions...
+Current version is 1.4.1, found latest version 1.4.4
+Begin upgrade
+ℹ Stopping ABT Node ...
+ℹ Installing ABT Node ...
 
-### 11. help [command]
+# Truncated for Brevity
+```
 
-display help for command
+### Environment Info
 
-![](./images/docs-help.png)
+Prints the environment information for debugging and issue reporting
+
+```bash
+$ abtnode info
+
+  System:
+    OS: Linux 5.10 Ubuntu 18.04.5 LTS (Bionic Beaver)
+    CPU: (6) x64 Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz
+    Shell: 4.4.20 - /bin/bash
+  Binaries:
+    Node: 12.20.0 - /usr/bin/node
+    npm: 6.14.8 - /usr/bin/npm
+  Servers:
+    Nginx: 1.18.0 - /usr/sbin/nginx
+```
+
+### Export
+
+Exports the complete ABT Node state, including ABT Node configuration, Blocklets configuration and Routes, so that it can be shared.
+
+```bash
+$ abtnode export   
+ℹ Node did from config zNKhyzGJfngmBvwQiwHtBinUNiwL2SE85yAE
+ℹ Load config from /data/abtnode/.abtnode/abtnode.yml
+⚠ Will only export the blocklets that installed from blocklet registry or url.
+✔ Copy ABT Node configurations file successfully!
+ℹ Copying blocklet data...
+✔ Copy blocklet data successfully!
+ℹ Copying other files...
+ℹ Copying routing rule files...
+ℹ No routing rule data
+ℹ Copying blocklet running data files...
+✔ Copy blocklet running data files successfully!
+ℹ Copying blocklet extras db data files...
+✔ Copy blocklet extras db data files successfully!
+✔ Copy other files successfully!
+
+✔ The exported data is in directory: /data/abtnode/exported_abtnode/.abtnode
+✔ Exported successfully!
+```
+
+### Help
+
+The help command is useful to determine information for a particular command. Optionally you can also pass the `-h` option to the sub-command for the same purpose.
+
+```bash
+$ abtnode help logs
+Usage: abtnode logs [options]
+
+Show ABT Node and blocklet logs
+
+Options:
+  -h, --help  display help for command
+```
