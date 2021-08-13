@@ -76,6 +76,7 @@ categories:
           - /developer/configuration
           - /developer/storage-structure
           - /developer/blocklet-spec
+          - /developer/blocklet-quickstart
           - /developer/static-blocklets
           - /developer/dapp-blocklets
           - /developer/blocklet-hooks

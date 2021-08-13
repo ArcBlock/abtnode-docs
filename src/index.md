@@ -47,6 +47,7 @@ Welcome to ABT Node documentation
   - [Node Configuration](./developer/configuration)
   - [Storage Structure](./developer/storage-structure)
   - [Blocklet Specification](./developer/blocklet-spec)
+  - [Blocklet Quickstart](./developer/blocklet-quickstart)
   - [Create Static Blocklets](./developer/static-blocklets)
   - [Create DApp Blocklets](./developer/dapp-blocklets)
   - [Blocklet Hooks](./developer/blocklet-hooks)
