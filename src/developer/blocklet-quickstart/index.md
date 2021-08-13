@@ -22,7 +22,9 @@ Generate the Blocklet by using `npm` command.
 
 `npm init blocklet@latest [blocklet-name]`
 
-The terminal would prompt for user inputs regarding the Blocklet type and ABT Node services. *Look into the README for the generated project to know details about the Project structure and recommended commands.*
+The terminal would prompt for user inputs regarding the Blocklet type and ABT Node services.
+
+*Look into the README for the generated project to know details about the Project structure and recommended commands.*
 
 ```bash
 $ npm init blocklet@latest demo1
