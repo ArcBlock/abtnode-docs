@@ -1,6 +1,6 @@
 ---
-title: 'Blocklet CLI 工具'
-description: 'Blocklet CLI 工具'
+title: 'Blocklet cli 工具'
+description: 'Blocklet cli 工具'
 keywords: 'blocklet'
 author: ''
 category: ''
