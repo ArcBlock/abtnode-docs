@@ -1,6 +1,6 @@
 ---
-title: 'Blocklet CLI'
-description: 'Blocklet CLI'
+title: 'Blocklet CLI 工具'
+description: 'Blocklet CLI 工具'
 keywords: 'blocklet'
 author: ''
 category: ''
@@ -9,26 +9,26 @@ tags:
   - 'blocklet'
 ---
 
-ABT Node provides `blocklet` command-line tool for controlling and administering Blocklets. Use the following syntax to run `blocklet` commands from your terminal:
+ABT Node 提供了 `blocklet` 命令行工具，用于控制和管理 Blocklets。使用以下语法在您的终端中运行 `blocklet` 命令：
 
 ```bash
 blocklet [options] [command]
 ```
 
-You can use the `-h` or `--help` to determine the full list of supported commands.
+你可以使用 `-h` 或 `--help` 来查看所有支持的命令。
 
-### Version
+### 版本
 
-Shows the current ABT node version.
+查看当前 `blocklet` 版本。
 
 ```bash
 $ blocklet -V
 1.4.4
 ```
 
-### Initialize
+### 初始化
 
-Bootstraps an empty Blocklet. The command prompts user for Blocklet parameters and generates a YAML configuration.
+启动一个空的 Blocklet。命令会询问用户 Blocklet 的参数，并生成一个 YAML 配置。
 
 ```bash
 $ blocklet init
@@ -55,19 +55,19 @@ Press ^C to quit.
 ✔ Screenshots dir screenshots/ was created
 ```
 
-Optionally you can invoke the command with `-y` option to generate Blocklet with default values
+或者你可以使用 `-y` 选项来通过默认的值来生成一个 Blocklet。
 
-### Meta
+### 元信息
 
-This is an informational command which prints meta information for a Blocklet.
+这是一个信息查看命令，它会打印一个 Blocklet 的元信息。
 
 ```bash
 $ blocklet meta
 ```
 
-### Development
+### 开发
 
-Often you would like to deploy Blocklets to validate their behaviours. The command provides support to _install_, _start_ and _remove_ blocklets under development.
+通常来说你会希望在开发过程中部署 Blocklets，这个命令提供了 _安装_、_启动_ 和 _卸载_ 的支持。
 
 ```bash
 $ blocklet dev install
@@ -102,9 +102,9 @@ $ blocklet dev remove
 ℹ Load config from /data/abtnode/.abtnode/a
 ```
 
-### Bundle
+### 打包
 
-Packages the Blocklet for ABT Node deployment.
+打包 Blocklet 以便在 ABT Node 中部署。
 
 ```bash
 $ blocklet bundle
@@ -115,9 +115,9 @@ $ blocklet bundle
 ✔ Blocklet b1@1.0.0 was successfully bundled!
 ```
 
-### Deploy
+### 部署
 
-Deploys a blocklet from the local folder to ABT Node.
+从本地目录中部署一个 Blocklet。
 
 ```bash
 $ blocklet deploy .
@@ -136,43 +136,41 @@ $ blocklet deploy .
 ✔ Blocklet first@1.0.0 was successfully deployed to http://127.0.0.1:8089
 ```
 
-### Update Version
-
-Bumps up the Blocklet version for next changes.
+### 更新版本
 
 ```bash
 $ blocklet version  1.1.0
 ✔ Blocklet version bumped to 1.1.0
 ```
 
-### Publish
+### 发布
 
-Publish the blocklet release to registry
+发布 blocklet 到 Blocklet Store，详情操作请查看 [发布 Blocklet](../publish-blocklets)
 
 ```bash
-blocklet publish [options] [metafile]
+blocklet upload [options] [metafile]
 ```
 
-### ABT Node Migration
+### Blocklet 元信息迁移
 
-The migrate command updates Blocklet meta information for the latest ABT Node version
+`blocklet migrate` 命令会更新 Blocklet 的元信息，以便在最新的 ABT Node 版本中使用。
 
 ```bash
 $ blocklet migrate
 ℹ Try migrating blocklet meta from /home/arcblock/b1
 ```
 
-### ABT Node Configuration
+### Blocklet 配置
 
-Manage the ABT Node configuration files
+管理 ABT Node 的配置文件
 
 ```bash
 blocklet config [options] [key] [value]
 ```
 
-### Help
+### 帮助
 
-The help command is useful to determine information for a particular command. Optionally you can also pass the `-h` option to the sub-command for the same purpose.
+`help` 命令是用来获取某个命令的信息的，你同样可以通过 `-h` 选项来获取子命令的信息。
 
 ```bash
 $ blocklet help meta
