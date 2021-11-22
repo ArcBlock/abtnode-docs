@@ -2,7 +2,7 @@
 title: 'Publish Blocklets'
 description: 'Publish Blocklets'
 keywords: 'abtnode, blocklet'
-author: 'wangshijun'
+author: 'wangshijun, nate, zhanghan'
 category: ''
 layout: 'documentation'
 tags:
