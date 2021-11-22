@@ -12,12 +12,19 @@ tags:
 ## Publish Steps
 
 1. Make sure your blocklet can be bundled and deployed to your local ABT Node
-2. Publish your blocklet to npm registry with npm publish
-3. Fork our [blocklets registry repo](https://github.com/arcblock/blocklets)
-4. Update registry.yml to list your blocklet, and then create Pull Request for this change
-5. Your pull request get approved and blocklet is then published
-6. Verify in the registry: [https://registry.arcblock.io/api/blocklets.json](https://registry.arcblock.io/api/blocklets.json)
-7. Verify in marketplace: install your blocklet to your ABT Node from marketplace
+2. Register as a developer from [blocklet registry](https://registry.arcblock.io/) or [blocklet registry(dev)](https://dev.registry.arcblock.io/)
+   - Need to apply for a developer first, after the administrator has approved, you can proceed to the next step
+3. Go to the access key page, create a new access key
+4. Configure the host to publish blocklet registry related configuration
+   - Use `blocklet config set registry [registryUrl]` command to configure the target Blocklet Registry
+   - Use `blocklet config set accessToken [accessToken]` command to configure the access key (access key is obtained from the administrator in the management console)
+5. Develop a blocklet and upload it
+   - Recommended to use [create-blocklet](https://www.npmjs.com/package/create-blocklet) tool to quickly create a blocklet
+   - Usually, before `blocklet upload` you need to bundle the blocklet
+6. Login to the uploaded Blocklet Registry, you can see the uploaded Blocklet in the "Blocklet" page
+7. The uploaded Blocklet is still in the "draft" status, click the "publish" button to publish
+8. Verify in the registry: [blocklet registry](https://registry.arcblock.io/) or [blocklet registry(dev)](https://dev.registry.arcblock.io/)
+9. Verify in the market: install your Blocklet to your ABT Node
 
 ## Publish Config
 
