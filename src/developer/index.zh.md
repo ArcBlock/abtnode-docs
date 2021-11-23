@@ -13,6 +13,7 @@ tags:
 
 - [配置开发环境](./config-dev-env)
 - [ABT 节点 CLI 工具](./abtnode-cli)
+- [Blocklet CLI 工具](./blocklet-cli)
 - [节点配置](./configuration)
 - [节点存储目录详解](./storage-structure)
 - [Blocklet 规范](./blocklet-spec)

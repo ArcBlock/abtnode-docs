@@ -38,6 +38,7 @@ tags:
   - [GraphQL 控制台](./misc/graphql-console)
 - [开发者指南](./developer)
   - [ABT 节点 cli 工具](./developer/abtnode-cli)
+  - [Blocklet cli 工具](./developer/blocklet-cli)
   - [节点配置](./developer/configuration)
   - [节点存储目录详解](./developer/storage-structure)
   - [Blocklet 规范](./developer/blocklet-spec)

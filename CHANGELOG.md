@@ -1,3 +1,8 @@
+## 0.3.3 (十一月 23, 2021)
+
+- chore: update abtnode-cli zh docs
+- update: blocklet-cli docs & add zh translate
+
 ## 0.3.2 (August 10, 2021)
 
 - chore: update abtnode cli docs (#109)
