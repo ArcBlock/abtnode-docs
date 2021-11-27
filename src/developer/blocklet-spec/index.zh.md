@@ -68,7 +68,7 @@ name, description, version, group 描述了 Blocklet 的基本信息。其中，
   "public_url": "public page url, should at least specify one",
   "admin_url": "administrator page url, default to empty",
   "config_url": "configuration page url, default to empty",
-  "doc_url": "public document url, if not specified, will use registry detail page"
+  "doc_url": "public document url, if not specified, will use store detail page"
 }
 ```
 

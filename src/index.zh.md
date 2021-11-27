@@ -47,4 +47,4 @@ tags:
   - [Blocklet 生命周期钩子](./developer/blocklet-hooks)
   - [打包 Blocklet](./developer/bundle-blocklets)
   - [发布 Blocklet](./developer/publish-blocklets)
-  - [Blocklet 仓库](./developer/blocklet-registry)
+  - [Blocklet 商店](./developer/blocklet-store)

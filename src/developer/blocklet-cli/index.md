@@ -147,7 +147,7 @@ $ blocklet version  1.1.0
 
 ### Publish
 
-Publish the blocklet release to registry, see the detail in [publish blocklet](../publish-blocklets)
+Publish the blocklet release to store, see the detail in [publish blocklet](../publish-blocklets)
 
 ```bash
 blocklet publish [options] [metafile]
