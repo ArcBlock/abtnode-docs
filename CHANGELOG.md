@@ -1,3 +1,9 @@
+## 0.3.4 (十一月 27, 2021)
+
+- chore: rebrand blocklet-registry -> blocklet-store
+- chore: add author
+- feat: update publish registry docs
+
 ## 0.3.3 (十一月 23, 2021)
 
 - chore: update abtnode-cli zh docs
