@@ -9,15 +9,16 @@ tags:
   - 'abtnode'
 ---
 
-
 ABT Node provides `abtnode` command-line tool for controlling and administering the node. Use the following syntax to run `abtnode` commands from your terminal:
 
-``` bash
+```bash
 abtnode [options] [command]
 ```
+
 You can use the `-h` or `--help` to determine the full list of supported commands.
 
 ### Version
+
 Shows the current ABT node version.
 
 ```bash
@@ -27,7 +28,7 @@ $ abtnode -V
 
 ### Initialize
 
-Bootstraps a configuration for the  ABT Node. The configuration contains Node level basic attributes like Ports.
+Bootstraps a configuration for the ABT Node. The configuration contains Node level basic attributes like Ports.
 
 ```bash
 $ abtnode init
@@ -55,7 +56,6 @@ Starts the ABT Node Daemon.
 ```
 
 ABT Node must be initialised before starting else the startup will fail. Alternatively, you can pass the `--auto-init / -a` flag to perform auto initialization.
-
 
 ### Stop
 
@@ -127,7 +127,7 @@ static-demo-blocklet@1.1.10
 Upgrades the ABT Node to the latest available version. It performs all the required steps like stopping the current version, installing the new version, and starting it.
 
 ```bash
-$ abtnode upgrade   
+$ abtnode upgrade
 ℹ Using abtnode from /home/arcblock/.local/bin/abtnode
 ℹ Checking permissions...
 Current version is 1.4.1, found latest version 1.4.4
@@ -161,10 +161,10 @@ $ abtnode info
 Exports the complete ABT Node state, including ABT Node configuration, Blocklets configuration and Routes, so that it can be shared.
 
 ```bash
-$ abtnode export   
+$ abtnode export
 ℹ Node did from config zNKhyzGJfngmBvwQiwHtBinUNiwL2SE85yAE
 ℹ Load config from /data/abtnode/.abtnode/abtnode.yml
-⚠ Will only export the blocklets that installed from blocklet registry or url.
+⚠ Will only export the blocklets that installed from blocklet store or url.
 ✔ Copy ABT Node configurations file successfully!
 ℹ Copying blocklet data...
 ✔ Copy blocklet data successfully!

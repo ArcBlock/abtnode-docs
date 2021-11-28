@@ -1,7 +1,7 @@
 ---
 title: ABT Node Docs
 description: Introduction
-keywords: "abtnode, blocklet"
+keywords: 'abtnode, blocklet'
 author: wangshijun
 category: ''
 layout: documentation
@@ -54,4 +54,4 @@ Welcome to ABT Node documentation
   - [Blocklet Hooks](./developer/blocklet-hooks)
   - [Bundle Blocklets](./developer/bundle-blocklets)
   - [Publish Blocklets](./developer/publish-blocklets)
-  - [Blocklet Registry](./developer/blocklet-registry)
+  - [Blocklet Store](./developer/blocklet-store)

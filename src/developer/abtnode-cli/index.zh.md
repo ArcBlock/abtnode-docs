@@ -164,7 +164,7 @@ $ abtnode info
 $ abtnode export
 ℹ Node did from config zNKhyzGJfngmBvwQiwHtBinUNiwL2SE85yAE
 ℹ Load config from /data/abtnode/.abtnode/abtnode.yml
-⚠ Will only export the blocklets that installed from blocklet registry or url.
+⚠ Will only export the blocklets that installed from blocklet store or url.
 ✔ Copy ABT Node configurations file successfully!
 ℹ Copying blocklet data...
 ✔ Copy blocklet data successfully!
