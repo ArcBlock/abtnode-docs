@@ -1,3 +1,7 @@
+## 0.3.5 (十二月 06, 2021)
+
+- chore: upgrade blocklet.yml
+
 ## 0.3.4 (十一月 27, 2021)
 
 - chore: rebrand blocklet-registry -> blocklet-store
@@ -75,23 +79,13 @@
 
 ## 0.2.8 (February 10, 2021)
 
-
-
 ## 0.2.7 (February 09, 2021)
-
-
 
 ## 0.2.6 (January 15, 2021)
 
-
-
 ## 0.2.5 (January 15, 2021)
 
-
-
 ## 0.2.4 (January 15, 2021)
-
-
 
 ## 0.2.3 (January 14, 2021)
 
@@ -129,8 +123,6 @@
 
 ## 0.1.5 (December 02, 2020)
 
-
-
 ## 0.1.4 (December 02, 2020)
 
 - fix page can not load
@@ -156,33 +148,19 @@
 
 ## 0.0.36 (November 11, 2020)
 
-
-
 ## 0.0.35 (November 10, 2020)
-
-
 
 ## 0.0.34 (November 10, 2020)
 
 ## 0.0.33 (November 05, 2020)
 
-
-
 ## 0.0.32 (November 05, 2020)
-
-
 
 ## 0.0.31 (November 02, 2020)
 
-
-
 ## 0.0.30 (October 31, 2020)
 
-
-
 ## 0.0.29 (October 31, 2020)
-
-
 
 ## 0.0.28 (October 22, 2020)
 
@@ -295,4 +273,3 @@ ci: send notification to slack after deployed
 ## 0.0.2 (August 03, 2020)
 
 - add router docs
-
