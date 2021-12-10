@@ -1,17 +1,17 @@
 ---
 title: '路由的基本用法'
 description: '路由的基本用法'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'nate'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 ## 第一步，配置路由引擎
 
-如果在初始化 ABT 节点时将 `none` 设置为路由引擎，Blocklet 的访问是以 `IP` 加 `端口` 的形式，当我们在路由引擎设置界面设置了路由引擎为 `Nginx` 之后，`路由规则` 栏目便会出现，我们需要点击 `路由规则` 切换到规则页面进行下面的步骤。
+如果在初始化 Blocklet Server 时将 `none` 设置为路由引擎，Blocklet 的访问是以 `IP` 加 `端口` 的形式，当我们在路由引擎设置界面设置了路由引擎为 `Nginx` 之后，`路由规则` 栏目便会出现，我们需要点击 `路由规则` 切换到规则页面进行下面的步骤。
 
 ![router-basic-use-1](./images/router-basic-use-1-zh.png)
 
@@ -29,7 +29,7 @@ tags:
 
 #### 2. 该站点根目录默认请求转发到哪个服务
 
-默认的话，一个站点的根目录请求会转发给当前的 ABT 节点服务，你也可以在此做选择自定义
+默认的话，一个站点的根目录请求会转发给当前的 Blocklet Server 服务，你也可以在此做选择自定义
 
 #### 3. 转发的服务的端口配置
 
@@ -121,7 +121,7 @@ tags:
 
 ## 其它三，必须的 Nginx 编译配置参数
 
-ABT Node 依赖的 Nginx 必须包含下列配置参数：
+Blocklet Server 依赖的 Nginx 必须包含下列配置参数：
 
 - `--with-pcre`
 - `--with-openssl`
@@ -136,10 +136,10 @@ ABT Node 依赖的 Nginx 必须包含下列配置参数：
 
 如果 Nginx 没有成功运行，试试下面的方法进行修复。
 
-在成功修复之后，用下面的命令对 ABT 节点进行重启。
+在成功修复之后，用下面的命令对 Blocklet Server 进行重启。
 
 ```bash
-ubuntu@ubuntu:~$ abtnode stop && abtnode start
+ubuntu@ubuntu:~$ blocklet server stop && blocklet server start
 ℹ Load config from /home/ubuntu/.abtnode.yml
 ℹ Node did from config zNKhAjw6ktz37Ysb3PqBbgaZqZ59Td9fXR7G
 ✔ abt-node-daemon is stopped successfully
@@ -148,8 +148,8 @@ ubuntu@ubuntu:~$ abtnode stop && abtnode start
 ✔ Done!
 ℹ Load config from /home/ubuntu/.abtnode.yml
 ℹ Node did from config zNKhAjw6ktz37Ysb3PqBbgaZqZ59Td9fXR7G
-✔ ABT Node DB Hub was started successfully
-✔ ABT Node Daemon started successfully: http://192.168.1.10:8089
+✔ Blocklet Server DB Hub was started successfully
+✔ Blocklet Server Daemon started successfully: http://192.168.1.10:8089
 ```
 
 ### 无法绑定 80 端口

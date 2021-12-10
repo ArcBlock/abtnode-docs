@@ -1,15 +1,15 @@
 ---
 title: Blocklets
 description: 'Blocklets'
-keywords: 'abtnode, blocklets'
+keywords: 'blocklet server, blocklets'
 author: wangshijun
 category: ''
 layout: documentation
 tags:
-  - abtnode
+  - 'blocklet server'
 ---
 
-Previously, you have deployed the ABT Node and have installed Blocklets from the [Marketplace](../marketplace). In this section, you will work with Blocklet administration features available in ABT Node. You will also look at the various types of Blocklets available with ABT Node.
+Previously, you have deployed the Blocklet Server and have installed Blocklets from the [Marketplace](../marketplace). In this section, you will work with Blocklet administration features available in Blocklet Server. You will also look at the various types of Blocklets available with Blocklet Server.
 
 ## Contents
 

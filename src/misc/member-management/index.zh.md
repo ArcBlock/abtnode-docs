@@ -1,19 +1,19 @@
 ---
 title: '成员管理'
 description: '成员管理'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'nate'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-ABT 节点可以自由添加成员，并且节点的拥有者可以在 `配置-团队` 页面自由管理成员权限。
+Blocklet Server 可以自由添加成员，并且节点的拥有者可以在 `配置-团队` 页面自由管理成员权限。
 
 首先，新成员需要准备好初始化完成的 [ABT 钱包](https://abtwallet.io/zh/)。
 
-然后，你只需将当前 ABT 节点的访问地址发送给他，让对方用钱包做一次扫码操作即可：
+然后，你只需将当前 Blocklet Server 的访问地址发送给他，让对方用钱包做一次扫码操作即可：
 
 ![](./images/member-manager-1-zh.png)
 

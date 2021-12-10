@@ -1,18 +1,18 @@
 ---
 title: '开发者指南'
 description: '开发者指南'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-如果你是开发者，并且正准备在 ABT 节点上进行开发，这一章节为你而准备：
+如果你是开发者，并且正准备在 Blocklet Server 上进行开发，这一章节为你而准备：
 
 - [配置开发环境](./config-dev-env)
-- [ABT 节点 CLI 工具](./abtnode-cli)
+- [Blocklet Server  CLI 工具](./abtnode-cli)
 - [Blocklet CLI 工具](./blocklet-cli)
 - [节点配置](./configuration)
 - [节点存储目录详解](./storage-structure)

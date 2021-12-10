@@ -1,12 +1,12 @@
 ---
 title: '部署最佳实践'
 description: '部署最佳实践'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 ## Production Best Practice

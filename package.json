@@ -1,7 +1,7 @@
 {
   "name": "@arcblock/abtnode-docs",
-  "version": "0.3.5",
-  "description": "ABT Node Documentation, a help documentation for quickly get started with ABT Node.",
+  "version": "0.4.0",
+  "description": "Blocklet Server Documentation, a help documentation for quickly get started with Blocklet Server.",
   "main": "index.js",
   "publishConfig": {
     "access": "public"

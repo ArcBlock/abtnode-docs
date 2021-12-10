@@ -1,15 +1,15 @@
 ---
 title: 'Misc'
 description: 'Misc'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'nate'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-ABT Node support some other features:
+Blocklet Server support some other features:
 
 - [Member Management](./member-management)
 - [GraphQL Console](./graphql-console)

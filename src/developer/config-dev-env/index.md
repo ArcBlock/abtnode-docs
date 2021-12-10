@@ -1,12 +1,12 @@
 ---
 title: 'Configuring the development environment'
 description: 'Configuring the development environment'
-keywords: 'abtnode, development'
+keywords: 'blocklet server, development'
 author: 'polunzh'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
   - 'development'
 ---
 
@@ -44,15 +44,15 @@ $ nvm install --lts
 
 Use the `node -v` command to view the installed version of Node.js.
 
-## Install ABT Node
+## Install Blocklet Server
 
-After completing the installation of Node.js, you can install ABT Node:
+After completing the installation of Node.js, you can install Blocklet Server:
 
 ```bash
-$ npm install -g @abtnode/cli
+$ npm install -g @blocklet/cli
 ```
 
-After installation, you can run `abtnode --version` to see the current version.
+After installation, you can run `blocklet --version` to see the current version.
 
 ## Install VSCode
 

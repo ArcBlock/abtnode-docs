@@ -1,3 +1,7 @@
+## 0.4.0 (December 10, 2021)
+
+- rename abtnode to blocklet server
+
 ## 0.3.5 (十二月 06, 2021)
 
 - chore: upgrade blocklet.yml

@@ -1,15 +1,15 @@
 ---
 title: '其他功能'
 description: '其他功能'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'nate'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-ABT 节点支持的其他功能:
+Blocklet Server 支持的其他功能:
 
 - [成员管理](./member-management)
 - [GraphQL 试验台](./graphql-console)

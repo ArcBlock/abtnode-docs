@@ -12,7 +12,7 @@ tags:
 
 ![docker pull](https://img.shields.io/docker/pulls/arcblock/abtnode.svg)
 
-也可以使用 Docker 创建 ABT Node 节点：
+也可以使用 Docker 创建 Blocklet Server 节点：
 
 ## 1. 拉取镜像
 

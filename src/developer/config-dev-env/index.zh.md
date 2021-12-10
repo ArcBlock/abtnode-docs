@@ -1,12 +1,12 @@
 ---
 title: '配置开发环境'
 description: '配置开发环境'
-keywords: 'abtnode, development'
+keywords: 'blocklet server, development'
 author: 'polunzh'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
   - 'development'
 ---
 
@@ -44,15 +44,15 @@ $ nvm install --lts
 
 使用 `node -v` 命令查看已安装的 Node.js 版本。
 
-## Install ABT Node
+## Install Blocklet Server
 
-完成安装 Node.js 后就可以安装 ABT Node 了:
+完成安装 Node.js 后就可以安装 Blocklet Server 了:
 
 ```bash
-$ npm install -g @abtnode/cli
+$ npm install -g @blocklet/cli
 ```
 
-安装完成之后可以执行 `abtnode --version` 查看当前的版本。
+安装完成之后可以执行 `blocklet --version` 查看当前的版本。
 
 ## Install VSCode
 

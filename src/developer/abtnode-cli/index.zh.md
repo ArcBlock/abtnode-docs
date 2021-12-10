@@ -1,28 +1,28 @@
 ---
-title: 'ABT 节点 cli 工具'
-description: 'ABT 节点 cli 工具'
-keywords: 'abtnode'
+title: 'Blocklet Server cli 工具'
+description: 'Blocklet Server cli 工具'
+keywords: 'blocklet server'
 author: 'nate'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-ABT Node 提供了 `abtnode` 命令行工具，用于控制和管理节点。使用以下语法可以从您的终端运行 `abtnode` 命令：
+Blocklet Server 提供了 `abtnode` 命令行工具，用于控制和管理节点。使用以下语法可以从您的终端运行 `abtnode` 命令：
 
 ```bash
-abtnode [options] [command]
+blocklet server[options] [command]
 ```
 
 你可以使用 `-h` 或 `--help` 来查看所有支持的命令。
 
 ### 版本
 
-查看当前 ABTNode 版本。
+查看当前 Blocklet CLI 版本。
 
 ```bash
-$ abtnode -V
+$ blocklet -V
 1.4.1
 ```
 
@@ -31,38 +31,38 @@ $ abtnode -V
 启动 ABTNode 的配置。配置包含节点层级的基本属性，如端口。
 
 ```bash
-$ abtnode init
-? Are you sure to initialize a ABT Node instance in the current directory(/home/arcblock) Yes
-✔ ABT Node configuration is successfully generated /home/arcblock/.abtnode/abtnode.yml
-ℹ abtnode start
+$ blocklet serve rinit
+? Are you sure to initialize a Blocklet Server instance in the current directory(/home/arcblock) Yes
+✔ Blocklet Server configuration is successfully generated /home/arcblock/.abtnode/abtnode.yml
+ℹ blocklet server start
 ```
 
 ### 启动
 
-启动 ABT Node 守护进程。
+启动 Blocklet Server 守护进程。
 
 ```bash
-➜ abtnode start
+➜ blocklet server start
 ℹ Node did from config zNKhyzGJfngmBvwQiwHtBinUNiwL2SE85yAE
 ℹ Load config from /data/abtnode/.abtnode/abtnode.yml
-✔ ABT Node DB Proxy ready on port 40404
-✔ ABT Node Event Hub ready on port 40407
-✔ ABT Node Updater ready on port 40405
-✔ ABT Node config updated with version 1.4.1
-✔ ABT Node state updated with version 1.4.1
+✔ Blocklet Server DB Proxy ready on port 40404
+✔ Blocklet Server Event Hub ready on port 40407
+✔ Blocklet Server Updater ready on port 40405
+✔ Blocklet Server config updated with version 1.4.1
+✔ Blocklet Server state updated with version 1.4.1
 ✔ Update blocklet environments success
-✔ Starting ABT Node Service... Done in 9.195s
-✔ Starting ABT Node Daemon... Done in 9.067s
+✔ Starting Blocklet Server Service... Done in 9.195s
+✔ Starting Blocklet Server Daemon... Done in 9.067s
 ```
 
-ABT Node 必须在启动前初始化，否则启动将失败。可以通过 `--auto-init / -a` 参数来自动初始化。
+Blocklet Server 必须在启动前初始化，否则启动将失败。可以通过 `--auto-init / -a` 参数来自动初始化。
 
 ### 停止
 
-停止 ABT Node。该命令支持 `-f` 选项来强制停止节点。
+停止 Blocklet Server。该命令支持 `-f` 选项来强制停止节点。
 
 ```bash
-$ abtnode stop
+$ blocklet server stop
 ℹ Node did from config zNKp3NUU4BJG7Q2aQc93oN2CVHCdK2dNU5t5
 ℹ Load config from /data/abtnode/.abtnode/abtnode.yml
 ✔ Sending shutdown notification to web dashboard users Done in 2.07s
@@ -78,15 +78,15 @@ $ abtnode stop
 
 ### 状态
 
-查看 ABT Node 状态。
+查看 Blocklet Server 状态。
 
 ```bash
-$ abtnode status
+$ blocklet server status
 ℹ Node did from config zNKp3NUU4BJG7Q2aQc93oN2CVHCdK2dNU5t5
 ℹ Load config from /data/abtnode/.abtnode/abtnode.yml
 
-ABT Node status: Running
-ABT Node Data Directory: /data/abtnode/.abtnode
+Blocklet Server status: Running
+Blocklet Server Data Directory: /data/abtnode/.abtnode
 
 Blocklets Status
 ┌──────────────────────────────┬──────────┬───────────────┐
@@ -98,14 +98,14 @@ Blocklets Status
 
 ### 日志
 
-查看 ABT Node 和 Blocklet 的日志位置。你可以从显示的位置中查看日志文件。
+查看 Blocklet Server 和 Blocklet 的日志位置。你可以从显示的位置中查看日志文件。
 
 ```bash
-$ abtnode logs
+$ blocklet server logs
 ℹ Node did from config zNKp3NUU4BJG7Q2aQc93oN2CVHCdK2dNU5t5
 ℹ Load config from /data/abtnode/.abtnode/abtnode.yml
 
-ABT Node Logs
+Blocklet Server Logs
 - Latest logs: /data/abtnode/.abtnode/logs/_abtnode/daemon-2021-08-03.log
 - Daemon Logs Directory: /data/abtnode/.abtnode/logs/_abtnode
 
@@ -113,7 +113,7 @@ ABT Node Logs
   - access-<date>.log: access logs rotated by day
   - daemon-<date>.log: business logs rotated by day
   - daemon-error-<date>.log: error logs rotated by day
-  - service.log: abtnode service logs
+  - service.log: blocklet server service logs
   - stderr.log: stderr logs
   - stdout.log: stdout logs
 
@@ -124,16 +124,16 @@ static-demo-blocklet@1.1.10
 
 ### 升级
 
-升级 ABT Node 到最新版本。它执行所有必要的步骤，如停止当前版本，安装新版本，并启动它。
+升级 Blocklet Server 到最新版本。它执行所有必要的步骤，如停止当前版本，安装新版本，并启动它。
 
 ```bash
-$ abtnode upgrade
-ℹ Using abtnode from /home/arcblock/.local/bin/abtnode
+$ blocklet server upgrade
+ℹ Using blocklet server from /home/arcblock/.local/bin/abtnode
 ℹ Checking permissions...
 Current version is 1.4.1, found latest version 1.4.4
 Begin upgrade
-ℹ Stopping ABT Node ...
-ℹ Installing ABT Node ...
+ℹ Stopping Blocklet Server ...
+ℹ Installing Blocklet Server ...
 
 # Truncated for Brevity
 ```
@@ -143,7 +143,7 @@ Begin upgrade
 打印环境信息以便调试和报告问题
 
 ```bash
-$ abtnode info
+$ blocklet server info
 
   System:
     OS: Linux 5.10 Ubuntu 18.04.5 LTS (Bionic Beaver)
@@ -158,14 +158,14 @@ $ abtnode info
 
 ### 导出
 
-导出 ABT Node 的完整状态，包括 ABT Node 配置、Blocklets 配置和路由，以便可以分享。
+导出 Blocklet Server 的完整状态，包括 Blocklet Server 配置、Blocklets 配置和路由，以便可以分享。
 
 ```bash
-$ abtnode export
+$ blocklet server export
 ℹ Node did from config zNKhyzGJfngmBvwQiwHtBinUNiwL2SE85yAE
 ℹ Load config from /data/abtnode/.abtnode/abtnode.yml
 ⚠ Will only export the blocklets that installed from blocklet store or url.
-✔ Copy ABT Node configurations file successfully!
+✔ Copy Blocklet Server configurations file successfully!
 ℹ Copying blocklet data...
 ✔ Copy blocklet data successfully!
 ℹ Copying other files...
@@ -186,10 +186,10 @@ $ abtnode export
 `help` 命令可以帮助你查看某个命令的帮助信息。同时，你也可以通过 `-h` 参数传递给子命令来获取相同的信息。
 
 ```bash
-$ abtnode help logs
-Usage: abtnode logs [options]
+$ blocklet server help logs
+Usage: blocklet server logs [options]
 
-Show ABT Node and blocklet logs
+Show Blocklet Server and blocklet logs
 
 Options:
   -h, --help  display help for command

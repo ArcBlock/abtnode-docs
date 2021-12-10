@@ -1,15 +1,15 @@
 ---
-title: 在生产环境中部署 ABT Node
+title: 在生产环境中部署 Blocklet Server
 description: ''
-keywords: 'abtnode,deployment'
+keywords: 'blocklet server,deployment'
 author: wangshijun
 category: ''
 layout: documentation
 tags:
-  - abtnode
+  - 'blocklet server'
 ---
 
-本章将介绍在生产环境中部署 ABT 节点相关话题。
+本章将介绍在生产环境中部署 Blocklet Server 相关话题。
 
 - [部署最佳实践](./best-practice)
 - [在 AWS 上部署](./from-aws-ami)

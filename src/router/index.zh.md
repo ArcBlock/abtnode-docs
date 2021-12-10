@@ -1,12 +1,12 @@
 ---
 title: 'Router'
 description: 'Router'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'nate'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 路由可以帮助你更友好的管理 Blocklet, 这个章节将会学到以下内容:

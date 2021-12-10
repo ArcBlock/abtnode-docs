@@ -6,7 +6,7 @@ author: 'zhenqiang'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 如果需要为每一个 Blocklet 配置一个子域名，并且都在相同的二级域名下。那么可以为这些子域名生成通配符证书。比如说，假如我们这些 Blocklet 的二级域名都是 `arcblockio.cn`, 那么我们可以生成一个域名为 `*.arcblockio.cn` 的证书。

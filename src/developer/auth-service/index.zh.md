@@ -1,18 +1,18 @@
 ---
 title: '为 Blocklet 配置 Auth Service'
 description: 'Auth Service 使用说明'
-keywords: 'abtnode, blocklet, service, auth'
+keywords: 'blocklet server, blocklet, service, auth'
 author: 'linchen'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
   - 'blocklet'
   - 'service'
   - 'auth'
 ---
 
-Auth Service 是 ABT Node 为 Blocklet 提供的通用 Auth 服务。
+Auth Service 是 Blocklet Server 为 Blocklet 提供的通用 Auth 服务。
 
 Blocklet 可以通过在 `blocklet.yml` 中以声明的方式启用和配置 Auth Service.
 
@@ -22,9 +22,9 @@ Auth Service 包含以下主要能力：
 - 设置邀请登录和开放登录
 
 ## 入门
-[static-demo-blocklet](https://github.com/blocklet/html-2048-sample) 是一个可以运行在 ABT Node 上的 html5 游戏。下面将介绍如何制作一个拥有 Auth 能力（登录后可访问）的 static-demo-blocklet.
+[static-demo-blocklet](https://github.com/blocklet/html-2048-sample) 是一个可以运行在 Blocklet Server 上的 html5 游戏。下面将介绍如何制作一个拥有 Auth 能力（登录后可访问）的 static-demo-blocklet.
 
-0. 前置条件: 本地安装并且运行 v1.2.0 以上版本的 ABT Node
+0. 前置条件: 本地安装并且运行 v1.2.0 以上版本的 Blocklet Server
 
 1. 下载项目源代码 [html-2048-sample](https://github.com/blocklet/html-2048-sample)
 
@@ -53,17 +53,17 @@ linchen@LinkdeMacBook-Pro html-2048-sample % blocklet bundle
 ✔ Blocklet static-demo-blocklet@1.1.7 is successfully bundled!
 ```
 
-4. 在项目根目录下执行 `blocklet deploy .blocklet/bundle`, 将 blocklet bundle 发布到本地运行的 ABT Node.
+4. 在项目根目录下执行 `blocklet deploy .blocklet/bundle`, 将 blocklet bundle 发布到本地运行的 Blocklet Server.
 
 ```
 linchen@LinkdeMacBook-Pro html-2048-sample % blocklet deploy .blocklet/bundle
-ℹ Try to deploy blocklet from /Users/linchen/code/blocklet/html-2048-sample/.blocklet/bundle to Local ABT Node
+ℹ Try to deploy blocklet from /Users/linchen/code/blocklet/html-2048-sample/.blocklet/bundle to Local Blocklet Server
 ℹ Node did from config zNKqGAvUzcCowxtNA5r5gKQYUm2hR4X2SE2o
 ℹ Load config from /Users/linchen/code/arcblock/andata/.abtnode/abtnode.yml
 ✔ Blocklet static-demo-blocklet@1.1.7 was successfully deployed!
 ```
 
-5. 在 ABT Node dashboard 启动 Static Demo
+5. 在 Blocklet Server dashboard 启动 Static Demo
 
 ![](./images/static-demo-1.png)
 
@@ -71,7 +71,7 @@ linchen@LinkdeMacBook-Pro html-2048-sample % blocklet deploy .blocklet/bundle
 
 ![](./images/static-demo-2.png)
 
-7. 登录成功后, 会成功看到游戏页面. 此时, 在 ABT Node dashboard 中会看到登录用户的信息.
+7. 登录成功后, 会成功看到游戏页面. 此时, 在 Blocklet Server dashboard 中会看到登录用户的信息.
 
 ![](./images/static-demo-3.png)
 
@@ -164,7 +164,7 @@ interfaces:
           blockUnauthorized: true
 ```
 
-设置 Auth Service 自动拦截后，需要在 ABT Node dashboard 中为 user 绑定相应接口的权限。（ABT Node 的权限控制基于 [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control)）
+设置 Auth Service 自动拦截后，需要在 Blocklet Server dashboard 中为 user 绑定相应接口的权限。（Blocklet Server 的权限控制基于 [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control)）
 
 ![](./images/permissions.png)
 

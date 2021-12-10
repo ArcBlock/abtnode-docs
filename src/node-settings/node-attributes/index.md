@@ -1,19 +1,19 @@
 ---
 title: 'Basic Settings'
 description: 'Basic Settings'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-The _Basic Settings_ view configured the below described attributes about the ABT Node.
+The _Basic Settings_ view configured the below described attributes about the Blocklet Server.
 
 ![](./images/node-settings-2-en.png)
 
-Besides the ABT Node details, the settings page also provides the end-user license agreement.
+Besides the Blocklet Server details, the settings page also provides the end-user license agreement.
 
 ### Name Your Node
 
@@ -29,16 +29,16 @@ Provides the location of a deployed [DID wallet Blocklet](https://store.blocklet
 
 ### Alerts
 
-ABT Node monitors the disk usage and can raise notifications when the usage goes above the specified limit.
+Blocklet Server monitors the disk usage and can raise notifications when the usage goes above the specified limit.
 
 ### Automatic Update Check
 
-ABT Node can perform a daily check for an available newer version. Optionally, there is a _check for updates_ button to verify manually if a newer version is available.
+Blocklet Server can perform a daily check for an available newer version. Optionally, there is a _check for updates_ button to verify manually if a newer version is available.
 
-ABT Node does not perform auto-upgrade. An admin user must confirm the upgrade process.
+Blocklet Server does not perform auto-upgrade. An admin user must confirm the upgrade process.
 
 ![](./images/node-settings-upgrade-en.png)
 
 ### Welcome Page
 
-ABT Node displays a welcome page to help users navigate to the ABT Node login and the ABT Node documentation pages.
+Blocklet Server displays a welcome page to help users navigate to the Blocklet Server login and the Blocklet Server documentation pages.

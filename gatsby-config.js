@@ -20,8 +20,8 @@ module.exports = {
         defaultBanner: pathPrefix + 'og-banner.png',
         sourceDirs: [path.resolve(__dirname, 'src')],
         siteMetadata: {
-          title: 'ABT Node',
-          description: 'ABT Node Documentation',
+          title: 'Blocklet Server',
+          description: 'Blocklet Server Documentation',
           logoUrl: '/abtnode/',
           sidebarWidth: 360,
         },

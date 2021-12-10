@@ -1,12 +1,12 @@
 ---
 title: 'Find and Install Blocklets'
 description: 'Find and Install Blocklets'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'tigeryu8900'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 The marketplace is a digital catalog of Blocklets created by ArcBlock, ecosystem partners, and third-party vendors. These Blocklet are fetched from different Blocklet registries, analogous to development package registries like `npm registry`. Each of these Blocklets can offer out-of-box capabilities by using ArcBlock Platform. The marketplace allows you to filter and install Blocklets based on your selection criteria. The Blocklet details page servers as a product guide which shows all provided information.
@@ -15,7 +15,7 @@ The marketplace is a digital catalog of Blocklets created by ArcBlock, ecosystem
 
 ## Find a Blocklet
 
-To get started, go to the left-hand action bar and click on **marketplace**. It will display a catalog of Blocklets created by the ABT Node community. Blocklets are shown with details like the latest release version, release date, install count, and project tags. You can sort the catalog by _popularity_ or by _name_. Additionally, a _search_ box is also provided to filter Blocklets based on their name and description.
+To get started, go to the left-hand action bar and click on **marketplace**. It will display a catalog of Blocklets created by the Blocklet Server community. Blocklets are shown with details like the latest release version, release date, install count, and project tags. You can sort the catalog by _popularity_ or by _name_. Additionally, a _search_ box is also provided to filter Blocklets based on their name and description.
 
 ![](./images/search-blocklet.png)
 
@@ -27,7 +27,7 @@ The marketplace dashboard shows Blocklet summary, which can serve your selection
 
 ## Install a Blocklet
 
-Installing a Blocklets is quite easy. Find a Blocklet you want to add to your ABT Node and click on the _Install_ button. It will take sometime to complete the installation.
+Installing a Blocklets is quite easy. Find a Blocklet you want to add to your Blocklet Server and click on the _Install_ button. It will take sometime to complete the installation.
 
 ![](./images/marketplace-installblocklet-en.png)
 
@@ -41,7 +41,7 @@ The installation process does not start the Blocklet. You have to access the [Bl
 
 ## Blocklet Store
 
-ABT Node marketplace is configured to use Blocklets from the following Blocklet registries :
+Blocklet Server marketplace is configured to use Blocklets from the following Blocklet registries :
 
 1. Official Store: It provides hosting for production-ready Blocklets for the end-user.
 2. Dev Store: It provides sample Blocklets for developers to know the possibilities with the ArcBlock platform.

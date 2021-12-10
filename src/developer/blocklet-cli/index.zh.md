@@ -9,7 +9,7 @@ tags:
   - 'blocklet'
 ---
 
-ABT Node 提供了 `blocklet` 命令行工具，用于控制和管理 Blocklets。使用以下语法在您的终端中运行 `blocklet` 命令：
+Blocklet Server 提供了 `blocklet` 命令行工具，用于控制和管理 Blocklets。使用以下语法在您的终端中运行 `blocklet` 命令：
 
 ```bash
 blocklet [options] [command]
@@ -42,7 +42,7 @@ https://github.com/ArcBlock/blocklets#keyinfo-blockletjson
 
 Press ^C to quit.
 ? blocklet name, case INSENSITIVE: first
-? Please write concise description: ABT Node blocklet project
+? Please write concise description: Blocklet Server blocklet project
 ? What's the group of the blocklet? static
 ? What's the entry point of the blocklet? .
 ? What's the public interface of the blocklet? /
@@ -91,7 +91,7 @@ $ blocklet dev start
 
 - http://127.0.0.1
 
-ℹ Note that your blocklet is running in development in ABT Node,
+ℹ Note that your blocklet is running in development in Blocklet Server,
 ℹ To run it in production mode, you can use blocklet bundle and then blocklet deploy.
 ```
 
@@ -104,7 +104,7 @@ $ blocklet dev remove
 
 ### 打包
 
-打包 Blocklet 以便在 ABT Node 中部署。
+打包 Blocklet 以便在 Blocklet Server 中部署。
 
 ```bash
 $ blocklet bundle
@@ -153,7 +153,7 @@ blocklet upload [options] [metafile]
 
 ### Blocklet 元信息迁移
 
-`blocklet migrate` 命令会更新 Blocklet 的元信息，以便在最新的 ABT Node 版本中使用。
+`blocklet migrate` 命令会更新 Blocklet 的元信息，以便在最新的 Blocklet Server 版本中使用。
 
 ```bash
 $ blocklet migrate
@@ -162,7 +162,7 @@ $ blocklet migrate
 
 ### Blocklet 配置
 
-管理 ABT Node 的配置文件
+管理 Blocklet Server 的配置文件
 
 ```bash
 blocklet config [options] [key] [value]

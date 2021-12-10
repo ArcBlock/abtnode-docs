@@ -1,15 +1,15 @@
 ---
 title: '给站点绑定域名以及启用 SSL'
 description: '给站点绑定域名以及启用 SSL'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'zhenqiang'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-当我们在 ABT Node 创建一个站点后，ABT Node 会自动给该应用分配一个可以访问的地址；同时，用户也可以给这个应用绑定一个自定义的域名，以及给这个站点启动 SSL.
+当我们在 Blocklet Server 创建一个站点后，Blocklet Server 会自动给该应用分配一个可以访问的地址；同时，用户也可以给这个应用绑定一个自定义的域名，以及给这个站点启动 SSL.
 
 ## 绑定域名
 
@@ -17,7 +17,7 @@ tags:
 
 绑定域名的前提是该域名已经解析到该节点所在的服务器，这个需要用户在自己域名所在的域名服务商进行解析。
 
-### 在 ABT Node 中绑定
+### 在 Blocklet Server 中绑定
 
 #### 添加站点
 
@@ -55,7 +55,7 @@ tags:
 
 ## 启动 SSL
 
-当我们的站点已经运行的时候，我们应该给这个站点添加一个 SSL 证书，让网站更安全。ABT Node 提供了两种添加 SSL 证书的方式，分别是用户自己上传和使用 Certificate Manager Blocklet 创建免费的证书。
+当我们的站点已经运行的时候，我们应该给这个站点添加一个 SSL 证书，让网站更安全。Blocklet Server 提供了两种添加 SSL 证书的方式，分别是用户自己上传和使用 Certificate Manager Blocklet 创建免费的证书。
 
 ### 自己上传
 
@@ -81,8 +81,8 @@ tags:
 2. 配置 Certificate Manager
 
 ```
-  - `NODE_ACCESS_KEY`: 在 ABT Node 中生成的 NODE_ACCESS_KEY, Certificate Manager 用来上传证书用的
-  - `NODE_ACCESS_SECRET`: 在 ABT Node 中生成的 NODE_ACCESS_SECRET, Certificate Manager 用来上传证书用的
+  - `NODE_ACCESS_KEY`: 在 Blocklet Server 中生成的 NODE_ACCESS_KEY, Certificate Manager 用来上传证书用的
+  - `NODE_ACCESS_SECRET`: 在 Blocklet Server 中生成的 NODE_ACCESS_SECRET, Certificate Manager 用来上传证书用的
   - `NODE_DOMAIN`: 节点地址，用来显示提示信息
   - `MAINTAINER_EMAIL`: 维护者的邮箱，用来接收证书相关的邮件
 ```

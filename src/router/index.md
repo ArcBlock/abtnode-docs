@@ -1,15 +1,15 @@
 ---
 title: 'Service Gateway'
-description: 'ABT Node Service Gateway'
-keywords: 'abtnode, networking, service gateway, url, blocklet'
+description: 'Blocklet Server Service Gateway'
+keywords: 'blocklet server, networking, service gateway, url, blocklet'
 author: 'nate'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-The Service Gateway enables you to control communications for your ABT Node and configure your networking services to support your apps, services and Blocklets. In this section we will learn:
+The Service Gateway enables you to control communications for your Blocklet Server and configure your networking services to support your apps, services and Blocklets. In this section we will learn:
 
 - [What is the Service Gateway?](./what-is-router)
 - [Basic Service Gateway Usage](./basic-usage)

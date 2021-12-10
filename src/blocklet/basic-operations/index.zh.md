@@ -1,12 +1,12 @@
 ---
 title: '基本管理操作'
 description: '基本管理操作'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'nate'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 首先，我们先从 Blocklet 市场安装一个 Blocklet，成功安装之后，我们打开 `基石程序` 。

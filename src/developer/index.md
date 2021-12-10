@@ -1,18 +1,18 @@
 ---
 title: 'Developer Guide'
 description: 'Developer Guide'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-If you are a developer and want to do something with ABT Node ,this chapter is for you:
+If you are a developer and want to do something with Blocklet Server ,this chapter is for you:
 
 - [Configuring the development environment](./config-dev-env)
-- [ABT Node CLI](./abtnode-cli)
+- [Blocklet Server CLI](./abtnode-cli)
 - [Blocklet CLI](./blocklet-cli)
 - [Node Configuration](./configuration)
 - [Storage Structure](./storage-structure)

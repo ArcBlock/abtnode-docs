@@ -1,17 +1,17 @@
 ---
 title: 'Create DApp Blocklets'
 description: 'Create DApp Blocklets'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'tigeryu8900'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 The previous section [Create Static Blocklets](static-blocklets) introduced in detail how to create a static blocklet
-that can be deployed and run in ABT Node from scratch. This section is about creating and deploying a DApp blocklet from
-scratch in ABT Node.
+that can be deployed and run in Blocklet Server from scratch. This section is about creating and deploying a DApp blocklet from
+scratch in Blocklet Server.
 
 ## Step 1: Preparing the Environment
 
@@ -23,7 +23,7 @@ scratch in ABT Node.
 
 ![](./images/create-dapp-blocklet-2.png)
 
-3. Next, initialize and run ABT Node.
+3. Next, initialize and run Blocklet Server.
 
 ![](./images/create-dapp-blocklet-3.png)
 
@@ -58,11 +58,11 @@ After the generated template project is successfully configured, it can run loca
 
 ## Step 3: Deploy DApp Blocklet
 
-First, press `Ctrl+C` to stop the local test process, and then execute the `abtnode deploy .` command.
+First, press `Ctrl+C` to stop the local test process, and then execute the `blocklet deploy .` command.
 
 ![](./images/create-dapp-blocklet-5.png)
 
-After the deployment succeeded, take a look at the ABT Node `Corner Program` page.
+After the deployment succeeded, take a look at the Blocklet Server `Corner Program` page.
 
 ![](./images/create-dapp-blocklet-6-en.png)
 
@@ -86,4 +86,4 @@ The blocklet should now be in the `running` state. Click on the `public interfac
 
 ![](./images/create-dapp-blocklet-9.png)
 
-We have now successfully created a DApp blocklet in ABT Node.
+We have now successfully created a DApp blocklet in Blocklet Server.

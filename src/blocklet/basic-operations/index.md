@@ -1,15 +1,15 @@
 ---
 title: 'Blocklet Management'
 description: 'Blocklet Management'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-The *Blocklets Management* page shows all Blocklets installed on the ABT Node with the following attributes for each of the Blocklets.
+The *Blocklets Management* page shows all Blocklets installed on the Blocklet Server with the following attributes for each of the Blocklets.
 
 1. Name
 2. Access URLs
@@ -23,7 +23,7 @@ The *Blocklets Management* page shows all Blocklets installed on the ABT Node wi
 
 ## Blocklet Services
 
-The ABT Node provides authentication and interface configuration services to every Blockets. The Blocklet developer specifies these services. Blocklet interfaces are displayed under the Access URLs. There are the following types of supported interfaces :
+The Blocklet Server provides authentication and interface configuration services to every Blockets. The Blocklet developer specifies these services. Blocklet interfaces are displayed under the Access URLs. There are the following types of supported interfaces :
 interfaces:
 1. Public Url : Specifies HTTP URL for the Blocklet
 2. Admin Url :  The URL is intended to provide Admin functions for the Blocklet.
@@ -31,7 +31,7 @@ interfaces:
 4. API : Specifies a web endpoint for the Blocket provided API.
 5. Service : Specifies a TCP based service.
 
-Developers can add authentication to any of the above URLs. The authentication is provided using the ABT Node Teams feature. Additionally, every blocket generates log for every served request. These logs are available as part of the [Logs view](/en/logs).   
+Developers can add authentication to any of the above URLs. The authentication is provided using the Blocklet Server Teams feature. Additionally, every blocket generates log for every served request. These logs are available as part of the [Logs view](/en/logs).   
 
 ## Blocklet Operations
 
@@ -66,7 +66,7 @@ The *Blocklets Management* page generates notifications when a new version on an
 
 ![](./images/blocklets-upgrade.png)
 
-You can click the red uptick for the upgrade, it will ask for a confirmation. Once confirmed the ABT Node will download and install the new version of the Blocklet.
+You can click the red uptick for the upgrade, it will ask for a confirmation. Once confirmed the Blocklet Server will download and install the new version of the Blocklet.
 
 ![](./images/blocklets-upgrade-confirm.png)
 

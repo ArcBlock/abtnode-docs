@@ -1,12 +1,12 @@
 ---
 title: 'Blocklet Store'
 description: 'Blocklet Store'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 ## How to create a blocklet store

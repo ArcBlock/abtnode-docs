@@ -1,17 +1,17 @@
 ---
 title: 'Blocklet Hooks'
 description: 'Blocklet Hooks'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 Currently AbtNode supports the following hooks:
 
-- `pre-deploy`: Usually execute various builds locally, when deploying from local to ABT Node Daemon. If the exit code is non-zero, quit deployment
+- `pre-deploy`: Usually execute various builds locally, when deploying from local to Blocklet Server Daemon. If the exit code is non-zero, quit deployment
 - `post-install`: Do something at the end of installation. If the exit code is non-zero, the installation will be failed
 - `pre-stop`: Do something before stopping, such as exiting the related process started by the blocklet. If the exit code is non-zero, continue to stop, but print the error log
 - `pre-install`: Can be used to check whether the system environment meets the installation requirements. If the exit code is non-zero, the installation will be failed
@@ -24,7 +24,7 @@ If the hooks depend on the files in the project, define the relative paths of th
 
 ### Error Handler
 
-If there is an error in the blocklet, **write it to stderr**, so that `ABT Node` can handle it gracefully.
+If there is an error in the blocklet, **write it to stderr**, so that `Blocklet Server` can handle it gracefully.
 
 And if your hook is written by Node.js, we provide a utility `abtnode/js-util` to catch `unhandledRejection` and `unhandledRejection` error, just import to your code:
 

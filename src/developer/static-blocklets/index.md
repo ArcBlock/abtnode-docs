@@ -1,17 +1,17 @@
 ---
 title: 'Create Static Blocklets'
 description: 'Create Static Blocklets'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'tigeryu8900'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 ## Step 1: Preparing the Environment
 
-First, initialize and run ABT Node.
+First, initialize and run Blocklet Server.
 
 ## Step 2: Prepare the Front-End Static Code
 
@@ -31,18 +31,18 @@ Code:
 </head>
 <body>
 <h1>I am a static blocklet.</h1>
-<h2>I will be deployed in ABT Node.</h2>
+<h2>I will be deployed in Blocklet Server.</h2>
 </body>
 </html>
 ```
 
 ## Step 3: Create the necessary files
 
-For the blocklet to be displayed in a more user-friendly way in ABT Node, we need to add the following two files.
+For the blocklet to be displayed in a more user-friendly way in Blocklet Server, we need to add the following two files.
 
 ### 1. `blocklet.md`
 
-This file is similar to a `README.md` file, but this file is specifically for ABT Node. In this file, you can write an description of the blocklet, instructions, etc., which will allow other users to quickly understand what the blocklet does and what problems it solves.
+This file is similar to a `README.md` file, but this file is specifically for Blocklet Server. In this file, you can write an description of the blocklet, instructions, etc., which will allow other users to quickly understand what the blocklet does and what problems it solves.
 
 ![](./images/create-static-blocklet-2.png)
 
@@ -101,13 +101,13 @@ Parameter Description:
 
 ## Step 5: Deploy Blocklet
 
-After completing the above steps, we only need to go to the main directory of the project and execute the deployment command `abtnode deploy .` to complete the deployment of the blocklet.
+After completing the above steps, we only need to go to the main directory of the project and execute the deployment command `blocklet deploy .` to complete the deployment of the blocklet.
 
-> Please make sure that ABT Node can run before deploying.
+> Please make sure that Blocklet Server can run before deploying.
 
 ![](./images/create-static-blocklet-5.png)
 
-After deploying the blocklet, you can open the ABT Node `Blocklets` page to view the installed blocklets:
+After deploying the blocklet, you can open the Blocklet Server `Blocklets` page to view the installed blocklets:
 
 ![](./images/create-static-blocklet-6-en.png)
 
@@ -121,4 +121,4 @@ The blocklet should now be in the `running` state. Click on the `public interfac
 
 ![](./images/create-static-blocklet-8.png)
 
-We have now successfully created a static blocklet in ABT Node.
+We have now successfully created a static blocklet in Blocklet Server.

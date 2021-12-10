@@ -1,12 +1,12 @@
 ---
 title: 'Node Configuration'
 description: 'Node Configuration'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 Then create a configuration at `~/.abtnode.yml` with following content:
@@ -15,7 +15,7 @@ Then create a configuration at `~/.abtnode.yml` with following content:
 # Node config
 node:
   # Meta
-  name: 'ABT Node'
+  name: 'Blocklet Server'
   description: 'Container of official ArcBlock blocklets'
 
   # Node wallet
@@ -23,12 +23,12 @@ node:
   pk: '0x48c6ee9a36c0db6dabd29f64e4e916b030c7060f937008eed0793f2e20845238'
   did: 'zNKqM4yhZg39gd5KUuVNiDzq6HrwPSK6YFeA'
 
-  # Where to store ABT Node data: change this to your home folder, on mac usually: /Users/YOUR_NAME/.abtnode
+  # Where to store Blocklet Server data: change this to your home folder, on mac usually: /Users/YOUR_NAME/.abtnode
   dataDir: /home/work/.abtnode
 
   # Node dashboard
   domain: 192.168.1.2
-  port: 8089 # this port is where ABT Node Dashboard runs on
+  port: 8089 # this port is where Blocklet Server Dashboard runs on
   https: false
 
   # Node dashboard session secret

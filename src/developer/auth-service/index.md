@@ -1,18 +1,18 @@
 ---
 title: 'Configure Auth Service for Blocklet'
 description: 'Auth Service Instructions'
-keywords: 'abtnode, blocklet, service, auth'
+keywords: 'blocklet server, blocklet, service, auth'
 author: 'linchen'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
   - 'blocklet'
   - 'service'
   - 'auth'
 ---
 
-Auth Service is a general Auth service provided by ABT Node for Blocklet.
+Auth Service is a general Auth service provided by Blocklet Server for Blocklet.
 
 Blocklet can be declaratively enabled and configured Auth Service in `blocklet.yml`.
 
@@ -22,9 +22,9 @@ Auth Service includes the following main capabilities:
 - Set invitation login or open login
 
 ## Getting Started
-[static-demo-blocklet](https://github.com/blocklet/html-2048-sample) is an html5 game that can be run on ABT Node. The following will introduce how to make a static-demo-blocklet with Auth capability (login protection)
+[static-demo-blocklet](https://github.com/blocklet/html-2048-sample) is an html5 game that can be run on Blocklet Server. The following will introduce how to make a static-demo-blocklet with Auth capability (login protection)
 
-0. Prerequisites: Install and run ABT Node v1.2.0 or higher locally
+0. Prerequisites: Install and run Blocklet Server v1.2.0 or higher locally
 
 1. Download the project source code [html-2048-sample](https://github.com/blocklet/html-2048-sample)
 
@@ -53,17 +53,17 @@ linchen@LinkdeMacBook-Pro html-2048-sample % blocklet bundle
 ✔ Blocklet static-demo-blocklet@1.1.7 is successfully bundled!
 ```
 
-4. Execute `blocklet deploy .blocklet/bundle` in the project root directory to publish the blocklet bundle to the locally running ABT Node.
+4. Execute `blocklet deploy .blocklet/bundle` in the project root directory to publish the blocklet bundle to the locally running Blocklet Server.
 
 ```
 linchen@LinkdeMacBook-Pro html-2048-sample % blocklet deploy .blocklet/bundle
-ℹ Try to deploy blocklet from /Users/linchen/code/blocklet/html-2048-sample/.blocklet/bundle to Local ABT Node
+ℹ Try to deploy blocklet from /Users/linchen/code/blocklet/html-2048-sample/.blocklet/bundle to Local Blocklet Server
 ℹ Node did from config zNKqGAvUzcCowxtNA5r5gKQYUm2hR4X2SE2o
 ℹ Load config from /Users/linchen/code/arcblock/andata/.abtnode/abtnode.yml
 ✔ Blocklet static-demo-blocklet@1.1.7 was successfully deployed!
 ```
 
-5. Start Static Demo in ABT Node dashboard
+5. Start Static Demo in Blocklet Server dashboard
 
 ![](./images/static-demo-1.png)
 
@@ -71,7 +71,7 @@ linchen@LinkdeMacBook-Pro html-2048-sample % blocklet deploy .blocklet/bundle
 
 ![](./images/static-demo-2.png)
 
-7. After the login is successful, you will successfully see the game page. At this point, you will see the information of the logged-in user in the ABT Node dashboard.
+7. After the login is successful, you will successfully see the game page. At this point, you will see the information of the logged-in user in the Blocklet Server dashboard.
 
 ![](./images/static-demo-3.png)
 
@@ -164,7 +164,7 @@ interfaces:
           blockUnauthorized: true
 ```
 
-After setting the Auth Service automatic interception, you need to bind the corresponding interface permissions for the user in the ABT Node dashboard.（The permission control of ABT Node is based on [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control)）
+After setting the Auth Service automatic interception, you need to bind the corresponding interface permissions for the user in the Blocklet Server dashboard.（The permission control of Blocklet Server is based on [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control)）
 
 ![](./images/permissions.png)
 

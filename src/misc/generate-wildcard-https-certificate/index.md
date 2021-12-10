@@ -6,7 +6,7 @@ author: 'zhenqiang'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 If you need to configure a subdomain for each Blocklet, and they are all under the same second-level domain name. Then you can generate wildcard certificates for these subdomains. For example, if the second-level domain names of our Blocklets are all `arcblockio.cn`, then we can generate a certificate with the domain name `*.arcblockio.cn`.

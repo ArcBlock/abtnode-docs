@@ -1,12 +1,12 @@
 ---
 title: 'localhost 证书'
 description: 'localhost 证书'
-keywords: 'abtnode, 路由, 证书'
+keywords: 'blocklet server, 路由, 证书'
 author: 'zhenqiang'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 为了方便本地开发测试，我们可以生成一个只用于本地的证书。除了本机，该证书不会被其他任何人信任，对于开发来说已经够用了。

@@ -1,15 +1,15 @@
 ---
 title: '环境变量管理'
 description: '环境变量管理'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'nate'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-ABT 节点会为运行在节点里面的 Blocklet 提供一系列可访问的变量。
+Blocklet Server 会为运行在节点里面的 Blocklet 提供一系列可访问的变量。
 
 ![](./images/blocklet-env-1-zh.png)
 
@@ -28,10 +28,10 @@ ABT 节点会为运行在节点里面的 Blocklet 提供一系列可访问的变
 
 ### 全局配置
 
-1. `ABT_NODE_DID`：ABT 节点 did
-2. `ABT_NODE_PK`：ABT 节点 pk
-3. `ABT_NODE_URL`：ABT 节点 url
-4. `ABT_NODE_IP`：ABT 节点 ip 地址
-5. `ABT_NODE_PORT`：ABT 节点端口
-6. `ABT_NODE_PROTOCOL`：ABT 节点协议
-7. `ABT_NODE_DOMAIN`：ABT 节点 Domain
+1. `ABT_NODE_DID`：Blocklet Server  did
+2. `ABT_NODE_PK`：Blocklet Server  pk
+3. `ABT_NODE_URL`：Blocklet Server  url
+4. `ABT_NODE_IP`：Blocklet Server  ip 地址
+5. `ABT_NODE_PORT`：Blocklet Server 端口
+6. `ABT_NODE_PROTOCOL`：Blocklet Server 协议
+7. `ABT_NODE_DOMAIN`：Blocklet Server  Domain

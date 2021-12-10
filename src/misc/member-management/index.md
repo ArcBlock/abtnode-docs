@@ -1,20 +1,20 @@
 ---
 title: 'Member Management'
 description: 'Member Management'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-Current members of an ABT Node can add other users as members to the ABT Node, and the node owner can manage member permissions
+Current members of an Blocklet Server can add other users as members to the Blocklet Server, and the node owner can manage member permissions
 on the `Node -> Owner` page.
 
 To add a new member, the new member should have [ABT Wallet](https://abtwallet.io/en/) set up on his or her phone.
 
-Then, the new member would scan the QR code on the ABT Node's site.
+Then, the new member would scan the QR code on the Blocklet Server's site.
 
 ![](./images/member-manager-1-en.png)
 

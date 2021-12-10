@@ -1,12 +1,12 @@
 ---
 title: '节点配置'
 description: '节点配置'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 首先看一下节点配置页面的外观：

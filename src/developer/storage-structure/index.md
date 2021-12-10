@@ -1,12 +1,12 @@
 ---
 title: 'Storage Structure'
 description: 'Storage Structure'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 ## Storage Structure

@@ -1,12 +1,12 @@
 ---
 title: 'Blocklet Marketplace'
 description: 'Blocklet Marketplace'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'nate'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 Blocklet Marketplace 是一个方便大家寻找、升/降级管理 Blocklet 的功能平台，类似手机的应用市场。

@@ -1,15 +1,15 @@
 ---
-title: Deploy ABT Node in production
+title: Deploy Blocklet Server in production
 description: ''
-keywords: 'abtnode,deployment'
+keywords: 'blocklet server,deployment'
 author: wangshijun
 category: ''
 layout: documentation
 tags:
-  - abtnode
+  - 'blocklet server'
 ---
 
-This chapter will cover topics related to how to deploy ABT Node in a production environment.
+This chapter will cover topics related to how to deploy Blocklet Server in a production environment.
 
 - [Production Best Practice](./best-practice)
 - [Deploy with AWS AMI](./from-aws-ami)

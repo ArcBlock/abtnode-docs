@@ -1,15 +1,15 @@
 ---
 title: 'Binding domain names to sites and enabling SSL'
 description: 'Binding domain names to sites and enabling SSL'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'zhenqiang'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-When we create a site in ABT Node, ABT Node automatically assigns an accessible address to the application; also, users can bind a custom domain name to the application and activate SSL for the site.
+When we create a site in Blocklet Server, Blocklet Server automatically assigns an accessible address to the application; also, users can bind a custom domain name to the application and activate SSL for the site.
 
 ## Binding Domain
 
@@ -17,7 +17,7 @@ When we create a site in ABT Node, ABT Node automatically assigns an accessible 
 
 The prerequisite for binding a domain name is that the domain name has resolved to the server where the node is located, which requires the user to resolve the domain name at the domain name service provider where their domain name is located.
 
-### Binding in ABT Node
+### Binding in Blocklet Server
 
 #### Add Site
 
@@ -55,7 +55,7 @@ Site:
 
 ## Start SSL
 
-When our site is already running, we should add an SSL certificate to this site to make it more secure. ABT Node provides two ways to add an SSL certificate, by uploading it by the user and by creating a free certificate using the Certificate Manager Blocklet.
+When our site is already running, we should add an SSL certificate to this site to make it more secure. Blocklet Server provides two ways to add an SSL certificate, by uploading it by the user and by creating a free certificate using the Certificate Manager Blocklet.
 
 ### Upload yourself
 
@@ -81,8 +81,8 @@ This is the way we recommend. It is very easy to add a free SSL certificate to a
 2. Configure Certificate Manager
 
 ```
-  - `NODE_ACCESS_KEY`: NODE_ACCESS_KEY generated in ABT Node, used by Certificate Manager to upload certificates
-  - `NODE_ACCESS_SECRET`: NODE_ACCESS_SECRET generated in ABT Node, used by Certificate Manager to upload certificates
+  - `NODE_ACCESS_KEY`: NODE_ACCESS_KEY generated in Blocklet Server, used by Certificate Manager to upload certificates
+  - `NODE_ACCESS_SECRET`: NODE_ACCESS_SECRET generated in Blocklet Server, used by Certificate Manager to upload certificates
   - `NODE_DOMAIN`: Node address to display a prompt message
   - `MAINTAINER_EMAIL`: The maintainer's email for receiving certificate related emails
 ```

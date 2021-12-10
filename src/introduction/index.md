@@ -1,18 +1,18 @@
 ---
 title: 'Getting Started'
 description: 'Getting Started'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'nate'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-The ArcBlock platform is deployed using ABT Node Service. The following section gives an overview of the ABT Node and its operational details.
+The ArcBlock platform is deployed using Blocklet Server Service. The following section gives an overview of the Blocklet Server and its operational details.
 
 ## Contents
 
-- [ABT Node Overview](./abtnode-overview): An overview of ABT Node's capabilities.
-- [ABT Node Setup](./abtnode-setup): Detailed instructions for ABT Node installation.
-- [ABT Node Access](./abtnode-access): Instructions for ABT Node Dashboard access.
+- [Blocklet Server Overview](./abtnode-overview): An overview of Blocklet Server's capabilities.
+- [Blocklet Server Setup](./abtnode-setup): Detailed instructions for Blocklet Server installation.
+- [Blocklet Server Access](./abtnode-access): Instructions for Blocklet Server Dashboard access.

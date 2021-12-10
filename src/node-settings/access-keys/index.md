@@ -1,19 +1,19 @@
 ---
 title: 'Access Keys'
 description: 'Access Keys'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-Access keys are credentials for an ABT Node user. The *Access Keys* view allows you to create and delete access keys.
+Access keys are credentials for an Blocklet Server user. The *Access Keys* view allows you to create and delete access keys.
 
  ![](./images/node-settings-accesskeys-en.png)
 
-You can use access keys to access ABT Node API and perform various actions. Access keys consist of two parts:
+You can use access keys to access Blocklet Server API and perform various actions. Access keys consist of two parts:
 - an access key ID (for example, z1WcsR61T7CMkFtEuMqdj3skQr3BBPumJ6b)
 - a secret access key (for example, z3riGmHPsJiM6mNtmGCvLX7H1KGjY6QBLxHpc8AetarTquqyvD7vtN3c18388pqKiyKG65HjA77jCLqK2oNN3zmBB).
 
@@ -25,4 +25,4 @@ Authenticating your requests requires you to use your access key ID and secret a
 
 The Access keys can be used to support the following user cases :
 - To perform continuous deployment of a Blocklet by using `blocklet deploy` command in CI.
-- To programatically configure the ABT Node by using `@abtnode/client` package.
+- To programatically configure the Blocklet Server by using `@abtnode/client` package.
