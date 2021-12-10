@@ -1,17 +1,17 @@
 ---
 title: 'Publish Blocklets'
 description: 'Publish Blocklets'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun, nate, zhanghan'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 ## Publish Steps
 
-1. Make sure your blocklet can be bundled and deployed to your local ABT Node
+1. Make sure your blocklet can be bundled and deployed to your local Blocklet Server
 2. Register as a developer from [blocklet store](https://store.blocklet.dev/) or [blocklet store(dev)](https://dev.store.blocklet.dev/)
    - Need to apply for a developer first, after the administrator has approved, you can proceed to the next step
 3. Go to the access key page, create a new access key
@@ -24,7 +24,7 @@ tags:
 6. Login to the uploaded Blocklet Store, you can see the uploaded Blocklet in the "Blocklet" page
 7. The uploaded Blocklet is still in the "draft" status, click the "publish" button to publish
 8. Verify in the store: [blocklet store](https://store.blocklet.dev/) or [blocklet store(dev)](https://dev.store.blocklet.dev/)
-9. Verify in the market: install your Blocklet to your ABT Node
+9. Verify in the market: install your Blocklet to your Blocklet Server
 
 ## Publish Config
 

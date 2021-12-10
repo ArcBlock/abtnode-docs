@@ -3,7 +3,7 @@ srcPath: src
 categories:
   abtnode:
     basePath: /
-    title: ABT Node
+    title: Blocklet Server
     link: /
     priority: 999
     sidebar:

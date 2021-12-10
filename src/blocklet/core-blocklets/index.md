@@ -1,21 +1,21 @@
 ---
 title: 'Core Blocklets'
 description: 'Core Blocklets'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'tigeryu8900'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 Core Blocklets are production-ready Blocklets provided by the official Blocklet store.
 
-## ABT Node Related
+## Blocklet Server Related
 
-### [ABT Node Launcher](https://store.blocklet.dev/blocklet/z8iZtEm3ozV3yhZ3gZ7EXppsseS3bPV8wyPft)
+### [Blocklet Server Launcher](https://store.blocklet.dev/blocklet/z8iZtEm3ozV3yhZ3gZ7EXppsseS3bPV8wyPft)
 
-ABT Node Launcher is a Blocklet that helps manage ABT node instances on public and private clouds, such as AWS and Azure.
+Blocklet Server Launcher is a Blocklet that helps manage Blocklet Server instances on public and private clouds, such as AWS and Azure.
 
 ### [Certificate Manager](https://store.blocklet.dev/blocklet/z8iZtEerb5YvuaTrkkryeAMexfVTk7EaUnmVU)
 

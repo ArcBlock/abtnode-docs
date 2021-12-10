@@ -21,7 +21,7 @@ blocklet publish --developer-sk ${ABTNODE_DEV_SK}
 
 node tools/post-publish.js
 
-# deploy to remote ABT Node
+# deploy to remote Blocklet Server
 set +e
 NAME=$(cat package.json | grep name |  awk '{print $2}' | sed 's/"//g' | sed 's/,//g')
 VERSION=$(cat package.json | grep version |  awk '{print $2}' | sed 's/"//g' | sed 's/,//g')

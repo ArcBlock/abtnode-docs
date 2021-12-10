@@ -1,21 +1,23 @@
 ---
-title: ABT Node 文档
-description: ABT Node 文档
-keywords: 'abtnode blocklet'
+title: Blocklet Server 文档
+description: Blocklet Server 文档
+keywords: 'blocklet server'
 author: wangshijun
 category: ''
 layout: documentation
 requireLogin: false
 tags:
+  - blocklet
+  - server
   - abtnode
 ---
 
-欢迎访问 ABT 节点的文档
+欢迎访问 Blocklet Server 的文档
 
 - [介绍](./introduction)
   - [节点功能概览](./introduction/abtnode-overview)
-  - [如何获取 ABT 节点](./introduction/abtnode-setup)
-  - [配置并启动 ABT 节点](./introduction/abtnode-access)
+  - [如何获取 Blocklet Server ](./introduction/abtnode-setup)
+  - [配置并启动 Blocklet Server ](./introduction/abtnode-access)
 - [Blocklet 市场](./marketplace)
   - [查找和安装 Blocklet](./marketplace/find-and-install)
   - [升级或降级 Blocklet](./marketplace/upgrade-downgrade)
@@ -37,7 +39,7 @@ tags:
   - [成员管理](./misc/member-management)
   - [GraphQL 控制台](./misc/graphql-console)
 - [开发者指南](./developer)
-  - [ABT 节点 cli 工具](./developer/abtnode-cli)
+  - [Blocklet Server  cli 工具](./developer/abtnode-cli)
   - [Blocklet cli 工具](./developer/blocklet-cli)
   - [节点配置](./developer/configuration)
   - [节点存储目录详解](./developer/storage-structure)

@@ -1,12 +1,12 @@
 ---
 title: '在 Codespaces 中开发 Blocklets'
 description: '使用 Codespaces 开发 Blocklets'
-keywords: 'abtnode, blocklet, codespaces'
+keywords: 'blocklet server, blocklet, codespaces'
 author: 'linchen'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
   - 'blocklet'
   - 'codespaces'
 ---
@@ -22,11 +22,11 @@ tags:
 
 ## 启动开发环境
 
-> 请确保 `abtnode dev` 可以在你的项目中正常工作
+> 请确保 `blocklet dev` 可以在你的项目中正常工作
 
 在你的 codespaces 中
 
-- 执行 `abtnode dev` 启动开发环境
+- 执行 `blocklet dev` 启动开发环境
 - 启动开发环境成功后，使用 `Command + MouseDown` 访问 terminal 中的连接
 
 ```
@@ -36,17 +36,17 @@ tags:
 
 - http://127.0.0.1/admin/welcome/
 
-ℹ Note that your blocklet is running in development in ABT Node,
-ℹ To run it in production mode, you can use abtnode bundle and then abtnode deploy.
+ℹ Note that your blocklet is running in development in Blocklet Server,
+ℹ To run it in production mode, you can use blocklet bundle and then blocklet deploy.
 ```
 
-> 当你再次打开 codespace 时,你的 ABT Node daemon 可能已被关闭。此时，请先执行 `abtnode start` 启动 ABT Node daemon
+> 当你再次打开 codespace 时,你的 Blocklet Server daemon 可能已被关闭。此时，请先执行 `blocklet server start` 启动 Blocklet Server daemon
 
 ## FAQ
 
-### 无法登录 ABT Node
+### 无法登录 Blocklet Server
 
-目前，Codespaces 中的服务尚未支持公开访问，所以移动端的 ABT Wallet 无法与 Codespace 中的 ABT Node 通信。一个临时解决方案是使用 [ngrok](https://ngrok.com/) 建立一个通道，绕过 Codespaces.
+目前，Codespaces 中的服务尚未支持公开访问，所以移动端的 ABT Wallet 无法与 Codespace 中的 Blocklet Server 通信。一个临时解决方案是使用 [ngrok](https://ngrok.com/) 建立一个通道，绕过 Codespaces.
 
 1. 安装 ngrok
 
@@ -61,7 +61,7 @@ unzip ./ngrok.zip
     - 登录 ngrok: https://dashboard.ngrok.com/login
     - 在你的 codespace 中 设置 authtoken，参考 [https://dashboard.ngrok.com/get-started/setup](https://dashboard.ngrok.com/get-started/setup)
 
-3. 使用 ngrok 建立 ABT Node 访问通道
+3. 使用 ngrok 建立 Blocklet Server 访问通道
 
 ```bash
 # In your codespace
@@ -69,7 +69,7 @@ unzip ./ngrok.zip
 ./ngrok http 80
 ```
 
-访问通道建立成功后，可以通过 Terminal 中的 Forwarding 地址访问 ABT Node
+访问通道建立成功后，可以通过 Terminal 中的 Forwarding 地址访问 Blocklet Server
 
 ```
 ngrok by @inconshreveable

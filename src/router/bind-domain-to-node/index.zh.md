@@ -1,19 +1,19 @@
 ---
 title: '给节点绑定域名'
 description: '给节点绑定域名'
-keywords: 'abtnode'
+keywords: 'blocklet server'
 author: 'zhenqiang'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-ABT Node 会为每一个节点分配一个 HTTPS 地址: `https://{public IP}.ip.abtnet.io`, 比如: 如果 IP 是 192.168.1.100, 那么这个地址就是: `https://192.168.1.100.ip.abtnet.io`. 但是在更多的情况下这个域名并不能满足需求，这个时候我们可以通过给节点添加 `额外域名` 的方式来绑定自定义域名。
+Blocklet Server 会为每一个节点分配一个 HTTPS 地址: `https://{public IP}.ip.abtnet.io`, 比如: 如果 IP 是 192.168.1.100, 那么这个地址就是: `https://192.168.1.100.ip.abtnet.io`. 但是在更多的情况下这个域名并不能满足需求，这个时候我们可以通过给节点添加 `额外域名` 的方式来绑定自定义域名。
 
 ## 额外域名
 
-在 ABT Node 中可以给一个站点或者节点本身绑定多个域名，除了站点(节点)原有的域名以外的所有域名都叫做`额外域名(Additional Domain)`. 比如下图中的 `blocklet.arcblock.io` 和 `bn.arcblock.io` 都是额外域名:
+在 Blocklet Server 中可以给一个站点或者节点本身绑定多个域名，除了站点(节点)原有的域名以外的所有域名都叫做`额外域名(Additional Domain)`. 比如下图中的 `blocklet.arcblock.io` 和 `bn.arcblock.io` 都是额外域名:
 
 ![额外域名](./images/additional-domain-zh.jpg)
 

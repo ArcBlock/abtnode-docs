@@ -49,7 +49,7 @@ const createMarkdown = (baseDir, title) => {
   const content = `---
 title: '${title}'
 description: '${title}'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: 'abtnode'
 layout: 'documentation'

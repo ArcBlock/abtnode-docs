@@ -9,7 +9,7 @@ tags:
   - 'blocklet'
 ---
 
-ABT Node provides `blocklet` command-line tool for controlling and administering Blocklets. Use the following syntax to run `blocklet` commands from your terminal:
+Blocklet Server provides `blocklet` command-line tool for controlling and administering Blocklets. Use the following syntax to run `blocklet` commands from your terminal:
 
 ```bash
 blocklet [options] [command]
@@ -19,7 +19,7 @@ You can use the `-h` or `--help` to determine the full list of supported command
 
 ### Version
 
-Shows the current ABT node version.
+Shows the current Blocklet Server version.
 
 ```bash
 $ blocklet -V
@@ -42,7 +42,7 @@ https://github.com/ArcBlock/blocklets#keyinfo-blockletjson
 
 Press ^C to quit.
 ? blocklet name, case INSENSITIVE: first
-? Please write concise description: ABT Node blocklet project
+? Please write concise description: Blocklet Server blocklet project
 ? What's the group of the blocklet? static
 ? What's the entry point of the blocklet? .
 ? What's the public interface of the blocklet? /
@@ -91,7 +91,7 @@ $ blocklet dev start
 
 - http://127.0.0.1
 
-ℹ Note that your blocklet is running in development in ABT Node,
+ℹ Note that your blocklet is running in development in Blocklet Server,
 ℹ To run it in production mode, you can use blocklet bundle and then blocklet deploy.
 ```
 
@@ -104,7 +104,7 @@ $ blocklet dev remove
 
 ### Bundle
 
-Packages the Blocklet for ABT Node deployment.
+Packages the Blocklet for Blocklet Server deployment.
 
 ```bash
 $ blocklet bundle
@@ -117,7 +117,7 @@ $ blocklet bundle
 
 ### Deploy
 
-Deploys a blocklet from the local folder to ABT Node.
+Deploys a blocklet from the local folder to Blocklet Server.
 
 ```bash
 $ blocklet deploy .
@@ -153,18 +153,18 @@ Publish the blocklet release to store, see the detail in [publish blocklet](../p
 blocklet publish [options] [metafile]
 ```
 
-### ABT Node Migration
+### Blocklet Server Migration
 
-The migrate command updates Blocklet meta information for the latest ABT Node version
+The migrate command updates Blocklet meta information for the latest Blocklet Server version
 
 ```bash
 $ blocklet migrate
 ℹ Try migrating blocklet meta from /home/arcblock/b1
 ```
 
-### ABT Node Configuration
+### Blocklet Server Configuration
 
-Manage the ABT Node configuration files
+Manage the Blocklet Server configuration files
 
 ```bash
 blocklet config [options] [key] [value]

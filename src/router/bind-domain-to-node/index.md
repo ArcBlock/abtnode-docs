@@ -1,19 +1,19 @@
 ---
 title: 'Binding domain names to node'
 description: 'Binding domain names to node'
-keywords: 'abtnode'
+keywords: 'blocklet server'
 author: 'zhenqiang'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-ABT Node will assign each node an HTTPS address: `https://{public IP}.ip.abtnet.io`, for example: if the IP is 192.168.1.100, then this address is: `https://192.168.1.100.ip.abtnet.io`. But in more cases this domain name does not meet the needs, this time we can bind a custom domain name by adding `Additional domain` to the node.
+Blocklet Server will assign each node an HTTPS address: `https://{public IP}.ip.abtnet.io`, for example: if the IP is 192.168.1.100, then this address is: `https://192.168.1.100.ip.abtnet.io`. But in more cases this domain name does not meet the needs, this time we can bind a custom domain name by adding `Additional domain` to the node.
 
 ## Additional domain
 
-In ABT Node, you can bind multiple domains to a site or node itself. All domains other than the original domain name of the site (node) are called `Additional Domain`. For example, `blocklet.arcblock.io` and `bn.arcblock.io` in the following figure are additional domains:
+In Blocklet Server, you can bind multiple domains to a site or node itself. All domains other than the original domain name of the site (node) are called `Additional Domain`. For example, `blocklet.arcblock.io` and `bn.arcblock.io` in the following figure are additional domains:
 
 ![additional domain](./images/additional-domain.jpg)
 

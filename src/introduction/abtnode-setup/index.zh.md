@@ -1,12 +1,12 @@
 ---
-title: '如何获取 ABT 节点'
-description: '如何获取 ABT 节点?'
-keywords: 'abtnode, blocklet'
+title: '如何获取 Blocklet Server '
+description: '如何获取 Blocklet Server ?'
+keywords: 'blocklet server, blocklet'
 author: 'tigeryu8900, nate'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 目前，只能在 [Linux] 和 [macOS] 安装。如果你想使用别的操作系统比如 Windows，你可以使用虚拟机，不过需要确保 ABT 钱包可以访问到你的虚拟机 IP 地址。
@@ -49,7 +49,7 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 ### 第二步: 安装 [Node.js] 和 [npm]
 
-ABT Node 会在第一时间适配 Node.js LTS 版本, 所以我们推荐安装 LTS 版本 Node.js.
+Blocklet Server 会在第一时间适配 Node.js LTS 版本, 所以我们推荐安装 LTS 版本 Node.js.
 
 只要安装完 [Node.js]，[npm] 也会被自动安装完成。
 
@@ -68,7 +68,7 @@ nvm install --lts
 
 ### 第三步：安装 Nginx
 
-ABT Node 的网关依赖于 Nginx, 所以我们需要安装 Nginx.
+Blocklet Server 的网关依赖于 Nginx, 所以我们需要安装 Nginx.
 
 **版本 >= 1.18.0**
 
@@ -84,18 +84,18 @@ ABT Node 的网关依赖于 Nginx, 所以我们需要安装 Nginx.
 
 参考: https://www.nginx.com/resources/wiki/start/topics/tutorials/install/
 
-### 第四步: 安装 ABT 节点
+### 第四步: 安装 Blocklet Server 
 
-现在，使用 [npm] 执行下面命令即可安装 ABT 节点：
+现在，使用 [npm] 执行下面命令即可安装 Blocklet Server ：
 
 ```bash
-npm install -g @abtnode/cli
+npm install -g @blocklet/cli
 ```
 
 <details>
 <summary>输出示例
 
-![install ABT Node](./images/install_abtnode.gif)
+![install Blocklet Server](./images/install_abtnode.gif)
 
 </details>
 

@@ -1,12 +1,12 @@
 ---
 title: '节点存储目录详解'
 description: '节点存储目录详解'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 ## Storage Structure

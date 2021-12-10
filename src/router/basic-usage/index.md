@@ -1,19 +1,19 @@
 ---
 title: 'Service Gateway Usage'
 description: 'How to setup Service Gateway'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'tigeryu8900'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 ## Get Started with Service Gateway
 
 ### Load Balancer
 
-The Service Gateway's default provider for the routing layer and load balancing is NGINX. _Note, when viewing Load Balanacer, you can view NGINX's current status (Running/Stopped) and that it is available to ABT Node._
+The Service Gateway's default provider for the routing layer and load balancing is NGINX. _Note, when viewing Load Balanacer, you can view NGINX's current status (Running/Stopped) and that it is available to Blocklet Server._
 
 ![router-basic-use-1](./images/router-basic-use-1-en.png)
 
@@ -21,7 +21,7 @@ The Service Gateway's default provider for the routing layer and load balancing 
 
 ![router-basic-use-2](./images/router-basic-use-2-en.png)
 
-By default, ABT Node will automatically add a default site for your ABT Node.
+By default, Blocklet Server will automatically add a default site for your Blocklet Server.
 
 You can also add a domain or specific IP address by:
 
@@ -34,15 +34,15 @@ You can also add a domain or specific IP address by:
 
 #### The root directory of the site default request forwarded to which service
 
-By default, the root directory of a site will be forwarded to the selected ABT Node Blocklet or Redirect.
+By default, the root directory of a site will be forwarded to the selected Blocklet Server Blocklet or Redirect.
 
 #### Automatic Port Configurations
 
-ABT Node will automatically assign the correct port number for any service. You can verify a Blocklet port number by visiting the Blocklet overview page -> select **Configuration** -> and review the **values**.
+Blocklet Server will automatically assign the correct port number for any service. You can verify a Blocklet port number by visiting the Blocklet overview page -> select **Configuration** -> and review the **values**.
 
 #### System URLs
 
-System URLs (Routing rules) are automatically generated for any Blocklet you install on your ABT Node _Note, ABT Node will automatically remove routing rules if a Blocklet is removed from your node. No additional configuration is required._
+System URLs (Routing rules) are automatically generated for any Blocklet you install on your Blocklet Server _Note, Blocklet Server will automatically remove routing rules if a Blocklet is removed from your node. No additional configuration is required._
 
 ![router-basic-use-8](./images/router-basic-use-8-en.png)
 
@@ -62,7 +62,7 @@ After selecting the certificate file and certificate private key, click on **sav
 
 ![router-basic-use-7](./images/router-basic-use-7-en.png)
 
-_Note, ABT Node's Service Gateway supports single domain SSLs (ex. arcblock.io) and **wildcard SSLs** to support a single site and all related subdomains (ex. shop.arcblock.io, test.arcblock.io, etc). ABT Node does not support partial or multi-domain wildcard SSLs.
+_Note, Blocklet Server's Service Gateway supports single domain SSLs (ex. arcblock.io) and **wildcard SSLs** to support a single site and all related subdomains (ex. shop.arcblock.io, test.arcblock.io, etc). Blocklet Server does not support partial or multi-domain wildcard SSLs.
 
 ## Things to Know
 

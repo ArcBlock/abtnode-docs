@@ -1,14 +1,14 @@
 ---
 title: 'Runtime Logs'
 description: 'Blocklet Logs'
-keywords: 'abtnode, logs, blocklet'
+keywords: 'blocklet server, logs, blocklet'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-The logs console shows log lines read from the logs files created by Blocklets, Service discovery, and the ABT Node. Log source information is displayed at the top right of the logs panel.
+The logs console shows log lines read from the logs files created by Blocklets, Service discovery, and the Blocklet Server. Log source information is displayed at the top right of the logs panel.
 
 ![](./images/blocklet-logs.png)
 
@@ -19,6 +19,6 @@ The View Logs console also provides a search function to quickly lookup the requ
 ![](./images/blocklet-search.png)
 
 ### Archived Logs
-ABT node archived logs file on day rollover. The archived files are available at path specified by `BLOCKLET_LOGS_DIR` environment variable. You can determine the path for a specific Blocklet from [Block management > Environment](/en/blocklet/environments) console.
+Blocklet Server archived logs file on day rollover. The archived files are available at path specified by `BLOCKLET_LOGS_DIR` environment variable. You can determine the path for a specific Blocklet from [Block management > Environment](/en/blocklet/environments) console.
 
 ![](./images/blocklet-env-vars.png)

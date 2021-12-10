@@ -1,12 +1,12 @@
 ---
 title: 'Blocklet 仓库'
 description: 'Blocklet 仓库'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 ## 如何创建一个 Blocklet Store

@@ -1,12 +1,12 @@
 ---
 title: '可组合的 Blocklet'
 description: '向搭建乐高积木一样搭建 Blocklet'
-keywords: 'abtnode, blocklet, compoment'
+keywords: 'blocklet server, blocklet, compoment'
 author: 'linchen'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
   - 'blocklet'
   - 'compoment'
 ---

@@ -1,17 +1,17 @@
 ---
 title: '创建静态 Blocklets'
 description: '创建静态 Blocklets'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'nate'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 ## 第一步，环境准备
 
-1. ABT 节点已经初始化完毕, 并且已经处于运行状态
+1. Blocklet Server 已经初始化完毕, 并且已经处于运行状态
 
 ## 第二步，准备前端静态代码
 
@@ -31,18 +31,18 @@ tags:
   </head>
   <body>
     <h1>I am a static blocklet.</h1>
-    <h2>I will be deployed in ABT Node.</h2>
+    <h2>I will be deployed in Blocklet Server.</h2>
   </body>
 </html>
 ```
 
 ## 第三步，完善必要的文件
 
-为了让 Blocklet 在 ABT 节点中能被更友好的展示，我们需要添加下面两个文件。
+为了让 Blocklet 在 Blocklet Server 中能被更友好的展示，我们需要添加下面两个文件。
 
 ### 1. `blocklet.md` 文件
 
-这个类似于一般项目的 `README.md`, 只不过这个 `blocklet.md` 是专门给 ABT 节点用的，里面可以编写这个 Blocklet 的简介，使用说明等等，其他用户看到这个文档就可以快速了解你的 Blocklet 是做什么、解决什么问题的。
+这个类似于一般项目的 `README.md`, 只不过这个 `blocklet.md` 是专门给 Blocklet Server 用的，里面可以编写这个 Blocklet 的简介，使用说明等等，其他用户看到这个文档就可以快速了解你的 Blocklet 是做什么、解决什么问题的。
 
 ![](./images/create-static-blocklet-2.png)
 
@@ -100,13 +100,13 @@ tags:
 
 ## 第五步，部署 Blocklet
 
-完成上面的步骤之后，我们只需来到项目的根目录下执行部署命令 `abtnode deploy .` 即可完成 Blocklet 的部署。
+完成上面的步骤之后，我们只需来到项目的根目录下执行部署命令 `blocklet deploy .` 即可完成 Blocklet 的部署。
 
-> 部署前请确保 ABT 节点已经成功运行
+> 部署前请确保 Blocklet Server 已经成功运行
 
 ![](./images/create-static-blocklet-5.png)
 
-部署成功之后，即可打开 ABT 节点的 `基石程序` 页面查看已安装的基石程序：
+部署成功之后，即可打开 Blocklet Server 的 `基石程序` 页面查看已安装的基石程序：
 
 ![](./images/create-static-blocklet-6-zh.png)
 
@@ -120,4 +120,4 @@ tags:
 
 ![](./images/create-static-blocklet-8.png)
 
-到这儿，我们就已经在 ABT 节点里成功部署了一个静态 Blocklet，你也快来试试吧！
+到这儿，我们就已经在 Blocklet Server 里成功部署了一个静态 Blocklet，你也快来试试吧！

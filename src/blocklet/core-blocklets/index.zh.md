@@ -1,19 +1,19 @@
 ---
 title: '核心 Blocklets'
 description: '核心 Blocklets'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'nate'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-## ABT 节点相关
+## Blocklet Server 相关
 
-### [ABT Node Launcher](https://store.blocklet.dev/blocklet/z8iZtEm3ozV3yhZ3gZ7EXppsseS3bPV8wyPft)
+### [Blocklet Server Launcher](https://store.blocklet.dev/blocklet/z8iZtEm3ozV3yhZ3gZ7EXppsseS3bPV8wyPft)
 
-ABT Node Launcher 可以帮助你通过云提供商(如 AWS、Azure)管理 ABT 节点实例的 Blocklet。
+Blocklet Server Launcher 可以帮助你通过云提供商(如 AWS、Azure)管理 Blocklet Server 实例的 Blocklet。
 
 ## 区块链相关
 

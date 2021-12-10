@@ -1,12 +1,12 @@
 ---
 title: 'Certificates for localhost'
 description: 'Certificates for localhost'
-keywords: 'abtnode, router, certificates'
+keywords: 'blocklet server, router, certificates'
 author: 'zhenqiang'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 To help you with your local development and testing, it is very easy to generate a local certificate. Outside of the machine you are currently developing on, the certificate will not be trusted by anyone else, which is sufficient for development.
@@ -24,7 +24,7 @@ openssl req -x509 -out localhost.crt -keyout localhost.key \
 
 ## Test Certificate
 
-After the certificate is generated, we can test it with ABT Node's NGINX using the configuration below:
+After the certificate is generated, we can test it with Blocklet Server's NGINX using the configuration below:
 
 **Replace \<your directory\> with the real directory**
 
@@ -84,7 +84,7 @@ Complete the settings.
 
 ## SSL Certificates
 
-You can add SSL Certificate files to your ABT Node using your SSL Certificate File and Private Key Files to secure services on your node. Today, ABT Node supports single domain SSLs and Wilcard SSLs to protect a domain (arcblock.io) and all its related subdomains (test.arcblock.io, shop.arcblock.io, etc). ABT Node does not support partial or multi-domain wildcard SSLs at this time. Please confirm with your SSL provider on the best SSL type for your project and not all types of certificates are supported. Developers can also leverage Letsencrypt self-signed [Certificates for localhost](./certificates-for-localhost).
+You can add SSL Certificate files to your Blocklet Server using your SSL Certificate File and Private Key Files to secure services on your node. Today, Blocklet Server supports single domain SSLs and Wilcard SSLs to protect a domain (arcblock.io) and all its related subdomains (test.arcblock.io, shop.arcblock.io, etc). Blocklet Server does not support partial or multi-domain wildcard SSLs at this time. Please confirm with your SSL provider on the best SSL type for your project and not all types of certificates are supported. Developers can also leverage Letsencrypt self-signed [Certificates for localhost](./certificates-for-localhost).
 
 ## Reference
 

@@ -1,17 +1,17 @@
 ---
 title: '发布 Blocklet'
 description: '发布 Blocklet'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun, nate, zhanghan'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 ## 发布步骤
 
-1. 确保你的 Blocklet 可以打包并部署到你的本地 ABT 节点
+1. 确保你的 Blocklet 可以打包并部署到你的本地 Blocklet Server 
 2. 去 [blocklet store](https://store.blocklet.dev/) 或者 [blocklet store(dev)](https://dev.store.blocklet.dev/) 注册开发者账号
    - 需要先申请成为一个开发者，待管理员审核过后，才能进行后面的步骤
 3. 进入访问密钥页面，新建一个访问密钥
@@ -24,7 +24,7 @@ tags:
 6. 登录到上传的 Blocklet Store，可以在 “应用” 页面看到刚刚上传的 Blocklet
 7. 此时 Blocklet 上传的新版还处于 “草稿” 状态，需要点击发布按钮，进行发布
 8. 在 Blocklet 仓库中进行验证: [blocklet store](https://store.blocklet.dev/) 或者 [blocklet store(dev)](https://dev.store.blocklet.dev/)
-9. 在市场中验证：从市场安装你的 Blocklet 到你的 ABT 节点
+9. 在市场中验证：从市场安装你的 Blocklet 到你的 Blocklet Server 
 
 ## 发布配置
 

@@ -5,7 +5,7 @@ config:
   # like `/bin/bash -l`, `ls`, or any other commands
   # the default is bash for Linux
   # or powershell.exe for Windows
-  command: abtnode stop
+  command: blocklet server stop
   
   # Specify the current working directory path
   # the default is the current working directory path
@@ -50,7 +50,7 @@ config:
   # Don't forget to add a backgroundColor style with a null as type
   frameBox:
     type: floating
-    title: Stop ABT Node
+    title: Stop Blocklet Server
     style:
       border: 0px black solid
       # boxShadow: none
@@ -114,7 +114,7 @@ records:
   - delay: 884
     content: "\e[01;32mubuntu@ubuntu\e[00m:\e[01;34m~\e[00m$ "
   - delay: 1180
-    content: abtnode stop
+    content: blocklet server stop
   - delay: 658
     content: "\r\n"
   - delay: 1078

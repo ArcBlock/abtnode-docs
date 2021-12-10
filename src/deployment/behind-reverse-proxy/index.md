@@ -1,7 +1,7 @@
 ---
 title: Bind domain with reverse proxy server
 description: Bind domain with reverse proxy server
-keywords: 'abtnode, deployment, proxy'
+keywords: 'blocklet server, deployment, proxy'
 author: 'zhenqiang, tigeryu8900'
 category: ''
 layout: documentation
@@ -9,13 +9,13 @@ tags:
   - forge
 ---
 
-Because ABT Node may contain multiple Blocklets, and almost every Blocklet uses at least one port (not required for
-static Blocklets), ABT Node and Blocklet will use multiple ports, so in production environments, a reverse proxy may be
+Because Blocklet Server may contain multiple Blocklets, and almost every Blocklet uses at least one port (not required for
+static Blocklets), Blocklet Server and Blocklet will use multiple ports, so in production environments, a reverse proxy may be
 needed. This document will use Nginx as an example reverse proxy to explain how to deploy ABT
-Node with a reverse proxy server and bind a domain name to ABT Node Daemon and a blocklet, respectively.
+Node with a reverse proxy server and bind a domain name to Blocklet Server Daemon and a blocklet, respectively.
 
 ::: warning
-Make sure the latest version of ABT Node is installed
+Make sure the latest version of Blocklet Server is installed
 :::
 
 ## Preparation Requirements
@@ -24,7 +24,7 @@ Make sure the latest version of ABT Node is installed
 - Blocklet Manager blocklet running on port 8090
 - Proxy server: Nginx
 - Two domain names:
-  - ABT Node: abtnode.com
+  - Blocklet Server: abtnode.com
   - Blocklet Manager blocklet: blocklet.abtnode.com
 
 ## Nginx Configuration
@@ -59,14 +59,14 @@ server {
 This configuration binds the domain name `abtnode.com` to port 8089 and binds the domain name `blocklet.abtnode.com` to
 port 8090. Make sure that Host header is passed to the upstream service through the proxy server.
 
-## Update ABT Node Configuration
+## Update Blocklet Server Configuration
 
-After configuring the proxy, you need to modify the configuration file of ABT Node and update the domain name of ABT
+After configuring the proxy, you need to modify the configuration file of Blocklet Server and update the domain name of ABT
 Node to the configuration file:
 
 ```yaml
 node:
-  name: 'ABT Node [polunzh]'
+  name: 'Blocklet Server [polunzh]'
   description: Container of useful blocklets from ArcBlock and its Developer Community
   sk: >-
     0x4000d4f04d39c700003838f04e0eb7c4006a841a2f12ed762b577b2c8ab07acbe63acb6d74f30db68cbec0977d1398ee40af85d62647624969fb7eae832348f9
@@ -94,11 +94,11 @@ If HTTPS is enabled, you need to set the `https` property in the configuration f
 file above.
 :::
 
-After modifying the configuration file, you need to restart the ABT Node and update the configuration. You can restart
-it through the ABT Node CLI command:
+After modifying the configuration file, you need to restart the Blocklet Server and update the configuration. You can restart
+it through the Blocklet Server CLI command:
 
 ```
-abtnode start -u
+blocklet server start -u
 ```
 
 After restarting the service, you can use the domain name to access the node.
@@ -124,4 +124,4 @@ etc., on the **Blocklets -> Detail -> Environment** page.
 ## Important
 
 - Currently, you can only modify the node's IP and domain name by manually modifying the node's configuration file.
-- HTTPS needs to be enabled for ABT Node Daemon and all blocklets for HTTPS to work.
+- HTTPS needs to be enabled for Blocklet Server Daemon and all blocklets for HTTPS to work.

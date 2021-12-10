@@ -1,15 +1,15 @@
 ---
 title: '打包 Blocklet'
 description: '打包 Blocklet'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-Blocklets 在被部署到 ABT 节点实例上之前需要被打包处理。Blocklet 的打包流程和传统的 Web 应用打包非常相似，下面是教你如何打包 JavaScript Blocklet 的指引教程。
+Blocklets 在被部署到 Blocklet Server 实例上之前需要被打包处理。Blocklet 的打包流程和传统的 Web 应用打包非常相似，下面是教你如何打包 JavaScript Blocklet 的指引教程。
 
 ### 打包前端
 
@@ -17,10 +17,10 @@ Blocklets 在被部署到 ABT 节点实例上之前需要被打包处理。Block
 
 #### 1. 获取 Blocklet DID
 
-进入到你的 Blocklet 目录下运行 `abtnode blocklet:meta | grep did` 命令获得 blocklet did：
+进入到你的 Blocklet 目录下运行 `blocklet meta | grep did` 命令获得 blocklet did：
 
 ```shell
-abtnode blocklet:meta | grep did
+blocklet meta | grep did
 did:         z8iZn18zGRm5veEdhmrS2FRrUyw5ZAQcewVMH
 ```
 
@@ -134,7 +134,7 @@ axios.interceptors.request.use((config) => {
 使用下面的脚本打包后端：
 
 ```json
-"build:server": "DEBUG=@abtnode/* NODE_ENV=production abtnode bundle -w api/webpack.blocklet.js",
+"build:server": "DEBUG=@abtnode/* NODE_ENV=production blocklet bundle -w api/webpack.blocklet.js",
 ```
 
 因为我们内部使用 webpack 来打包 Blocklet 后端，你可以自定义配置:

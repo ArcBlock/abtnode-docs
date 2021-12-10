@@ -1,15 +1,15 @@
 ---
 title: '什么是路由'
 description: '什么是路由'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'nate'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-路由可以方便的让你管理 ABT 节点中运行的服务，为每一个 Blocklet 设置一个自己的有命名意义的路由名称，将会让你的 Blocklet 更加方便地被管理。
+路由可以方便的让你管理 Blocklet Server 中运行的服务，为每一个 Blocklet 设置一个自己的有命名意义的路由名称，将会让你的 Blocklet 更加方便地被管理。
 
 ### 路由设置页面
 

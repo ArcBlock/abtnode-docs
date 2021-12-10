@@ -1,15 +1,15 @@
 ---
 title: 'Node Settings'
 description: 'Node Settings'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
-The Settings console allows configuring attributes specific to the ABT Node. Additionally, it provides views to manage third-party integrations and ABT node access keys.
+The Settings console allows configuring attributes specific to the Blocklet Server. Additionally, it provides views to manage third-party integrations and Blocklet Server access keys.
 
 ## Contents
 

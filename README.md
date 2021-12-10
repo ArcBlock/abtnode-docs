@@ -1,4 +1,4 @@
-![ABT Node Documentation](https://www.arcblock.io/.netlify/functions/badge/?text=ABT%20Node%20Documentation)
+![Blocklet Server Documentation](https://www.arcblock.io/.netlify/functions/badge/?text=ABT%20Node%20Documentation)
 
 ## Getting Started
 
@@ -28,9 +28,9 @@ make run
 ## Table of Contents
 
 - [Introduction](./src/introduction)
-  - [ABT Node Overview](./src/introduction/abtnode-overview)
-  - [ABT Node Setup](./src/introduction/abtnode-setup)
-  - [ABT Node Access](./src/introduction/abtnode-access)
+  - [Blocklet Server Overview](./src/introduction/abtnode-overview)
+  - [Blocklet Server Setup](./src/introduction/abtnode-setup)
+  - [Blocklet Server Access](./src/introduction/abtnode-access)
 - [Blocklet Marketplace](./src/marketplace)
   - [Find and install blocklet](./src/marketplace/find-and-install)
   - [Upgrade/downgrade blocklet](./src/marketplace/upgrade-downgrade)

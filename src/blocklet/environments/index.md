@@ -1,12 +1,12 @@
 ---
 title: 'Configure Blocklet'
 description: 'Configure Blocklet'
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: 'tigeryu8900'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
 ---
 
 Click a Blocklet on the Blocklet Management page to arrive on the configuration page for the respective Blocklet. The page provides details about the installed Blocklet. The page allows you to control Blocklet operation and update its configuration.
@@ -47,7 +47,7 @@ These URL are specified by the interfaces provided in the Blocklet configuration
 
 ### Configuration Tab
 
-The *Configuration* tab displays different user defined,  Blocklet defined and ABT Node defined environment variables.
+The *Configuration* tab displays different user defined,  Blocklet defined and Blocklet Server defined environment variables.
 
 ![](./images/blocklets-config.png)
 
@@ -65,7 +65,7 @@ User defined variables can be updated by clicking the corresponding `pencil`(edi
 
 #### Blocklet Variables
 
-These variables area defined by ABT node to specify an installed blocklet configuration. Most of these variables are immutable. Only a few of these variables can be updated to configure blocklets.   
+These variables area defined by Blocklet Server to specify an installed blocklet configuration. Most of these variables are immutable. Only a few of these variables can be updated to configure blocklets.   
 
 1. `BLOCKLET_PORT`: Blocklet port
 2. `BLOCKLET_APP_DIR`: Blocklet application directory
@@ -83,11 +83,11 @@ These variables area defined by ABT node to specify an installed blocklet config
 
 #### System Variables
 
-These are immutable variables that provide ABT Node related information.
+These are immutable variables that provide Blocklet Server related information.
 
-1. `ABT_NODE_DID`: ABT Node did
-2. `ABT_NODE_PK`: ABT Node pk
-3. `ABT_NODE`: ABT Node Version
-4. `ABT_NODE_PORT`: ABT Node port
-5. `ABT_NODE_SERVICE_PORT`: ABT Node service port
-6. `ABT_NODE_EVENT_PORT`: ABT Node Event port
+1. `ABT_NODE_DID`: Blocklet Server did
+2. `ABT_NODE_PK`: Blocklet Server pk
+3. `ABT_NODE`: Blocklet Server Version
+4. `ABT_NODE_PORT`: Blocklet Server port
+5. `ABT_NODE_SERVICE_PORT`: Blocklet Server service port
+6. `ABT_NODE_EVENT_PORT`: Blocklet Server Event port

@@ -1,21 +1,21 @@
 ---
-title: ABT Node Docs
+title: Blocklet Server Docs
 description: Introduction
-keywords: 'abtnode, blocklet'
+keywords: 'blocklet server, blocklet'
 author: wangshijun
 category: ''
 layout: documentation
 requireLogin: false
 tags:
-  - abtnode
+  - 'blocklet server'
 ---
 
-Welcome to ABT Node documentation
+Welcome to Blocklet Server documentation
 
 - [Introduction](./introduction)
-  - [ABT Node Overview](./introduction/abtnode-overview)
-  - [ABT Node Setup](./introduction/abtnode-setup)
-  - [ABT Node Access](./introduction/abtnode-access)
+  - [Blocklet Server Overview](./introduction/abtnode-overview)
+  - [Blocklet Server Setup](./introduction/abtnode-setup)
+  - [Blocklet Server Access](./introduction/abtnode-access)
 - [Blocklet Marketplace](./marketplace)
   - [Find and install blocklet](./marketplace/find-and-install)
   - [Upgrade/downgrade blocklet](./marketplace/upgrade-downgrade)
@@ -44,7 +44,7 @@ Welcome to ABT Node documentation
   - [GraphQL Console](./misc/graphql-console)
   - [Generate wildcard HTTPS certificate](./generate-wildcard-https-certificate)
 - [Developer Guide](./developer)
-  - [ABT Node CLI](./developer/abtnode-cli)
+  - [Blocklet Server CLI](./developer/abtnode-cli)
   - [Blocklet CLI](./developer/blocklet-cli)
   - [Node Configuration](./developer/configuration)
   - [Storage Structure](./developer/storage-structure)

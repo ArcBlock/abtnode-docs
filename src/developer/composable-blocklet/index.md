@@ -1,12 +1,12 @@
 ---
 title: 'Composable blocklet'
 description: 'Build blocklets like Lego bricks'
-keywords: 'abtnode, blocklet, compoment'
+keywords: 'blocklet server, blocklet, compoment'
 author: 'linchen'
 category: ''
 layout: 'documentation'
 tags:
-  - 'abtnode'
+  - 'blocklet server'
   - 'blocklet'
   - 'compoment'
 ---

@@ -1,3 +1,3 @@
-# ABT Node Docs
+# Blocklet Server Docs
 
-ABT Node Documentation, a help documentation for quickly get started with ABT Node.
+Blocklet Server Documentation, a help documentation for quickly get started with Blocklet Server.

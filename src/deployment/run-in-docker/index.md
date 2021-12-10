@@ -12,7 +12,7 @@ tags:
 
 ![docker pull](https://img.shields.io/docker/pulls/arcblock/abtnode.svg)
 
-You can use ABT Node with docker:
+You can use Blocklet Server with docker:
 
 ## 1. Pull Image
 
