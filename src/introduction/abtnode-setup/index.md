@@ -57,9 +57,27 @@ nvm install --lts
 
 Note: You can install the latest version of [Node.js] by running `nvm install-latest-npm` command:
 
-### Install Blocklet Server
+#### Step 3: Install Nginx
 
-Execute the below command to install Blocklet Server :
+The gateway of Blocklet Server depends on Nginx, so we need to install Nginx.
+
+**Version >= 1.18.0**
+
+##### Install Nginx on Mac
+
+Use Homebrew:
+
+`brew install nginx`
+
+Reference: https://formulae.brew.sh/formula/nginx
+
+##### Install Nginx on Linux
+
+Reference: https://www.nginx.com/resources/wiki/start/topics/tutorials/install/
+
+### Install Blocklet CLI
+
+Execute the below command to install Blocklet CLI :
 
 ```bash
 npm install -g @blocklet/cli
@@ -68,52 +86,104 @@ npm install -g @blocklet/cli
 <details>
 <summary>Sample output</summary>
 
-![Install Blocklet Server](./images/install_abtnode.gif)
+```
+LinkdeMacBook-Pro:demo linchen$ npm install -g @blocklet/cli
+
+/Users/linchen/.nvm/versions/node/v14.17.1/bin/blocklet -> /Users/linchen/.nvm/versions/node/v14.17.1/lib/node_modules/@blocklet/cli/bin/blocklet.js
+
++ @blocklet/cli@1.6.1
+added 7 packages from 3 contributors, removed 7 packages and updated 125 packages in 123.454s
+```
 
 </details>
 
-### Configure Blocklet Server
+### Create and Run Blocklet Server
 
-After installing the Blocklet Server binary, you must initialize the node and provide a directory location for storing configuration.
+After installing Blocklet CLI, you can provide a empty directory location for storing configuration and initialize the blocklet server.
 
-1. Run the `blocklet server init` command  to initialize the Blocklet Server
+1. Run the `mkdir -p ~/blocklet-server-data && cd ~/blocklet-server-data` command to enter the directory. `~/blocklet-server-data` can be replaced to any other directory
 
-2. Once initialized, the system will confirm the directory where you want to store the configuration.
+2. Run the `blocklet server init` command to initialize the Blocklet Server
 
-3. After confirming, the system will automatically generate your Blocklet Server configuration.
+3. Once initialized, the system will confirm the directory where you want to store the configuration.
 
-4. Now, start the Blocklet Server Service by executing the  `blocklet server start` command.
+4. After confirming, the system will automatically generate your Blocklet Server configuration.
+
+5. Now, start the blocklet server by executing the  `blocklet server start` command.
 
 <details>
 <summary>Sample output</summary>
 
-![Start Blocklet Server](./images/start_abtnode.gif)
+```
+linchen@LinkdeMacBook-Pro demo % blocklet server init
+blocklet server v1.6.1
+? Are you sure to initialize a Blocklet Server instance in the current directory(/Users/linchen/code/arcblock/ad/demo) Yes
+✔ Blocklet Server configuration is successfully generated /Users/linchen/code/arcblock/ad/demo/.abtnode/abtnode.yml
+ℹ blocklet server start
+
+linchen@LinkdeMacBook-Pro demo % blocklet server start
+blocklet server v1.6.1
+ℹ Node did from config zNKoXYcX3yy74pFiNr3UcrtkmhkPccZE5Sso
+ℹ Load config from /Users/linchen/code/arcblock/ad/demo/.abtnode/abtnode.yml
+✔ Blocklet Server DB Proxy ready on port 40404
+✔ Blocklet Server Event Hub ready on port 40407
+✔ Blocklet Server Updater ready on port 40405
+✔ Dashboard HTTPS certificate was downloaded successfully!
+✔ Starting Blocklet Server Service... Done in 7.086s
+✔ Starting Blocklet Server Daemon... Done in 13.095s
+✔ You can access your Blocklet Server with either of the following URLs
+
+HTTP URLs:
+
+- http://192.168.3.28/admin/ [private]
+- http://60.24.229.153/admin/ [public]
+
+Secure URLs (Recommended):
+
+- https://192-168-3-28.ip.abtnet.io/admin/ [private]
+- https://60-24-229-153.ip.abtnet.io/admin/ [public]
+linchen@LinkdeMacBook-Pro demo %
+```
 
 </details>
 
-5. You can stop Blocklet Server service by executing `blocklet server stop` command.
+5. You can stop the blocklet server by executing `blocklet server stop` command.
 
 <details>
 <summary>Sample output</summary>
 
-![Stop Blocklet Server](./images/stop_abtnode.gif)
+```
+linchen@LinkdeMacBook-Pro demo % blocklet server stop
+blocklet server v1.6.1
+ℹ Node did from config zNKoXYcX3yy74pFiNr3UcrtkmhkPccZE5Sso
+ℹ Load config from /Users/linchen/code/arcblock/ad/demo/.abtnode/abtnode.yml
+✔ Sending shutdown notification to web dashboard users Done in 2.055s
+✔ Routing engine is stopped successfully
+✔ abt-node-daemon is stopped successfully
+✔ abt-node-service is stopped successfully
+✔ abt-node-updater is stopped successfully
+✔ abt-node-db-hub is stopped successfully
+✔ abt-node-log-rotate is stopped successfully
+✔ abt-node-event-hub is stopped successfully
+✔ Done!
+```
 
 </details>
 
 ### Access Blocklet Server
 
-The above command will start the Blocklet Server server on 8089. You can access the Blocklet Server on `/admin` request path (`http://18.217.238.146:8089/`). After this, you must agree to License terms before accessing the Blocklet Server dashboard.
+The above command will start the Blocklet Server. You can access the Blocklet Server on `http://192.168.3.28/admin/` or `https://192-168-3-28.ip.abtnet.io/admin/` ( Plase replace `192.168.3.28` to your local network ip). After this, you must agree to License terms before accessing the Blocklet Server dashboard.
 
-![Blocklet Server Terms](./images/node_acceptterms.png)
+![Blocklet Server Terms](./images/server_acceptterms.png)
 
 *Please do not access the Blocklet Server using localhost / 127.0.0.1 address. You will not be able to connect it using ABT wallet.*
 
 ## Use the official Docker image
 
-You can run Blocklet Server by using the [official Docker image](https://hub.docker.com/r/arcblock/abtnode)
+You can run Blocklet Server by using the [official Docker image](https://hub.docker.com/r/arcblock/blocklet-server)
 
 ```bash
-docker run -d -p 80:80 -p 443:443  -v "$(pwd)":/data/abtnode arcblock/abtnode
+docker run -d -p 80:80 -p 443:443  -v "$(pwd)":/data/abtnode arcblock/blocklet-server
 ```
 
 Docker images are based on the Debian Linux platform.
@@ -122,11 +192,11 @@ Docker images are based on the Debian Linux platform.
 
 The above command will start the Blocklet Server container and bind it to port 80 /  443 on the Host machine. You should access it using the IP address of the Host machine (`http://192.168.1.5/`). *Please do not access the Blocklet Server using localhost / 127.0.0.1 address. You will not be able to connect it using ABT wallet.*
 
-![Blocklet Server](./images/docker_abtnode.png)
+![Blocklet Server](./images/server_welcome.png)
 
 After this, you must agree to License terms before accessing the Blocklet Server dashboard.
 
-![Blocklet Server Terms](./images/docker_acceptterms.png)
+![Blocklet Server Terms](./images/server_acceptterms.png)
 
 ## Use AWS Marketplace
 
