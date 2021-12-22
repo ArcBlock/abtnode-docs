@@ -1,3 +1,7 @@
+## 0.5.0 (December 22, 2021)
+
+- doc: polish doc of blocklet server setup
+
 ## 0.4.0 (December 10, 2021)
 
 - rename abtnode to blocklet server
