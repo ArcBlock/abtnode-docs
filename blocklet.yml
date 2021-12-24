@@ -2,7 +2,7 @@ name: '@arcblock/abtnode-docs'
 version: 0.5.0
 description: >-
   Blocklet Server Documentation, a help documentation for quickly get started
-  with ABT Node.
+  with Blocklet Server.
 main: public
 files:
   - public/
@@ -39,6 +39,10 @@ interfaces:
 environments: []
 screenshots:
   - 0-home.png
+  - 1-platform.png
+  - 2-developer.png
+  - 3-use-cases.png
+  - 4-learning.png
 scripts: {}
 requirements:
   abtnode: '>=1.1.0'
