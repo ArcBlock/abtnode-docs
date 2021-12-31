@@ -1,3 +1,7 @@
+## 0.5.1 (December 31, 2021)
+
+- docs: update docs and screenshots
+
 ## 0.5.0 (December 22, 2021)
 
 - doc: polish doc of blocklet server setup

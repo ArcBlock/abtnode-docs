@@ -9,7 +9,7 @@ tags:
   - 'blocklet server'
 ---
 
-Currently AbtNode supports the following hooks:
+Currently Blocklet Server supports the following hooks:
 
 - `pre-deploy`: Usually execute various builds locally, when deploying from local to Blocklet Server Daemon. If the exit code is non-zero, quit deployment
 - `post-install`: Do something at the end of installation. If the exit code is non-zero, the installation will be failed

@@ -1,8 +1,8 @@
 name: '@arcblock/abtnode-docs'
-version: 0.5.0
+version: 0.5.1
 description: >-
   Blocklet Server Documentation, a help documentation for quickly get started
-  with ABT Node.
+  with Blocklet Server.
 main: public
 files:
   - public/
@@ -25,7 +25,7 @@ title: Blocklet Server Docs
 community: 'https://gitter.im/ArcBlock/community'
 documentation: 'https://docs.arcblock.io'
 support: support@arcblock.io
-specVersion: 1.2.0
+specVersion: 1.2.1
 did: z8ia5NLSuFwhPimBJHRdPmp6yx9fG8rcFex4b
 timeout:
   start: 10
@@ -39,6 +39,10 @@ interfaces:
 environments: []
 screenshots:
   - 0-home.png
+  - 1-platform.png
+  - 2-developer.png
+  - 3-use-cases.png
+  - 4-learning.png
 scripts: {}
 requirements:
   abtnode: '>=1.1.0'

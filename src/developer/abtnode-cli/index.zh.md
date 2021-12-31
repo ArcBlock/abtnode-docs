@@ -28,7 +28,7 @@ $ blocklet -V
 
 ### 初始化
 
-启动 ABTNode 的配置。配置包含节点层级的基本属性，如端口。
+启动 Blocklet Server 的配置。配置包含节点层级的基本属性，如端口。
 
 ```bash
 $ blocklet serve rinit
