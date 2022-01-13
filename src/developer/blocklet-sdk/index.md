@@ -40,7 +40,7 @@ const userDid = 'xxxxxxxx';
 const { user } = await client.getUser(userDid);
 ```
 
-### Api
+### API
 
 #### client.getUser(did)
 
@@ -179,7 +179,7 @@ await Notification.sendToUser([userDid, anotherUserDid], notification);
 await Notification.sendToUser([userDid, anotherUserDid], [notification, anotherNotification]);
 ```
 
-### Api
+### API
 
 #### notification.sendToUser(receiver, notification)
 

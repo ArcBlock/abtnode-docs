@@ -12,9 +12,9 @@ tags:
 
 # @blocklet/sdk
 
-Blocklet SDK for blocklet developer
+面当开发者的 Blocklet SDK 文档
 
-## Install
+## 安装
 
 ```shell
 yarn add @blocklet/sdk
@@ -28,7 +28,7 @@ npm install @blocklet/sdk
 
 ## Auth SDK
 
-### Usage
+### 用法
 
 ```javascript
 const Auth = require('@blocklet/sdk/service/auth');
@@ -40,7 +40,7 @@ const userDid = 'xxxxxxxx';
 const { user } = await client.getUser(userDid);
 ```
 
-### Api
+### API
 
 #### client.getUser(did)
 
@@ -141,7 +141,7 @@ Get all permissions of the team
 
 ## Notification SDK
 
-### Usage
+### 用法
 
 ```javascript
 const Notification = require('@blocklet/sdk/service/notification');
@@ -179,18 +179,18 @@ await Notification.sendToUser([userDid, anotherUserDid], notification);
 await Notification.sendToUser([userDid, anotherUserDid], [notification, anotherNotification]);
 ```
 
-### Api
+### API
 
 #### notification.sendToUser(receiver, notification)
 
-Send notification to an account
+向 DID 发送消息
 
-- **receiver** `string | array<string>` required
-- **notification** `object | array<object>` required
+- **receiver** `string | array<string>` 必填
+- **notification** `object | array<object>` 必填
   - **notification.title** `string`
   - **notification.body** `string`
   - **notification.attachments** `array<object>`
-    - **attachment.type** `enum` 'asset', 'vc', 'token' required
+    - **attachment.type** `enum` 'asset', 'vc', 'token' 必填
     - **attachment.data** `object`
       - _type: text_
         - **type** `string`
@@ -209,7 +209,7 @@ Send notification to an account
         - **chainHost** `string`
         - **decimal** `integer`
   - **notification.actions** `array<object>`
-    - **name** `string` required
+    - **name** `string` 必填
     - **title** `string`
     - **color** `string`
     - **bgColor** `string`
@@ -217,7 +217,7 @@ Send notification to an account
 
 ## WalletAuthenticator SDK
 
-### Usage
+### 用法
 
 ```javascript
 const { WalletAuthenticator } = require('@blocklet/sdk');
@@ -227,7 +227,7 @@ const authenticator = new WalletAuthenticator();
 
 ## WalletHandler SDK
 
-### Usage
+### 用法
 
 ```javascript
 const AuthStorage = require('@arcblock/did-auth-storage-nedb');
@@ -252,12 +252,12 @@ const handlers = new WalletHandlers({
 
 ## Database SDK
 
-A database library for develop blocklet, it's a wrapper of [nedb](https://www.github.com/Arcblock/nedb).
-Supply a simpler way to use nedb. Just use `new Database([dbName])`, or you can pass a object option as second parameter to create a database as origin nedb way `new Database([dbName], [options])`
+用于开发 Blocklet 的数据库，它是 [nedb](https://www.github.com/Arcblock/nedb) 的包装器。
+提供一种更简单的方式来使用 nedb。 只需使用`new Database([dbName])`，或者你可以传递一个对象选项作为第二个参数来创建一个数据库作为原始 nedb 方式`new Database([dbName], [options])`
 
-Supply full-promise support.
+提供 full-promise 支持。
 
-### Usage
+### 用法
 
 ```javascript
 const { Database } = require('@blocklet/sdk');
@@ -283,7 +283,7 @@ const { Database } = require('@blocklet/sdk');
 
 ## getWallet
 
-### Usage
+### 用法
 
 ```javascript
 const { getWallet } = require('@blocklet/sdk');
@@ -294,7 +294,7 @@ const blockletWallet = getWallet();
 
 ## env
 
-### Usage
+### 用法
 
 ```javascript
 const { env } = require('@blocklet/sdk');
@@ -308,7 +308,7 @@ const { address, secretKey, publicKey } = wallet;
 
 ## middlewares
 
-### Usage
+### 用法
 
 ```javascript
 const express = require('express');
@@ -321,26 +321,26 @@ app.get('/', middlewares.user(), (req, res) => {
 });
 
 app.get('/auth1', middlewares.auth(), (req, res) => {
-  // will return 401 if user is not connected
+  // 如果用户未连接，将返回 401
 });
 
 app.get('/auth2', middlewares.auth({ roles: ['admin', 'owner'] }), (req, res) => {
-  // will return 401 if user is not connected
-  // will return 403 if user role is neither owner nor admin
+  // 如果用户未连接，将返回 401
+  // 如果用户角色既不是 admin 也不是 owner，将返回 403
 });
 
 app.get('/auth2', middlewares.auth({ permissions: ['mutate_data', 'query_data'] }), (req, res) => {
-  // will return 401 if user is not connected
-  // will return 403 if neither 'mutate_data' nor 'query data' in user permissions
+  // 如果用户未连接，将返回 401
+  // 如果用户权限中既没有 mutate_data 也没有 query_data ，将返回 403
 });
 
 app.get(
   '/auth3',
   middlewares.auth({ roles: ['admin', 'owner'], permissions: ['mutate_data', 'query_data'] }),
   (req, res) => {
-    // will return 401 if user is not connected
-    // will return 403 if user role is neither owner nor admin
-    // will return 403 if neither 'mutate_data' nor 'query data' in user permissions
+    // 如果用户未连接，将返回 401
+    // 如果用户角色既不是 admin 也不是 owner，将返回 403
+    // 如果用户权限中既没有 mutate_data 也没有 query_data ，将返回 403
   }
 );
 ```
