@@ -1,6 +1,6 @@
 ---
-title: 'Blocklet Server cli 工具'
-description: 'Blocklet Server cli 工具'
+title: 'Blocklet Server CLI 工具'
+description: 'Blocklet Server CLI 工具'
 keywords: 'blocklet server'
 author: 'nate'
 category: ''
@@ -9,10 +9,10 @@ tags:
   - 'blocklet server'
 ---
 
-Blocklet Server 提供了 `abtnode` 命令行工具，用于控制和管理节点。使用以下语法可以从您的终端运行 `abtnode` 命令：
+Blocklet Server 提供了 `blocklet server` 命令行工具，用于控制和管理节点。使用以下语法可以从您的终端运行 `blocklet server` 命令：
 
 ```bash
-blocklet server[options] [command]
+blocklet server [options] [command]
 ```
 
 你可以使用 `-h` 或 `--help` 来查看所有支持的命令。
@@ -31,7 +31,7 @@ $ blocklet -V
 启动 Blocklet Server 的配置。配置包含节点层级的基本属性，如端口。
 
 ```bash
-$ blocklet serve rinit
+$ blocklet server init
 ? Are you sure to initialize a Blocklet Server instance in the current directory(/home/arcblock) Yes
 ✔ Blocklet Server configuration is successfully generated /home/arcblock/.abtnode/abtnode.yml
 ℹ blocklet server start
