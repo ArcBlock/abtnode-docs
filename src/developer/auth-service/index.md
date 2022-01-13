@@ -1,5 +1,5 @@
 ---
-title: 'Configure Auth Service for Blocklet'
+title: 'Configure Auth Service'
 description: 'Auth Service Instructions'
 keywords: 'blocklet server, blocklet, service, auth'
 author: 'linchen'

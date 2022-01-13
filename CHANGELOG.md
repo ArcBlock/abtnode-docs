@@ -1,3 +1,7 @@
+## 0.5.2 (January 13, 2022)
+
+- docs: polish doc of blocklet development
+
 ## 0.5.1 (December 31, 2021)
 
 - docs: update docs and screenshots
