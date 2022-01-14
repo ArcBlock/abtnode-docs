@@ -1,3 +1,8 @@
+## 0.5.2 (一月 14, 2022)
+
+- chore: update README
+- chore: update sharp version
+
 ## 0.5.1 (December 31, 2021)
 
 - docs: update docs and screenshots
