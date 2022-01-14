@@ -22,7 +22,6 @@ If you are a developer and want to do something with Blocklet Server ,this chapt
 - [Blocklet Hooks](./blocklet-hooks)
 - [Bundle Blocklets](./bundle-blocklets)
 - [Publish Blocklets](./publish-blocklets)
-- [Blocklet Store](./blocklet-store)
 - [Developing Blocklets with Codespaces](./blocklet-codespaces)
 - [Configure Auth Service for Blocklet](./auth-service)
 - [Composable blocklet](./composable-blocklet)
