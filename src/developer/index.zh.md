@@ -25,6 +25,5 @@ tags:
 - [Blocklet 生命周期钩子](./blocklet-hooks)
 - [打包 Blocklet](./bundle-blocklets)
 - [发布 Blocklet](./publish-blocklets)
-- [Blocklet 商店](./blocklet-store)
 - [在 Codespaces 中开发 Blocklets](./blocklet-codespaces)
 - [Docker Registry](./docker-registry)
