@@ -25,6 +25,10 @@ Then compile and server docs from local:
 make run
 ```
 
+### Tips
+When you use Apple silicon, you may hit some issues, [see](https://github.com/ArcBlock/abtnode-docs/issues/126)
+
+
 ## Table of Contents
 
 - [Introduction](./src/introduction)
