@@ -1,3 +1,7 @@
+## 0.5.3 (January 14, 2022)
+
+- docs: polish docs of composable blocklet
+
 ## 0.5.2 (January 13, 2022)
 
 - docs: polish doc of blocklet development
