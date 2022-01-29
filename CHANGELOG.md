@@ -1,3 +1,7 @@
+## 0.5.5 (一月 29, 2022)
+
+- feat: use blocklet workflow
+
 ## 0.5.4 (一月 14, 2022)
 
 - chore: update README
