@@ -11,6 +11,7 @@ tags:
 
 If you are a developer and want to do something with Blocklet Server ,this chapter is for you:
 
+- [Download Resources](./resources)
 - [Configuring the development environment](./config-dev-env)
 - [Blocklet Server CLI](./abtnode-cli)
 - [Blocklet CLI](./blocklet-cli)

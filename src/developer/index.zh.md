@@ -11,6 +11,7 @@ tags:
 
 如果你是开发者，并且正准备在 Blocklet Server 上进行开发，这一章节为你而准备：
 
+- [下载资源](./resources)
 - [配置开发环境](./config-dev-env)
 - [Blocklet Server  CLI 工具](./abtnode-cli)
 - [Blocklet CLI 工具](./blocklet-cli)
