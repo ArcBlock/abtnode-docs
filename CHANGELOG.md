@@ -1,3 +1,7 @@
+## 0.5.6 (February 18, 2022)
+
+- add download resource chapter
+
 ## 0.5.5 (一月 29, 2022)
 
 - feat: use blocklet workflow
