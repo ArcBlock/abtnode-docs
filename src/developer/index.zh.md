@@ -19,7 +19,7 @@ tags:
 - [创建 DApp Blocklet](./dapp-blocklets)
 - [Blocklet 规范](./blocklet-spec)
 - [Blocklet SDK](./blocklet-sdk)
-- [为 Blocklet 配置 Auth Service](./auth-service)
+- [Auth 服务](./auth-service)
 - [向 DID Wallet 发送消息](./send-notification)
 - [使用 DID Connect](./did-connect)
 - [可组合的 Blocklet](./composable-blocklet)
