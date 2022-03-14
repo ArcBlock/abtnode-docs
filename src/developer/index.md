@@ -19,7 +19,7 @@ If you are a developer and want to do something with Blocklet Server ,this chapt
 - [Create DApp Blocklets](./dapp-blocklets)
 - [Blocklet Specification](./blocklet-spec)
 - [Blocklet SDK](./blocklet-sdk)
-- [Configure Auth Service](./auth-service)
+- [Auth Service](./auth-service)
 - [Send notification to DID Wallet](./send-notification)
 - [Use DID Connect](./did-connect)
 - [Composable blocklet](./composable-blocklet)

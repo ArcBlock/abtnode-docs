@@ -1,6 +1,6 @@
 {
   "name": "@arcblock/abtnode-docs",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "description": "Blocklet Server Documentation, a help documentation for quickly get started with Blocklet Server.",
   "main": "index.js",
   "publishConfig": {
