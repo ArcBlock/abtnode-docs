@@ -1,3 +1,7 @@
+## 0.5.7 (March 15, 2022)
+
+- doc: update doc for auth service
+
 ## 0.5.6 (February 18, 2022)
 
 - add download resource chapter
