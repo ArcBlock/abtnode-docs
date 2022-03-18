@@ -23,6 +23,20 @@ blocklet.yml:
 
 [https://github.com/blocklet/component-demo/blob/main/blocklet.yml](https://github.com/blocklet/component-demo/blob/main/blocklet.yml)
 
+```yml
+name: parent-blocklet
+interfaces:
+  - name: publicUrl
+children:
+  - name: child-blocklet
+    resolved: 'xxx'
+    mountPoints:
+      - root:
+          interfaceName: publicUrl
+          prefix: '/path/to/xxx'
+      - child:
+          interfaceName: publicUrl
+```
 
 ## Config Services
 
@@ -47,13 +61,14 @@ interfaces:
   - name: parentInterfaceName
 children:
   - name: child-blocklet
-    resolve: 'xxxx'
+    resolved: 'xxxx'
     mountPoints:
       - root:
-          - interfaceName: parentInterfaceName
-        child:
-          - interfaceName: childInterfaceName
-        services:
+          interfaceName: parentInterfaceName
+          prefix: '/path/to/xx'
+      - child:
+          interfaceName: childInterfaceName
+      - services:
           - name: s1
           - name: s2
 ```

@@ -8,31 +8,55 @@ on:
 
 jobs:
   Deploy:
-
     runs-on: ubuntu-latest
 
     if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
 
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
 
-    - name: Checkout repo
-      uses: actions/checkout@v2
+      - name: Setup Nodejs
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'yarn'
 
-    - name: Deploy
-      env:
-        AWS_NODE_ENDPOINT: ${{ secrets.AWS_NODE_ENDPOINT }}
-        AWS_NODE_ACCESS_KEY: ${{ secrets.AWS_NODE_ACCESS_KEY }}
-        AWS_NODE_ACCESS_SECRET: ${{ secrets.AWS_NODE_ACCESS_SECRET }}
-        ALIYUN_NODE_ENDPOINT: ${{ secrets.ALIYUN_NODE_ENDPOINT }}
-        ALIYUN_NODE_ACCESS_SECRET: ${{ secrets.ALIYUN_NODE_ACCESS_SECRET }}
-        ALIYUN_NODE_ACCESS_KEY: ${{ secrets.ALIYUN_NODE_ACCESS_KEY }}
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        GIT_HUB_TOKEN: ${{ secrets.GIT_HUB_TOKEN }}
-        GATSBY_ALGOLIA_APP_ID: ${{ secrets.GATSBY_ALGOLIA_APP_ID }}
-        GATSBY_ALGOLIA_ADMIN_KEY: ${{ secrets.GATSBY_ALGOLIA_ADMIN_KEY }}
-        GATSBY_ALGOLIA_SEARCH_KEY: ${{ secrets.GATSBY_ALGOLIA_SEARCH_KEY }}
-        GATSBY_ALGOLIA_INDEX_NAME: ${{ secrets.GATSBY_ALGOLIA_INDEX_NAME }}
-        BLOCKLET_REGISTRY: ${{ secrets.BLOCKLET_REGISTRY }}
-        ABTNODE_DEV_SK: ${{ secrets.ABTNODE_DEV_SK }}
-      run: bash ./tools/publish.sh
+      - name: Initialize
+        run: yarn global add @blocklet/cli && yarn
+
+      - name: Bundle
+        run: yarn bundle
+        env:
+          GATSBY_ALGOLIA_APP_ID: ${{ secrets.GATSBY_ALGOLIA_APP_ID }}
+          GATSBY_ALGOLIA_ADMIN_KEY: ${{ secrets.GATSBY_ALGOLIA_ADMIN_KEY }}
+          GATSBY_ALGOLIA_SEARCH_KEY: ${{ secrets.GATSBY_ALGOLIA_SEARCH_KEY }}
+          GATSBY_ALGOLIA_INDEX_NAME: ${{ secrets.GATSBY_ALGOLIA_INDEX_NAME }}
+
+      - name: Blocklet workflow
+        uses: blocklet/action-workflow@v1
+        with:
+          skip-upload: false
+          skip-deploy: false
+          skip-bundle: true
+          bundle-command: yarn bundle
+          server-endpoint: ${{ secrets.AWS_NODE_ENDPOINT }}
+          server-access-key: ${{ secrets.AWS_NODE_ACCESS_KEY }}
+          server-access-secret: ${{ secrets.AWS_NODE_ACCESS_SECRET }}
+          store-endpoint: ${{ secrets.STORE_ENDPOINT_PROD }}
+          store-access-token: ${{ secrets.STORE_ACCESS_TOKEN_PROD }}
+          slack-webhook: ${{ secrets.SLACK_WEBHOOK }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Blocklet workflow (ALIYUN)
+        uses: blocklet/action-workflow@v1
+        with:
+          skip-deps: true
+          skip-upload: true
+          skip-deploy: false
+          skip-release: true
+          skip-bundle: true
+          server-endpoint: ${{ secrets.ALIYUN_NODE_ENDPOINT }}
+          server-access-key: ${{ secrets.ALIYUN_NODE_ACCESS_KEY }}
+          server-access-secret: ${{ secrets.ALIYUN_NODE_ACCESS_SECRET }}
+          slack-webhook: ${{ secrets.SLACK_WEBHOOK }}

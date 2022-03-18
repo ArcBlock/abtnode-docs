@@ -9,7 +9,7 @@ tags:
   - 'blocklet server'
 ---
 
-Blocklet Server provides `abtnode` command-line tool for controlling and administering the node. Use the following syntax to run `abtnode` commands from your terminal:
+Blocklet Server provides `blocklet server` command-line tool for controlling and administering the node. Use the following syntax to run `blocklet server` commands from your terminal:
 
 ```bash
 blocklet server [options] [command]
@@ -31,7 +31,7 @@ $ blocklet -V
 Bootstraps a configuration for the Blocklet Server. The configuration contains Node level basic attributes like Ports.
 
 ```bash
-$ blocklet serve rinit
+$ blocklet server init
 ? Are you sure to initialize a Blocklet Server instance in the current directory(/home/arcblock) Yes
 ✔ Blocklet Server configuration is successfully generated /home/arcblock/.abtnode/abtnode.yml
 ℹ blocklet server start

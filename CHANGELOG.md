@@ -1,8 +1,26 @@
-## 0.5.2 (一月 14, 2022)
+## 0.5.7 (March 15, 2022)
+
+- doc: update doc for auth service
+
+## 0.5.6 (February 18, 2022)
+
+- add download resource chapter
+
+## 0.5.5 (一月 29, 2022)
+
+- feat: use blocklet workflow
+
+## 0.5.4 (一月 14, 2022)
 
 - chore: update README
 - chore: update sharp version
+## 0.5.3 (January 14, 2022)
 
+- docs: polish docs of composable blocklet
+
+## 0.5.2 (January 13, 2022)
+
+- docs: polish doc of blocklet development
 ## 0.5.1 (December 31, 2021)
 
 - docs: update docs and screenshots
