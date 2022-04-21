@@ -97,6 +97,10 @@ When you use Apple silicon, you may hit some issues, [see](https://github.com/Ar
   - [ ] Blocklet SDK
     - [ ] Auth Service
     - [ ] Notification
+- [ ] FAQ
+  - [ ] Mirrors for Downloads
+  - [ ] Setup Dev Environment
+  - [ ] Use Blocklet Server with Docker
 
 
 - [ ] DID Connect

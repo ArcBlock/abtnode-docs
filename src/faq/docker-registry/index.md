@@ -1,6 +1,6 @@
 ---
 title: 'Docker Registry List'
-description: 'Docker registry list'
+description: 'Fetch blocklet server docker image from various registries'
 keywords: 'docker, registry'
 author: 'zhenqiang'
 category: ''

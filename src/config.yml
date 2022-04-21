@@ -69,8 +69,6 @@ categories:
       Developer Guide:
         url: /developer
         links:
-          - /developer/resources
-          - /developer/config-dev-env
           - /developer/abtnode-cli
           - /developer/blocklet-cli
           - /developer/static-blocklets
@@ -79,13 +77,19 @@ categories:
           - /developer/blocklet-sdk
           - /developer/auth-service
           - /developer/send-notification
-          - /developer/did-connect
           - /developer/composable-blocklet
           - /developer/blocklet-hooks
           - /developer/bundle-blocklets
           - /developer/publish-blocklets
-          - /developer/blocklet-registry
           - /developer/blocklet-codespaces
-          - /developer/docker-registry
         locales:
           zh: 应用开发者指南
+      FAQ:
+        url: /faq
+        links:
+          - /faq/setup-env
+          - /faq/resources
+          - /faq/docker-registry
+          - /faq/storage-structure
+        locales:
+          zh: 常见问题

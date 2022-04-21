@@ -1,7 +1,7 @@
 ---
-title: 'Configuring the development environment'
-description: 'Configuring the development environment'
-keywords: 'blocklet server, development'
+title: 'Setup blocklet dev environment'
+description: 'Instructions on how setup blocklet development environment'
+keywords: 'development'
 author: 'polunzh'
 category: ''
 layout: 'documentation'
@@ -51,6 +51,8 @@ After completing the installation of Node.js, you can install Blocklet Server:
 ```bash
 $ npm install -g @blocklet/cli
 ```
+
+> You can also install `@blocklet/cli` globally with yarn or pnpm.
 
 After installation, you can run `blocklet --version` to see the current version.
 
