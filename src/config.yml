@@ -28,7 +28,11 @@ categories:
         url: /blocklet
         links:
           - /blocklet/basic-operations
-          - /blocklet/environments
+          - /blocklet/domains-urls
+          - /blocklet/components
+          - /blocklet/members
+          - /blocklet/passports
+          - /blocklet/configuration
         locales:
           zh: 应用管理
       Log Viewer:

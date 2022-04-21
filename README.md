@@ -26,40 +26,84 @@ make run
 ```
 
 ### Tips
-When you use Apple silicon, you may hit some issues, [see](https://github.com/ArcBlock/abtnode-docs/issues/126)
 
+When you use Apple silicon, you may hit some issues, [see](https://github.com/ArcBlock/abtnode-docs/issues/126)
 
 ## Table of Contents
 
-- [Introduction](./src/introduction)
-  - [Blocklet Server Overview](./src/introduction/abtnode-overview)
-  - [Blocklet Server Setup](./src/introduction/abtnode-setup)
-  - [Blocklet Server Access](./src/introduction/abtnode-access)
-- [Blocklet Store](./src/Store)
-  - [Find and install blocklet](./src/Store/find-and-install)
-  - [Upgrade/downgrade blocklet](./src/Store/upgrade-downgrade)
-- [Blocklet Management](./src/blocklet)
-  - [Basic Operations](./src/blocklet/basic-operations)
-  - [Blocklet Environments](./src/blocklet/environments)
-  - [Core Blocklets](./src/blocklet/core-blocklets)
-- [Router](./src/router)
-  - [What is Router?](./src/router/what-is-router)
-  - [Basic Router Usage](./src/router/basic-usage)
-- [Production Deployment](./src/deployment)
-  - [Production Best Practice](./src/deployment/best-practice)
-  - [Deploy with AWS AMI](./src/deployment/form-aws-ami)
-  - [Run behind Reverse Proxy](./src/deployment/behind-reverse-proxy)
-- [Misc](./src/misc)
-  - [Node Settings](./src/misc/node-settings)
-  - [Member Management](./src/misc/member-management)
-  - [GraphQL Console](./src/misc/graphql-console)
-- [Developer Guide](./src/developer)
-  - [Node Configuration](./src/developer/configuration)
-  - [Storage Structure](./src/developer/storage-structure)
-  - [Blocklet Specification](./src/developer/blocklet-spec)
-  - [Create Static Blocklets](./src/developer/static-blocklets)
-  - [Create DApp Blocklets](./src/developer/dapp-blocklets)
-  - [Blocklet Hooks](./src/developer/blocklet-hooks)
-  - [Bundle Blocklets](./src/developer/bundle-blocklets)
-  - [Publish Blocklets](./src/developer/publish-blocklets)
-  - [Blocklet Registry](./src/developer/blocklet-registry)
+- [x] Introduction
+  - [ ] Blocklet Server Overview
+  - [x] Blocklet Server Setup
+  - [x] Blocklet Server Access
+- [x] Blocklet Store
+  - [x] What is Store?
+  - [ ] Launch Blocklets
+  - [ ] Setup Blocklets
+- [ ] Blocklet Management
+  - [x] Basic Operations
+  - [ ] Domains & URLs
+  - [ ] Components
+  - [ ] Members
+  - [ ] Passports
+  - [ ] Configuration
+- Team
+  - [ ] Members
+  - [ ] Passports
+- Settings
+  - [ ] Basic Settings
+  - [ ] Access Keys
+  - [ ] Domains & URLs
+    - [ ] What is Router?
+    - [ ] Basic Router Usage
+  - [ ] SSL Certificates
+  - [ ] Integrations
+  - [ ] About
+- [ ] DevOps Guide
+  - [ ] Setup Blocklet Server
+    - [ ] Production Best Practice
+    - [ ] Deploy with AWS AMI
+    - [ ] Run behind Reverse Proxy
+  - [ ] Backup & Restore
+  - [ ] Blocklet Server CLI
+    - [x] init
+    - [x] start
+    - [x] status
+    - [x] stop
+    - [x] export
+    - [ ] info
+    - [ ] logs
+- [ ] Developer Guide
+  - [ ] Blocklet Spec
+  - [ ] Blocklet Runtime
+  - [ ] Blocklet Lifecycle
+  - [ ] Blocklet Compose
+  - [ ] Blocklet CLI
+    - [ ] config: config blocklet cli
+    - [ ] connect: connect to store and config blocklet cli automatically
+    - [ ] init: from existing
+    - [ ] create: templates, static, dapp
+    - [ ] dev: install/start/remove/reset, test
+    - [ ] exec
+    - [ ] bundle: monorepo, webpack, zip
+    - [ ] version
+    - [ ] upload: bundle
+    - [ ] deploy: local/remote
+    - [ ] meta
+  - [ ] Blocklet Publish
+    - [ ] Logo and favicon
+    - [ ] Title
+    - [ ] Screenshots
+    - [ ] Blocklet.md
+  - [ ] Blocklet SDK
+    - [ ] Auth Service
+    - [ ] Notification
+
+
+- [ ] DID Connect
+  - [ ] Overview
+  - [ ] Backend
+  - [ ] Frontend
+- [ ] OCAP SDK
+  - [ ] Getting Started
+  - [ ] Read Data
+  - [ ] Send Transaction
