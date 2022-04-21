@@ -12,9 +12,9 @@ categories:
       Introduction:
         url: /introduction
         links:
-          - /introduction/abtnode-overview
-          - /introduction/abtnode-setup
-          - /introduction/abtnode-access
+          - /introduction/overview
+          - /introduction/setup
+          - /introduction/access
         locales:
           zh: 节点入门
       Blocklet Store:
