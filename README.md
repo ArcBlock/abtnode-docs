@@ -32,7 +32,7 @@ When you use Apple silicon, you may hit some issues, [see](https://github.com/Ar
 ## Table of Contents
 
 - [x] Introduction
-  - [ ] Blocklet Server Overview
+  - [x] Blocklet Server Overview
   - [x] Blocklet Server Setup
   - [x] Blocklet Server Access
 - [x] Blocklet Store
@@ -45,9 +45,9 @@ When you use Apple silicon, you may hit some issues, [see](https://github.com/Ar
   - [ ] Components
   - [ ] Members
   - [ ] Passports
-  - [ ] Configuration
+  - [x] Configuration
 - Team
-  - [ ] Members
+  - [x] Members
   - [ ] Passports
 - Settings
   - [ ] Basic Settings
@@ -102,6 +102,7 @@ When you use Apple silicon, you may hit some issues, [see](https://github.com/Ar
   - [ ] Setup Dev Environment
   - [ ] Use Blocklet Server with Docker
 
+Other topics that developers should known when develop blocklets.
 
 - [ ] DID Connect
   - [ ] Overview
