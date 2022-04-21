@@ -1,6 +1,6 @@
 ---
 title: 'About Page'
-description: 'About this blocklet server'
+description: 'Upgrade your blocklet server'
 keywords: 'server, upgrade, launcher'
 author: 'wangshijun'
 category: ''

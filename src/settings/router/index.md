@@ -1,6 +1,6 @@
 ---
 title: 'Domains and URLS'
-description: 'Server domain and URLS'
+description: 'Customize server domain and and access URLs'
 keywords: 'server, networking, domain'
 author: 'nate'
 category: ''
