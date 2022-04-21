@@ -11,6 +11,4 @@ tags:
 
 Blocklet Server support some other features:
 
-- [Member Management](./member-management)
-- [GraphQL Console](./graphql-console)
-- [Generate wildcard HTTPS certificate](./generate-wildcard-https-certificate)
+- [Member Management](./members)

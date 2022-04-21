@@ -7,7 +7,7 @@ categories:
     link: /
     priority: 999
     sidebar:
-      "null":
+      'null':
         - /
       Introduction:
         url: /introduction
@@ -31,28 +31,27 @@ categories:
           - /blocklet/environments
         locales:
           zh: 应用管理
-      Service Gateway:
-        url: /router
-        links:
-          - /router/what-is-router
-          - /router/basic-usage
-          - /router/bind-domain-to-node
-          - /router/bind-domain-and-ssl
-          - /router/certificates-for-localhost
-        locales:
-          zh: 路由管理
-      Logs:
+      Log Viewer:
         url: /logs
         links:
+          - /logs/server-logs
+          - /logs/router-logs
           - /logs/blocklet-logs
-          - /logs/abtnode-logs
+      Team Management:
+        url: /team
+        links:
+          - /team/members
+          - /team/passports
+        locales:
+          zh: '其他功能'
       Settings:
         url: /settings
-        links :
+        links:
           - /settings/basic
+          - /settings/router
           - /settings/access-keys
           - /settings/integrations
-      Deployment:
+      DevOps Guide:
         url: /deployment
         links:
           - /deployment/best-practice
@@ -60,14 +59,7 @@ categories:
           - /deployment/behind-reverse-proxy
           - /deployment/run-in-docker
         locales:
-          zh: "生产环境指南"
-      Misc:
-        url: /misc
-        links:
-          - /misc/member-management
-          - /misc/graphql-console
-        locales:
-          zh: "其他功能"
+          zh: '节点部署指南'
       Developer Guide:
         url: /developer
         links:
@@ -90,4 +82,4 @@ categories:
           - /developer/blocklet-codespaces
           - /developer/docker-registry
         locales:
-          zh: 开发者指南
+          zh: 应用开发者指南

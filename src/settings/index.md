@@ -1,6 +1,6 @@
 ---
-title: 'Node Settings'
-description: 'Node Settings'
+title: 'Server Settings'
+description: 'Server Settings'
 keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
@@ -14,5 +14,6 @@ The Settings console allows configuring attributes specific to the Blocklet Serv
 ## Contents
 
 - [Basic Setting](./basic)
+- [Domain & URLS](./router)
 - [Access Keys](./access-keys)
 - [Integrations](./integrations)
