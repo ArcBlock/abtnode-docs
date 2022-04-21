@@ -9,7 +9,7 @@ tags:
   - 'blocklet server'
 ---
 
-> <p style="color:red">This page is outdated and must be updated</p>
+> <p style="color:red">This page is incomplete and must be updated</p>
 
 If you are a developer and want to do something with Blocklet Server ,this chapter is for you:
 
