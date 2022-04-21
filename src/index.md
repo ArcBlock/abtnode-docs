@@ -10,6 +10,8 @@ tags:
   - 'blocklet server'
 ---
 
+> <p style="color:red">This page is outdated and must be updated</p>
+
 Welcome to Blocklet Server documentation
 
 - [Introduction](./introduction)

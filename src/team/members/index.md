@@ -1,6 +1,6 @@
 ---
-title: 'Member Management'
-description: 'Member Management'
+title: 'Members'
+description: 'Members'
 keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
@@ -9,10 +9,20 @@ tags:
   - 'blocklet server'
 ---
 
-Current members of an Blocklet Server can add other users as members to the Blocklet Server, and the node owner can manage member permissions
-on the `Node -> Owner` page.
+> <p style="color:red">This page is outdated and must be updated</p>
 
-To add a new member, the new member should have [DID Wallet](https://abtwallet.io/en/) set up on his or her phone.
+Current members of an Blocklet Server can invite other users as members to the Blocklet Server, and the node owner can manage member permissions
+on by issue or revoke member passports.
+
+## View Members
+
+## Invite New Member
+
+## Revoke Existing Member
+
+## Manage Member Access
+
+To invite a new member, the new member should have [DID Wallet](https://abtwallet.io/en/) set up on his or her phone.
 
 Then, the new member would scan the QR code on the Blocklet Server's site.
 
@@ -22,7 +32,7 @@ A message will appear indicating that the new member does not have the permissio
 
 ![](./images/member-manager-2-en.png)
 
-The owner of the node could see the sign-in attempt in the `Settings -> TEAM` page:
+The owner of the node could see the sign-in attempt in the `TEAM` page:
 
 ![](./images/member-manager-3-en.png)
 

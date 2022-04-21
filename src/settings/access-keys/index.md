@@ -9,6 +9,8 @@ tags:
   - 'blocklet server'
 ---
 
+> <p style="color:red">This page is outdated and must be updated</p>
+
 Access keys are credentials for an Blocklet Server user. The *Access Keys* view allows you to create and delete access keys.
 
  ![](./images/node-settings-accesskeys-en.png)

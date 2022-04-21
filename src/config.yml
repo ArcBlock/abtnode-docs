@@ -41,7 +41,7 @@ categories:
           - /logs/server-logs
           - /logs/router-logs
           - /logs/blocklet-logs
-      Team Management:
+      Team & Passport:
         url: /team
         links:
           - /team/members
@@ -52,9 +52,11 @@ categories:
         url: /settings
         links:
           - /settings/basic
-          - /settings/router
           - /settings/access-keys
+          - /settings/router
+          - /settings/certificates
           - /settings/integrations
+          - /settings/about
       DevOps Guide:
         url: /deployment
         links:

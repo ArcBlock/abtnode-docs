@@ -1,13 +1,15 @@
 ---
-title: 'Service Gateway'
-description: 'Blocklet Server Service Gateway'
-keywords: 'blocklet server, networking, service gateway, url, blocklet'
+title: 'Domains and URLS'
+description: 'Server domain and URLS'
+keywords: 'server, networking, domain'
 author: 'nate'
 category: ''
 layout: 'documentation'
 tags:
   - 'blocklet server'
 ---
+
+> <p style="color:red">This page is outdated and must be updated</p>
 
 The Service Gateway enables you to control communications for your Blocklet Server and configure your networking services to support your apps, services and Blocklets. In this section we will learn:
 

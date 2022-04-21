@@ -12,6 +12,8 @@ tags:
   - abtnode
 ---
 
+> <p style="color:red">This page is outdated and must be updated</p>
+
 欢迎访问 Blocklet Server 的文档
 
 - [介绍](./introduction)

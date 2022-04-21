@@ -1,7 +1,7 @@
 ---
-title: 'Misc'
-description: 'Misc'
-keywords: 'blocklet server, blocklet'
+title: 'Team'
+description: 'Team'
+keywords: 'team'
 author: 'nate'
 category: ''
 layout: 'documentation'
