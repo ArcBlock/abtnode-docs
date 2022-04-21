@@ -1,3 +1,7 @@
+## 0.6.0 (April 21, 2022)
+
+- chore: reorganize docs
+
 ## 0.5.7 (March 15, 2022)
 
 - doc: update doc for auth service
