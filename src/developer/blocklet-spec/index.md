@@ -11,6 +11,8 @@ tags:
   - specification
 ---
 
+> <p style="color:red">This page is outdated and must be updated</p>
+
 ## What is Blocklet?
 
 Blocklet is an application protocol and software architecture. As a protocol, it describes the way to build the Blocklet Server platform; as software architecture, an independent blocklet is a reusable software module, which may be an HTTP service or a function library, etc.; when multiple When blocklets run together, they need a platform to combine them to form an independent service, such as Blocklet Server.

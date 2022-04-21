@@ -9,6 +9,8 @@ tags:
   - 'blocklet server'
 ---
 
+> <p style="color:red">This page is outdated and must be updated</p>
+
 Blocklet Server provides `blocklet server` command-line tool for controlling and administering the node. Use the following syntax to run `blocklet server` commands from your terminal:
 
 ```bash

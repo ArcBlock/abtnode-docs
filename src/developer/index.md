@@ -9,22 +9,19 @@ tags:
   - 'blocklet server'
 ---
 
+> <p style="color:red">This page is outdated and must be updated</p>
+
 If you are a developer and want to do something with Blocklet Server ,this chapter is for you:
 
-- [Download Resources](./resources)
-- [Configuring the development environment](./config-dev-env)
 - [Blocklet Server CLI](./abtnode-cli)
 - [Blocklet CLI](./blocklet-cli)
-- [Create Static Blocklets](./static-blocklets)
-- [Create DApp Blocklets](./dapp-blocklets)
 - [Blocklet Specification](./blocklet-spec)
 - [Blocklet SDK](./blocklet-sdk)
-- [Auth Service](./auth-service)
-- [Send notification to DID Wallet](./send-notification)
-- [Use DID Connect](./did-connect)
+- [Blocklet Services](./blocklet-services)
+  - [Auth Service](./auth-service)
+  - [Notification Service](./send-notification)
 - [Composable blocklet](./composable-blocklet)
-- [Blocklet Hooks](./blocklet-hooks)
+- [Blocklet Scripts](./blocklet-scripts)
 - [Bundle Blocklets](./bundle-blocklets)
 - [Publish Blocklets](./publish-blocklets)
-- [Developing Blocklets with Codespaces](./blocklet-codespaces)
-- [Docker Registry](./docker-registry)
+- [Use DID Connect](./did-connect)

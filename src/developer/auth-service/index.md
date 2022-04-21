@@ -12,6 +12,8 @@ tags:
   - 'auth'
 ---
 
+> <p style="color:red">This page is outdated and must be updated</p>
+
 Blocklet Server provides generic auth service for Blocklets.
 
 Auth service provides the following capabilities

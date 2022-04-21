@@ -1,6 +1,6 @@
 ---
-title: 'Blocklet Hooks'
-description: 'Blocklet Hooks'
+title: 'Blocklet Scripts'
+description: 'Blocklet Scripts'
 keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
@@ -8,6 +8,8 @@ layout: 'documentation'
 tags:
   - 'blocklet server'
 ---
+
+> <p style="color:red">This page is outdated and must be updated</p>
 
 Currently Blocklet Server supports the following hooks:
 

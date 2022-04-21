@@ -1,5 +1,5 @@
 ---
-title: 'Send notification to DID Wallet'
+title: 'Notification Service'
 description: 'How to send notification to DID Wallet'
 keywords: 'blocklet server, blocklet, notification, DID Wallet'
 author: 'linchen'
