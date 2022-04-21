@@ -1,6 +1,6 @@
 ---
-title: 'Blocklet Management'
-description: 'Blocklet Management'
+title: 'Basic Management'
+description: 'Basic Management'
 keywords: 'blocklet server, blocklet'
 author: 'wangshijun'
 category: ''
@@ -9,7 +9,7 @@ tags:
   - 'blocklet server'
 ---
 
-The *Blocklets Management* page shows all Blocklets installed on the Blocklet Server with the following attributes for each of the Blocklets.
+The *blocklets* page shows all blocklets installed on the blocklet server with the following attributes for each of the blocklets.
 
 1. Name
 2. Access URLs
@@ -31,7 +31,7 @@ interfaces:
 4. API : Specifies a web endpoint for the Blocket provided API.
 5. Service : Specifies a TCP based service.
 
-Developers can add authentication to any of the above URLs. The authentication is provided using the Blocklet Server Teams feature. Additionally, every blocket generates log for every served request. These logs are available as part of the [Logs view](/en/logs).   
+Developers can add authentication to any of the above URLs. The authentication is provided using the Blocklet Server Teams feature. Additionally, every blocket generates log for every served request. These logs are available as part of the [Logs view](/en/logs).
 
 ## Blocklet Operations
 
@@ -54,7 +54,7 @@ The page also presents a search box to lookup Blocklets using their name.
 
 ## Install Blocklet
 
-The Blocklets Management page enables the installation of adhoc Blocklets, which are not available on the Marketplace. Click "Install New Blocklet" button and select "Install from URI".  
+The blocklets page enables the installation of adhoc Blocklets, which are not available on the Store. Click "Install New Blocklet" button and select "Install from URI".
 
 ![](./images/blocklet-install-url.png)
 
@@ -62,14 +62,10 @@ Provide the URL for the required [blocklet.json](https://github.com/blocklet/htm
 
 ## Upgrade Blocklet
 
-The *Blocklets Management* page generates notifications when a new version on an installed Blocklet is available. It is shown with a red uptick next to the Blocklet version.
+The *blocklets* page generates notifications when a new version on an installed Blocklet is available. It is shown with a red uptick next to the Blocklet version.
 
 ![](./images/blocklets-upgrade.png)
 
 You can click the red uptick for the upgrade, it will ask for a confirmation. Once confirmed the Blocklet Server will download and install the new version of the Blocklet.
 
 ![](./images/blocklets-upgrade-confirm.png)
-
-## Downgrade Blocklet
-
-You can not downgrade an installed Blocklet. You have to remove the Blocklet and install it again using the older version.

@@ -7,88 +7,88 @@ categories:
     link: /
     priority: 999
     sidebar:
-      "null":
+      'null':
         - /
       Introduction:
         url: /introduction
         links:
-          - /introduction/abtnode-overview
-          - /introduction/abtnode-setup
-          - /introduction/abtnode-access
+          - /introduction/overview
+          - /introduction/setup
+          - /introduction/access
         locales:
           zh: 节点入门
-      Marketplace:
-        url: /marketplace
+      Blocklet Store:
+        url: /store
         links:
-          - /marketplace/find-and-install
-          - /marketplace/upgrade-downgrade
+          - /store/what-is-store
+          - /store/find-and-install
         locales:
           zh: 应用市场
-      Blocklets:
+      Blocklet Management:
         url: /blocklet
         links:
           - /blocklet/basic-operations
-          - /blocklet/environments
-          - /blocklet/core-blocklets
+          - /blocklet/domains-urls
+          - /blocklet/components
+          - /blocklet/members
+          - /blocklet/passports
+          - /blocklet/configuration
         locales:
           zh: 应用管理
-      Service Gateway:
-        url: /router
-        links:
-          - /router/what-is-router
-          - /router/basic-usage
-          - /router/bind-domain-to-node
-          - /router/bind-domain-and-ssl
-          - /router/certificates-for-localhost
-        locales:
-          zh: 路由管理
-      Logs:
+      Log Viewer:
         url: /logs
         links:
+          - /logs/server-logs
+          - /logs/router-logs
           - /logs/blocklet-logs
-          - /logs/abtnode-logs
+      Team & Passport:
+        url: /team
+        links:
+          - /team/members
+          - /team/passports
+        locales:
+          zh: '其他功能'
       Settings:
-        url: /node-settings
-        links :
-          - /node-settings/node-attributes
-          - /node-settings/access-keys
-          - /node-settings/integrations
-      Deployment:
+        url: /settings
+        links:
+          - /settings/basic
+          - /settings/access-keys
+          - /settings/router
+          - /settings/certificates
+          - /settings/integrations
+          - /settings/about
+      DevOps Guide:
         url: /deployment
         links:
-          - /deployment/best-practice
+          - /developer/server-cli
           - /deployment/from-aws-ami
+          - /deployment/from-launcher
+          - /deployment/backup-restore
           - /deployment/behind-reverse-proxy
-          - /deployment/run-in-docker
+          - /deployment/best-practice
         locales:
-          zh: "生产环境指南"
-      Misc:
-        url: /misc
-        links:
-          - /misc/member-management
-          - /misc/graphql-console
-        locales:
-          zh: "其他功能"
+          zh: '节点部署指南'
       Developer Guide:
         url: /developer
         links:
-          - /developer/resources
-          - /developer/config-dev-env
-          - /developer/abtnode-cli
           - /developer/blocklet-cli
-          - /developer/static-blocklets
-          - /developer/dapp-blocklets
-          - /developer/blocklet -spec
+          - /developer/blocklet-spec
           - /developer/blocklet-sdk
           - /developer/auth-service
           - /developer/send-notification
-          - /developer/did-connect
           - /developer/composable-blocklet
           - /developer/blocklet-hooks
           - /developer/bundle-blocklets
           - /developer/publish-blocklets
-          - /developer/blocklet-registry
-          - /developer/blocklet-codespaces
-          - /developer/docker-registry
         locales:
-          zh: 开发者指南
+          zh: 应用开发者指南
+      FAQ:
+        url: /faq
+        links:
+          - /faq/setup-env
+          - /faq/resources
+          - /faq/storage-structure
+          - /faq/with-docker
+          - /faq/with-codespaces
+        locales:
+          zh: 常见问题

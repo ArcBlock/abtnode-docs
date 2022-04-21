@@ -2,7 +2,7 @@
 title: Blocklet Specification
 description: 'Blocklet Specification'
 keywords: 'blocklet server,blocklet,specification'
-author: 'zhenqiang, tigeryu8900'
+author: 'zhenqiang, wangshijun'
 category: ''
 layout: documentation
 tags:
@@ -10,6 +10,8 @@ tags:
   - blocklet
   - specification
 ---
+
+> <p style="color:red">This page is outdated and must be updated</p>
 
 ## What is Blocklet?
 
@@ -86,7 +88,7 @@ Here are other configuration items. For a blocklet, these fields are optional. L
 
 ![blocklet lifecycle](./images/blocklet-lifecycle.png)
 
-In Blocklet Server, the complete life cycle of a blocklet includes four stages: installation (or deployment), start, stop, and uninstall. Blocklets can be installed in two ways: one is to download and install it from the marketplace, and the other is to deploy and install it directly with Blocklet Server CLI. The CLI is mainly for development and testing. Therefore, in the first phase of the life cycle, there are two installation and deployment situations.
+In Blocklet Server, the complete life cycle of a blocklet includes four stages: installation (or deployment), start, stop, and uninstall. Blocklets can be installed in two ways: one is to download and install it from the Store, and the other is to deploy and install it directly with Blocklet Server CLI. The CLI is mainly for development and testing. Therefore, in the first phase of the life cycle, there are two installation and deployment situations.
 
 ## Hooks
 

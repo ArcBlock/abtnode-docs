@@ -13,6 +13,6 @@ The ArcBlock platform is deployed using Blocklet Server Service. The following s
 
 ## Contents
 
-- [Blocklet Server Overview](./abtnode-overview): An overview of Blocklet Server's capabilities.
-- [Blocklet Server Setup](./abtnode-setup): Detailed instructions for Blocklet Server installation.
-- [Blocklet Server Access](./abtnode-access): Instructions for Blocklet Server Dashboard access.
+- [Blocklet Server Overview](./overview): An overview of Blocklet Server's capabilities.
+- [Blocklet Server Setup](./setup): Detailed instructions for Blocklet Server installation.
+- [Blocklet Server Access](./access): Instructions for Blocklet Server Dashboard access.

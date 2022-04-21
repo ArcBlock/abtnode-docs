@@ -9,6 +9,8 @@ tags:
   - 'blocklet'
 ---
 
+> <p style="color:red">This page is outdated and must be updated</p>
+
 Blocklet Server provides `blocklet` command-line tool for controlling and administering Blocklets. Use the following syntax to run `blocklet` commands from your terminal:
 
 ```bash
@@ -67,7 +69,7 @@ $ blocklet meta
 
 ### Development
 
-Often you would like to deploy Blocklets to validate their behaviours. The command provides support to _install_, _start_ and _remove_ blocklets under development.
+Often you would like to deploy Blocklets to validate their behaviours. The command provides support to _Launch_, _start_ and _remove_ blocklets under development.
 
 ```bash
 $ blocklet dev install

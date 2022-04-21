@@ -1,3 +1,7 @@
+## 0.6.0 (April 21, 2022)
+
+- chore: reorganize docs
+
 ## 0.5.7 (March 15, 2022)
 
 - doc: update doc for auth service
@@ -86,7 +90,7 @@
 ## 0.2.15 (June 24, 2021)
 
 - update abtnode setup
-- chore: update marketplace doc (#95)
+- chore: update Store doc (#95)
 
 ## 0.2.14 (May 22, 2021)
 
@@ -272,13 +276,13 @@ ci: send notification to slack after deployed
 
 ## 0.0.10 (August 09, 2020)
 
-- add docs by tigeryu8900
+- add docs by wangshijun
 
 ## 0.0.9 (August 07, 2020)
 
-- add docs by tigeryu8900
-- revise EN docs (mostly grammar fixes) by tigeryu8900
-- [src/index.md](./src/index.md) and [src/index.zh.md](./src/index.zh.md) link fix by tigeryu8900
+- add docs by wangshijun
+- revise EN docs (mostly grammar fixes) by wangshijun
+- [src/index.md](./src/index.md) and [src/index.zh.md](./src/index.zh.md) link fix by wangshijun
 - image path fix
 
 ## 0.0.8 (August 07, 2020)
