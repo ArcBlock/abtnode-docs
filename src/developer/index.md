@@ -13,15 +13,18 @@ tags:
 
 If you are a developer and want to do something with Blocklet Server ,this chapter is for you:
 
-- [Blocklet Server CLI](./abtnode-cli)
 - [Blocklet CLI](./blocklet-cli)
-- [Blocklet Specification](./blocklet-spec)
+- [Blocklet Spec](./blocklet-spec)
 - [Blocklet SDK](./blocklet-sdk)
 - [Blocklet Services](./blocklet-services)
-  - [Auth Service](./auth-service)
-  - [Notification Service](./send-notification)
-- [Composable blocklet](./composable-blocklet)
+  - [Auth Service](./service-auth)
+  - [Notification Service](./service-notification)
 - [Blocklet Scripts](./blocklet-scripts)
-- [Bundle Blocklets](./bundle-blocklets)
-- [Publish Blocklets](./publish-blocklets)
+- [Blocklet Composition](./composable-blocklet)
+- [Blocklet Bundling](./bundle-blocklets)
+- [Blocklet Publish](./publish-blocklets)
+
+Other topics:
+
 - [Use DID Connect](./did-connect)
+- [Use Chain SDK](./chain-sdk)

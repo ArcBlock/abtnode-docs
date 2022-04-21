@@ -60,16 +60,17 @@ categories:
       DevOps Guide:
         url: /deployment
         links:
-          - /deployment/best-practice
+          - /developer/server-cli
           - /deployment/from-aws-ami
+          - /deployment/from-launcher
+          - /deployment/backup-restore
           - /deployment/behind-reverse-proxy
-          - /deployment/run-in-docker
+          - /deployment/best-practice
         locales:
           zh: '节点部署指南'
       Developer Guide:
         url: /developer
         links:
-          - /developer/server-cli
           - /developer/blocklet-cli
           - /developer/blocklet-spec
           - /developer/blocklet-sdk

@@ -1,5 +1,5 @@
 ---
-title: Deploy Blocklet Server in production
+title: DevOps Guide
 description: ''
 keywords: 'blocklet server,deployment'
 author: wangshijun
@@ -9,8 +9,13 @@ tags:
   - 'blocklet server'
 ---
 
+> <p style="color:red">This page is incomplete and must be updated</p>
+
 This chapter will cover topics related to how to deploy Blocklet Server in a production environment.
 
-- [Production Best Practice](./best-practice)
+- [Server CLI](./server-cli)
 - [Deploy with AWS AMI](./from-aws-ami)
-- [Bind domain with reverse proxy server](./behind-reverse-proxy)
+- [Deploy with Launcher](./from-launcher)
+- [Behind Reverse Proxy](./behind-reverse-proxy)
+- [Backup and Restore](./backup-restore)
+- [Best Practices](./best-practice)
