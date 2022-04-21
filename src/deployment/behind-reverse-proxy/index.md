@@ -2,7 +2,7 @@
 title: Bind domain with reverse proxy server
 description: Bind domain with reverse proxy server
 keywords: 'blocklet server, deployment, proxy'
-author: 'zhenqiang, tigeryu8900'
+author: 'zhenqiang, wangshijun'
 category: ''
 layout: documentation
 tags:

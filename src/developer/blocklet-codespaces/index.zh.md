@@ -46,7 +46,7 @@ tags:
 
 ### 无法登录 Blocklet Server
 
-目前，Codespaces 中的服务尚未支持公开访问，所以移动端的 ABT Wallet 无法与 Codespace 中的 Blocklet Server 通信。一个临时解决方案是使用 [ngrok](https://ngrok.com/) 建立一个通道，绕过 Codespaces.
+目前，Codespaces 中的服务尚未支持公开访问，所以移动端的 DID Wallet 无法与 Codespace 中的 Blocklet Server 通信。一个临时解决方案是使用 [ngrok](https://ngrok.com/) 建立一个通道，绕过 Codespaces.
 
 1. 安装 ngrok
 
@@ -75,7 +75,7 @@ unzip ./ngrok.zip
 ngrok by @inconshreveable
 
 Session Status                online
-Account                       linchen1987 (Plan: Free)                                                                                                                        
+Account                       linchen1987 (Plan: Free)
 Version                       2.3.35
 Region                        United States (us)
 Web Interface                 http://127.0.0.1:4040
@@ -83,5 +83,5 @@ Forwarding                    http://xxxxxxxxxxxx.ngrok.io -> http://localhost:8
 Forwarding                    https://xxxxxxxxxxxx.ngrok.io -> http://localhost:80
 
 Connections                   ttl     opn     rt1     rt5     p50     p90
-                              0       0       0.00    0.00    0.00    0.00 
+                              0       0       0.00    0.00    0.00    0.00
 ```

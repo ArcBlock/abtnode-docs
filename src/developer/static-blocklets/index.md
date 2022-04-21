@@ -2,7 +2,7 @@
 title: 'Create Static Blocklets'
 description: 'Create Static Blocklets'
 keywords: 'blocklet server, blocklet'
-author: 'tigeryu8900'
+author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:

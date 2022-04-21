@@ -9,13 +9,13 @@ tags:
   - 'blocklet server'
 ---
 
-An ArcBlock instance is composed of one or more Blocklet Servers. Each Blocklet Server offers the ability to create decentralized applications (DApps). The Blocklet Servers offer a fully integrated blockchain framework with decentralized identity while having a small footprint. It can be deployed on diverse platforms like a public or private clouds, bare metal machines, or developer desktops. Blocklet Servers offers intuitive UI to build blockchain nodes, smart contracts, application logic, and more with zero hassle. Users with ABT Wallet can access the DApps deployed on the Blocklet Servers.
+An ArcBlock instance is composed of one or more Blocklet Servers. Each Blocklet Server offers the ability to create decentralized applications (DApps). The Blocklet Servers offer a fully integrated blockchain framework with decentralized identity while having a small footprint. It can be deployed on diverse platforms like a public or private clouds, bare metal machines, or developer desktops. Blocklet Servers offers intuitive UI to build blockchain nodes, smart contracts, application logic, and more with zero hassle. Users with DID Wallet can access the DApps deployed on the Blocklet Servers.
 
 ![](./images/abtnode-arch-overview-en.png)
 
 In the following actions, we will go over all the capabilities offered by the Blocklet Server in detail.
 
-## ABT Dashboard
+## Dashboard
 
 The dashboard offers a unified view of the underlying infrastructure available with the Blocklet Server. It lists down different tenets of Blocklet Server, not limited to the following :
 
@@ -28,11 +28,11 @@ The dashboard offers a unified view of the underlying infrastructure available w
 
 ![](./images/abtnode-dashboard-en.png)
 
-## Marketplace
+## Store
 
-Blocklets are the foundation block for your application. They can deliver various behaviours like DApps, smart contracts, blockchain etc. The Marketplace is a digital catalog of Blocklets from ArcBlock, ecosystem partners, and software vendors that make it easy to find, install, manage and one-click deploy Blocklets on your Blocklet Server.
+Blocklets are the foundation block for your application. They can deliver various behaviours like DApps, smart contracts, blockchain etc. The Store is a digital catalog of Blocklets from ArcBlock, ecosystem partners, and software vendors that make it easy to find, install, manage and one-click deploy Blocklets on your Blocklet Server.
 
-![](./images/abtnode-marketplace-en.png)
+![](./images/abtnode-Store-en.png)
 
 ## Blocklets
 

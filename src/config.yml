@@ -17,19 +17,18 @@ categories:
           - /introduction/abtnode-access
         locales:
           zh: 节点入门
-      Marketplace:
-        url: /marketplace
+      Blocklet Store:
+        url: /store
         links:
-          - /marketplace/find-and-install
-          - /marketplace/upgrade-downgrade
+          - /store/what-is-store
+          - /store/find-and-install
         locales:
           zh: 应用市场
-      Blocklets:
+      Blocklet Management:
         url: /blocklet
         links:
           - /blocklet/basic-operations
           - /blocklet/environments
-          - /blocklet/core-blocklets
         locales:
           zh: 应用管理
       Service Gateway:
@@ -48,11 +47,11 @@ categories:
           - /logs/blocklet-logs
           - /logs/abtnode-logs
       Settings:
-        url: /node-settings
+        url: /settings
         links :
-          - /node-settings/node-attributes
-          - /node-settings/access-keys
-          - /node-settings/integrations
+          - /settings/basic
+          - /settings/access-keys
+          - /settings/integrations
       Deployment:
         url: /deployment
         links:

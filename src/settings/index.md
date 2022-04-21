@@ -13,6 +13,6 @@ The Settings console allows configuring attributes specific to the Blocklet Serv
 
 ## Contents
 
-- [Basic Setting](./node-attributes)
+- [Basic Setting](./basic)
 - [Access Keys](./access-keys)
 - [Integrations](./integrations)

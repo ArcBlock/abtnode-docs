@@ -46,7 +46,7 @@ In your codespaces:
 
 ### Unable to log in to Blocklet Server
 
-Currently, the service in Codespaces does not support public access, so the mobile ABT Wallet cannot communicate with the Blocklet Server in your codespace. A temporary solution is to use [ngrok](https://ngrok.com/) to establish a channel to bypass Codespaces.
+Currently, the service in Codespaces does not support public access, so the mobile DID Wallet cannot communicate with the Blocklet Server in your codespace. A temporary solution is to use [ngrok](https://ngrok.com/) to establish a channel to bypass Codespaces.
 
 1. Install ngrok
 
@@ -75,7 +75,7 @@ After the access channel is successfully established, you can access the Blockle
 ngrok by @inconshreveable
 
 Session Status                online
-Account                       linchen1987 (Plan: Free)                                                                                                                        
+Account                       linchen1987 (Plan: Free)
 Version                       2.3.35
 Region                        United States (us)
 Web Interface                 http://127.0.0.1:4040
@@ -83,5 +83,5 @@ Forwarding                    http://xxxxxxxxxxxx.ngrok.io -> http://localhost:8
 Forwarding                    https://xxxxxxxxxxxx.ngrok.io -> http://localhost:80
 
 Connections                   ttl     opn     rt1     rt5     p50     p90
-                              0       0       0.00    0.00    0.00    0.00 
+                              0       0       0.00    0.00    0.00    0.00
 ```

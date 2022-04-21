@@ -2,7 +2,7 @@
 title: 'Core Blocklets'
 description: 'Core Blocklets'
 keywords: 'blocklet server, blocklet'
-author: 'tigeryu8900'
+author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
@@ -31,9 +31,9 @@ Blockchain Explorer is a blockchain explorer for the forge-powered blockchains. 
 
 Build and deploy forge compatible chains.
 
-### [NFT Marketplace](https://store.blocklet.dev/blocklet/z8iZvmERrWxqReWe1HZmkAaZvFeRpkXutfKDkd)
+### [NFT Store](https://store.blocklet.dev/blocklet/z8iZvmERrWxqReWe1HZmkAaZvFeRpkXutfKDkd)
 
-Decentralised marketplace for buy and sell NFT on ABT Network
+Decentralised Store for buy and sell NFT on ABT Network
 
 ### [NFT Store](https://blocklet.arcblockio.cn/dapp/blockchain-boarding-gate)
 
@@ -41,7 +41,7 @@ Start your NFT online business with a few clicks
 
 ### [Blocklet Store](https://store.blocklet.dev/blocklet/z8ia29UsENBg6tLZUKi2HABj38Cw1LmHZocbQ)
 
-Decentralized Blocklet marketplace to search and view Blocklets and use them with just one command.
+Decentralized Blocklet Store to search and view Blocklets and use them with just one command.
 
 ## DID related
 
@@ -49,5 +49,5 @@ Decentralized Blocklet marketplace to search and view Blocklets and use them wit
 
 Wallet Playground is a simple Blocklet that demonstrates the full potential of building applications using the following ArcBlock software:
 
-- ABT Wallet and ABT DID protocol
+- DID Wallet and ABT DID protocol
 - Forge, which allows dApps to use publicly verifiable decentralized ledgers

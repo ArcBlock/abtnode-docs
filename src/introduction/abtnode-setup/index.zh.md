@@ -2,7 +2,7 @@
 title: '如何获取 Blocklet Server '
 description: '如何获取 Blocklet Server ?'
 keywords: 'blocklet server, blocklet'
-author: 'tigeryu8900, nate'
+author: 'wangshijun, nate'
 category: ''
 layout: 'documentation'
 tags:
@@ -69,7 +69,7 @@ Blocklet Server 的网关依赖于 Nginx, 所以我们需要安装 Nginx.
 
 从 [ABT 钱包官网](http://abtwallet.io) 找到下载入口完成 ABT 钱包的安装。然后打开钱包跟随钱包指引完成钱包的初始化。
 
-### 安装 Blocklet CLI 
+### 安装 Blocklet CLI
 
 现在，使用 [npm] 执行下面命令即可安装 Blocklet CLI ：
 

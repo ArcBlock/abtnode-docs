@@ -18,9 +18,9 @@ tags:
   - [节点功能概览](./introduction/abtnode-overview)
   - [如何获取 Blocklet Server ](./introduction/abtnode-setup)
   - [配置并启动 Blocklet Server ](./introduction/abtnode-access)
-- [Blocklet 市场](./marketplace)
-  - [查找和安装 Blocklet](./marketplace/find-and-install)
-  - [升级或降级 Blocklet](./marketplace/upgrade-downgrade)
+- [Blocklet 市场](./Store)
+  - [查找和安装 Blocklet](./Store/find-and-install)
+  - [升级或降级 Blocklet](./Store/upgrade-downgrade)
 - [Blocklet 管理](./blocklet)
   - [基本管理操作](./blocklet/basic-operations)
   - [环境变量管理](./blocklet/environments)
@@ -56,4 +56,3 @@ tags:
   - [Blocklet 商店](./developer/blocklet-store)
   - [在 Codespaces 中开发 Blocklets](./developer/blocklet-codespaces)
   - [Docker Registry](./developer/docker-registry)
-

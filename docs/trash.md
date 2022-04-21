@@ -59,7 +59,7 @@ ForgeSDK.connect('http://127.0.0.1:8210/api');
   const transferHash = await ForgeSDK.sendTransferTx({
     tx: {
       itx: {
-        // 收款人账户，可以写成你的 ABT Wallet 钱包账户，前提是这个账号 declare 过，不然会报错
+        // 收款人账户，可以写成你的 DID Wallet 钱包账户，前提是这个账号 declare 过，不然会报错
         to: 'z1VPwguZUA26dHrPhsukD9Hbzf6txeJGs7F',
         // 100 --> 转账金额
         // 18 --> 链配置文件里面的 token 精度，默认就是 18

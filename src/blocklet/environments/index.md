@@ -2,7 +2,7 @@
 title: 'Configure Blocklet'
 description: 'Configure Blocklet'
 keywords: 'blocklet server, blocklet'
-author: 'tigeryu8900'
+author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
@@ -65,7 +65,7 @@ User defined variables can be updated by clicking the corresponding `pencil`(edi
 
 #### Blocklet Variables
 
-These variables area defined by Blocklet Server to specify an installed blocklet configuration. Most of these variables are immutable. Only a few of these variables can be updated to configure blocklets.   
+These variables area defined by Blocklet Server to specify an installed blocklet configuration. Most of these variables are immutable. Only a few of these variables can be updated to configure blocklets.
 
 1. `BLOCKLET_PORT`: Blocklet port
 2. `BLOCKLET_APP_DIR`: Blocklet application directory

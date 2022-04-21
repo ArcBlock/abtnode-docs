@@ -2,7 +2,7 @@
 title: '配置并启动 Blocklet Server '
 description: '配置并启动 Blocklet Server '
 keywords: 'blocklet server, blocklet'
-author: 'tigeryu8900, nate'
+author: 'wangshijun, nate'
 category: ''
 layout: 'documentation'
 tags:

@@ -2,7 +2,7 @@
 title: 'Blocklet Server Setup'
 description: 'Blocklet Server Setup'
 keywords: 'blocklet server, blocklet'
-author: 'tigeryu8900'
+author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
@@ -12,11 +12,11 @@ Blocklet Server can be installed in the following ways :
 
   - [Use the binary distribution](#use-the-binary-distribution)
   - [Use the official Docker image](#use-the-official-docker-image)
-  - [Use AWS Marketplace](#use-aws-marketplace)
+  - [Use AWS Store](#use-aws-Store)
 
 You can use either of the above ways to deploy it on any infrastructure like Cloud, Virtual machines, workstations, etc.
 
-*If you are interested in running Blocklet Server locally on your device, we currently support [Linux] and [macOS]. If you are using another OS like Windows, we recommend using Windows Subsystem Linux (WSL), or you can use a virtual machine and make sure your ABT Wallet can access your VM's IP address.*
+*If you are interested in running Blocklet Server locally on your device, we currently support [Linux] and [macOS]. If you are using another OS like Windows, we recommend using Windows Subsystem Linux (WSL), or you can use a virtual machine and make sure your DID Wallet can access your VM's IP address.*
 
 ## Use the binary distribution
 
@@ -176,7 +176,7 @@ The above command will start the Blocklet Server. You can access the Blocklet Se
 
 ![Blocklet Server Terms](./images/server_acceptterms.png)
 
-*Please do not access the Blocklet Server using localhost / 127.0.0.1 address. You will not be able to connect it using ABT wallet.*
+*Please do not access the Blocklet Server using localhost / 127.0.0.1 address. You will not be able to connect it using DID Wallet.*
 
 ## Use the official Docker image
 
@@ -190,7 +190,7 @@ Docker images are based on the Debian Linux platform.
 
 ### Access Blocklet Server
 
-The above command will start the Blocklet Server container and bind it to port 80 /  443 on the Host machine. You should access it using the IP address of the Host machine (`http://192.168.1.5/`). *Please do not access the Blocklet Server using localhost / 127.0.0.1 address. You will not be able to connect it using ABT wallet.*
+The above command will start the Blocklet Server container and bind it to port 80 /  443 on the Host machine. You should access it using the IP address of the Host machine (`http://192.168.1.5/`). *Please do not access the Blocklet Server using localhost / 127.0.0.1 address. You will not be able to connect it using DID Wallet.*
 
 ![Blocklet Server](./images/server_welcome.png)
 
@@ -198,12 +198,12 @@ After this, you must agree to License terms before accessing the Blocklet Server
 
 ![Blocklet Server Terms](./images/server_acceptterms.png)
 
-## Use AWS Marketplace
+## Use AWS Store
 
-You can run Blocklet Server on AWS using [AWS Marketplace](https://aws.amazon.com/marketplace/pp/B089KM6SFR?qid=1620381487343&sr=0-1&ref_=srh_res_product_title)
+You can run Blocklet Server on AWS using [AWS Store](https://aws.amazon.com/Store/pp/B089KM6SFR?qid=1620381487343&sr=0-1&ref_=srh_res_product_title)
 
 1. You must select **Continue to subscribe** from the overview tab,
-  ![MarketPlace](./images/aws_marketplace.png)
+  ![Store](./images/aws_Store.png)
 
 2. You are presented with *Terms and Conditions*, to which you must agree by clicking **Accept Terms**.
   ![Accept Terms](./images/aws_terms.png)

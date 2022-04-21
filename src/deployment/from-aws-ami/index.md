@@ -2,7 +2,7 @@
 title: 'Deploy Blocklet Server Using AWS AMI'
 description: 'Deploy Blocklet Server with AWS AMI'
 keywords: 'blocklet server, blocklet'
-author: 'tigeryu8900'
+author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
@@ -42,7 +42,7 @@ During configuration, it is recommended that you enable **Cloud Watch** monitori
 ## 6. Config Storage
 
 For non-production workloads, a small root disk (10GB) is okay, but if you plan run your node in production or to start ArcBlock-powered chains,
-we recommend that you use a larger drive. _Note, note that Blocklet Server stores all data on the root disk by default, but you can change this
+we recommend that you use a larger drive. _Note, note that Blocklet Stores all data on the root disk by default, but you can change this
 behavior._
 
 ![](./images/6-storage.png)
@@ -80,7 +80,7 @@ Grab your instance public hostname as illustrated in the following screenshot.
 
 ![](./images/11-public-hostname.png)
 
-Once install, you have a few options to open your Blocklet Server. You can use `https://Your-Public-IP.ip.abtnet.io` if you want to login using https, or simply use your `http://You_Public_IP` or `EC2 Hostname as domain` to set up your node; this step requires you have [ABT Wallet](
+Once install, you have a few options to open your Blocklet Server. You can use `https://Your-Public-IP.ip.abtnet.io` if you want to login using https, or simply use your `http://You_Public_IP` or `EC2 Hostname as domain` to set up your node; this step requires you have [DID Wallet](
 https://abtwallet.io) installed.
 
 ![](./images/12-setup-abtnode.png)

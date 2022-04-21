@@ -2,7 +2,7 @@
 title: 'What is Service Gateway?'
 description: 'Routing, URL Mapping, SSL and Load Balancing for Blocklet Server?'
 keywords: 'blocklet server, blocklet'
-author: 'tigeryu8900'
+author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
@@ -27,7 +27,7 @@ You can add new site and rules for specific IP addresses or domains that you own
 
 #### System URLs
 
-Each time you install a Blocklet from the marketplace, Blocklet Server will automatically generate a new subdirectory that includes a system URL to ensure the node and the blocklet can communicate. System URLs also give you useful information about each blocklet including any available interfaces, the subdirectory, the current status of the blocklet and a link manage the blocklet.
+Each time you install a Blocklet from the Store, Blocklet Server will automatically generate a new subdirectory that includes a system URL to ensure the node and the blocklet can communicate. System URLs also give you useful information about each blocklet including any available interfaces, the subdirectory, the current status of the blocklet and a link manage the blocklet.
 
 ![](./images/system-url.png)
 
@@ -46,4 +46,3 @@ Blocklet Server includes NGINX by default to give you a high performance routing
 ## Pub/Sub Gateway (coming soon)
 
 Blocklet Servers highly scalable pub/sub gateway for asynchronous messsaging.
-

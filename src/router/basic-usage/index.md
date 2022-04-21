@@ -2,7 +2,7 @@
 title: 'Service Gateway Usage'
 description: 'How to setup Service Gateway'
 keywords: 'blocklet server, blocklet'
-author: 'tigeryu8900'
+author: 'wangshijun'
 category: ''
 layout: 'documentation'
 tags:
@@ -85,4 +85,3 @@ the desired snapshot that you want to apply.
 ![router-basic-use-15](./images/router-basic-use-15-en.png)
 
 Click on `Use This Snapshot`, and the selected snapshot would be put into effect immediately.
-

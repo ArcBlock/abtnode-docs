@@ -12,7 +12,7 @@ tags:
 Current members of an Blocklet Server can add other users as members to the Blocklet Server, and the node owner can manage member permissions
 on the `Node -> Owner` page.
 
-To add a new member, the new member should have [ABT Wallet](https://abtwallet.io/en/) set up on his or her phone.
+To add a new member, the new member should have [DID Wallet](https://abtwallet.io/en/) set up on his or her phone.
 
 Then, the new member would scan the QR code on the Blocklet Server's site.
 

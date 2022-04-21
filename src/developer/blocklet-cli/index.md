@@ -67,7 +67,7 @@ $ blocklet meta
 
 ### Development
 
-Often you would like to deploy Blocklets to validate their behaviours. The command provides support to _install_, _start_ and _remove_ blocklets under development.
+Often you would like to deploy Blocklets to validate their behaviours. The command provides support to _Launch_, _start_ and _remove_ blocklets under development.
 
 ```bash
 $ blocklet dev install
