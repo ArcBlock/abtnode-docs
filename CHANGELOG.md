@@ -1,3 +1,7 @@
+## 0.6.1 (四月 27, 2022)
+
+- fix: correct some url
+
 ## 0.6.0 (April 21, 2022)
 
 - chore: reorganize docs

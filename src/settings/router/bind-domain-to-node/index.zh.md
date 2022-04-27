@@ -29,7 +29,7 @@ Blocklet Server 会为每一个节点分配一个 HTTPS 地址: `https://{public
 
 4. 最后应用路由: 点击部署 URL 映射
 
-这就是给节点自定义域名的方法，添加完成后就可以使用该域名访问节点了。如果需要启动 HTTPS, 可以参考: [给站点绑定域名以及启用 SSL](/router/bind-domain-and-ssl).
+这就是给节点自定义域名的方法，添加完成后就可以使用该域名访问节点了。如果需要启动 HTTPS, 可以参考: [给站点绑定域名以及启用 SSL](/settings/router/bind-domain-and-ssl).
 
 ## 注意
 

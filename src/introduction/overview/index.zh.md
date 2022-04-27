@@ -35,14 +35,4 @@ Blocklet Server 已安装的 Blocklet 列表。
 
 Blocklet Server 的路由配置。详细功能请前往：[路由管理](/zh/router)
 
-## 配置
 
-![](./images/abtnode-overview-5-zh.png)
-
-Blocklet Server 配置功能。详细功能请前往：[其他功能](/zh/misc)
-
-## 试验台
-
-![](./images/abtnode-overview-6-zh.png)
-
-Blocklet Server 提供的 GraphQL 试验台功能页面。详情请前往：[GraphQL 试验台](/zh/misc/graphql-console)

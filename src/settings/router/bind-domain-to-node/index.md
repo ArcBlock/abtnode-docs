@@ -29,7 +29,7 @@ In Blocklet Server, you can bind multiple domains to a site or node itself. All 
 
 4. Final Application Routing: Click to deploy URL mapping
 
-This is how to customize the domain name for the node, and you can use it to access the node once it is added. If you need to enable HTTPS, you can refer to: [Bind a domain name to a site and enable SSL](/router/bind-domain-and-ssl).
+This is how to customize the domain name for the node, and you can use it to access the node once it is added. If you need to enable HTTPS, you can refer to: [Bind a domain name to a site and enable SSL](/settings/router/bind-domain-and-ssl).
 
 ## Attention
 
