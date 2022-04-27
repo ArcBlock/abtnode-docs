@@ -1,5 +1,5 @@
 name: '@arcblock/abtnode-docs'
-version: 0.6.0
+version: 0.6.1
 description: >-
   Blocklet Server Documentation, a help documentation for quickly get started
   with Blocklet Server.
@@ -13,17 +13,17 @@ keywords:
   - ABTNode
 repository:
   type: git
-  url: 'git+https://github.com/ArcBlock/abtnode-docs.git'
+  url: git+https://github.com/ArcBlock/abtnode-docs.git
 author:
   name: wangshijun
   email: wangshijun2010@gmail.com
-  url: 'http://github.com/wangshijun'
+  url: http://github.com/wangshijun
 license: MIT
-homepage: 'https://github.com/ArcBlock/abtnode-docs-power-user#readme'
+homepage: https://github.com/ArcBlock/abtnode-docs-power-user#readme
 group: static
 title: Blocklet Server Docs
-community: 'https://gitter.im/ArcBlock/community'
-documentation: 'https://docs.arcblock.io'
+community: https://gitter.im/ArcBlock/community
+documentation: https://docs.arcblock.io
 support: support@arcblock.io
 specVersion: 1.2.4
 did: z8ia5NLSuFwhPimBJHRdPmp6yx9fG8rcFex4b
