@@ -14,5 +14,5 @@ Previously, you have deployed the Blocklet Server and have installed blocklets f
 ## Contents
 
 - [Basic Management](./basic-operations)
-- [Configure Blocklet](./environments)
+- [Configure Blocklet](./configuration)
 - [Core Blocklets](./core-blocklets)
