@@ -49,6 +49,12 @@ Get user by user did
 - _@param_ **did** `string`
 - _@return_ `{ code, user }`
 
+#### client.getOwner()
+
+Get owner of the team
+
+- _@return_ `{ code, user }`
+
 #### client.getUsers()
 
 Get all users of the team

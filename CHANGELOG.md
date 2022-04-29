@@ -1,3 +1,7 @@
+## 0.6.2 (April 28, 2022)
+
+- doc: update sdk doc
+
 ## 0.6.1 (四月 27, 2022)
 
 - fix: correct some url
