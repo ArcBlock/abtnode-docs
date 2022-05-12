@@ -101,6 +101,9 @@ When you use Apple silicon, you may hit some issues, [see](https://github.com/Ar
   - [ ] Mirrors for Downloads
   - [ ] Setup Dev Environment
   - [ ] Use Blocklet Server with Docker
+  - [ ] How to debug blocklet hooks?
+  - [ ] How to use blocklet env `@blocklet/lib/env`
+  - [ ] How to use blocklet obj `window.blocklet`
 
 Other topics that developers should known when develop blocklets.
 
