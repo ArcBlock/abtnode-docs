@@ -57,9 +57,31 @@ Get owner of the team
 
 #### client.getUsers()
 
-Get all users of the team
+Get users of the app
 
-- _@return_ `{ code, users }`
+- _@param_ **paging** `Object`
+  - **paging.pageSize** ``
+  - **paging.page** ``
+- _@param_ **query** `Object`
+  - **query.role** `String` Match users by role name
+    - `$none`: Match users which does not have a role
+  - **query.approved** `Boolean` Match users by approved
+  - **query.search** `String` Match users by did or fullName
+- _@param_ **sort** `Object`
+  - **sort.createdAt** `Number`
+  - **sort.updatedAt** `Number`
+  - **sort.lastLoginAt** `Number`
+  - > `-1`: The latest time is at first. `1`: The latest time is at last.
+- _@return_ `{ code, users, paging }`
+
+```
+Paging {
+  total: number of users
+  pageSize: number of users per page
+  pageCount: number of page
+  page: current page number
+}
+```
 
 #### client.getPermissionsByRole(role)
 

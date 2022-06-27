@@ -57,9 +57,31 @@ Get owner of the team
 
 #### client.getUsers()
 
-Get all users of the team
+获取用户列表
 
-- _@return_ `{ code, users }`
+- _@param_ **paging** `Object`
+  - **paging.pageSize** ``
+  - **paging.page** ``
+- _@param_ **query** `Object`
+  - **query.role** `String` 按 role name 匹配
+    - `$none`: 匹配没有 role 的用户
+  - **query.approved** `Boolean` 按 approved 匹配
+  - **query.search** `String` 按 did 或 fullName 匹配
+- _@param_ **sort** `Object`
+  - **sort.createdAt** `Number`
+  - **sort.updatedAt** `Number`
+  - **sort.lastLoginAt** `Number`
+  - > `-1`: The latest time is at first. `1`: The latest time is at last.
+- _@return_ `{ code, users, paging }`
+
+```
+Paging {
+  total: 全部用户数量
+  pageSize: 每页用户数量
+  pageCount: 一共有几页
+  page: 当前是第几页
+}
+```
 
 #### client.getPermissionsByRole(role)
 
