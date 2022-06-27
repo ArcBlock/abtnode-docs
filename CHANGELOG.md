@@ -1,3 +1,7 @@
+## 0.6.3 (June 27, 2022)
+
+- docs: update doc for Blocklet SDK
+
 ## 0.6.2 (April 28, 2022)
 
 - doc: update sdk doc
