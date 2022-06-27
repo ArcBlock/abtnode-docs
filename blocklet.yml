@@ -1,5 +1,5 @@
 name: '@arcblock/abtnode-docs'
-version: 0.6.2
+version: 0.6.3
 description: >-
   Blocklet Server Documentation, a help documentation for quickly get started
   with Blocklet Server.
@@ -8,9 +8,11 @@ files:
   - public/
   - screenshots/
   - blocklet.md
+  - logo.png
 keywords:
   - Docs
   - ABTNode
+logo: logo.png
 repository:
   type: git
   url: git+https://github.com/ArcBlock/abtnode-docs.git
@@ -25,7 +27,7 @@ title: Blocklet Server Docs
 community: https://gitter.im/ArcBlock/community
 documentation: https://docs.arcblock.io
 support: support@arcblock.io
-specVersion: 1.2.4
+specVersion: 1.2.7
 did: z8ia5NLSuFwhPimBJHRdPmp6yx9fG8rcFex4b
 timeout:
   start: 10
