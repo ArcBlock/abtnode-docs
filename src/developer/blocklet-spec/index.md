@@ -217,3 +217,23 @@ children:
         - <primary url>
         - <redundant url>
 ```
+
+## Configure required resources and operating environment restrictions
+
+#### Specify the minimum Blocklet Server version
+
+````
+requirements:
+   server: '>=1.8.0' # server version must be greater than or equal to 1.8.0
+````
+
+#### Specify the fuel needed before starting (token)
+
+````
+requirements:
+   fuels:
+     endpoint: xxx # The endpoint of the chain
+     address: xxx # token address
+     value: xxx # price
+     reason: xxx # The reason for the need (for example, because the NFT Factory needs to be created before the first boot)
+````
