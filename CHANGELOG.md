@@ -1,3 +1,7 @@
+## 0.6.5 (August 04, 2022)
+
+- docs: update doc for Blocklet Meta Spec
+
 ## 0.6.4 (July 29, 2022)
 
 - docs: update doc for Blocklet Meta Spec
